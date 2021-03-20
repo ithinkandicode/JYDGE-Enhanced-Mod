@@ -31,7 +31,7 @@
 		 reload_size="7"
 		 clip_size="7"
 		 ammo_refill_size="1"
-		 damage="20"
+		 damage="25"
 		 projectile_speed="800"
 		 projectile_speed_random="0.01"
 		 trail_length="400"
