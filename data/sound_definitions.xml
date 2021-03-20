@@ -124,6 +124,12 @@
 	 <node id="alert" file="sfx/actors/alert_sounds/alert_security_" />
   </array>
 
+  <array id="player_jydge_edit" >
+	 <node id="damage" file="sfx/actors/pain_jydge_" />
+	 <node id="death" file="sfx/actors/death_male_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/alert_security_" />
+  </array>
+
   <array id="civilian_male" >
 	 <node id="damage" file="sfx/actors/pain_human_" />
 	 <node id="death" file="sfx/actors/death_male_" />

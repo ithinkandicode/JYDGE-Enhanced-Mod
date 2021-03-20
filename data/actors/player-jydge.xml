@@ -48,7 +48,7 @@
 
 		<node id="CUSTOM_DATA"
 		 actor_class="organic"
-		 sound_collection="player"
+		 sound_collection="player_jydge_edit"
 		 melee_damage="10"
 		 has_riot_shield="false"
 		 max_energy="120"
