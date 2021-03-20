@@ -248,7 +248,7 @@ SetProperty ("visible", 0);
 SetProperty ("custom_draw", 1);
 SetProperty ("parent", "aligner_tweaks");
 SetProperty ("position", 0.125, 0);
-SetProperty ("button.text", "Weapon Mods...");
+SetProperty ("button.text", "Gavel Mods...");
 
 CreateComp ("Button", "Firemode");
 SetProperty ("custom_draw", 1);
