@@ -41,7 +41,7 @@
 		 trail_alpha="1"
 		 move_speed_modifier="0.90"
 		 requires_charging="1"
-		 max_charge_time="2"
+		 max_charge_time="1.5"
 		 model="models/jydge-gavel.xml"
 		/>
 
