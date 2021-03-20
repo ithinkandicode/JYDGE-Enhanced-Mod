@@ -23,7 +23,7 @@
 		 shadow_angle="0"
 		 shadow_scale="0.7"
 		 shadow_alpha="0.75"
-		 hit_points="40"
+		 hit_points="80"
 		 birth_animation_playback_speed="2"
 		 move_animation_playback_speed="1.4"
 		 death_animation_playback_speed="4"

@@ -22,7 +22,7 @@
 		/>
 
 		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
-		<node id="CUSTOM_DATA" explosion_required_to_damage="true" />
+		<node id="CUSTOM_DATA" explosion_required_to_damage="false" />
 	</array>
 
 	<array id="GIBS_DESTRUCTION">

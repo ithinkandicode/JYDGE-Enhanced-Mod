@@ -318,8 +318,8 @@
 		<node id="STUNNER"
 		 category="WEAPON"
 		 title="Sandman"
-		 description="Each shot has a |color|15% chance to stun|colorend| the target it hits."
-		 effect_1="stun_chance_increase,0.15"
+		 description="Each shot has a |color|20% chance to stun|colorend| the target it hits."
+		 effect_1="stun_chance_increase,0.20"
 		 medal_requirement="15"
 		/>
 
@@ -366,8 +366,8 @@
 		<node id="PROJECTILE_KNOCKBACK"
 		 category="WEAPON"
 		 title="Bull Shot"
-		 description="|color|Your projectiles knock back enemies.|colorend| Good for keeping those melee bangers at bay."
-		 effect_1="bullet_mass_increase,10.50"
+		 description="|color|Your projectiles knock back enemies.|colorend| Good for keeping those melee bangers at bay. Does not apply to laser or ion."
+		 effect_1="bullet_mass_increase,20.00"
 		 medal_requirement="33"
 		/>
 

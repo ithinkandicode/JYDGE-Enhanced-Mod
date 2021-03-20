@@ -33,7 +33,7 @@
 		 />
 
 		<node id="CUSTOM_DATA"
-		 explosion_damage="85"
+		 explosion_damage="96"
 		 explosion_range="80"
 		 field_of_vision="360"
 		 sound_collection="robotics"

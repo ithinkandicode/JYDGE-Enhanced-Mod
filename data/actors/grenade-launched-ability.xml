@@ -24,7 +24,7 @@
 
 		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
 		<node id="CUSTOM_DATA"
-		 explosion_damage="96"
+		 explosion_damage="120"
 		 explosion_range="120"
 		 custom_z_velocity="-300"
 		/>

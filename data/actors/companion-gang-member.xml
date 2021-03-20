@@ -22,7 +22,7 @@
 		 shadow_angle="0"
 		 shadow_scale="0.7"
 		 shadow_alpha="0.75"
-		 hit_points="80"
+		 hit_points="160"
 		 move_animation_playback_speed="0.8"
 		 death_animation_playback_speed="1"
 		 walk_forward_animation="models/animations/humanoid_rig-humanoid_walk_forward.xml"

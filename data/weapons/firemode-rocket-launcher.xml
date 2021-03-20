@@ -15,7 +15,7 @@
 		 related_actor="actors/rocket-launcher.xml"
 		 projectile_actor="actors/bullet-missile-mini.xml"
 		 projectiles_per_shot="1"
-		 projectile_range="340"
+		 projectile_range="700"
 		 projectile_range_random="0.01"
 		 projectile_angle_spread="0"
 		 min_accuracy_spread="0"
