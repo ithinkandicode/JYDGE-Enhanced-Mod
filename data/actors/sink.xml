@@ -2,43 +2,43 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="STEEL" 
-		 name="Sink" 
-		 renderer="Model" 
-		 ai="Obstacle" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/sink.xml" 
-		 bitmap_shadow="shadows/sink-shadow.png" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="1" 
-		 hit_points="10" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="STEEL"
+		 name="Sink"
+		 renderer="Model"
+		 ai="Obstacle"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/sink.xml"
+		 bitmap_shadow="shadows/sink-shadow.png"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="1"
+		 hit_points="10"
+		 damage="0.0"
 		/>
 
 		<node id="RENDERER_DATA" has_reflection="false" />
-		<node id="COLLIDER" 
-		 collider_generation_method="AUTOMATIC" 
-		 edge_generation_height="-36" 
-		 generate_convex_hull_for_edges="true" 
+		<node id="COLLIDER"
+		 collider_generation_method="AUTOMATIC"
+		 edge_generation_height="-36"
+		 generate_convex_hull_for_edges="true"
 		/>
 
 	</array>
 
 	<array id="GIBS_DESTRUCTION">
-		<node id="DESTRUCTION_1" 
-		 model="" 
-		 model_group_1="LIGHTWALL,NONE,8,LIGHTWALL" 
-		 model_group_2="OBJECT_SMALL,NONE,1,NONE" 
-		 model_group_3="METAL_SMALL,NONE,1,NONE" 
-		 model_group_4="OBJECT_LARGE,NONE,2,NONE" 
-		 model_group_5="METAL_LARGE,NONE,2,NONE" 
-		 particle_effect_1="effects/object-small-breaks.xml" 
-		 death_animations="" 
+		<node id="DESTRUCTION_1"
+		 model=""
+		 model_group_1="LIGHTWALL,NONE,8,LIGHTWALL"
+		 model_group_2="OBJECT_SMALL,NONE,1,NONE"
+		 model_group_3="METAL_SMALL,NONE,1,NONE"
+		 model_group_4="OBJECT_LARGE,NONE,2,NONE"
+		 model_group_5="METAL_LARGE,NONE,2,NONE"
+		 particle_effect_1="effects/object-small-breaks.xml"
+		 death_animations=""
 		/>
 
 	</array>

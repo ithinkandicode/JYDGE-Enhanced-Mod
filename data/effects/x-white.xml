@@ -2,21 +2,21 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
-		 number_of_particles="1" 
-		 initial_age="0" 
-		 age_to_die="0.4;0.6" 
-		 move_speed="100;150" 
-		 move_direction="0,0,-1" 
-		 gravity_multiplier="0" 
-		 alpha_curve="0,0;0.1,1;1,0" 
-		 scale_curve="0,0;1,0.6" 
-		 color_curve="0,1,0,0;1,1,0,0" 
-		 alpha_multiplier="0.7;0.8" 
-		 scale_multiplier="1.8" 
-		 rotation_angles="0,0,0;0,0,360" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/x.png" 
+		<node class="BITMAP"
+		 number_of_particles="1"
+		 initial_age="0"
+		 age_to_die="0.4;0.6"
+		 move_speed="100;150"
+		 move_direction="0,0,-1"
+		 gravity_multiplier="0"
+		 alpha_curve="0,0;0.1,1;1,0"
+		 scale_curve="0,0;1,0.6"
+		 color_curve="0,1,0,0;1,1,0,0"
+		 alpha_multiplier="0.7;0.8"
+		 scale_multiplier="1.8"
+		 rotation_angles="0,0,0;0,0,360"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/x.png"
 		 />
 
 	</array>

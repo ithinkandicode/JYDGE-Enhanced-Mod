@@ -1,89 +1,89 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root>
-  
-	<array id="DEATH_TIPS">
-        
-        <node id="itself" text="Be careful with explosives!"  />
-        <node id="actors/enemy-attack-drone.xml" text="The Attack Drone shoots a hail of plasma which can be dodged." />
-        <node id="actors/enemy-autoturret.xml" text="Once the Auto Turret discovers you, it'll react much faster." />
-        <node id="actors/enemy-caretaker.xml" text="Try to anticipate which casks the caretaker will activate next and destroy them beforehand." />
-        
-        <node id="actors/enemy-centipede.xml" text="The drone supply of the Moldorm is practically endless so don't let them overwhelm you." />
-        
-         <node id="actors/enemy-centipede-drone.xml" text="The Centipede Drones have a powerful plasma gun but you can dodge the projectiles if the number of drones is low." />
-         
-        <node id="actors/enemy-cyborg-destroyer-launcher.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
-        
-         <node id="actors/enemy-cyborg-destroyer-minigun.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
 
-        <node id="actors/enemy-cyborg-destroyer-rifle.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
-    
-        <node id="actors/enemy-cyborg-destroyer-shotgun.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
-        
-        <node id="actors/enemy-grenadier.xml" text="Remember that grenadiers are immune against explosives." />
-        
-        <node id="actors/enemy-heat-seeking-missile-centipede.xml" text="Learning the dodging routine against Centipede Missiles requires some practice." />
-        
-        <node id="actors/enemy-hovertank.xml" text="The railgun on the Icarus T-17 will kill almost anyone instantly. Be careful!" />
-       
-      
-        <node id="actors/enemy-security-guard.xml" text="Security guards usually carry plasma weapons which can be dodged." />
-        
-        <node id="actors/enemy-security-guard-melee.xml" text="The plasteel shield carried by the security guards blocks projectiles completely." />
-        <node id="actors/enemy-security-guard-shield.xml" text="The plasteel shield carried by the security guards blocks projectiles completely." />
-        
-        <node id="actors/enemy-kamikaze-drone.xml" text="Kamikaze Drones can be dodged easily but be careful with swarms." />
-        <node id="actors/enemy-laserdrone.xml" text="Don't let the Laser Drones get too close, the laser beam swing does a lot of damage." />
-        <node id="actors/enemy-maddrone.xml" text="Utility Drones are usually only a nuisance but swarms can surprise you at times." />
-        <node id="actors/enemy-mine.xml" text="Popper Mines can only be damaged with projectiles when they are shooting." />
-        <node id="actors/mine-shooter.xml" text="Popper Mines can only be damaged with projectiles when they are shooting." />
-     
-        <node id="actors/enemy-mini-spider.xml" text="The Maintenance Spiders can also appear from bot hatches on walls." name="TheSpidey" />
-        <node id="actors/enemy-mini-spider.xml" text="You can sometimes outrun the Maintenance Spiders if you're quick enough." name="TheSpidey" />
-        
-        <node id="actors/enemy-nanocloud.xml" text="Projectile weapons will do little damage on a cloud of nanites - explosives work better." name="NeonFreak" />
-        
-        
-        <node id="actors/enemy-pressure-mine.xml" text="Pressure mines can be triggered with other explosives." />
-        
-        <node id="actors/enemy-proximity-mine.xml" text="Proximity mines can be triggered by quickly entering and leaving the detection range." />
-        
-        <node id="actors/enemy-soldier.xml" text="The SMG soldier has a fast shooting Ion SMG so you usually want to avoid direct confrontation in narrow corridors." />
-        
-        <node id="actors/enemy-soldier-elite.xml" text="The Elite Soldier carries a powerful assault rifle. Try not get caught in his sights!" name="WasabiGun" />
-        
-        <node id="actors/enemy-soldier-rockets.xml" text="Rockets from a Rocket Soldier can be dodged but they deal massive damage even without a direct hit." />
-		
+	<array id="DEATH_TIPS">
+
+		<node id="itself" text="Be careful with explosives!"  />
+		<node id="actors/enemy-attack-drone.xml" text="The Attack Drone shoots a hail of plasma which can be dodged." />
+		<node id="actors/enemy-autoturret.xml" text="Once the Auto Turret discovers you, it'll react much faster." />
+		<node id="actors/enemy-caretaker.xml" text="Try to anticipate which casks the caretaker will activate next and destroy them beforehand." />
+
+		<node id="actors/enemy-centipede.xml" text="The drone supply of the Moldorm is practically endless so don't let them overwhelm you." />
+
+		 <node id="actors/enemy-centipede-drone.xml" text="The Centipede Drones have a powerful plasma gun but you can dodge the projectiles if the number of drones is low." />
+
+		<node id="actors/enemy-cyborg-destroyer-launcher.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
+
+		 <node id="actors/enemy-cyborg-destroyer-minigun.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
+
+		<node id="actors/enemy-cyborg-destroyer-rifle.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
+
+		<node id="actors/enemy-cyborg-destroyer-shotgun.xml" text="Unlike most other humanoid enemies, Cyborgs will never forget you so be careful!" />
+
+		<node id="actors/enemy-grenadier.xml" text="Remember that grenadiers are immune against explosives." />
+
+		<node id="actors/enemy-heat-seeking-missile-centipede.xml" text="Learning the dodging routine against Centipede Missiles requires some practice." />
+
+		<node id="actors/enemy-hovertank.xml" text="The railgun on the Icarus T-17 will kill almost anyone instantly. Be careful!" />
+
+
+		<node id="actors/enemy-security-guard.xml" text="Security guards usually carry plasma weapons which can be dodged." />
+
+		<node id="actors/enemy-security-guard-melee.xml" text="The plasteel shield carried by the security guards blocks projectiles completely." />
+		<node id="actors/enemy-security-guard-shield.xml" text="The plasteel shield carried by the security guards blocks projectiles completely." />
+
+		<node id="actors/enemy-kamikaze-drone.xml" text="Kamikaze Drones can be dodged easily but be careful with swarms." />
+		<node id="actors/enemy-laserdrone.xml" text="Don't let the Laser Drones get too close, the laser beam swing does a lot of damage." />
+		<node id="actors/enemy-maddrone.xml" text="Utility Drones are usually only a nuisance but swarms can surprise you at times." />
+		<node id="actors/enemy-mine.xml" text="Popper Mines can only be damaged with projectiles when they are shooting." />
+		<node id="actors/mine-shooter.xml" text="Popper Mines can only be damaged with projectiles when they are shooting." />
+
+		<node id="actors/enemy-mini-spider.xml" text="The Maintenance Spiders can also appear from bot hatches on walls." name="TheSpidey" />
+		<node id="actors/enemy-mini-spider.xml" text="You can sometimes outrun the Maintenance Spiders if you're quick enough." name="TheSpidey" />
+
+		<node id="actors/enemy-nanocloud.xml" text="Projectile weapons will do little damage on a cloud of nanites - explosives work better." name="NeonFreak" />
+
+
+		<node id="actors/enemy-pressure-mine.xml" text="Pressure mines can be triggered with other explosives." />
+
+		<node id="actors/enemy-proximity-mine.xml" text="Proximity mines can be triggered by quickly entering and leaving the detection range." />
+
+		<node id="actors/enemy-soldier.xml" text="The SMG soldier has a fast shooting Ion SMG so you usually want to avoid direct confrontation in narrow corridors." />
+
+		<node id="actors/enemy-soldier-elite.xml" text="The Elite Soldier carries a powerful assault rifle. Try not get caught in his sights!" name="WasabiGun" />
+
+		<node id="actors/enemy-soldier-rockets.xml" text="Rockets from a Rocket Soldier can be dodged but they deal massive damage even without a direct hit." />
+
 		 <node id="actors/enemy-soldier-rockets.xml" text="You should keep your distance from rocket soldiers - they'll give their lives for the corporation." name="BrokenMirror" />
-        
-        <node id="actors/enemy-soldier-shotgun.xml" text="The shotgun wielding soldiers can deal massive damage if they shoot you from close range." />
-        
-         <node id="actors/enemy-spiderbot.xml" text="Shelob changes her main weapon in each phase and each weapon is more powerful than the previous." />
-         <node id="actors/enemy-spiderbot-grenade.xml" text="Shelob 75A2 may not have the smartest AI but the grenades still hurt a ton." />
-         <node id="actors/enemy-spiderbot-rocket.xml" text="You might want to get behind some sturdy cover when Shelob 75A3 changes phases." />
-         
-         <node id="actors/enemy-autoturret-rocket.xml" text="Try to dodge rockets from the rocket turret." />
-         
-         
-         <node id="actors/power-cell.xml" text="Power cells may explode violently so be careful around them." />
-         
-         <node id="actors/enemy-spideroid.xml" text="Spideroids will split into new spideroids - be ready to dispose them too!" />
-         
-        <node id="actors/enemy-wall-turret.xml" text="You can sometimes flank wall turrets and avoid getting hit at all." />
-        
-        
-         <node id="actors/enemy-soldier-elite-shotgun.xml" text="The elite shotgun soldiers carry a powerful plasma shotgun. They can be dodged but the damage is considerable." />
-        <node id="actors/enemy-soldier-elite-railgun.xml" text="The elite railgun soldiers compensate for your movement. Stop and reverse to avoid the deadly railgun bullet." />
-        <node id="actors/enemy-autoturret.xml" text="Bait auto turrets into activating before you rush them, so their first shot doesn't surprise you." name="SynthWade" />
-		
+
+		<node id="actors/enemy-soldier-shotgun.xml" text="The shotgun wielding soldiers can deal massive damage if they shoot you from close range." />
+
+		 <node id="actors/enemy-spiderbot.xml" text="Shelob changes her main weapon in each phase and each weapon is more powerful than the previous." />
+		 <node id="actors/enemy-spiderbot-grenade.xml" text="Shelob 75A2 may not have the smartest AI but the grenades still hurt a ton." />
+		 <node id="actors/enemy-spiderbot-rocket.xml" text="You might want to get behind some sturdy cover when Shelob 75A3 changes phases." />
+
+		 <node id="actors/enemy-autoturret-rocket.xml" text="Try to dodge rockets from the rocket turret." />
+
+
+		 <node id="actors/power-cell.xml" text="Power cells may explode violently so be careful around them." />
+
+		 <node id="actors/enemy-spideroid.xml" text="Spideroids will split into new spideroids - be ready to dispose them too!" />
+
+		<node id="actors/enemy-wall-turret.xml" text="You can sometimes flank wall turrets and avoid getting hit at all." />
+
+
+		 <node id="actors/enemy-soldier-elite-shotgun.xml" text="The elite shotgun soldiers carry a powerful plasma shotgun. They can be dodged but the damage is considerable." />
+		<node id="actors/enemy-soldier-elite-railgun.xml" text="The elite railgun soldiers compensate for your movement. Stop and reverse to avoid the deadly railgun bullet." />
+		<node id="actors/enemy-autoturret.xml" text="Bait auto turrets into activating before you rush them, so their first shot doesn't surprise you." name="SynthWade" />
+
 		<node id="actors/logic-areakiller.xml" text="Keep moving if you find yourself an environment with triggering explosives!" name="SynthWade" />
-        
-        <node id="actors/enemy-nanocloud.xml" text="Nanite Clouds take very little damage from normal guns. Explosions on the other hand, deal massive damage to them." name="PlasmaKiller" />
-       <node id="actors/trap_laser_barrier.xml" text="The laser barriers deal massive damage. A hacker can sometimes disable them, but be careful!" name="Lazarus" />
-        
-        <node id="unset" text="This is an unset text for testing" />
-	 
-    </array>
-   
- 
+
+		<node id="actors/enemy-nanocloud.xml" text="Nanite Clouds take very little damage from normal guns. Explosions on the other hand, deal massive damage to them." name="PlasmaKiller" />
+	   <node id="actors/trap_laser_barrier.xml" text="The laser barriers deal massive damage. A hacker can sometimes disable them, but be careful!" name="Lazarus" />
+
+		<node id="unset" text="This is an unset text for testing" />
+
+	</array>
+
+
 </root>

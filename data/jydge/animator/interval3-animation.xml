@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <!--
-		action="SetProperty" 
-		property="TF:touchfield.value_x" 
-		time_start="0" 
-		duration="30" 
-		value_from="0" 
+		action="SetProperty"
+		property="TF:touchfield.value_x"
+		time_start="0"
+		duration="30"
+		value_from="0"
 		value_to="1500"
 		curve=  "LINEAR" "EASE_IN" "EASE_OUT" "EASE_BOTH"
 
 		action="BeginTimelineEvent"
-		time_start="0" 
+		time_start="0"
 		event="timeline_event_id"
-		
+
 		action="EndTimelineEvent"
-		time_start="0" 
+		time_start="0"
 -->
 
 
@@ -33,45 +33,45 @@
 		<node action="SetProperty" property="Logo:scale" time_start="26.5" duration="2" value_from="1" value_to="0" />
 		<node action="SetProperty" property="Logo:alpha" time_start="27" duration="1.2" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="0.1" >
 		<node action="PlaySound" sound="sfx/jydge/news-tune" time_start="0" duration="1" value_from="0" value_to="1" />
-	</array>    
-    
+	</array>
+
 	<array base_time="1.3" >
 		<node action="PlaySound" sound="sfx/jydge/channel-neon-intro" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="3.95" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="5.5" > <!-- "Some concerns about citizen safety..." -->
 		<node action="PlaySound" sound="sfx/jydge/interval-3-news-1" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="4.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="9.5" > <!-- "However, we are obligated to clearly..." -->
 		<node action="PlaySound" sound="sfx/jydge/interval-3-news-2" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="11.0" duration="0.5" value_from="1" value_to="0" />
-	</array>  
+	</array>
 
  	<array base_time="19.1" >
 		<node action="PlaySound" sound="sfx/jydge/news-tune" time_start="0" duration="1" value_from="0" value_to="1" />
 	</array>
-    
+
 	<array base_time="21.1" >
 		<node action="PlaySound" sound="sfx/jydge/channel-neon-outro" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="5.0" duration="2.0" value_from="1" value_to="0" />
 	</array>
-	
+
 	<array base_time="28.5" >
 		<node action="BeginTimelineEvent" time_start="0" event="JydgeMetagame" />
 	</array>
-	
+
 </root>

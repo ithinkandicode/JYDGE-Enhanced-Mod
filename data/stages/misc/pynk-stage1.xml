@@ -6,7 +6,7 @@
  <node id="cells_width" value="60" />
  <node id="cells_height" value="60" />
  <node id="ambient_light" r="0.60" g="0.60" b="0.60" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -5456,10 +5456,10 @@
  <node ref_number="1811" type="actors/wall-residential-thick-I.xml" x="1920" y="1500" angle_z="180"  />
  <node ref_number="1812" type="actors/wall-residential-thick-I.xml" x="1920" y="1560" angle_z="180"  />
  <node ref_number="1813" type="actors/decoration.xml" x="3002" y="3558" angle_z="355"  />
- <node ref_number="1814" type="actors/billboard-wall.xml" x="3129" y="1582" angle_z="270" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1814" type="actors/billboard-wall.xml" x="3129" y="1582" angle_z="270" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1815" type="actors/wall-residential-thin-I.xml" x="2400" y="1500" angle_z="90"  />
  <node ref_number="1816" type="actors/wall-residential-thin-T.xml" x="2460" y="1500" angle_z="270"  />

@@ -3,7 +3,7 @@
 <!--
 
 NOTES:
-	
+
 -->
 
 
@@ -11,87 +11,87 @@ NOTES:
 
 	<array id="TUTORIALS">
 		<node id="Welcome"
-         screen="JydgeMetagame" select_tab="Cyberware"
-         popup="Welcome to the |#ff0000|JYDGE|#ffffff| control center. Play missions to earn |#00ff00|medals|#ffffff| and confiscate |#00ff00|credits|#ffffff| to unlock more powerful gear and features."
-        />
-        
-    <!--
+		 screen="JydgeMetagame" select_tab="Cyberware"
+		 popup="Welcome to the |#ff0000|JYDGE|#ffffff| control center. Play missions to earn |#00ff00|medals|#ffffff| and confiscate |#00ff00|credits|#ffffff| to unlock more powerful gear and features."
+		/>
+
+	<!--
 
 		<node id="Research"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-         screen="JydgeMetagame" select_tab="Research" point_at_component="Research_Cyberware" y_offset="50" 
-         text="Open Cybernetics Lab here." 
-         popup="Use confiscated credits to research new features and make your JYDGE more powerful."
-        />
-       -->
-       
-		<node id="CyberwareLab"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-		 screen="JydgeMetagame" select_tab="Cyberware" point_at_component="EnhancementSlot_0"  y_offset="50" 
-         text="Install cyberware here!" 
-         popup="|#00ff00|Cyberware augmentation|#ffffff| module is now activated. Configure |#ff0000|JYDGE|#ffffff| to your liking."
-        />
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Research" point_at_component="Research_Cyberware" y_offset="50"
+		 text="Open Cybernetics Lab here."
+		 popup="Use confiscated credits to research new features and make your JYDGE more powerful."
+		/>
+	   -->
 
-<!--        
+		<node id="CyberwareLab"
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Cyberware" point_at_component="EnhancementSlot_0"  y_offset="50"
+		 text="Install cyberware here!"
+		 popup="|#00ff00|Cyberware augmentation|#ffffff| module is now activated. Configure |#ff0000|JYDGE|#ffffff| to your liking."
+		/>
+
+<!--
 		<node id="ToggleCyberware"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-		 screen="JydgeSelectEnhancementsGridCyberware" point_at_component="Enhancement_0"  y_offset="40" 
-         text="Toggle cyberware" 
-        />              
-        -->
-       
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeSelectEnhancementsGridCyberware" point_at_component="Enhancement_0"  y_offset="40"
+		 text="Toggle cyberware"
+		/>
+		-->
+
 		<node id="Weapons"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-         screen="JydgeMetagame" select_tab="Weapons" point_at_component="Weapon_0" y_offset="50" 
-         unlock_feature="Weapons" 
-         text="Upgrade the weapon fire mode for increased damage." 
-         popup="Switch fire modes, upgrade, and eventually install mods to the Gavel."
-        />
-        
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Weapons" point_at_component="Weapon_0" y_offset="50"
+		 unlock_feature="Weapons"
+		 text="Upgrade the weapon fire mode for increased damage."
+		 popup="Switch fire modes, upgrade, and eventually install mods to the Gavel."
+		/>
+
 		<node id="SpecialUnlock"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-         screen="JydgeMetagame" select_tab="Weapons" point_at_component="Research_Abilities" y_offset="50" 
-         text="Unlock the SPECIAL attack." 
-        />        
-         
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Weapons" point_at_component="Research_Abilities" y_offset="50"
+		 text="Unlock the SPECIAL attack."
+		/>
+
 		<node id="DIFFICULTY_1"
-         screen="JydgeMetagame" select_tab="Missions"
-         unlock_feature="DIFFICULTY_1" 
-         popup="New |#ff0000|HARDCORE|#ffffff| difficulty unlocked. Experience the scenarios in new ways and earn more medals."
-        />    
-        
+		 screen="JydgeMetagame" select_tab="Missions"
+		 unlock_feature="DIFFICULTY_1"
+		 popup="New |#ff0000|HARDCORE|#ffffff| difficulty unlocked. Experience the scenarios in new ways and earn more medals."
+		/>
+
 		<node id="DIFFICULTY_2"
-         screen="JydgeMetagame" select_tab="Missions"
-         unlock_feature="DIFFICULTY_2" 
-         popup="New |#ff0000|GRIM|#ffffff| difficulty unlocked. Experience the scenarios in new ways and earn more medals."
-        />    
-        
+		 screen="JydgeMetagame" select_tab="Missions"
+		 unlock_feature="DIFFICULTY_2"
+		 popup="New |#ff0000|GRIM|#ffffff| difficulty unlocked. Experience the scenarios in new ways and earn more medals."
+		/>
+
 		<node id="DIFFICULTY_3"
-         screen="JydgeMetagame" select_tab="Missions"
-         unlock_feature="DIFFICULTY_3" 
-         popup="New |#00ff00|NIGHTMARE|#ffffff| difficulty unlocked. Experience the scenarios in new ways and earn more medals."
-        />
-        
+		 screen="JydgeMetagame" select_tab="Missions"
+		 unlock_feature="DIFFICULTY_3"
+		 popup="New |#00ff00|NIGHTMARE|#ffffff| difficulty unlocked. Experience the scenarios in new ways and earn more medals."
+		/>
+
 		<node id="WeaponMods"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-		 screen="JydgeMetagame" select_tab="Weapons" point_at_component="WeaponMod_0" y_offset="50" 
-         unlock_feature="Weapons" 
-         text="Install a weapon mod." 
-         popup="You can now install |#00ff00|weapon mods|#ffffff| to boost the Gavel. Enjoy!"
-        />
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Weapons" point_at_component="WeaponMod_0" y_offset="50"
+		 unlock_feature="Weapons"
+		 text="Install a weapon mod."
+		 popup="You can now install |#00ff00|weapon mods|#ffffff| to boost the Gavel. Enjoy!"
+		/>
 
 		<node id="Abilities"
-         tags="_REQUIRE_CLICKING_POINTED_COMPONENT"
-		 screen="JydgeMetagame" select_tab="Weapons" _point_at_component="WeaponAbility"  y_offset="70" 
-         _text="Upgrade your Special weapon here!" 
-         popup="Introducing |#00ff00|Special|#ffffff| weapons. They're bigger and meaner than regular fire modes, but have limited uses per level." 
-        />
-        
+		 tags="_REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Weapons" _point_at_component="WeaponAbility"  y_offset="70"
+		 _text="Upgrade your Special weapon here!"
+		 popup="Introducing |#00ff00|Special|#ffffff| weapons. They're bigger and meaner than regular fire modes, but have limited uses per level."
+		/>
+
 		<node id="AbilityMods"
-         tags="REQUIRE_CLICKING_POINTED_COMPONENT"
-		 screen="JydgeMetagame" select_tab="Abilities" point_at_component="AbilityMod_0" y_offset="70" 
-         text="When you've got the funds, supercharge your special weapons." 
-        />
+		 tags="REQUIRE_CLICKING_POINTED_COMPONENT"
+		 screen="JydgeMetagame" select_tab="Abilities" point_at_component="AbilityMod_0" y_offset="70"
+		 text="When you've got the funds, supercharge your special weapons."
+		/>
 	</array>
-	
+
 </root>

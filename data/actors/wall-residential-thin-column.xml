@@ -2,18 +2,18 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="CONCRETE" 
-		 renderer="NeonChromeModel" 
-		 ai="Obstacle" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/wall-residential-thin-column.xml" 
-		 bitmap_shadow="shadows/wall-inner-shadow-pillar.png" 
-		 hit_points="80" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="CONCRETE"
+		 renderer="NeonChromeModel"
+		 ai="Obstacle"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/wall-residential-thin-column.xml"
+		 bitmap_shadow="shadows/wall-inner-shadow-pillar.png"
+		 hit_points="80"
+		 damage="0.0"
 		/>
 
 		<node id="RENDERER_DATA" has_reflection="false" />
@@ -21,14 +21,14 @@
 	</array>
 
 	<array id="GIBS_WALL">
-		<node id="DESTRUCTION_1" 
-		 model="models/wall-inner-ruin-column.xml" 
-		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL" 
-		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
-		 model_group_3="METAL_SMALL,NONE,2,NONE" 
-		 model_group_4="OBJECT_LARGE,NONE,3,NONE" 
-		 model_group_5="METAL_LARGE,NONE,3,NONE" 
-		 particle_effect_1="effects/wall-thin-breaks.xml" 
+		<node id="DESTRUCTION_1"
+		 model="models/wall-inner-ruin-column.xml"
+		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL"
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE"
+		 model_group_3="METAL_SMALL,NONE,2,NONE"
+		 model_group_4="OBJECT_LARGE,NONE,3,NONE"
+		 model_group_5="METAL_LARGE,NONE,3,NONE"
+		 particle_effect_1="effects/wall-thin-breaks.xml"
 		/>
 
 	</array>

@@ -9,15 +9,15 @@
 			snd_fire="sfx/weapons/laser-smg-fire"
 			snd_reload="sfx/weapons/autorifle_reload"
 			snd_empty_clip="sfx/weapons/empty_clip_laser"
-			 
+
 			effect_muzzle_flash="effects/muzzle-laser.xml"
 			effect_shell_eject="effects/one_big_shell_ejected.xml"
-            
-            type="WEAPON_TYPE_PROJECTILE"
-            crit_chance="0.00"
-            
+
+			type="WEAPON_TYPE_PROJECTILE"
+			crit_chance="0.00"
+
 			projectile_actor="actors/projectile-smg-laser.xml"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="800"
 			projectile_range_random="0.1"
@@ -36,7 +36,7 @@
 			reload_time="3.5"
 			reload_size="20"
 			clip_size="20"
-            ammo_refill_size="1"
+			ammo_refill_size="1"
 
 			damage="3"
 			projectile_speed="2500"
@@ -47,10 +47,10 @@
 			trail_alpha="1"
 
 			move_speed_modifier="0.8"
-			
-			
+
+
 		/>
-		
+
 	</array>
 </root>
 

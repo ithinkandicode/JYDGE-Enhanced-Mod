@@ -8,12 +8,12 @@
 			bm_icon=""
 			snd_fire="sfx/weapons/melee"
 			snd_reload="sfx/weapons/autorifle_reload"
-            
-            type="WEAPON_TYPE_MELEE"
-            
+
+			type="WEAPON_TYPE_MELEE"
+
 			projectile_actor=""
 			damage="10"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="300"
 			projectile_range_random="0.1"
@@ -40,9 +40,9 @@
 			trail_alpha="1"
 
 			move_speed_modifier="1"
-			
+
 		/>
-		
+
 	</array>
 </root>
 

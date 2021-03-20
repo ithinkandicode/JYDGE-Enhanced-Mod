@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <root>
-    
-	<array id="INTERACTION_TIPS">
-        <node id="rescueable" interaction_tip="{k_use}HALT" />
-        <node id="rescueable" interaction_tip="{k_use}RESCUE" />
-        <node id="actors/collectible-item.xml" interaction_tip="{k_use}PICK UP COLLECTIBLE" />
-        <node id="actors/folder-secret.xml" interaction_tip="{k_use}COLLECT EVIDENCE" />
-        <node id="actors/weapon-assault_rifle-conventional.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-ion.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-plasma.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-laser.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-conventional-burst.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-ion-burst.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-plasma-burst.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-assault_rifle-laser-burst.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-shotgun-conventional.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-shotgun-ion.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-shotgun-plasma.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-shotgun-laser.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-smg-conventional.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-smg-ion.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-smg-plasma.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-smg-laser.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/rocket-launcher.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/nade-launcher.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/railgun.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/minigun.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/crossbow-explosive.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-pistol-predator.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-soviet-laser-pistol.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-heavy_rifle.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/autodoc.xml" interaction_tip="{k_use}USE AUTODOC" />
-        <node id="actors/box-closed.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/button.xml" interaction_tip="{k_use}PRESS" />
-        <node id="actors/console-achievement-viewer.xml" interaction_tip="{k_use}OPEN" />
-        <node id="actors/console-generator-config.xml" interaction_tip="{k_use}OPEN" />
-        <node id="actors/console-interactive.xml" interaction_tip="{k_use}USE" />
-        <node id="actors/console-unlock-viewer.xml" interaction_tip="{k_use}OPEN" />
-        <node id="actors/cyberchair.xml" interaction_tip="{k_use}USE" />
-        <node id="actors/cyberthrone.xml" interaction_tip="{k_use}USE" />
-        <node id="actors/door-blue-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-double-blue-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-double-red-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-double-yellow-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-blue-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-double-blue-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-double-red-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-double-yellow-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-red-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-spider-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-collectible-key-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-outer-yellow-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-red-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-warehouse-blue-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-warehouse-double-blue-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-warehouse-double-red-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-warehouse-double-yellow-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-warehouse-red-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-warehouse-yellow-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/door-yellow-sliding.xml" interaction_tip="{k_use}" />
-        <node id="actors/gauss-gun.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/hacker-box.xml" interaction_tip="{k_use}HACK" />
-        <node id="actors/enemy-autoturret.xml" interaction_tip="{k_use}HACK" />
-        <node id="actors/plasma-assaultrifle.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/power-cell.xml" interaction_tip="{k_destroy}DESTROY" />
-        <node id="actors/premium-box.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/sarcophagus-open.xml" interaction_tip="{k_use}ACTIVATE" />
-        <node id="actors/screen-interactive-hub.xml" interaction_tip="{k_use}USE" />
-        <node id="actors/terminal.xml" interaction_tip="{k_use}HACK" />
-        <node id="actors/terminal-objective.xml" interaction_tip="{k_use}INTERACT" />
-        <node id="actors/uld-closed.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/ultradoc.xml" interaction_tip="{k_use}USE ULTRADOC" />
-        <node id="actors/unlock-box-old.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/unlock-box.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/unlock-terminal-special.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/unlock-terminal.xml" interaction_tip="{k_use}CONFISCATE" />
-        <node id="actors/upgrade-station-clipsize.xml" interaction_tip="{k_use}UPGRADE" />
-        <node id="actors/upgrade-station-crit.xml" interaction_tip="{k_use}UPGRADE" />
-        <node id="actors/upgrade-station-damage.xml" interaction_tip="{k_use}UPGRADE" />
-        <node id="actors/upgrade-station-reload.xml" interaction_tip="{k_use}UPGRADE" />
-        <node id="actors/upgrade-station-rof.xml" interaction_tip="{k_use}UPGRADE" />
-        <node id="actors/vending-machine-energy.xml" interaction_tip="{k_use}VEND" />
-        <node id="actors/weapon-assault_rifle-plasma-exotic.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-blowtorch.xml" interaction_tip="{k_use}PICK UP" />
-        <node id="actors/weapon-shotgun-mega.xml" interaction_tip="{k_use}PICK UP" />
-        <!--<node id="actors/atm.xml" interaction_tip="HOLD{k_use}TO WITHDRAW MONEY"  />-->
 
-        <node id="actors/home-computer.xml" interaction_tip="{k_use}USE"  />
-        <node id="actors/doctor.xml" interaction_tip="{k_use}TALK"  />
-        <node id="actors/box-cardboard-plain-interactive.xml" interaction_tip="{k_use}OPEN"  />
-    </array>
+	<array id="INTERACTION_TIPS">
+		<node id="rescueable" interaction_tip="{k_use}HALT" />
+		<node id="rescueable" interaction_tip="{k_use}RESCUE" />
+		<node id="actors/collectible-item.xml" interaction_tip="{k_use}PICK UP COLLECTIBLE" />
+		<node id="actors/folder-secret.xml" interaction_tip="{k_use}COLLECT EVIDENCE" />
+		<node id="actors/weapon-assault_rifle-conventional.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-ion.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-plasma.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-laser.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-conventional-burst.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-ion-burst.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-plasma-burst.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-assault_rifle-laser-burst.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-shotgun-conventional.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-shotgun-ion.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-shotgun-plasma.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-shotgun-laser.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-smg-conventional.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-smg-ion.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-smg-plasma.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-smg-laser.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/rocket-launcher.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/nade-launcher.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/railgun.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/minigun.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/crossbow-explosive.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-pistol-predator.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-soviet-laser-pistol.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-heavy_rifle.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/autodoc.xml" interaction_tip="{k_use}USE AUTODOC" />
+		<node id="actors/box-closed.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/button.xml" interaction_tip="{k_use}PRESS" />
+		<node id="actors/console-achievement-viewer.xml" interaction_tip="{k_use}OPEN" />
+		<node id="actors/console-generator-config.xml" interaction_tip="{k_use}OPEN" />
+		<node id="actors/console-interactive.xml" interaction_tip="{k_use}USE" />
+		<node id="actors/console-unlock-viewer.xml" interaction_tip="{k_use}OPEN" />
+		<node id="actors/cyberchair.xml" interaction_tip="{k_use}USE" />
+		<node id="actors/cyberthrone.xml" interaction_tip="{k_use}USE" />
+		<node id="actors/door-blue-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-double-blue-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-double-red-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-double-yellow-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-blue-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-double-blue-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-double-red-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-double-yellow-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-red-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-spider-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-collectible-key-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-outer-yellow-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-red-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-warehouse-blue-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-warehouse-double-blue-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-warehouse-double-red-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-warehouse-double-yellow-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-warehouse-red-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-warehouse-yellow-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/door-yellow-sliding.xml" interaction_tip="{k_use}" />
+		<node id="actors/gauss-gun.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/hacker-box.xml" interaction_tip="{k_use}HACK" />
+		<node id="actors/enemy-autoturret.xml" interaction_tip="{k_use}HACK" />
+		<node id="actors/plasma-assaultrifle.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/power-cell.xml" interaction_tip="{k_destroy}DESTROY" />
+		<node id="actors/premium-box.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/sarcophagus-open.xml" interaction_tip="{k_use}ACTIVATE" />
+		<node id="actors/screen-interactive-hub.xml" interaction_tip="{k_use}USE" />
+		<node id="actors/terminal.xml" interaction_tip="{k_use}HACK" />
+		<node id="actors/terminal-objective.xml" interaction_tip="{k_use}INTERACT" />
+		<node id="actors/uld-closed.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/ultradoc.xml" interaction_tip="{k_use}USE ULTRADOC" />
+		<node id="actors/unlock-box-old.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/unlock-box.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/unlock-terminal-special.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/unlock-terminal.xml" interaction_tip="{k_use}CONFISCATE" />
+		<node id="actors/upgrade-station-clipsize.xml" interaction_tip="{k_use}UPGRADE" />
+		<node id="actors/upgrade-station-crit.xml" interaction_tip="{k_use}UPGRADE" />
+		<node id="actors/upgrade-station-damage.xml" interaction_tip="{k_use}UPGRADE" />
+		<node id="actors/upgrade-station-reload.xml" interaction_tip="{k_use}UPGRADE" />
+		<node id="actors/upgrade-station-rof.xml" interaction_tip="{k_use}UPGRADE" />
+		<node id="actors/vending-machine-energy.xml" interaction_tip="{k_use}VEND" />
+		<node id="actors/weapon-assault_rifle-plasma-exotic.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-blowtorch.xml" interaction_tip="{k_use}PICK UP" />
+		<node id="actors/weapon-shotgun-mega.xml" interaction_tip="{k_use}PICK UP" />
+		<!--<node id="actors/atm.xml" interaction_tip="HOLD{k_use}TO WITHDRAW MONEY"  />-->
+
+		<node id="actors/home-computer.xml" interaction_tip="{k_use}USE"  />
+		<node id="actors/doctor.xml" interaction_tip="{k_use}TALK"  />
+		<node id="actors/box-cardboard-plain-interactive.xml" interaction_tip="{k_use}OPEN"  />
+	</array>
 
 </root>

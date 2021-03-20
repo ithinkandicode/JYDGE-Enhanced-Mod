@@ -6,7 +6,7 @@
  <node id="cells_width" value="48" />
  <node id="cells_height" value="47" />
  <node id="ambient_light" r="0.18" g="0.16" b="0.22" />
- <node id="key_values" 
+ <node id="key_values"
 key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
 </array>
 
@@ -2075,10 +2075,10 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node id="G19725" ref_number="457" type="actors/box-closed.xml" x="1486" y="1424" angle_z="354" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node ref_number="458" type="actors/crate-open.xml" x="1560" y="1425" angle_z="91"  />
  <node id="G8717" ref_number="459" type="actors/box-closed.xml" x="1360" y="1860" angle_z="359" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
- <node ref_number="460" type="actors/enemy-jydge-shooter-regular.xml" x="1132" y="1353" angle_z="89" key_INTEGER_required_difficulty="1" 
- key_STRING_animation="models/animations/humanoid_rig-humanoid_sit_chair_noturn.xml" 
- key_STRING_animation_wrap_mode="PLAY_ONCE" 
- key_STAGE_OBJECT_REFERENCE_animation_interaction_target="625" 
+ <node ref_number="460" type="actors/enemy-jydge-shooter-regular.xml" x="1132" y="1353" angle_z="89" key_INTEGER_required_difficulty="1"
+ key_STRING_animation="models/animations/humanoid_rig-humanoid_sit_chair_noturn.xml"
+ key_STRING_animation_wrap_mode="PLAY_ONCE"
+ key_STAGE_OBJECT_REFERENCE_animation_interaction_target="625"
   />
  <node ref_number="461" type="actors/flowers2.xml" x="1110" y="1050"  />
  <node ref_number="462" type="actors/flowers1.xml" x="1110" y="1110"  />
@@ -2421,29 +2421,29 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="799" type="actors/skyscraper1.xml" x="5343" y="3023" z="10443" angle_x="351" angle_z="90" scale="0.233547"  />
  <node ref_number="800" type="actors/wall-outside-railing-cap-left.xml" x="2400" y="1980" angle_z="270"  />
  <node ref_number="801" type="actors/wall-outside-railing-cap-right.xml" x="2340" y="1980" angle_z="270"  />
- <node ref_number="802" type="actors/screen-billboard.xml" x="1580" y="560" z="-94" angle_z="90" scale="1.520000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/eye.jpg" 
+ <node ref_number="802" type="actors/screen-billboard.xml" x="1580" y="560" z="-94" angle_z="90" scale="1.520000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/eye.jpg"
   />
  <node ref_number="803" parent="802" type="actors/streetlight.xml" x="-5" y="80" z="56" angle_z="-90" scale="0.870000"  />
  <node ref_number="804" parent="802" type="actors/streetlight.xml" x="-5" y="-80" z="56" angle_z="90" scale="0.870000"  />
- <node ref_number="805" type="actors/screen-billboard.xml" x="1892" y="1993" z="1186" angle_z="90" scale="3.780866" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="805" type="actors/screen-billboard.xml" x="1892" y="1993" z="1186" angle_z="90" scale="3.780866" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="806" type="actors/invisible-wall.xml" x="2942" y="1530" scale="26.959999"  />
- <node ref_number="807" type="actors/screen-billboard.xml" x="1616" y="1027" z="-18" angle_z="90" scale="0.690000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="807" type="actors/screen-billboard.xml" x="1616" y="1027" z="-18" angle_z="90" scale="0.690000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="808" type="actors/screen-billboard.xml" x="1314" y="1457" z="-37" angle_z="180" scale="0.500000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/mask.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="808" type="actors/screen-billboard.xml" x="1314" y="1457" z="-37" angle_z="180" scale="0.500000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/mask.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="809" type="actors/fridge.xml" x="1831" y="1292" angle_z="270"  />
  <node ref_number="810" parent="298" type="actors/plant.xml" x="11" y="9" z="-36" angle_z="114" scale="0.584561"  />
@@ -2486,10 +2486,10 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="847" type="actors/enemy-jydge-shooter-weak.xml" x="1444" y="1054" angle_z="140" key_INTEGER_required_difficulty="2" key_INTEGER_highest_allowed_difficulty="2" key_BOOLEAN_guard="true"  />
  <node ref_number="848" type="actors/civilian-generic-male-white.xml" x="1162" y="1392" angle_z="73" key_BOOLEAN_can_be_rescued="true" key_INTEGER_required_difficulty="2"  />
  <node ref_number="849" type="actors/civilian-generic-male-white.xml" x="1557" y="1608" angle_z="351" key_BOOLEAN_can_be_rescued="true" key_INTEGER_required_difficulty="1" key_INTEGER_highest_allowed_difficulty="1"  />
- <node ref_number="850" parent="329" type="actors/billboard-wall.xml" x="0" y="-8" angle_z="-180" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-default.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="850" parent="329" type="actors/billboard-wall.xml" x="0" y="-8" angle_z="-180" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-default.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="851" type="actors/civilian-generic-female-white.xml" x="1831" y="1394" angle_z="236" scale="1.000000" key_BOOLEAN_can_be_rescued="true" key_INTEGER_required_difficulty="3" key_INTEGER_highest_allowed_difficulty="3"  />
  <node ref_number="852" type="actors/enemy-jydge-shooter-weak.xml" x="1879" y="1445" angle_z="224" key_INTEGER_required_difficulty="3" key_INTEGER_highest_allowed_difficulty="3" key_BOOLEAN_guard="true"  />

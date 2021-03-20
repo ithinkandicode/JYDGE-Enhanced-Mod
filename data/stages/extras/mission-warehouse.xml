@@ -6,7 +6,7 @@
  <node id="cells_width" value="39" />
  <node id="cells_height" value="32" />
  <node id="ambient_light" r="0.18" g="0.18" b="0.18" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -1567,19 +1567,19 @@
  <node ref_number="285" type="actors/button.xml" x="480" y="1050" key_BOOLEAN_indestructible="false" key_BOOLEAN_friend_or_foe="false" key_STAGE_OBJECT_REFERENCE_new_4="288"  />
  <node ref_number="286" type="actors/button.xml" x="660" y="1050" key_BOOLEAN_indestructible="false" key_BOOLEAN_friend_or_foe="false" key_STAGE_OBJECT_REFERENCE_new_6="288"  />
  <node ref_number="287" type="actors/button.xml" x="660" y="1110" key_BOOLEAN_indestructible="false" key_BOOLEAN_friend_or_foe="false"  />
- <node ref_number="288" type="actors/relay_device.xml" x="720" y="960" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_INTEGER_num_unique_signals_required="1" 
- key_STAGE_OBJECT_REFERENCE_new_0="49" 
- key_STAGE_OBJECT_REFERENCE_new_1="48" 
+ <node ref_number="288" type="actors/relay_device.xml" x="720" y="960" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_INTEGER_num_unique_signals_required="1"
+ key_STAGE_OBJECT_REFERENCE_new_0="49"
+ key_STAGE_OBJECT_REFERENCE_new_1="48"
   />
  <node ref_number="289" type="actors/enemy-jydge-soldier-shotgun.xml" x="1583" y="699" angle_z="324" scale="1.000000" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1579,654,0;1601,435,0;1143,450,0;1063,693,0;1579,654,0"  />
  <node ref_number="290" type="actors/enemy-jydge-soldier.xml" x="1784" y="1161" angle_z="240" scale="1.000000"  />
  <node ref_number="291" type="actors/button.xml" x="480" y="1110" key_BOOLEAN_indestructible="false" key_BOOLEAN_friend_or_foe="false"  />
- <node ref_number="292" type="actors/enemy-jydge-soldier.xml" x="1902" y="445" scale="1.000000" key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="1965,444,0;1817,385,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1665,375,0;1123,383,0;747,453,0;942,456,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1181,382,0;1760,399,0;1960,446,0" 
- key_BOOLEAN_elimination_target="true" 
- key_STRING_name="This Guy" 
+ <node ref_number="292" type="actors/enemy-jydge-soldier.xml" x="1902" y="445" scale="1.000000" key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="1965,444,0;1817,385,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1665,375,0;1123,383,0;747,453,0;942,456,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1181,382,0;1760,399,0;1960,446,0"
+ key_BOOLEAN_elimination_target="true"
+ key_STRING_name="This Guy"
   />
  <node ref_number="293" type="actors/wall-rusty-thick-I.xml" x="2100" y="360" angle_z="180"  />
  <node ref_number="294" type="actors/wall-rusty-thick-I.xml" x="600" y="360" angle_z="180"  />

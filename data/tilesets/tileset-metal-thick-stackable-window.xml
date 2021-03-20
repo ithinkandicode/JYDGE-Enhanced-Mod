@@ -4,11 +4,11 @@
 	<array id="INFO">
 		<node id="category" value="THICK_WALL_METAL_STACKABLE" />
 	</array>
-	
+
 	<array id="WALL_INNER_STRAIGHT">
 		<node output="actors/wall-metal-thick-stackable-window.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_STRAIGHT">
 		<node output="actors/wall-metal-thick-stackable-window.xml" />
 	</array>

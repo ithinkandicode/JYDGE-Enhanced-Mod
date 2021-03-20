@@ -6,7 +6,7 @@
  <node id="cells_width" value="16" />
  <node id="cells_height" value="32" />
  <node id="ambient_light" r="0.17" g="0.16" b="0.18" />
- <node id="key_values" 
+ <node id="key_values"
 key_FLOAT_fog_r="0.12" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.14"  />
 </array>
 
@@ -427,25 +427,25 @@ key_FLOAT_fog_r="0.12" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.14"  />
  <node ref_number="161" type="actors/shadowmask-gradient.xml" x="540" y="840" z="-126" angle_z="180" scale="2.000000"  />
  <node ref_number="162" type="actors/shadowmask-solid.xml" x="720" y="780" z="-126" scale="4.000000"  />
  <node ref_number="163" type="actors/shadowmask-solid.xml" x="240" y="780" z="-126" scale="4.000000"  />
- <node ref_number="164" type="actors/logic-objectremover.xml" x="748" y="1018" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_STAGE_OBJECT_REFERENCE_new_5="152" 
- key_STAGE_OBJECT_REFERENCE_new_6="163" 
- key_STAGE_OBJECT_REFERENCE_new_7="162" 
- key_STAGE_OBJECT_REFERENCE_new_8="150" 
- key_STAGE_OBJECT_REFERENCE_new_9="160" 
- key_STAGE_OBJECT_REFERENCE_new_10="161" 
- key_STAGE_OBJECT_REFERENCE_new_11="151" 
+ <node ref_number="164" type="actors/logic-objectremover.xml" x="748" y="1018" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_STAGE_OBJECT_REFERENCE_new_5="152"
+ key_STAGE_OBJECT_REFERENCE_new_6="163"
+ key_STAGE_OBJECT_REFERENCE_new_7="162"
+ key_STAGE_OBJECT_REFERENCE_new_8="150"
+ key_STAGE_OBJECT_REFERENCE_new_9="160"
+ key_STAGE_OBJECT_REFERENCE_new_10="161"
+ key_STAGE_OBJECT_REFERENCE_new_11="151"
   />
- <node ref_number="165" type="actors/logic-playerobserver.xml" x="480" y="660" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="200" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_4="164" 
+ <node ref_number="165" type="actors/logic-playerobserver.xml" x="480" y="660" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="200"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_4="164"
   />
  <node ref_number="166" type="actors/car-civilian-black-fog.xml" x="769" y="1060" z="2200" angle_z="214"  />
  <node ref_number="167" type="actors/palm-tall-fog-01.xml" x="994" y="992" z="2000"  />

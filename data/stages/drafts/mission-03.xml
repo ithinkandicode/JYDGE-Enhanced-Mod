@@ -8,11 +8,11 @@
  <node id="ambient_light" r="0.15" g="0.15" b="0.20" />
  <node id="name" value="Office Raid^Kill the target" />
  <node id="music_track" value="music/game_2" />
- <node id="key_values" 
-key_STRING_mission_type="kill_targets" 
- key_FLOAT_fog_r="0.1" 
- key_FLOAT_fog_g="0.2" 
- key_FLOAT_fog_b="0.4" 
+ <node id="key_values"
+key_STRING_mission_type="kill_targets"
+ key_FLOAT_fog_r="0.1"
+ key_FLOAT_fog_g="0.2"
+ key_FLOAT_fog_b="0.4"
   />
 </array>
 

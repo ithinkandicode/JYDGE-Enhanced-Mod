@@ -8,11 +8,11 @@
 			bm_icon="!NONE"
 			snd_fire="sfx/weapons/throw_grenade"
 			snd_reload="sfx/weapons/autorifle_reload"
-			
-            type="WEAPON_TYPE_GRENADE"
- 
+
+			type="WEAPON_TYPE_GRENADE"
+
 			projectile_actor="actors/grenade-fast.xml"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="1900"
 			projectile_range_random="0.01"
@@ -24,10 +24,10 @@
 			recoil="0.1"
 			rebound_speed="1.0"
 
-            
-            
-			 
-            
+
+
+
+
 			shot_interval="0.3"
 			ammo_cost_per_shot="1"
 			heat_per_shot="0.1"
@@ -45,14 +45,14 @@
 			trail_alpha="1"
 
 			move_speed_modifier="1.0"
-			
-            
-            
+
+
+
 			fuse_time = "1.0"
 		/>
-		
+
 	</array>
-    
-    
+
+
 </root>
 

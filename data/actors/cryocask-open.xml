@@ -2,21 +2,21 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="GLASS" 
-		 renderer="Model" 
-		 ai="Obstacle" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/cryocask-open.xml" 
-		 bitmap_shadow="shadows/hospital-bed-shadow.png" 
-		 shadow_angle="90" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="1.1" 
-		 hit_points="79" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="GLASS"
+		 renderer="Model"
+		 ai="Obstacle"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/cryocask-open.xml"
+		 bitmap_shadow="shadows/hospital-bed-shadow.png"
+		 shadow_angle="90"
+		 shadow_alpha="0.75"
+		 shadow_scale="1.1"
+		 hit_points="79"
+		 damage="0.0"
 		/>
 
 		<node id="RENDERER_DATA" has_reflection="false" />
@@ -25,18 +25,18 @@
 	</array>
 
 	<array id="GIBS_EXPLOSION">
-		<node id="EXPLOSION_1" 
-		 model="" 
-		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL" 
-		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
-		 model_group_3="OBJECT_LARGE,NONE,3,NONE" 
-		 model_group_4="METAL_SMALL,NONE,2,NONE" 
-		 model_group_5="METAL_LARGE,NONE,3,NONE" 
-		 model_group_6="METAL_MISC,NONE,2,OIL" 
-		 model_group_7="GLASS,NONE,16,GLASS" 
-		 model_group_8="METAL_PLATE,NONE,3,NONE" 
-		 particle_effect_1="effects/explosion-electric-medium.xml" 
-		 death_animations="" 
+		<node id="EXPLOSION_1"
+		 model=""
+		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL"
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE"
+		 model_group_3="OBJECT_LARGE,NONE,3,NONE"
+		 model_group_4="METAL_SMALL,NONE,2,NONE"
+		 model_group_5="METAL_LARGE,NONE,3,NONE"
+		 model_group_6="METAL_MISC,NONE,2,OIL"
+		 model_group_7="GLASS,NONE,16,GLASS"
+		 model_group_8="METAL_PLATE,NONE,3,NONE"
+		 particle_effect_1="effects/explosion-electric-medium.xml"
+		 death_animations=""
 		/>
 
 	</array>

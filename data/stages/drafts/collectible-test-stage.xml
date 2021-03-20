@@ -7,7 +7,7 @@
  <node id="cells_height" value="47" />
  <node id="ambient_light" r="0.31" g="0.33" b="0.33" />
  <node id="music_track" value="music/game_2" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 

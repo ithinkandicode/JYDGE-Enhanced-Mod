@@ -6,7 +6,7 @@
  <node id="cells_width" value="16" />
  <node id="cells_height" value="16" />
  <node id="ambient_light" r="0.50" g="0.43" b="0.35" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 

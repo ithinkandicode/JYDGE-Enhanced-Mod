@@ -2,27 +2,27 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
- 
-	 
-		 number_of_particles="3" 
-		 initial_age="-0.5;0" 
-		 age_to_die="0.5;0.7" 
-		 position_offset="0,0,0" 
-		 position_spread_box="4,4,100" 
-		 move_speed="32;53" 
-		 move_direction="0,0,-1" 
-		 move_angle_spread="0;2" 
-		 gravity_multiplier="-2.3" 
-		 alpha_curve="0,0;0.5,1;0.7,1;1,0" 
-		 scale_curve="0,0.2;1,0.3" 
-		 alpha_multiplier="0.12;0.14" 
-		 scale_multiplier="1" 
-		 
-		 blend_mode="ADDITIVE" 
-		 
-		 bitmaps="effects/rain-drop-green.png" 
-		 line_length="300" 
+		<node class="BITMAP"
+
+
+		 number_of_particles="3"
+		 initial_age="-0.5;0"
+		 age_to_die="0.5;0.7"
+		 position_offset="0,0,0"
+		 position_spread_box="4,4,100"
+		 move_speed="32;53"
+		 move_direction="0,0,-1"
+		 move_angle_spread="0;2"
+		 gravity_multiplier="-2.3"
+		 alpha_curve="0,0;0.5,1;0.7,1;1,0"
+		 scale_curve="0,0.2;1,0.3"
+		 alpha_multiplier="0.12;0.14"
+		 scale_multiplier="1"
+
+		 blend_mode="ADDITIVE"
+
+		 bitmaps="effects/rain-drop-green.png"
+		 line_length="300"
 		 />
 
 	</array>

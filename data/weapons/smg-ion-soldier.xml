@@ -7,24 +7,24 @@
 			name="Ion SMG Soldier"
 			displayable_type="Submachine gun"
 			displayable_lore="Lore here"
-			
-            equip_price="350"
-            unlock_price="700"
-            
+
+			equip_price="350"
+			unlock_price="700"
+
 			bm_icon="!NONE"
-            bm_manufacturer_icon="weapons/gfx/logo_quantum.png"
+			bm_manufacturer_icon="weapons/gfx/logo_quantum.png"
 			snd_fire="sfx/weapons/ion-smg-fire"
 			snd_reload="sfx/weapons/autorifle_reload"
 			snd_empty_clip="sfx/weapons/empty_clip_ion"
 
 			effect_muzzle_flash="effects/muzzle-ion.xml"
-            effect_shell_eject="effects/one_shell_ejected.xml"
-			
-            type="WEAPON_TYPE_PROJECTILE"
-            crit_chance="0.04"
-            related_actor = "actors/weapon-smg-ion.xml"
+			effect_shell_eject="effects/one_shell_ejected.xml"
+
+			type="WEAPON_TYPE_PROJECTILE"
+			crit_chance="0.04"
+			related_actor = "actors/weapon-smg-ion.xml"
 			projectile_actor="actors/projectile-smg-ion.xml"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="900"
 			projectile_range_random="0.1"
@@ -42,8 +42,8 @@
 			reload_time="1.8"
 			reload_size="12"
 			clip_size="12"
-            ammo_refill_size="1"
-            
+			ammo_refill_size="1"
+
 			damage="5"
 			projectile_speed="650"
 			projectile_speed_random="0.1"
@@ -57,13 +57,13 @@
 			unlimited_ammo="true"
 			damage_multiplier="1.0"
 
-            model="models/smg.xml"
+			model="models/smg.xml"
 
 			damage_multiplier_robotic="1.25"
 			damage_multiplier_organic="0.75"
 
 		/>
-		
+
 	</array>
 </root>
 

@@ -18,16 +18,16 @@
 		<node id="weapons/firemode-charged-plasma.xml"              medal_requirement="140"  upgrade_levels="10"    purchase_cost="11000" upgrade_cost="200" />
 
 	</array>
-    
+
 	<array id="ABILITIES">
  		<node id="ROCKETS"              medal_requirement="0"    upgrade_levels="6"     purchase_cost="200"    upgrade_cost="100" />
 		<node id="SHOCK_ORB"            medal_requirement="10"   upgrade_levels="6"     purchase_cost="1500"   upgrade_cost="130" />
 		<node id="STUN_GRENADES"        medal_requirement="15"   upgrade_levels="6"     purchase_cost="2000"   upgrade_cost="150" />
-        
+
 		<node id="MECHANICAL_SPIDER"    medal_requirement="19"   upgrade_levels="6"     purchase_cost="3000"   upgrade_cost="220" />
 		<node id="C4"                   medal_requirement="25"   upgrade_levels="6"     purchase_cost="4000"   upgrade_cost="190" />
 		<node id="FLAME_GRENADES"       medal_requirement="31"   upgrade_levels="6"     purchase_cost="5000"   upgrade_cost="200" />
-        
+
 		<node id="MICRO_MISSILES"       medal_requirement="35"   upgrade_levels="6"     purchase_cost="6000"   upgrade_cost="200" />
 		<node id="OFFENSIVE_GRENADES"   medal_requirement="38"   upgrade_levels="6"     purchase_cost="7000"   upgrade_cost="200" />
 		<node id="PLASMA_BURST"         medal_requirement="45"   upgrade_levels="6"     purchase_cost="8000"   upgrade_cost="200" />
@@ -35,17 +35,17 @@
 		<node id="MINES"                medal_requirement="55"   upgrade_levels="6"     purchase_cost="9000"   upgrade_cost="200" />
 		<node id="CONVERT_ENEMY"        medal_requirement="64"   upgrade_levels="6"     purchase_cost="10000"  upgrade_cost="500" />
 		<node id="EXPLOSIVE_BOLT"       medal_requirement="82"   upgrade_levels="6"     purchase_cost="11000"  upgrade_cost="200" />
-        
-        <node id="STUN_PULSE"           medal_requirement="98"  upgrade_levels="6"      purchase_cost="12000"  upgrade_cost="200" />
-    	<node id="NADE_LAUNCHER"        medal_requirement="125"  upgrade_levels="6"     purchase_cost="13000"  upgrade_cost="200" />
-    	<node id="TURRET_MACHINE_GUN"   medal_requirement="138"  upgrade_levels="4"     purchase_cost="14000"  upgrade_cost="500" />
+
+		<node id="STUN_PULSE"           medal_requirement="98"  upgrade_levels="6"      purchase_cost="12000"  upgrade_cost="200" />
+		<node id="NADE_LAUNCHER"        medal_requirement="125"  upgrade_levels="6"     purchase_cost="13000"  upgrade_cost="200" />
+		<node id="TURRET_MACHINE_GUN"   medal_requirement="138"  upgrade_levels="4"     purchase_cost="14000"  upgrade_cost="500" />
 	</array>
-    
+
 	<array id="UNUSED_ABILITIES">
-        
+
 		<node id="CLUSTER_GRENADES"     medal_requirement="23"   upgrade_levels="6"     purchase_cost="2800"  upgrade_cost="200" />
 		<node id="LASER_PULSE"          medal_requirement="9"    upgrade_levels="6"     purchase_cost="1800"  upgrade_cost="200" />
 		<node id="RAIL_PULSE"           medal_requirement="11"   upgrade_levels="6"     purchase_cost="2000"  upgrade_cost="200" />
 	</array>
-    
+
 </root>

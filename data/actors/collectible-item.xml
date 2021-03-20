@@ -2,31 +2,31 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 name="Collectible" 
-		 renderer="SingleBitmapCollectible" 
-		 ai="Collectible" 
-		 friend_group="COLLECTIBLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 bitmap_move="ui/gfx/lock.png" 
-		 effect_on_death="effects/collectible-collected.xml" 
-		 bitmap_shadow="!NONE" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="1" 
-		 hit_points="11500" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 name="Collectible"
+		 renderer="SingleBitmapCollectible"
+		 ai="Collectible"
+		 friend_group="COLLECTIBLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 bitmap_move="ui/gfx/lock.png"
+		 effect_on_death="effects/collectible-collected.xml"
+		 bitmap_shadow="!NONE"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="1"
+		 hit_points="11500"
+		 damage="0.0"
 		/>
 
 		<node id="COLLIDER" collider_generation_method="MANUAL" cylinder_radius="20" type="CYLINDER" cylinder_min_z="-60" cylinder_max_z="0" />
-        
-		<node id="CUSTOM_DATA" 
-		 collectible_type="collectible" 
-		 indestructible="true" 
-		 interaction_tip="COLLECT" 
-		 interaction_type="collectible" 
+
+		<node id="CUSTOM_DATA"
+		 collectible_type="collectible"
+		 indestructible="true"
+		 interaction_tip="COLLECT"
+		 interaction_type="collectible"
 		/>
 
 	</array>

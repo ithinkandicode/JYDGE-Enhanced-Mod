@@ -17,8 +17,8 @@
 	</array>
 
 	<array id="vertex_output">
-    	<node id="position" type="FLOAT4" semantic="POSITION" />
-    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+		<node id="position" type="FLOAT4" semantic="POSITION" />
+		<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
 	</array>
 
 	<array id="pixel_constants">

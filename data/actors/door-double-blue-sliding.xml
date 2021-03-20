@@ -2,41 +2,41 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-			physics_material="STEEL" 
-			renderer="Model" 
-			ai="Door" 
-			friend_group="OBSTACLES" 
-			turn_speed="2.5" 
-			move_speed="10" 
-			scale="1" 
-			model_idle="models/door-inner-double-blue.xml" 
-			bitmap_shadow="!NONE" 
-			shadow_angle="0" 
-			shadow_scale="1" 
-            hit_points="500" 
-            minimum_damage_threshold="20" 
-			damage="0.0" 
+		<node id="PARAMETERS"
+			physics_material="STEEL"
+			renderer="Model"
+			ai="Door"
+			friend_group="OBSTACLES"
+			turn_speed="2.5"
+			move_speed="10"
+			scale="1"
+			model_idle="models/door-inner-double-blue.xml"
+			bitmap_shadow="!NONE"
+			shadow_angle="0"
+			shadow_scale="1"
+			hit_points="500"
+			minimum_damage_threshold="20"
+			damage="0.0"
 		/>
 
 		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
 		<node id="CUSTOM_DATA"
-			color="blue" 
-			interaction_tip="{k_use}" 
-			interaction_type="locked_door" 
-            has_damage_indicator="true"
-		    explosion_required_to_damage="true" 
+			color="blue"
+			interaction_tip="{k_use}"
+			interaction_type="locked_door"
+			has_damage_indicator="true"
+		    explosion_required_to_damage="true"
 		/>
 	</array>
 
 	<array id="GIBS_WALL">
-		<node id="DESTRUCTION_1" 
-			model_group_1="LIGHTWALL,NONE,16,LIGHTWALL" 
-			model_group_2="OBJECT_SMALL,NONE,2,NONE" 
-			model_group_3="METAL_SMALL,NONE,2,NONE" 
-			model_group_4="METAL_PLATE,NONE,2,NONE" 
-			model_group_5="METAL_LARGE,NONE,4,NONE" 
-			particle_effect_1="effects/wall-cubicle-breaks.xml" 
+		<node id="DESTRUCTION_1"
+			model_group_1="LIGHTWALL,NONE,16,LIGHTWALL"
+			model_group_2="OBJECT_SMALL,NONE,2,NONE"
+			model_group_3="METAL_SMALL,NONE,2,NONE"
+			model_group_4="METAL_PLATE,NONE,2,NONE"
+			model_group_5="METAL_LARGE,NONE,4,NONE"
+			particle_effect_1="effects/wall-cubicle-breaks.xml"
 		/>
 
 	</array>

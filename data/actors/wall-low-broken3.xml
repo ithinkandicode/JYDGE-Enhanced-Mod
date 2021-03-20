@@ -2,20 +2,20 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="CONCRETE" 
-		 renderer="NeonChromeModel" 
-		 ai="Wall" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/wall-low-broken2.xml" 
-		 bitmap_shadow="shadows/frame-thin-double-shadow.png" 
-		 shadow_angle="0" 
-		 shadow_scale="1" 
-		 hit_points="1500000" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="CONCRETE"
+		 renderer="NeonChromeModel"
+		 ai="Wall"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/wall-low-broken2.xml"
+		 bitmap_shadow="shadows/frame-thin-double-shadow.png"
+		 shadow_angle="0"
+		 shadow_scale="1"
+		 hit_points="1500000"
+		 damage="0.0"
 		/>
 
 		<node id="RENDERER_DATA" has_reflection="false" />

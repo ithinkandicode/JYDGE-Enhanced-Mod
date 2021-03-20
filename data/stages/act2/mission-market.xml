@@ -6,7 +6,7 @@
  <node id="cells_width" value="55" />
  <node id="cells_height" value="57" />
  <node id="ambient_light" r="0.14" g="0.14" b="0.14" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -4387,31 +4387,31 @@
  <node ref_number="1218" type="actors/wall-warehouse-thick-I.xml" x="240" y="1320" angle_z="360"  />
  <node ref_number="1219" type="actors/dumpster.xml" x="2762" y="733" angle_z="355"  />
  <node ref_number="1220" type="actors/dumpster.xml" x="2830" y="588" angle_z="89"  />
- <node ref_number="1221" type="actors/enemy-jydge-shooter-tough.xml" x="2296" y="473" angle_z="183" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="3" 
- key_STRING_name="Lanz" 
- key_BOOLEAN_guard="true" 
+ <node ref_number="1221" type="actors/enemy-jydge-shooter-tough.xml" x="2296" y="473" angle_z="183" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="3"
+ key_STRING_name="Lanz"
+ key_BOOLEAN_guard="true"
   />
- <node ref_number="1222" type="actors/enemy-jydge-shooter-tough.xml" x="1539" y="1454" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="1501,1403,0;1487,1354,0;1495,1285,0;1492,1236,0;1514,1200,0;1507,1158,0;1481,1143,0;1439,1128,0;1386,1142,0;1364,1167,0;1368,1216,0;1388,1254,0;1398,1306,0;1395,1373,0;1372,1413,0;1291,1471,0;1254,1522,0;1258,1581,0;1297,1633,0;1362,1668,0;1396,1709,0;1424,1733,0;1456,1733,0;1488,1711,0;1547,1647,0;1596,1599,0;1613,1552,0;1608,1513,0;1580,1464,0;1533,1438,0;1502,1405,0" 
- key_STRING_name="Vinz" 
+ <node ref_number="1222" type="actors/enemy-jydge-shooter-tough.xml" x="1539" y="1454" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="1501,1403,0;1487,1354,0;1495,1285,0;1492,1236,0;1514,1200,0;1507,1158,0;1481,1143,0;1439,1128,0;1386,1142,0;1364,1167,0;1368,1216,0;1388,1254,0;1398,1306,0;1395,1373,0;1372,1413,0;1291,1471,0;1254,1522,0;1258,1581,0;1297,1633,0;1362,1668,0;1396,1709,0;1424,1733,0;1456,1733,0;1488,1711,0;1547,1647,0;1596,1599,0;1613,1552,0;1608,1513,0;1580,1464,0;1533,1438,0;1502,1405,0"
+ key_STRING_name="Vinz"
   />
- <node ref_number="1223" type="actors/enemy-jydge-shooter-tough.xml" x="2638" y="1553" angle_z="331" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_INTEGER_required_difficulty="1" 
- key_STRING_name="Lanz" 
+ <node ref_number="1223" type="actors/enemy-jydge-shooter-tough.xml" x="2638" y="1553" angle_z="331" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_INTEGER_required_difficulty="1"
+ key_STRING_name="Lanz"
   />
- <node ref_number="1224" type="actors/enemy-jydge-shooter-tough.xml" x="1473" y="2697" angle_z="334" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="0" 
- key_STRING_name="Lanz" 
- key_BOOLEAN_guard="true" 
+ <node ref_number="1224" type="actors/enemy-jydge-shooter-tough.xml" x="1473" y="2697" angle_z="334" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="0"
+ key_STRING_name="Lanz"
+ key_BOOLEAN_guard="true"
   />
- <node ref_number="1225" type="actors/enemy-jydge-shooter-tough.xml" x="2266" y="762" angle_z="90" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="2" 
- key_INTEGER_highest_allowed_difficulty="2" 
- key_STRING_name="Lanz" 
- key_BOOLEAN_guard="true" 
+ <node ref_number="1225" type="actors/enemy-jydge-shooter-tough.xml" x="2266" y="762" angle_z="90" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="2"
+ key_INTEGER_highest_allowed_difficulty="2"
+ key_STRING_name="Lanz"
+ key_BOOLEAN_guard="true"
   />
  <node ref_number="1226" type="actors/wall-residential-thick-L.xml" x="2100" y="2280" angle_z="90"  />
  <node ref_number="1227" type="actors/wall-residential-thick-I.xml" x="2100" y="2340" angle_z="180"  />
@@ -4434,10 +4434,10 @@
  <node ref_number="1244" type="actors/door-outer-double-sliding-unlit.xml" x="240" y="2070"  />
  <node ref_number="1245" type="actors/door-outer-double-sliding-unlit.xml" x="240" y="2010" angle_z="180"  />
  <node ref_number="1246" type="actors/wall-warehouse-thick-I.xml" x="120" y="1680" angle_z="90"  />
- <node ref_number="1247" type="actors/billboard-standing.xml" x="300" y="1560" angle_z="17" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-eye.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1247" type="actors/billboard-standing.xml" x="300" y="1560" angle_z="17" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-eye.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1248" type="actors/wall-residential-thick-I.xml" x="1200" y="780" angle_z="180"  />
  <node ref_number="1249" type="actors/wall-residential-thick-T.xml" x="1200" y="840" angle_z="180"  />
@@ -5001,22 +5001,22 @@
  <node ref_number="1807" type="actors/wall-residential-thick-I.xml" x="720" y="240" angle_z="180"  />
  <node ref_number="1808" type="actors/wall-residential-thick-I.xml" x="720" y="300" angle_z="180"  />
  <node ref_number="1809" type="actors/wall-residential-thick-I.xml" x="720" y="360" angle_z="180"  />
- <node ref_number="1810" type="actors/screen-billboard.xml" x="830" y="913" z="-140" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.85" 
- key_BITMAP_bitmap2="billboards/edenbyrg.jpg" 
+ <node ref_number="1810" type="actors/screen-billboard.xml" x="830" y="913" z="-140" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.85"
+ key_BITMAP_bitmap2="billboards/edenbyrg.jpg"
   />
- <node ref_number="1811" type="actors/screen-billboard.xml" x="1080" y="911" z="-140" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/eye.jpg" 
- key_FLOAT_luminocity="1" 
+ <node ref_number="1811" type="actors/screen-billboard.xml" x="1080" y="911" z="-140" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/eye.jpg"
+ key_FLOAT_luminocity="1"
   />
- <node ref_number="1812" type="actors/screen-billboard.xml" x="704" y="784" z="-299" angle_z="180" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/cryonix.jpg" 
- key_FLOAT_luminocity="0.8" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1812" type="actors/screen-billboard.xml" x="704" y="784" z="-299" angle_z="180" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/cryonix.jpg"
+ key_FLOAT_luminocity="0.8"
+ key_STRING_script="scripts/billboards/default.nut"
   />
  <node ref_number="1813" type="actors/keycard-blue.xml" x="2661" y="266" angle_z="707" key_INTEGER_required_difficulty="1" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1814" type="actors/wall-residential-thick-I.xml" x="2100" y="1680" angle_z="90"  />
@@ -5193,15 +5193,15 @@
  <node ref_number="1985" type="actors/door-outer-collectible-key-sliding.xml" x="1920" y="2700" angle_z="90" key_STRING_collectible_key="OLD_KEY"  />
  <node ref_number="1986" type="actors/enemy-proximity-mine.xml" x="1631" y="2828" angle_z="35" key_INTEGER_required_difficulty="2"  />
  <node ref_number="1987" type="actors/enemy-proximity-mine.xml" x="1007" y="2896" angle_z="55" key_INTEGER_required_difficulty="2"  />
- <node ref_number="1988" type="actors/subway-elevator.xml" x="1800" y="180" angle_z="90" key_BOOLEAN_invisible="false" 
- key_INTEGER_max_spawns_total="20" 
- key_INTEGER_max_living_spawns="5" 
- key_FLOAT_spawn_interval="10" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="1988" type="actors/subway-elevator.xml" x="1800" y="180" angle_z="90" key_BOOLEAN_invisible="false"
+ key_INTEGER_max_spawns_total="20"
+ key_INTEGER_max_living_spawns="5"
+ key_FLOAT_spawn_interval="10"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
  <node ref_number="1989" type="actors/subway-elevator-door-R.xml" x="1800" y="240" angle_z="270"  />
  <node ref_number="1990" type="actors/subway-elevator-door-L.xml" x="1800" y="240" angle_z="90"  />
@@ -5213,15 +5213,15 @@
  <node ref_number="1996" type="actors/wall-residential-thick-cap.xml" x="1740" y="180" angle_z="90"  />
  <node ref_number="1997" type="actors/wall-residential-thick-L.xml" x="1680" y="180"  />
  <node ref_number="1998" type="actors/wall-residential-thick-I.xml" x="1680" y="240" angle_z="180"  />
- <node ref_number="1999" type="actors/timerdevice.xml" x="1841" y="286" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_FLOAT_countdown_timer="1" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="true" 
- key_BOOLEAN_looping="false" 
- key_BOOLEAN_can_be_stopped="false" 
- key_STAGE_OBJECT_REFERENCE_new_8="1988" 
- key_INTEGER_required_difficulty="2" 
+ <node ref_number="1999" type="actors/timerdevice.xml" x="1841" y="286" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_FLOAT_countdown_timer="1"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="true"
+ key_BOOLEAN_looping="false"
+ key_BOOLEAN_can_be_stopped="false"
+ key_STAGE_OBJECT_REFERENCE_new_8="1988"
+ key_INTEGER_required_difficulty="2"
   />
  <node ref_number="2000" type="actors/door-outer-double-red-sliding.xml" x="1320" y="2340" angle_z="90" key_INTEGER_highest_allowed_difficulty="0"  />
  <node ref_number="2001" type="actors/door-outer-double-red-sliding.xml" x="1380" y="2340" angle_z="270" key_INTEGER_highest_allowed_difficulty="0"  />
@@ -5243,16 +5243,16 @@
  <node ref_number="2017" type="actors/wall-metal-thick-stackable-I.xml" x="720" y="480" z="-353" angle_z="180"  />
  <node ref_number="2018" type="actors/wall-metal-thick-stackable-I.xml" x="720" y="420" z="-353" angle_z="180"  />
  <node ref_number="2019" type="actors/wall-metal-thick-stackable-I.xml" x="720" y="360" z="-353" angle_z="180"  />
- <node ref_number="2020" type="actors/screen-billboard.xml" x="830" y="914" z="-299" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="1" 
- key_BITMAP_bitmap2="billboards/neon-chrome.jpg" 
+ <node ref_number="2020" type="actors/screen-billboard.xml" x="830" y="914" z="-299" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="1"
+ key_BITMAP_bitmap2="billboards/neon-chrome.jpg"
   />
- <node ref_number="2021" type="actors/screen-billboard.xml" x="1080" y="912" z="-299" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/kosla.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2021" type="actors/screen-billboard.xml" x="1080" y="912" z="-299" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/kosla.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="2022" type="actors/wall-metal-thick-stackable-L.xml" x="300" y="840" z="-180" angle_z="180"  />
  <node ref_number="2023" type="actors/wall-metal-thick-stackable-I.xml" x="300" y="780" z="-180" angle_z="180"  />
@@ -5263,11 +5263,11 @@
  <node ref_number="2028" type="actors/wall-metal-thick-stackable-I.xml" x="240" y="840" z="-180" angle_z="270"  />
  <node ref_number="2029" type="actors/wall-metal-thick-stackable-I.xml" x="180" y="840" z="-180" angle_z="270"  />
  <node ref_number="2030" type="actors/wall-metal-thick-stackable-I.xml" x="120" y="840" z="-180" angle_z="270"  />
- <node ref_number="2031" type="actors/screen-billboard.xml" x="313" y="706" z="-80" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/cryonix.jpg" 
- key_FLOAT_luminocity="0.8" 
- key_BITMAP_bitmap2="billboards/nanoedge.jpg" 
+ <node ref_number="2031" type="actors/screen-billboard.xml" x="313" y="706" z="-80" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/cryonix.jpg"
+ key_FLOAT_luminocity="0.8"
+ key_BITMAP_bitmap2="billboards/nanoedge.jpg"
   />
  <node ref_number="2032" type="actors/vending-machine.xml" x="688" y="854" angle_z="180"  />
  <node ref_number="2033" type="actors/door-outer-double-yellow-sliding.xml" x="1800" y="2040"  />
@@ -5286,30 +5286,30 @@
  <node ref_number="2046" type="actors/door-outer-double-sliding.xml" x="2160" y="1500" angle_z="180" key_INTEGER_required_difficulty="0" key_INTEGER_highest_allowed_difficulty="0"  />
  <node id="G22722" ref_number="2047" type="actors/box-closed.xml" x="1151" y="1821" angle_z="98" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node ref_number="2048" type="actors/civilian-generic-homeless-male.xml" x="2601" y="978" angle_z="87" key_STRING_animation="models/animations/humanoid_rig-humanoid_idle_handwarm.xml" key_STAGE_OBJECT_REFERENCE_animation_interaction_target="1399" key_BOOLEAN_animation_can_be_interrupted="false"  />
- <node ref_number="2049" type="actors/billboard-wall.xml" x="1347" y="2165" angle_z="90" scale="1.029056" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-miisuk.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2049" type="actors/billboard-wall.xml" x="1347" y="2165" angle_z="90" scale="1.029056" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-miisuk.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2050" type="actors/billboard-standing.xml" x="309" y="1254" angle_z="19" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2050" type="actors/billboard-standing.xml" x="309" y="1254" angle_z="19" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2051" type="actors/billboard-standing.xml" x="1659" y="940" angle_z="86" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-kosla.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2051" type="actors/billboard-standing.xml" x="1659" y="940" angle_z="86" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-kosla.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2052" type="actors/billboard-standing.xml" x="1432" y="942" angle_z="89" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2052" type="actors/billboard-standing.xml" x="1432" y="942" angle_z="89" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2053" type="actors/billboard-standing.xml" x="2135" y="1101" angle_z="180" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-neoncorp.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2053" type="actors/billboard-standing.xml" x="2135" y="1101" angle_z="180" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-neoncorp.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="2054" type="actors/civilian-generic-pedestrian-male.xml" x="402" y="2471" key_BOOLEAN_patrol="true" key_PATH_patrol_route="430,2448,0;507,2452,0;600,2463,0;622,2509,0;620,2834,0;644,3053,0;619,3167,0;496,3200,0;386,3167,0;377,3031,0;398,2816,0;380,2512,0;393,2465,0"  />
  <node ref_number="2055" type="actors/civilian-generic-pedestrian-male.xml" x="592" y="2482" key_BOOLEAN_patrol="true" key_PATH_patrol_route="430,2448,0;507,2452,0;600,2463,0;622,2509,0;620,2834,0;644,3053,0;619,3167,0;496,3200,0;386,3167,0;377,3031,0;398,2816,0;380,2512,0;393,2465,0"  />
@@ -5318,67 +5318,67 @@
  <node ref_number="2058" type="actors/civilian-generic-pedestrian-male.xml" x="536" y="737" key_BOOLEAN_patrol="true" key_PATH_patrol_route="432,722,0;539,732,0;609,712,0;613,549,0;610,406,0;598,294,0;406,289,0;395,535,0;381,655,0;392,707,0"  />
  <node ref_number="2059" type="actors/civilian-generic-pedestrian-male.xml" x="616" y="445" key_BOOLEAN_patrol="true" key_PATH_patrol_route="432,722,0;539,732,0;609,712,0;613,549,0;610,406,0;598,294,0;406,289,0;395,535,0;381,655,0;392,707,0"  />
  <node ref_number="2060" type="actors/civilian-generic-pedestrian-male.xml" x="390" y="515" key_BOOLEAN_patrol="true" key_PATH_patrol_route="432,722,0;539,732,0;609,712,0;613,549,0;610,406,0;598,294,0;406,289,0;395,535,0;381,655,0;392,707,0"  />
- <node ref_number="2061" type="actors/billboard-standing.xml" x="153" y="870" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2061" type="actors/billboard-standing.xml" x="153" y="870" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2062" type="actors/billboard-standing.xml" x="2074" y="927" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-explodz.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2062" type="actors/billboard-standing.xml" x="2074" y="927" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-explodz.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2063" parent="1638" type="actors/billboard-wall.xml" x="2" y="-1" angle_z="-180" scale="0.900000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-default.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2063" parent="1638" type="actors/billboard-wall.xml" x="2" y="-1" angle_z="-180" scale="0.900000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-default.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="2064" type="actors/civilian-generic-pedestrian.xml" x="556" y="993" scale="1.000000" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1105,1061,0;1252,1024,0;1322,959,0;1317,879,0;1284,687,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle_nowpn.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1288,791,0;1337,963,0;1408,1004,0;1525,1015,0;1692,998,0;1754,975,0;1778,950,0;1785,920,0;1797,536,0;1814,933,0;1782,1049,0;1779,1135,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle_nowpn.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1737,1074,0;1663,1060,0;1451,1060,0;1268,1016,0;1148,960,0;1143,910,0,{{STRING,&Q&animation&Q&,&Q&humanoid_rig-humanoid_hack.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1136,987,0;798,998,0;553,1010,0;278,1016,0;860,1032,0;1105,1061,0"  />
  <node ref_number="2065" type="actors/civilian-generic-pedestrian.xml" x="857" y="1048" scale="1.000000" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1105,1061,0;1252,1024,0;1322,959,0;1317,879,0;1284,687,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle_nowpn.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1288,791,0;1337,963,0;1408,1004,0;1525,1015,0;1692,998,0;1754,975,0;1778,950,0;1785,920,0;1797,536,0;1814,933,0;1782,1049,0;1779,1135,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle_nowpn.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1737,1074,0;1663,1060,0;1451,1060,0;1268,1016,0;1148,960,0;1143,910,0,{{STRING,&Q&animation&Q&,&Q&humanoid_rig-humanoid_hack.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1136,987,0;798,998,0;553,1010,0;278,1016,0;860,1032,0;1105,1061,0"  />
- <node ref_number="2066" type="actors/screen-billboard.xml" x="2340" y="1700" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/edenbyrg.jpg" 
+ <node ref_number="2066" type="actors/screen-billboard.xml" x="2340" y="1700" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/edenbyrg.jpg"
   />
- <node ref_number="2067" type="actors/screen-billboard.xml" x="2650" y="1700" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/omni-sec.jpg" 
+ <node ref_number="2067" type="actors/screen-billboard.xml" x="2650" y="1700" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/omni-sec.jpg"
   />
- <node ref_number="2068" type="actors/screen-billboard.xml" x="2960" y="1700" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/jydge.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/nuketron.jpg" 
+ <node ref_number="2068" type="actors/screen-billboard.xml" x="2960" y="1700" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/jydge.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/nuketron.jpg"
   />
- <node ref_number="2069" type="actors/screen-billboard.xml" x="237" y="1575" z="-370" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2069" type="actors/screen-billboard.xml" x="237" y="1575" z="-370" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2070" type="actors/screen-billboard.xml" x="236" y="1575" z="-200" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/explodz.jpg" 
- key_FLOAT_luminocity="0.85" 
- key_BITMAP_bitmap2="billboards/eye.jpg" 
+ <node ref_number="2070" type="actors/screen-billboard.xml" x="236" y="1575" z="-200" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/explodz.jpg"
+ key_FLOAT_luminocity="0.85"
+ key_BITMAP_bitmap2="billboards/eye.jpg"
   />
- <node ref_number="2071" type="actors/screen-billboard.xml" x="234" y="1324" z="-200" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/jydge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="2071" type="actors/screen-billboard.xml" x="234" y="1324" z="-200" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/jydge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="2072" type="actors/screen-billboard.xml" x="235" y="1326" z="-370" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/mediplus.jpg" 
- key_FLOAT_luminocity="0.8" 
- key_BITMAP_bitmap2="billboards/armocore.jpg" 
+ <node ref_number="2072" type="actors/screen-billboard.xml" x="235" y="1326" z="-370" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/mediplus.jpg"
+ key_FLOAT_luminocity="0.8"
+ key_BITMAP_bitmap2="billboards/armocore.jpg"
   />
- <node ref_number="2073" type="actors/screen-billboard.xml" x="320" y="1804" z="12" scale="1.050000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.85" 
+ <node ref_number="2073" type="actors/screen-billboard.xml" x="320" y="1804" z="12" scale="1.050000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.85"
   />
  <node ref_number="2074" type="actors/shadowmask-solid.xml" x="840" y="780" z="-476" scale="4.000000"  />
  <node ref_number="2075" type="actors/shadowmask-gradient.xml" x="1020" y="840" z="-476" scale="2.000000"  />
@@ -5413,20 +5413,20 @@
  <node ref_number="2104" type="actors/shadowmask-gradient.xml" x="450" y="630" z="-476" angle_z="90" scale="4.000000"  />
  <node ref_number="2105" type="actors/shadowmask-gradient.xml" x="210" y="630" z="-476" angle_z="90" scale="4.000000"  />
  <node ref_number="2106" type="actors/shadowmask-solid.xml" x="240" y="270" z="-476" scale="8.000000"  />
- <node ref_number="2107" type="actors/enemy-jydge-miniboss-act1.xml" x="498" y="1282" angle_z="53" key_INTEGER_required_difficulty="2" 
- key_STRING_spawn_id="Tarantella" 
- key_STRING_name="Tarantella" 
- key_STRING_force_loot_table="boss_drop" 
+ <node ref_number="2107" type="actors/enemy-jydge-miniboss-act1.xml" x="498" y="1282" angle_z="53" key_INTEGER_required_difficulty="2"
+ key_STRING_spawn_id="Tarantella"
+ key_STRING_name="Tarantella"
+ key_STRING_force_loot_table="boss_drop"
   />
- <node ref_number="2108" type="actors/enemy-jydge-miniboss-act1.xml" x="490" y="1986" angle_z="6" key_INTEGER_required_difficulty="3" 
- key_STRING_spawn_id="Weaver" 
- key_STRING_name="Weaver" 
- key_STRING_force_loot_table="boss_drop" 
+ <node ref_number="2108" type="actors/enemy-jydge-miniboss-act1.xml" x="490" y="1986" angle_z="6" key_INTEGER_required_difficulty="3"
+ key_STRING_spawn_id="Weaver"
+ key_STRING_name="Weaver"
+ key_STRING_force_loot_table="boss_drop"
   />
- <node ref_number="2109" type="actors/enemy-jydge-miniboss-act1.xml" x="2848" y="827" angle_z="166" key_INTEGER_required_difficulty="3" 
- key_STRING_spawn_id="Recluse" 
- key_STRING_name="Recluse" 
- key_STRING_force_loot_table="boss_drop" 
+ <node ref_number="2109" type="actors/enemy-jydge-miniboss-act1.xml" x="2848" y="827" angle_z="166" key_INTEGER_required_difficulty="3"
+ key_STRING_spawn_id="Recluse"
+ key_STRING_name="Recluse"
+ key_STRING_force_loot_table="boss_drop"
   />
  <node ref_number="2110" type="actors/bird.xml" x="286" y="956" angle_z="290" scale="1.000000"  />
  <node ref_number="2111" type="actors/bird.xml" x="946" y="1693" angle_z="355" scale="1.000000"  />

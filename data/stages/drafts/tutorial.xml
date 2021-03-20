@@ -7,7 +7,7 @@
  <node id="cells_height" value="32" />
  <node id="ambient_light" r="0.15" g="0.15" b="0.16" />
  <node id="name" value="JYDGE Training Facility" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 

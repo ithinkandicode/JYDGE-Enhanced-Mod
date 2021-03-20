@@ -2,51 +2,51 @@
 
 <root>
 
-    <!-- rarity is x per 1000 levels   -->
+	<!-- rarity is x per 1000 levels   -->
 
 
 	<array id="MISC_SETTINGS">
 
 
-        <node id="LIGHTS_OUT_AMBIENT_MULTIPLIER" value="0.75" />
-        <node id="LIGHTS_OUT_LIGHT_RADIUS_MULTIPLIER" value="0.9" />
-        <node id="LIGHTS_OUT_LIGHT_INTENSITY_MULTIPLIER" value="0.75" />
+		<node id="LIGHTS_OUT_AMBIENT_MULTIPLIER" value="0.75" />
+		<node id="LIGHTS_OUT_LIGHT_RADIUS_MULTIPLIER" value="0.9" />
+		<node id="LIGHTS_OUT_LIGHT_INTENSITY_MULTIPLIER" value="0.75" />
 
-        <!-- The amount of damage e.g. rocket ability gets at max upgraded level. -->
-        <node id="ABILITY_UPGRADE_POWER_SCALE" value="4.0" />
+		<!-- The amount of damage e.g. rocket ability gets at max upgraded level. -->
+		<node id="ABILITY_UPGRADE_POWER_SCALE" value="4.0" />
 
-        <!-- The amount of damage regular weapons get at max upgraded level. -->
-        <node id="WEAPON_UPGRADE_POWER_SCALE" value="4.0" />
+		<!-- The amount of damage regular weapons get at max upgraded level. -->
+		<node id="WEAPON_UPGRADE_POWER_SCALE" value="4.0" />
 
-        <node id="REMOVABLE_RIOT_SHIELDS" value="1" />
-        <node id="RIOT_SHIELD_HP" value="100.0" />
+		<node id="REMOVABLE_RIOT_SHIELDS" value="1" />
+		<node id="RIOT_SHIELD_HP" value="100.0" />
 
-        <node id="LEVEL_MODS_MIN_DEATHS_GLOBAL" value="4" />  <!-- in use -->
+		<node id="LEVEL_MODS_MIN_DEATHS_GLOBAL" value="4" />  <!-- in use -->
 
 		<node id="DAMAGE_MULTIPLIER_PER_100_LEVELS" value="6" />  <!-- in use -->
-        <node id="CRITICAL_MULTIPLIER_PER_100_LEVELS" value="1.6" /> <!-- in use -->
+		<node id="CRITICAL_MULTIPLIER_PER_100_LEVELS" value="1.6" /> <!-- in use -->
 		<node id="HEALTH_INCREASE_PER_100_LEVELS" value="800" /> <!-- in use -->
-        <node id="ENERGY_INCREASE_PER_100_LEVELS" value="550" /> <!-- in use -->
+		<node id="ENERGY_INCREASE_PER_100_LEVELS" value="550" /> <!-- in use -->
 
-        <node id="ENHANCEMENTS_SLOTS_AT_START" value="3" /> <!-- in use -->
-        <node id="MAX_ENHANCEMENT_SLOTS" value="10" /> <!-- in use -->
+		<node id="ENHANCEMENTS_SLOTS_AT_START" value="3" /> <!-- in use -->
+		<node id="MAX_ENHANCEMENT_SLOTS" value="10" /> <!-- in use -->
 
-        <node id="DAMAGE_START_PRICE" value="200" /> <!-- in use -->
-        <node id="DAMAGE_PRICE_MULTIPLIER" value="80" /> <!-- in use -->
-        <node id="CRITICAL_START_PRICE" value="200" /> <!-- in use -->
-        <node id="CRITICAL_PRICE_MULTIPLIER" value="40" /> <!-- in use -->
-        <node id="HEALTH_START_PRICE" value="200" /> <!-- in use -->
-        <node id="HEALTH_PRICE_MULTIPLIER" value="70" /> <!-- in use -->
-        <node id="ENERGY_START_PRICE" value="200" /> <!-- in use -->
-        <node id="ENERGY_PRICE_MULTIPLIER" value="30" /> <!-- in use -->
-        <node id="ENHANCEMENT_SLOT_START_PRICE" value="600" /> <!-- in use -->
-        <node id="ENHANCEMENT_SLOT_PRICE_MULTIPLIER" value="300" /> <!-- in use -->
+		<node id="DAMAGE_START_PRICE" value="200" /> <!-- in use -->
+		<node id="DAMAGE_PRICE_MULTIPLIER" value="80" /> <!-- in use -->
+		<node id="CRITICAL_START_PRICE" value="200" /> <!-- in use -->
+		<node id="CRITICAL_PRICE_MULTIPLIER" value="40" /> <!-- in use -->
+		<node id="HEALTH_START_PRICE" value="200" /> <!-- in use -->
+		<node id="HEALTH_PRICE_MULTIPLIER" value="70" /> <!-- in use -->
+		<node id="ENERGY_START_PRICE" value="200" /> <!-- in use -->
+		<node id="ENERGY_PRICE_MULTIPLIER" value="30" /> <!-- in use -->
+		<node id="ENHANCEMENT_SLOT_START_PRICE" value="600" /> <!-- in use -->
+		<node id="ENHANCEMENT_SLOT_PRICE_MULTIPLIER" value="300" /> <!-- in use -->
 
-        <node id="WEAPON_SHOT_INTERVAL_DECREASE_PERCENTAGE_PER_LEVEL" value="0.05" /> <!-- in use -->
-        <node id="WEAPON_DAMAGE_INCREASE_PERCENTAGE_PER_LEVEL" value="0.3" /> <!-- in use -->
-        <node id="WEAPON_RELOAD_TIME_DECREASE_PERCENTAGE_PER_LEVEL" value="0.1" /> <!-- in use -->
-        <node id="WEAPON_CLIP_SIZE_PERCENTAGE_INCREASE_PER_LEVEL" value="0.2" /> <!-- in use -->
-        <node id="WEAPON_CRIT_CHANCE_PERCENTAGE_INCREASE_PER_LEVEL" value="0.40" /> <!-- in use -->
+		<node id="WEAPON_SHOT_INTERVAL_DECREASE_PERCENTAGE_PER_LEVEL" value="0.05" /> <!-- in use -->
+		<node id="WEAPON_DAMAGE_INCREASE_PERCENTAGE_PER_LEVEL" value="0.3" /> <!-- in use -->
+		<node id="WEAPON_RELOAD_TIME_DECREASE_PERCENTAGE_PER_LEVEL" value="0.1" /> <!-- in use -->
+		<node id="WEAPON_CLIP_SIZE_PERCENTAGE_INCREASE_PER_LEVEL" value="0.2" /> <!-- in use -->
+		<node id="WEAPON_CRIT_CHANCE_PERCENTAGE_INCREASE_PER_LEVEL" value="0.40" /> <!-- in use -->
 
 		<!-- this could be changed with luck 0-100 to increase max twofold, multiplier 1+(luck/100), 50 would be 1.5x,  80 would be 1.8x-->
 
@@ -74,7 +74,7 @@
 
 		<node id="NUMBER_OF_SELECTABLE_ENHANCEMENTS" value="3" />  <!-- in use -->
 
-        <node id="ABILITIES_STUN_PULSE_MAX_RADIUS" value="550" />  <!-- in use -->
+		<node id="ABILITIES_STUN_PULSE_MAX_RADIUS" value="550" />  <!-- in use -->
 
 		<node id="LAST_CHANCE_MEDIKIT_PROBABILITY" value="0.45" /><!-- in use -->
 
@@ -104,9 +104,9 @@
 		<node id="PER_PLAYTHROUGH_ADDITIONAL_DAMAGE_MULTIPLIER" value="0.22" /><!-- in use -->
 
 
-        <node id="GLOBAL_ENEMY_HP_MULTIPLIER" value="1.0" /><!-- in use -->
-        <node id="GLOBAL_ENEMY_SPEED_MULTIPLIER" value="1.0" /><!-- in use -->
-        <node id="GLOBAL_ENEMY_DAMAGE_MULTIPLIER" value="1.0" /><!-- in use -->
+		<node id="GLOBAL_ENEMY_HP_MULTIPLIER" value="1.0" /><!-- in use -->
+		<node id="GLOBAL_ENEMY_SPEED_MULTIPLIER" value="1.0" /><!-- in use -->
+		<node id="GLOBAL_ENEMY_DAMAGE_MULTIPLIER" value="1.0" /><!-- in use -->
 
 
 		<node id="BOSS_HP_MULTIPLIER_PER_EXTRA_OVERSEER_LEVEL" value="1.5" /><!-- in use -->
@@ -119,84 +119,84 @@
 		<node id="XP_KILLS_FIRST_LEVEL" value="15" />
 		<node id="XP_CURVE_STEEPNESS" value="2.0" />
 
-        <!-- when over max, game gives credit box -->
+		<!-- when over max, game gives credit box -->
 		<node id="MAX_BOOSTERS_IN_LEVEL" value="1" /> <!-- in use -->
 
-        <!-- range is 0 - red - red+blue - 1, if over red+blue, then green, if under red, then red, if over red but under blue+red, then blue -->
-        <node id="BOOSTER_PROBABILITY_RED" value="0.41" /> <!-- in use -->
-        <node id="BOOSTER_PROBABILITY_BLUE" value="0.31" /> <!-- in use -->
+		<!-- range is 0 - red - red+blue - 1, if over red+blue, then green, if under red, then red, if over red but under blue+red, then blue -->
+		<node id="BOOSTER_PROBABILITY_RED" value="0.41" /> <!-- in use -->
+		<node id="BOOSTER_PROBABILITY_BLUE" value="0.31" /> <!-- in use -->
 
-        <node id="EXPLOSIVE_BULLET_RADIUS" value="40.0" /> <!-- in use -->
+		<node id="EXPLOSIVE_BULLET_RADIUS" value="40.0" /> <!-- in use -->
 		<node id="EXPLOSIVE_BULLET_DAMAGE" value="50.0" /> <!-- in use -->
 		<node id="EXPLOSIVE_BULLET_SHRAPNEL_AMOUNT" value="15" /> <!-- in use -->
-        <node id="EXPLOSIVE_BULLET_DAMAGE_MULTIPLIER" value="1.5" /> <!-- in use -->
+		<node id="EXPLOSIVE_BULLET_DAMAGE_MULTIPLIER" value="1.5" /> <!-- in use -->
 
 
-        <node id="SPIDERBOT_EXPLOSIVES_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7" /> <!-- in use -->
-        <node id="SPIDERBOT_AOE_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="50.0" /> <!-- in use -->
-        <node id="SPIDERBOT_AOE_RANGE_INCREASE_PER_PLAYTHROUGH" value="5.0" /> <!-- in use -->
-        <node id="SPIDERBOT_MAIN_GUN_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="1.25" /> <!-- in use -->
-        <node id="SPIDERBOT_SPEED_INCREASE_PER_PLAYTHROUGH" value="0.20" /> <!-- in use -->
-        <node id="SPIDERBOT_ADVANCED_SCALING_ENABLED" value="1" /> <!-- in use -->
-        <node id="SPIDERBOT_ROCKET_PROJECTILE_DAMAGE_INCREASE" value="1.0" /> <!-- in use -->
+		<node id="SPIDERBOT_EXPLOSIVES_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7" /> <!-- in use -->
+		<node id="SPIDERBOT_AOE_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="50.0" /> <!-- in use -->
+		<node id="SPIDERBOT_AOE_RANGE_INCREASE_PER_PLAYTHROUGH" value="5.0" /> <!-- in use -->
+		<node id="SPIDERBOT_MAIN_GUN_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="1.25" /> <!-- in use -->
+		<node id="SPIDERBOT_SPEED_INCREASE_PER_PLAYTHROUGH" value="0.20" /> <!-- in use -->
+		<node id="SPIDERBOT_ADVANCED_SCALING_ENABLED" value="1" /> <!-- in use -->
+		<node id="SPIDERBOT_ROCKET_PROJECTILE_DAMAGE_INCREASE" value="1.0" /> <!-- in use -->
 
-        <node id="HOVERTANK_SECONDARY_GUN_DAMAGE_INCREASE" value="0.4" /> <!-- in use -->
-        <node id="HOVERTANK_ROCKET_PROJECTILE_DAMAGE_INCREASE" value="0.1" /> <!-- in use -->
-        <node id="HOVERTANK_EXPLOSIVES_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
-        <node id="HOVERTANK_MAIN_GUN_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.4"/> <!-- in use -->
-        <node id="HOVERTANK_RAILGUN_SHOOT_INTERVAL_DECREASE" value="0.9"/> <!-- in use -->
-        <node id="HOVERTANK_DAMAGE_CURVE_SHAPE" value="0.8" /> <!-- in use -->
-        <node id="HOVERTANK_ADVANCED_SCALING_ENABLED" value="1"/> <!-- in use -->
+		<node id="HOVERTANK_SECONDARY_GUN_DAMAGE_INCREASE" value="0.4" /> <!-- in use -->
+		<node id="HOVERTANK_ROCKET_PROJECTILE_DAMAGE_INCREASE" value="0.1" /> <!-- in use -->
+		<node id="HOVERTANK_EXPLOSIVES_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
+		<node id="HOVERTANK_MAIN_GUN_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.4"/> <!-- in use -->
+		<node id="HOVERTANK_RAILGUN_SHOOT_INTERVAL_DECREASE" value="0.9"/> <!-- in use -->
+		<node id="HOVERTANK_DAMAGE_CURVE_SHAPE" value="0.8" /> <!-- in use -->
+		<node id="HOVERTANK_ADVANCED_SCALING_ENABLED" value="1"/> <!-- in use -->
 
-        <node id="CARETAKER_SPEED_MULTIPLIER" value="0.4" /> <!-- in use -->
-        <node id="CARETAKER_MORTAR_DAMAGE_INCREASE" value="40" /> <!-- in use -->
-        <node id="CARETAKER_ROCKET_PROJECTILE_DAMAGE_INCREASE" value="1.0" /> <!-- in use -->
-        <node id="CARETAKER_EXPLOSIVES_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
-        <node id="CARETAKER_PLASMA_DAMAGE_INCREASE" value="0.7"/> <!-- in use -->
-        <node id="CARETAKER_DAMAGE_CURVE_SHAPE" value="0.8" />  <!-- NOT in use -->
-        <node id="CARETAKER_ADVANCED_SCALING_ENABLED" value="1"/> <!-- in use -->
+		<node id="CARETAKER_SPEED_MULTIPLIER" value="0.4" /> <!-- in use -->
+		<node id="CARETAKER_MORTAR_DAMAGE_INCREASE" value="40" /> <!-- in use -->
+		<node id="CARETAKER_ROCKET_PROJECTILE_DAMAGE_INCREASE" value="1.0" /> <!-- in use -->
+		<node id="CARETAKER_EXPLOSIVES_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
+		<node id="CARETAKER_PLASMA_DAMAGE_INCREASE" value="0.7"/> <!-- in use -->
+		<node id="CARETAKER_DAMAGE_CURVE_SHAPE" value="0.8" />  <!-- NOT in use -->
+		<node id="CARETAKER_ADVANCED_SCALING_ENABLED" value="1"/> <!-- in use -->
 
-        <node id="CENTIPEDE_KAMIKAZE_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
-        <node id="CENTIPEDE_MISSILE_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
-        <node id="CENTIPEDE_SHIELD_BLOCKED_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="1.0"/> <!-- in use -->
-        <node id="CENTIPEDE_ADVANCED_SCALING_ENABLED" value="1"/> <!-- in use -->
+		<node id="CENTIPEDE_KAMIKAZE_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
+		<node id="CENTIPEDE_MISSILE_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
+		<node id="CENTIPEDE_SHIELD_BLOCKED_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="1.0"/> <!-- in use -->
+		<node id="CENTIPEDE_ADVANCED_SCALING_ENABLED" value="1"/> <!-- in use -->
 
-        <node id="BOSS_ELECTRIC_ARC_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
+		<node id="BOSS_ELECTRIC_ARC_DAMAGE_INCREASE_PER_PLAYTHROUGH" value="0.7"/> <!-- in use -->
 
-        <node id="ABILITY_SCALING_EXPLOSIVES_DAMAGE_PER_100_LEVELS" value="3.0" /> <!-- in use -->
-        <node id="ABILITY_SCALING_SHRAPNEL_DAMAGE_PER_100_LEVELS" value="2.0" /> <!-- in use -->
-        <node id="ABILITY_SCALING_PROJECTILES_PER_100_LEVELS" value="4.0" /> <!-- in use -->
+		<node id="ABILITY_SCALING_EXPLOSIVES_DAMAGE_PER_100_LEVELS" value="3.0" /> <!-- in use -->
+		<node id="ABILITY_SCALING_SHRAPNEL_DAMAGE_PER_100_LEVELS" value="2.0" /> <!-- in use -->
+		<node id="ABILITY_SCALING_PROJECTILES_PER_100_LEVELS" value="4.0" /> <!-- in use -->
 
-        <node id="USE_360_MELEE" value="0" /> <!-- in use -->
+		<node id="USE_360_MELEE" value="0" /> <!-- in use -->
 
-        <!-- detail level stuff, mobile versions can have lower details -->
-        <node id="SPAWN_SPINNERS" value="1" /> <!-- in use -->
-        <node id="CITY_SIZE" value="10" /> <!-- in use -->
-        <node id="GENERATED_LIGHT_SPACING" value="3" /> <!-- in use -->
-        <node id="GENERATED_RAIN" value="1" /> <!-- in use -->
-        <node id="LASER_BARRIER_NUM_BEAMS" value="3" /> <!-- in use -->
-        <node id="LASER_BARRIER_TOTAL_DAMAGE" value="450.0" /> <!-- in use -->
+		<!-- detail level stuff, mobile versions can have lower details -->
+		<node id="SPAWN_SPINNERS" value="1" /> <!-- in use -->
+		<node id="CITY_SIZE" value="10" /> <!-- in use -->
+		<node id="GENERATED_LIGHT_SPACING" value="3" /> <!-- in use -->
+		<node id="GENERATED_RAIN" value="1" /> <!-- in use -->
+		<node id="LASER_BARRIER_NUM_BEAMS" value="3" /> <!-- in use -->
+		<node id="LASER_BARRIER_TOTAL_DAMAGE" value="450.0" /> <!-- in use -->
 
-        <node id="PARTICLES_COLLIDE_TO_ACTORS" value="1" /> <!-- in use -->
-        <node id="PARTICLES_NUM_MULTIPLIER" value="1.0" /> <!-- in use -->
+		<node id="PARTICLES_COLLIDE_TO_ACTORS" value="1" /> <!-- in use -->
+		<node id="PARTICLES_NUM_MULTIPLIER" value="1.0" /> <!-- in use -->
 
-        <node id="SPAWN_LOCATION_DIVISOR" value="1" /> <!-- in use -->
+		<node id="SPAWN_LOCATION_DIVISOR" value="1" /> <!-- in use -->
 
-        <node id="SIMPLIFIED_WEAPON_DATA" value="0" /> <!-- in use -->
+		<node id="SIMPLIFIED_WEAPON_DATA" value="0" /> <!-- in use -->
 
-        <node id="DRAW_KAMIKAZE_DRONE_LASER_CONE" value="1" /> <!-- in use -->
+		<node id="DRAW_KAMIKAZE_DRONE_LASER_CONE" value="1" /> <!-- in use -->
 
-        <node id="SOUND_WALL_MULTIPLIER" value="8.0" /> <!-- in use -->
-        <node id="SOUND_INDESTRUCTIBLE_WALL_MULTIPLIER" value="1000.0" /> <!-- in use -->
-        <node id="SOUND_FADE_EXPONENT" value="3.50" /> <!-- in use -->
-        <node id="SOUND_VOLUME_EXPLOSION" value="1.0" /> <!-- in use -->
-        <node id="SOUND_VOLUME_GUNSHOT" value="0.5" /> <!-- in use -->
-        <node id="SOUND_VOLUME_WEAPON_RELOAD" value="0.05" /> <!-- in use -->
-        <node id="SOUND_VOLUME_WALL_BREAKING" value="0.3" /> <!-- in use -->
+		<node id="SOUND_WALL_MULTIPLIER" value="8.0" /> <!-- in use -->
+		<node id="SOUND_INDESTRUCTIBLE_WALL_MULTIPLIER" value="1000.0" /> <!-- in use -->
+		<node id="SOUND_FADE_EXPONENT" value="3.50" /> <!-- in use -->
+		<node id="SOUND_VOLUME_EXPLOSION" value="1.0" /> <!-- in use -->
+		<node id="SOUND_VOLUME_GUNSHOT" value="0.5" /> <!-- in use -->
+		<node id="SOUND_VOLUME_WEAPON_RELOAD" value="0.05" /> <!-- in use -->
+		<node id="SOUND_VOLUME_WALL_BREAKING" value="0.3" /> <!-- in use -->
 
 		<!--  maybe add credit and energy chip values here... now they're in the actor custom data, but focusing all switches here might be better -->
 
 
-    </array>
+	</array>
 
 </root>

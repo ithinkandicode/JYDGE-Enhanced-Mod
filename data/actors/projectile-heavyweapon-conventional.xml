@@ -2,27 +2,27 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="BULLET" 
-		 name="Bullet 5.56mm" 
-		 renderer="ProjectilePlasmaBolt" 
-		 ai="NCBullet" 
-		 base="bullet" 
-		 friend_group="PROJECTILES" 
-		 mass="6" 
-		 turn_speed="0" 
-		 move_speed="800" 
-		 scale="1" 
-		 bitmap_move="actors/gfx/bullet-conv-bigger.png" 
-		 bitmap_attack="actors/gfx/bullet-conv-bigger.png" 
-		 bitmap_death="!NONE" 
-		 bitmap_trail="actors/gfx/trail-white.png" 
-		 hit_points="1" 
+		<node id="PARAMETERS"
+		 physics_material="BULLET"
+		 name="Bullet 5.56mm"
+		 renderer="ProjectilePlasmaBolt"
+		 ai="NCBullet"
+		 base="bullet"
+		 friend_group="PROJECTILES"
+		 mass="6"
+		 turn_speed="0"
+		 move_speed="800"
+		 scale="1"
+		 bitmap_move="actors/gfx/bullet-conv-bigger.png"
+		 bitmap_attack="actors/gfx/bullet-conv-bigger.png"
+		 bitmap_death="!NONE"
+		 bitmap_trail="actors/gfx/trail-white.png"
+		 hit_points="1"
 		/>
 
-		<node id="COLLIDER" 
-		 collider_generation_method="AUTOMATIC" 
-		 cylinder_radius="0" 
+		<node id="COLLIDER"
+		 collider_generation_method="AUTOMATIC"
+		 cylinder_radius="0"
 		/>
 
 		<node id="CUSTOM_DATA" bitmap_lightning="actors/gfx/bullet-conv-lighting.png" />

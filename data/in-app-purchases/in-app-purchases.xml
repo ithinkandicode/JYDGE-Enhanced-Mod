@@ -2,7 +2,7 @@
 
 
 <root>
-	<!-- You can add anything you like to the nodes, but they must contain at least the 
+	<!-- You can add anything you like to the nodes, but they must contain at least the
 	following name-value pairs:
 		id					Item id (needs to match the one in the actual store, e.g. iTunesConnect on iOS)
 		type				one of the following:
@@ -11,10 +11,10 @@
 		  "SUBSCRIPTION"		Auto-renewable subscription.
 		name				display name
 		desc				item description
-		price				price including the currency, e.g. "RMB 0.99". Note that this is just an estimate: real price is set in 
+		price				price including the currency, e.g. "RMB 0.99". Note that this is just an estimate: real price is set in
 							the actual store iTunesConnect
-    -->
-    
+	-->
+
 
 	<!-- In App Purchasable Products. -->
 	<array id="ITEMS">
@@ -25,8 +25,8 @@
 	 desc="Unlock Full Game."
 	 price="USD7.99"
 	/>
- 
-	
+
+
 	</array>
 
 </root>

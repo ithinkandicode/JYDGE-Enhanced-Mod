@@ -18,10 +18,10 @@
 	</array>
 
 	<array id="vertex_output">
-    	<node id="position" type="FLOAT4" semantic="POSITION" />
-    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
-    	<node id="color" type="FLOAT4" semantic="COLOR" />
-    	<node id="relative_screen_position" type="FLOAT4" semantic="TEXTURE_COORDINATE" />
+		<node id="position" type="FLOAT4" semantic="POSITION" />
+		<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+		<node id="color" type="FLOAT4" semantic="COLOR" />
+		<node id="relative_screen_position" type="FLOAT4" semantic="TEXTURE_COORDINATE" />
 	</array>
 
 	<array id="pixel_constants">
@@ -45,14 +45,14 @@
 				{
 					output.position = input.position * world_view_proj;
 					output.texture_coordinate = input.texture_coordinate;
-                    output.color = input.color;
-                    output.relative_screen_position = output.position;
+					output.color = input.color;
+					output.relative_screen_position = output.position;
 				}
 			]]>
 		</node>
 		<node type="pixel">
 			<![CDATA[
-                const float TWO_PI = 6.28318530f;
+				const float TWO_PI = 6.28318530f;
 
 				void main()
 				{

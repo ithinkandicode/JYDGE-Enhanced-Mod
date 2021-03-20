@@ -4,15 +4,15 @@
 
 NOTES:
 
-	All time line events should end with call to 
-	
+	All time line events should end with call to
+
 		EndTimelineEvent ();
 
 	This will cause the engine to end the event and move to the next one.
 	The default transition will be used to remove all the current screens from screen stack.
 
 	Timeline format.
-	
+
 	Parameters for each node (except special types "JUMP" and "JUMP_IF"):
 
 	required	id 				unique string identifying the timeline event.
@@ -42,7 +42,7 @@ NOTES:
 		"JUMP"
 		event		jumps to timeline event. Can be used for loops.
 
-		
+
 -->
 
 
@@ -50,15 +50,15 @@ NOTES:
 <root>
 
 	<!--
-	
+
 	if 'screens' is not defined, try finding 'screen' and us it as 'screens'
 	if key_screen is not defined, use last screen defined in 'screens'
 	if transition is not defined, use SMART (uses FADE_BLACK transition UNLESS there are multiple definitions in 'screens')
-	
+
 	the topmost screen on 'screens' (last one defined) is popped before moving into the new stack. and then pushed in again. the rest will remain in stack if they were there.
-	
+
 	if you want other screens to stay in stack without popping out first, add & character before the name.
-	
+
 	-->
 
 	<!-- timeline events. -->
@@ -68,23 +68,23 @@ NOTES:
 		<node id="Loading"			screens="Background,Loading" transition="FADE_BLACK" />
 		<node id="StartMenu"		screens="Background,MainMenu" />
 
-        <node id="Intro"			screens="JydgeIntro" transition="FADE_BLACK" />
+		<node id="Intro"			screens="JydgeIntro" transition="FADE_BLACK" />
    		<node id="JydgeTutorial"	screens="LoadingStage" map_id="TUTORIAL" level="stages/mission-tutorial.xml" additional_enhancements="FIRERATE_INCREASE_1,MELEE_DAMAGE_INCREASE_1,LEAD_WEAPON_DAMAGE_INCREASE,FAST_RELOAD" transition="FADE_BLACK" />
-        <node id="JydgeStoryAfterFirstLevel"	screens="JydgeStoryAfterFirstLevel" transition="FADE_BLACK" />
+		<node id="JydgeStoryAfterFirstLevel"	screens="JydgeStoryAfterFirstLevel" transition="FADE_BLACK" />
 
-        <node id="JydgeGavel"	    screens="JydgeGavel" transition="FADE_BLACK" />
-        <node id="JydgeInterval1"	screens="JydgeInterval1" transition="FADE_BLACK" />
-        <node id="JydgeInterval2"	screens="JydgeInterval2" transition="FADE_BLACK" />
-        <node id="JydgeInterval3"	screens="JydgeInterval3" transition="FADE_BLACK" />
-        <node id="JydgeOutro"	    screens="JydgeOutro" transition="FADE_BLACK" />
-        <node id="JydgeOutroGood"	screens="JydgeOutroGood" transition="FADE_BLACK" />
-        <node id="Credits"	        screens="Credits" transition="FADE_BLACK" />
+		<node id="JydgeGavel"	    screens="JydgeGavel" transition="FADE_BLACK" />
+		<node id="JydgeInterval1"	screens="JydgeInterval1" transition="FADE_BLACK" />
+		<node id="JydgeInterval2"	screens="JydgeInterval2" transition="FADE_BLACK" />
+		<node id="JydgeInterval3"	screens="JydgeInterval3" transition="FADE_BLACK" />
+		<node id="JydgeOutro"	    screens="JydgeOutro" transition="FADE_BLACK" />
+		<node id="JydgeOutroGood"	screens="JydgeOutroGood" transition="FADE_BLACK" />
+		<node id="Credits"	        screens="Credits" transition="FADE_BLACK" />
 
 		<node id="JumpToStartMenu"	type="JUMP" event="StartMenu" />
 
 		<node id="JydgeMetagame"	screens="JydgeMetagame" transition="FADE_BLACK" />
 		<node id="JydgeMission"	    screens="LoadingStage" transition="FADE_BLACK" />
-		
+
 		<node id="Secret0"		    screens="LoadingStage" level="stages/misc/secret0.xml" transition="FADE_BLACK" />
 
 		<node id="PerfTest1"		screens="LoadingStage" level="stages/performance_tests/test-01.xml" transition="FADE_BLACK" />
@@ -92,11 +92,11 @@ NOTES:
 		<node id="PerfTest3"		screens="LoadingStage" level="stages/performance_tests/test-03.xml" transition="FADE_BLACK" />
 		<node id="PerfTest4"		screens="LoadingStage" level="stages/performance_tests/test-04.xml" transition="FADE_BLACK" />
 		<node id="PerfTest5"		screens="LoadingStage" level="stages/performance_tests/test-05.xml" transition="FADE_BLACK" />
-		
+
 		<node id="StageEditor"		screens="Stage,StageEditor" transition="FADE_BLACK" />
 
 		<node id="Mods"				screens="Background,MainMenu,Mods" transition="FADE_BLACK" />
-        
+
 		<node id="BugHunter0"		screens="LoadingStage" level="scripts/level-generation/generator-gen1.nut" parm_difficulty="0.15" parm_width="32" parm_height="32" parm_style="researchlabs"  parm_level_number="1" transition="FADE_BLACK" />
 		<node id="BugHunter1"		screens="LoadingStage" level="scripts/level-generation/generator-gen1.nut" parm_difficulty="0.38" parm_width="36" parm_height="38" parm_style="residential" parm_tags="CYBER_UPGRADE" parm_level_number="2" transition="FADE_BLACK" />
 		<node id="BugHunter2"		screens="LoadingStage" level="scripts/level-generation/generator-gen1.nut" parm_difficulty="0.78" parm_width="38" parm_height="40" parm_style="warehouse" parm_tags="CYBER_UPGRADE" parm_level_number="3" transition="FADE_BLACK" />

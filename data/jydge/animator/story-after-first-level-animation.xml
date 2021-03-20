@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <!--
-		action="SetProperty" 
-		property="TF:touchfield.value_x" 
-		time_start="0" 
-		duration="30" 
-		value_from="0" 
+		action="SetProperty"
+		property="TF:touchfield.value_x"
+		time_start="0"
+		duration="30"
+		value_from="0"
 		value_to="1500"
 		curve=  "LINEAR" "EASE_IN" "EASE_OUT" "EASE_BOTH"
 
 		action="BeginTimelineEvent"
-		time_start="0" 
+		time_start="0"
 		event="timeline_event_id"
-		
+
 		action="EndTimelineEvent"
-		time_start="0" 
+		time_start="0"
 -->
 
 
@@ -30,9 +30,9 @@
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="3.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-	
+
 	<array base_time="5.0" >
 		<node action="BeginTimelineEvent" time_start="0" event="JydgeMetagame" />
 	</array>
-	
+
 </root>

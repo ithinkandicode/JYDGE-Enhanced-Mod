@@ -6,7 +6,7 @@
  <node id="cells_width" value="51" />
  <node id="cells_height" value="51" />
  <node id="ambient_light" r="0.10" g="0.17" b="0.13" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -3804,10 +3804,10 @@
  <node ref_number="1169" type="actors/bench.xml" x="2620" y="2347" angle_z="179"  />
  <node ref_number="1170" type="actors/sofa-comfy.xml" x="440" y="1889" angle_z="87"  />
  <node ref_number="1171" type="actors/bed-double.xml" x="873" y="1841"  />
- <node ref_number="1172" type="actors/table-round.xml" x="740" y="1962" angle_z="354" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_has_bottles="false" 
- key_INTEGER_max_bottles="5" 
- key_INTEGER_highest_allowed_difficulty="1" 
+ <node ref_number="1172" type="actors/table-round.xml" x="740" y="1962" angle_z="354" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_has_bottles="false"
+ key_INTEGER_max_bottles="5"
+ key_INTEGER_highest_allowed_difficulty="1"
   />
  <node ref_number="1173" type="actors/table-round.xml" x="378" y="2277" angle_z="345" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
  <node ref_number="1174" type="actors/cupboard.xml" x="785" y="1655" angle_z="90"  />
@@ -4100,12 +4100,12 @@
  <node ref_number="1461" type="actors/enemy-jydge-shooter-regular.xml" x="1830" y="756" angle_z="340" key_INTEGER_highest_allowed_difficulty="0" key_BOOLEAN_guard="true"  />
  <node ref_number="1462" type="actors/civilian-generic-female-white.xml" x="1884" y="735" angle_z="339" scale="1.000000" key_BOOLEAN_can_be_rescued="true" key_INTEGER_highest_allowed_difficulty="0"  />
  <node ref_number="1463" type="actors/chair-boardroom.xml" x="720" y="269" angle_z="89"  />
- <node ref_number="1464" type="actors/enemy-jydge-shooter-minigun.xml" x="723" y="324" angle_z="87" scale="1.000000" key_STRING_animation="models/animations/humanoid_rig-humanoid_sit_chair_noturn.xml" 
- key_STRING_animation_wrap_mode="PLAY_ONCE" 
- key_STRING_name_id="Gang Lord" 
- key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="0" 
- key_STAGE_OBJECT_REFERENCE_animation_interaction_target="1463" 
+ <node ref_number="1464" type="actors/enemy-jydge-shooter-minigun.xml" x="723" y="324" angle_z="87" scale="1.000000" key_STRING_animation="models/animations/humanoid_rig-humanoid_sit_chair_noturn.xml"
+ key_STRING_animation_wrap_mode="PLAY_ONCE"
+ key_STRING_name_id="Gang Lord"
+ key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="0"
+ key_STAGE_OBJECT_REFERENCE_animation_interaction_target="1463"
   />
  <node ref_number="1465" type="actors/civilian-generic-male-white.xml" x="634" y="347" angle_z="26" key_BOOLEAN_can_be_rescued="true" key_INTEGER_highest_allowed_difficulty="0"  />
  <node ref_number="1466" type="actors/door-garage-sliding-locked.xml" x="840" y="2370" angle_z="180"  />
@@ -4168,10 +4168,10 @@
  <node ref_number="1523" type="actors/armchair.xml" x="1458" y="1616" angle_z="163"  />
  <node ref_number="1524" type="actors/sofa.xml" x="1611" y="1702" angle_z="268"  />
  <node ref_number="1525" type="actors/sofa-comfy.xml" x="403" y="1933" angle_z="175" key_INTEGER_required_difficulty="2"  />
- <node ref_number="1526" type="actors/table-round.xml" x="498" y="1969" angle_z="10" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_has_bottles="false" 
- key_INTEGER_max_bottles="5" 
- key_INTEGER_required_difficulty="2" 
+ <node ref_number="1526" type="actors/table-round.xml" x="498" y="1969" angle_z="10" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_has_bottles="false"
+ key_INTEGER_max_bottles="5"
+ key_INTEGER_required_difficulty="2"
   />
  <node ref_number="1527" type="actors/chair.xml" x="461" y="2006" angle_z="358" key_INTEGER_required_difficulty="2"  />
  <node ref_number="1528" type="actors/chair.xml" x="465" y="1935" angle_z="36" key_INTEGER_required_difficulty="2"  />
@@ -4180,23 +4180,23 @@
  <node ref_number="1531" type="actors/wall-residential-thin-broken1.xml" x="660" y="1800" angle_z="90" key_INTEGER_required_difficulty="2"  />
  <node ref_number="1532" type="actors/door-sliding.xml" x="720" y="1800" angle_z="90" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1533" type="actors/biotank.xml" x="749" y="1733" angle_z="341" key_INTEGER_required_difficulty="2"  />
- <node ref_number="1534" type="actors/terminal-objective.xml" x="725" y="1748" angle_z="162" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_INTEGER_required_difficulty="2" 
- key_STAGE_OBJECT_REFERENCE_new_0="1570" 
- key_BOOLEAN_is_mission_defuse_target="true" 
- key_STAGE_OBJECT_REFERENCE_new_1="1694" 
- key_STAGE_OBJECT_REFERENCE_new_2="1533" 
- key_BOOLEAN_disarm_explosive="true" 
+ <node ref_number="1534" type="actors/terminal-objective.xml" x="725" y="1748" angle_z="162" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_INTEGER_required_difficulty="2"
+ key_STAGE_OBJECT_REFERENCE_new_0="1570"
+ key_BOOLEAN_is_mission_defuse_target="true"
+ key_STAGE_OBJECT_REFERENCE_new_1="1694"
+ key_STAGE_OBJECT_REFERENCE_new_2="1533"
+ key_BOOLEAN_disarm_explosive="true"
   />
  <node ref_number="1535" type="actors/biotank.xml" x="2411" y="427" angle_z="12" key_INTEGER_required_difficulty="3"  />
- <node ref_number="1536" type="actors/terminal-objective.xml" x="2384" y="432" angle_z="-167" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_INTEGER_required_difficulty="3" 
- key_BOOLEAN_is_mission_defuse_target="true" 
- key_STAGE_OBJECT_REFERENCE_new_1="1570" 
- key_BOOLEAN_disarm_explosive="true" 
- key_STAGE_OBJECT_REFERENCE_disarm_target="1535" 
+ <node ref_number="1536" type="actors/terminal-objective.xml" x="2384" y="432" angle_z="-167" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_INTEGER_required_difficulty="3"
+ key_BOOLEAN_is_mission_defuse_target="true"
+ key_STAGE_OBJECT_REFERENCE_new_1="1570"
+ key_BOOLEAN_disarm_explosive="true"
+ key_STAGE_OBJECT_REFERENCE_disarm_target="1535"
   />
  <node ref_number="1537" type="actors/pallet.xml" x="912" y="1990" angle_z="282" key_INTEGER_required_difficulty="2"  />
  <node ref_number="1538" type="actors/pallet.xml" x="2331" y="726" angle_z="10" key_INTEGER_required_difficulty="3"  />
@@ -4231,33 +4231,33 @@
  <node ref_number="1567" type="actors/door-sliding.xml" x="840" y="720" angle_z="180" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1568" type="actors/door-sliding.xml" x="360" y="840" angle_z="360" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1569" type="actors/door-sliding.xml" x="480" y="1140" angle_z="360" key_INTEGER_highest_allowed_difficulty="1"  />
- <node ref_number="1570" type="actors/relay_device.xml" x="1791" y="1208" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_INTEGER_num_unique_signals_required="2" 
- key_STAGE_OBJECT_REFERENCE_new_0="1573" 
- key_INTEGER_required_difficulty="3" 
+ <node ref_number="1570" type="actors/relay_device.xml" x="1791" y="1208" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_INTEGER_num_unique_signals_required="2"
+ key_STAGE_OBJECT_REFERENCE_new_0="1573"
+ key_INTEGER_required_difficulty="3"
   />
  <node ref_number="1571" type="actors/enemy-jydge-shooter-regular.xml" x="685" y="1821" angle_z="70" key_INTEGER_required_difficulty="2"  />
- <node ref_number="1572" type="actors/enemy-jydge-shooter-regular.xml" x="2325" y="419" angle_z="12" key_INTEGER_required_difficulty="3" 
- key_STRING_animation="humanoid_rig-humanoid_hack.xml" 
- key_FLOAT_animation_duration="4" 
- key_FLOAT_animation_playback_speed="0.75" 
- key_FLOAT_animation_delay_between_loops="1" 
+ <node ref_number="1572" type="actors/enemy-jydge-shooter-regular.xml" x="2325" y="419" angle_z="12" key_INTEGER_required_difficulty="3"
+ key_STRING_animation="humanoid_rig-humanoid_hack.xml"
+ key_FLOAT_animation_duration="4"
+ key_FLOAT_animation_playback_speed="0.75"
+ key_FLOAT_animation_delay_between_loops="1"
   />
- <node ref_number="1573" type="actors/timerdevice.xml" x="1850" y="1192" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_FLOAT_countdown_timer="50" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="true" 
- key_BOOLEAN_looping="false" 
- key_BOOLEAN_can_be_stopped="true" 
- key_STAGE_OBJECT_REFERENCE_new_2="1535" 
- key_STAGE_OBJECT_REFERENCE_new_3="1533" 
+ <node ref_number="1573" type="actors/timerdevice.xml" x="1850" y="1192" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_FLOAT_countdown_timer="50"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="true"
+ key_BOOLEAN_looping="false"
+ key_BOOLEAN_can_be_stopped="true"
+ key_STAGE_OBJECT_REFERENCE_new_2="1535"
+ key_STAGE_OBJECT_REFERENCE_new_3="1533"
   />
- <node ref_number="1574" type="actors/enemy-jydge-shooter-minigun.xml" x="672" y="1879" angle_z="72" scale="1.000000" key_STRING_name_id="Gang Lord" 
- key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1574" type="actors/enemy-jydge-shooter-minigun.xml" x="672" y="1879" angle_z="72" scale="1.000000" key_STRING_name_id="Gang Lord"
+ key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="1575" parent="1200" type="actors/caffeinator.xml" x="-6" y="3" z="-36" angle_z="3"  />
  <node ref_number="1576" type="actors/sink.xml" x="1860" y="2010" angle_z="270"  />
@@ -4266,11 +4266,11 @@
  <node ref_number="1579" type="actors/sink.xml" x="2430" y="300" angle_z="180"  />
  <node ref_number="1580" type="actors/toilet-seat.xml" x="300" y="930" angle_z="270"  />
  <node ref_number="1581" type="actors/sink.xml" x="300" y="810" angle_z="90"  />
- <node ref_number="1582" type="actors/enemy-jydge-shooter-minigun.xml" x="2217" y="457" angle_z="82" scale="1.000000" key_STRING_name_id="Gang Lord" 
- key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="3" 
- key_INTEGER_required_difficulty="3" 
- key_BOOLEAN_guard="true" 
+ <node ref_number="1582" type="actors/enemy-jydge-shooter-minigun.xml" x="2217" y="457" angle_z="82" scale="1.000000" key_STRING_name_id="Gang Lord"
+ key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="3"
+ key_INTEGER_required_difficulty="3"
+ key_BOOLEAN_guard="true"
   />
  <node ref_number="1583" type="actors/civilian-generic-male-white.xml" x="462" y="594" angle_z="185" key_BOOLEAN_can_be_rescued="true" key_INTEGER_required_difficulty="1" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1584" type="actors/enemy-jydge-shooter-regular.xml" x="2166" y="232" angle_z="95" key_INTEGER_highest_allowed_difficulty="2" key_INTEGER_required_difficulty="2"  />
@@ -4347,100 +4347,100 @@
  <node ref_number="1655" type="actors/fridge.xml" x="1536" y="1945" angle_z="358"  />
  <node ref_number="1656" type="actors/fridge.xml" x="626" y="2188" angle_z="271"  />
  <node ref_number="1657" type="actors/fridge.xml" x="807" y="804" angle_z="268"  />
- <node ref_number="1658" type="actors/screen-billboard.xml" x="443" y="724" z="-34" angle_z="90" scale="0.540000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/chiphow.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1658" type="actors/screen-billboard.xml" x="443" y="724" z="-34" angle_z="90" scale="0.540000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/chiphow.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_STRING_script="scripts/billboards/default.nut"
   />
- <node ref_number="1659" type="actors/screen-billboard.xml" x="1747" y="450" z="-34" scale="0.597254" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/chiphow.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1659" type="actors/screen-billboard.xml" x="1747" y="450" z="-34" scale="0.597254" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/chiphow.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_STRING_script="scripts/billboards/default.nut"
   />
- <node ref_number="1660" type="actors/screen-billboard.xml" x="1613" y="1565" z="-34" angle_z="90" scale="0.492455" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/chiphow.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1660" type="actors/screen-billboard.xml" x="1613" y="1565" z="-34" angle_z="90" scale="0.492455" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/chiphow.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_STRING_script="scripts/billboards/default.nut"
   />
- <node ref_number="1661" type="actors/screen-billboard.xml" x="443" y="2035" z="-34" angle_z="270" scale="0.492455" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/chiphow.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1661" type="actors/screen-billboard.xml" x="443" y="2035" z="-34" angle_z="270" scale="0.492455" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/chiphow.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_STRING_script="scripts/billboards/default.nut"
   />
  <node ref_number="1662" type="actors/fridge.xml" x="2427" y="689" angle_z="358"  />
  <node ref_number="1663" type="actors/wall-residential-thin-cap.xml" x="1200" y="1560" angle_z="270"  />
  <node ref_number="1664" type="actors/wall-residential-thin-cap.xml" x="1140" y="1560"  />
- <node ref_number="1665" type="actors/subway-elevator.xml" x="2790" y="2610" angle_z="180" key_BOOLEAN_invisible="false" 
- key_INTEGER_max_spawns_total="20" 
- key_INTEGER_max_living_spawns="20" 
- key_FLOAT_spawn_interval="0.2" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="true" 
+ <node ref_number="1665" type="actors/subway-elevator.xml" x="2790" y="2610" angle_z="180" key_BOOLEAN_invisible="false"
+ key_INTEGER_max_spawns_total="20"
+ key_INTEGER_max_living_spawns="20"
+ key_FLOAT_spawn_interval="0.2"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="true"
   />
  <node ref_number="1666" type="actors/subway-elevator-door-R.xml" x="2730" y="2610" angle_z="360"  />
  <node ref_number="1667" type="actors/subway-elevator-door-L.xml" x="2730" y="2610" angle_z="180"  />
- <node ref_number="1668" type="actors/timerdevice.xml" x="2580" y="2580" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_countdown_timer="10" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="false" 
- key_BOOLEAN_looping="false" 
- key_BOOLEAN_can_be_stopped="false" 
- key_STAGE_OBJECT_REFERENCE_new_3="1665" 
- key_STAGE_OBJECT_REFERENCE_new_4="1669" 
+ <node ref_number="1668" type="actors/timerdevice.xml" x="2580" y="2580" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_countdown_timer="10"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="false"
+ key_BOOLEAN_looping="false"
+ key_BOOLEAN_can_be_stopped="false"
+ key_STAGE_OBJECT_REFERENCE_new_3="1665"
+ key_STAGE_OBJECT_REFERENCE_new_4="1669"
   />
- <node ref_number="1669" type="actors/timerdevice.xml" x="2631" y="2670" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_countdown_timer="1" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="false" 
- key_BOOLEAN_looping="false" 
- key_BOOLEAN_can_be_stopped="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="1668" 
- key_STAGE_OBJECT_REFERENCE_new_2="1665" 
+ <node ref_number="1669" type="actors/timerdevice.xml" x="2631" y="2670" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_countdown_timer="1"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="false"
+ key_BOOLEAN_looping="false"
+ key_BOOLEAN_can_be_stopped="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="1668"
+ key_STAGE_OBJECT_REFERENCE_new_2="1665"
   />
- <node ref_number="1670" type="actors/relay_device.xml" x="2498" y="2599" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_INTEGER_num_unique_signals_required="1" 
- key_STAGE_OBJECT_REFERENCE_new_6="1668" 
+ <node ref_number="1670" type="actors/relay_device.xml" x="2498" y="2599" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_INTEGER_num_unique_signals_required="1"
+ key_STAGE_OBJECT_REFERENCE_new_6="1668"
   />
- <node ref_number="1671" type="actors/relay_device.xml" x="1944" y="1352" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_INTEGER_num_unique_signals_required="1" 
- key_STAGE_OBJECT_REFERENCE_new_1="1670" 
- key_STAGE_OBJECT_REFERENCE_new_4="7" 
- key_STAGE_OBJECT_REFERENCE_new_2="1673" 
+ <node ref_number="1671" type="actors/relay_device.xml" x="1944" y="1352" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_INTEGER_num_unique_signals_required="1"
+ key_STAGE_OBJECT_REFERENCE_new_1="1670"
+ key_STAGE_OBJECT_REFERENCE_new_4="7"
+ key_STAGE_OBJECT_REFERENCE_new_2="1673"
   />
- <node ref_number="1672" type="actors/logic-objectremover.xml" x="1877" y="1462" angle_z="85" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_STAGE_OBJECT_REFERENCE_new_3="1668" 
- key_STAGE_OBJECT_REFERENCE_new_5="7" 
+ <node ref_number="1672" type="actors/logic-objectremover.xml" x="1877" y="1462" angle_z="85" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_STAGE_OBJECT_REFERENCE_new_3="1668"
+ key_STAGE_OBJECT_REFERENCE_new_5="7"
   />
- <node ref_number="1673" type="actors/timerdevice.xml" x="1848" y="1398" angle_z="86" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_countdown_timer="20" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="false" 
- key_BOOLEAN_looping="false" 
- key_BOOLEAN_can_be_stopped="false" 
- key_STAGE_OBJECT_REFERENCE_new_0="1672" 
- key_STAGE_OBJECT_REFERENCE_new_1="6" 
+ <node ref_number="1673" type="actors/timerdevice.xml" x="1848" y="1398" angle_z="86" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_countdown_timer="20"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="false"
+ key_BOOLEAN_looping="false"
+ key_BOOLEAN_can_be_stopped="false"
+ key_STAGE_OBJECT_REFERENCE_new_0="1672"
+ key_STAGE_OBJECT_REFERENCE_new_1="6"
   />
  <node ref_number="1674" type="actors/wall-residential-thin-cap.xml" x="2700" y="1380" angle_z="180"  />
  <node ref_number="1675" type="actors/wall-residential-thin-cap.xml" x="2700" y="1260"  />
  <node ref_number="1676" type="actors/wall-residential-thin-I.xml" x="2700" y="1320" angle_z="180"  />
- <node ref_number="1677" type="actors/screen-billboard.xml" x="2695" y="1320" z="-18" angle_z="180" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/armocore.jpg" 
- key_FLOAT_luminocity="0.8" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1677" type="actors/screen-billboard.xml" x="2695" y="1320" z="-18" angle_z="180" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/armocore.jpg"
+ key_FLOAT_luminocity="0.8"
+ key_STRING_script="scripts/billboards/default.nut"
   />
  <node ref_number="1678" parent="1679" type="actors/hoload-image-nanoedge.xml" x="0" y="0" key_BOOLEAN_is_spinning="true"  />
  <node ref_number="1679" type="actors/hoload-small.xml" x="2716" y="2471" angle_z="350"  />
@@ -4457,18 +4457,18 @@
  <node id="G1041" ref_number="1690" type="actors/box-closed.xml" x="2897" y="288" angle_z="355" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node id="G8759" ref_number="1691" type="actors/box-closed.xml" x="2879" y="2614" angle_z="357" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node id="G17425" ref_number="1692" type="actors/box-closed.xml" x="864" y="501" angle_z="87" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
- <node ref_number="1693" type="actors/enemy-jydge-miniboss-act2.xml" x="1464" y="1356" key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="1470,1350,0;2430,1350,0;2430,2370,0;1050,2370,0;2430,2370,0;2430,1350,0;1470,1350,0" 
- key_STRING_spawn_id="GUARDDOG" 
- key_STRING_name="S.P.I.D.E.Y. v2" 
- key_INTEGER_required_difficulty="3" 
- key_BOOLEAN_draw_boss_health_bar="true" 
+ <node ref_number="1693" type="actors/enemy-jydge-miniboss-act2.xml" x="1464" y="1356" key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="1470,1350,0;2430,1350,0;2430,2370,0;1050,2370,0;2430,2370,0;2430,1350,0;1470,1350,0"
+ key_STRING_spawn_id="GUARDDOG"
+ key_STRING_name="S.P.I.D.E.Y. v2"
+ key_INTEGER_required_difficulty="3"
+ key_BOOLEAN_draw_boss_health_bar="true"
   />
- <node ref_number="1694" type="actors/relay_device.xml" x="1802" y="1271" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_INTEGER_num_unique_signals_required="2" 
- key_STAGE_OBJECT_REFERENCE_new_0="1573" 
- key_INTEGER_highest_allowed_difficulty="2" 
+ <node ref_number="1694" type="actors/relay_device.xml" x="1802" y="1271" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_INTEGER_num_unique_signals_required="2"
+ key_STAGE_OBJECT_REFERENCE_new_0="1573"
+ key_INTEGER_highest_allowed_difficulty="2"
   />
  <node ref_number="1695" type="actors/enemy-proximity-mine.xml" x="833" y="1517" angle_z="29"  />
  <node ref_number="1696" type="actors/enemy-proximity-mine.xml" x="2729" y="1406" angle_z="48" key_INTEGER_required_difficulty="1"  />
@@ -4510,16 +4510,16 @@
  <node ref_number="1732" type="actors/civilian-generic-female-white.xml" x="2249" y="617" angle_z="90" scale="1.000000" key_BOOLEAN_can_be_rescued="true" key_INTEGER_highest_allowed_difficulty="1" key_INTEGER_required_difficulty="1"  />
  <node ref_number="1733" type="actors/enemy-jydge-shooter-regular.xml" x="2248" y="560" angle_z="91" key_INTEGER_highest_allowed_difficulty="1" key_BOOLEAN_guard="true" key_INTEGER_required_difficulty="1"  />
  <node ref_number="1734" type="actors/enemy-jydge-shooter-minigun.xml" x="420" y="2574" angle_z="277" scale="1.000000" key_STRING_name_id="Gang Lord" key_BOOLEAN_elimination_target="true" key_INTEGER_highest_allowed_difficulty="0"  />
- <node ref_number="1735" type="actors/enemy-jydge-shooter-minigun.xml" x="1855" y="1832" angle_z="192" scale="1.000000" key_STRING_name_id="Gang Lord" 
- key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1735" type="actors/enemy-jydge-shooter-minigun.xml" x="1855" y="1832" angle_z="192" scale="1.000000" key_STRING_name_id="Gang Lord"
+ key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="1736" type="actors/enemy-jydge-shooter-minigun.xml" x="654" y="706" angle_z="72" scale="1.000000" key_STRING_name_id="Gang Lord" 
- key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="3" 
- key_INTEGER_required_difficulty="3" 
- key_BOOLEAN_guard="true" 
+ <node ref_number="1736" type="actors/enemy-jydge-shooter-minigun.xml" x="654" y="706" angle_z="72" scale="1.000000" key_STRING_name_id="Gang Lord"
+ key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="3"
+ key_INTEGER_required_difficulty="3"
+ key_BOOLEAN_guard="true"
   />
  <node ref_number="1737" type="actors/explosive.xml" x="775" y="272" angle_z="202"  />
  <node id="G8492" ref_number="1738" type="actors/premium-box.xml" x="287" y="518" angle_z="88" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />

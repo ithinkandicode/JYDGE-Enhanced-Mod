@@ -2,20 +2,20 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
-		 number_of_particles="1" 
-		 initial_age="0" 
-		 age_to_die="0.8;1" 
-		 move_speed="100;120" 
-		 move_direction="0,0,1" 
-		 gravity_multiplier="0" 
-		 alpha_curve="0,0;0.1,1;1,0" 
-		 scale_curve="0,1;1,0.3" 
-		 alpha_multiplier="0.3;0.4" 
-		 scale_multiplier="0.8;1" 
-		 rotation_angles="0,0,0;0,0,360" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/plasma-ring-blue.png" 
+		<node class="BITMAP"
+		 number_of_particles="1"
+		 initial_age="0"
+		 age_to_die="0.8;1"
+		 move_speed="100;120"
+		 move_direction="0,0,1"
+		 gravity_multiplier="0"
+		 alpha_curve="0,0;0.1,1;1,0"
+		 scale_curve="0,1;1,0.3"
+		 alpha_multiplier="0.3;0.4"
+		 scale_multiplier="0.8;1"
+		 rotation_angles="0,0,0;0,0,360"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/plasma-ring-blue.png"
 		 />
 
 	</array>

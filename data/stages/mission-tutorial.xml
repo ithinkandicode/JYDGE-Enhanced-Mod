@@ -7,7 +7,7 @@
  <node id="cells_height" value="37" />
  <node id="ambient_light" r="0.11" g="0.11" b="0.07" />
  <node id="music_track" value="music/in-game/Speeding" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -2720,10 +2720,10 @@
  <node ref_number="781" type="actors/civilian-generic-pedestrian-male.xml" x="585" y="1653" angle_z="353" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml"  />
  <node ref_number="782" type="actors/civilian-generic-pedestrian-male.xml" x="575" y="1746" angle_z="353" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml"  />
  <node ref_number="783" type="actors/civilian-generic-pedestrian-male.xml" x="533" y="1694" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml"  />
- <node ref_number="784" type="actors/civilian-generic-pedestrian-male.xml" x="575" y="1395" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml" 
- key_FLOAT_animation_duration="8" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="593,1544,0;375,1603,0;240,1640,0;121,1641,0;52,1618,0;35,1429,0;94,1415,0;158,1458,0;344,1516,0;534,1513,0;597,1530,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&8&Q&}}" 
+ <node ref_number="784" type="actors/civilian-generic-pedestrian-male.xml" x="575" y="1395" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml"
+ key_FLOAT_animation_duration="8"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="593,1544,0;375,1603,0;240,1640,0;121,1641,0;52,1618,0;35,1429,0;94,1415,0;158,1458,0;344,1516,0;534,1513,0;597,1530,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&8&Q&}}"
   />
  <node ref_number="785" type="actors/civilian-generic-pedestrian-male.xml" x="2549" y="1445" angle_z="158" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml"  />
  <node ref_number="786" type="actors/civilian-generic-pedestrian-male.xml" x="2534" y="1520" angle_z="180" key_STRING_animation="models/animations/humanoid_rig-humanoid_stunned.xml"  />
@@ -2735,30 +2735,30 @@
  <node ref_number="792" type="actors/wall-rusty-thick-I.xml" x="3000" y="1920" angle_z="90"  />
  <node ref_number="793" type="actors/wall-rusty-thick-I.xml" x="1380" y="480" angle_z="360"  />
  <node ref_number="794" type="actors/collectible-item.xml" x="1597" y="358" z="-11" angle_z="-86" scale="0.759737" key_STRING_collectible_id="GRIM_REAPER"  />
- <node ref_number="795" type="actors/screen-billboard.xml" x="2519" y="1339" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/eye.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/nanoedge.jpg" 
+ <node ref_number="795" type="actors/screen-billboard.xml" x="2519" y="1339" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/eye.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/nanoedge.jpg"
   />
- <node ref_number="796" type="actors/screen-billboard.xml" x="823" y="200" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/explodz.jpg" 
+ <node ref_number="796" type="actors/screen-billboard.xml" x="823" y="200" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/explodz.jpg"
   />
- <node ref_number="797" type="actors/screen-billboard.xml" x="677" y="961" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/kosla.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/cryonix.jpg" 
+ <node ref_number="797" type="actors/screen-billboard.xml" x="677" y="961" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/kosla.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/cryonix.jpg"
   />
  <node ref_number="798" type="actors/car-civilian-red.xml" x="1393" y="1555" angle_z="324"  />
- <node ref_number="799" type="actors/screen-billboard.xml" x="2277" y="1339" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/edenbyrg.jpg" 
+ <node ref_number="799" type="actors/screen-billboard.xml" x="2277" y="1339" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/edenbyrg.jpg"
   />
  <node ref_number="800" type="actors/bench.xml" x="1066" y="1358" angle_z="92"  />
  <node ref_number="801" type="actors/fridge.xml" x="1360" y="920" angle_z="90"  />
@@ -2766,16 +2766,16 @@
  <node ref_number="803" type="actors/explosive-barrel.xml" x="1409" y="788"  />
  <node ref_number="804" type="actors/box-fruit-red.xml" x="1679" y="1413" angle_z="258"  />
  <node ref_number="805" parent="804" type="actors/box-fruit-red.xml" x="10" y="1" z="-20" angle_z="67"  />
- <node ref_number="806" type="actors/screen-billboard.xml" x="505" y="1334" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/kosla.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/nuketron.jpg" 
+ <node ref_number="806" type="actors/screen-billboard.xml" x="505" y="1334" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/kosla.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/nuketron.jpg"
   />
- <node ref_number="807" type="actors/billboard-wall.xml" x="1189" y="669" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg" 
- key_FLOAT_luminocity="0.95" 
+ <node ref_number="807" type="actors/billboard-wall.xml" x="1189" y="669" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-nanoedge.jpg"
+ key_FLOAT_luminocity="0.95"
   />
  <node ref_number="808" type="actors/bird.xml" x="1377" y="1567" z="-62" scale="1.000000"  />
  <node ref_number="809" type="actors/bird.xml" x="1977" y="1129" angle_z="46" scale="1.000000"  />

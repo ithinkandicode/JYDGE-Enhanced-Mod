@@ -2,18 +2,18 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
-		 collide_to_ground_plane="true" 
-		 number_of_particles="7;10" 
-		 initial_age="0;-0.1" 
-		 age_to_die="0.5;1.51" 
-		 move_speed="50;150" 
-		 move_angle_spread="-10;10" 
-		 gravity_multiplier="1;1" 
-		 alpha_curve="0,0;0.1,1;0.8,1;1,0" 
-		 scale_curve="0,0.5;1,1.5" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/spark.png" 
+		<node class="BITMAP"
+		 collide_to_ground_plane="true"
+		 number_of_particles="7;10"
+		 initial_age="0;-0.1"
+		 age_to_die="0.5;1.51"
+		 move_speed="50;150"
+		 move_angle_spread="-10;10"
+		 gravity_multiplier="1;1"
+		 alpha_curve="0,0;0.1,1;0.8,1;1,0"
+		 scale_curve="0,0.5;1,1.5"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/spark.png"
 		 />
 
 	</array>

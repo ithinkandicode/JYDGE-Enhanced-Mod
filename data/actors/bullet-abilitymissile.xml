@@ -2,38 +2,38 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 name="Rocket" 
-		 renderer="Missile" 
-		 ai="Missile" 
-		 turn_speed="4.0" 
-		 move_speed="700" 
-		 move_acceleration="1400" 
-		 dampening_factor="0.0" 
-		 restitution_coefficient="0.5" 
-		 friend_group="PROJECTILES" 
-		 scale="1" 
-		 mass="5" 
-		 model_idle="models/rocket.xml" 
-		 effect_on_death="effects/explosion-grenade.xml" 
-		 bitmap_shadow="shadows/shadow-circle.png" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="0.24" 
-		 hit_points="5" 
+		<node id="PARAMETERS"
+		 name="Rocket"
+		 renderer="Missile"
+		 ai="Missile"
+		 turn_speed="4.0"
+		 move_speed="700"
+		 move_acceleration="1400"
+		 dampening_factor="0.0"
+		 restitution_coefficient="0.5"
+		 friend_group="PROJECTILES"
+		 scale="1"
+		 mass="5"
+		 model_idle="models/rocket.xml"
+		 effect_on_death="effects/explosion-grenade.xml"
+		 bitmap_shadow="shadows/shadow-circle.png"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="0.24"
+		 hit_points="5"
 		/>
 
 		<node id="COLLIDER"
-          type="SPHERE"
-          sphere_radius="30" 
-         />
-         
-		<node id="CUSTOM_DATA" 
-		 explosion_damage="120" 
-		 explosion_range="120" 
-		 initial_speed_at_birth="70" 
-		 missile_trail_effect="effects/missile_travel.xml" 
-		 bullet_glow_size="0.4"	 
+		  type="SPHERE"
+		  sphere_radius="30"
+		 />
+
+		<node id="CUSTOM_DATA"
+		 explosion_damage="120"
+		 explosion_range="120"
+		 initial_speed_at_birth="70"
+		 missile_trail_effect="effects/missile_travel.xml"
+		 bullet_glow_size="0.4"
 		/>
 
 	</array>

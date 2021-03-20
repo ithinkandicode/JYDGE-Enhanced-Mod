@@ -2,18 +2,18 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
-		 is_lit="true" 
-		 collide_to_ground_plane="true" 
-		 leaves_decal_on_death="true" 
-		 number_of_particles="1" 
-		 initial_age="0" 
-		 age_to_die="5;6" 
-		 gravity_multiplier="0" 
-		 scale_curve="0,0;1,1" 
-		 rotation_angles="0,0,-180;0,0,180" 
-		 blend_mode="NORMAL" 
-		 bitmaps="blood/blood-pool-01.png;blood/blood-pool-02.png;blood/blood-pool-03.png;blood/blood-pool-04.png" 
+		<node class="BITMAP"
+		 is_lit="true"
+		 collide_to_ground_plane="true"
+		 leaves_decal_on_death="true"
+		 number_of_particles="1"
+		 initial_age="0"
+		 age_to_die="5;6"
+		 gravity_multiplier="0"
+		 scale_curve="0,0;1,1"
+		 rotation_angles="0,0,-180;0,0,180"
+		 blend_mode="NORMAL"
+		 bitmaps="blood/blood-pool-01.png;blood/blood-pool-02.png;blood/blood-pool-03.png;blood/blood-pool-04.png"
 		 />
 
 	</array>

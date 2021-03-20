@@ -2,28 +2,28 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="STEEL" 
-		 renderer="AnimatedObstacle" 
-		 ai="Nonsolid" 
-		 additional_flags="INDESTRUCTIBLE" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/vent-floor-lit-spinning.xml" 
-		 bitmap_shadow="!NONE" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="1" 
-		 hit_points="1500" 
-		 idle_animation="models/animations/vent_floor_rig-vent_floor_spin.xml" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="STEEL"
+		 renderer="AnimatedObstacle"
+		 ai="Nonsolid"
+		 additional_flags="INDESTRUCTIBLE"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/vent-floor-lit-spinning.xml"
+		 bitmap_shadow="!NONE"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="1"
+		 hit_points="1500"
+		 idle_animation="models/animations/vent_floor_rig-vent_floor_spin.xml"
+		 damage="0.0"
 		/>
 
-		<node id="COLLIDER" 
-		 collider_generation_method="AUTOMATIC" 
-		 edge_generation_height="-8" 
+		<node id="COLLIDER"
+		 collider_generation_method="AUTOMATIC"
+		 edge_generation_height="-8"
 		/>
 
 		<node id="CUSTOM_DATA" explosion_required_to_damage="true" />

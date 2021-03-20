@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <!--
-		action="SetProperty" 
-		property="TF:touchfield.value_x" 
-		time_start="0" 
-		duration="30" 
-		value_from="0" 
+		action="SetProperty"
+		property="TF:touchfield.value_x"
+		time_start="0"
+		duration="30"
+		value_from="0"
 		value_to="1500"
 		curve=  "LINEAR" "EASE_IN" "EASE_OUT" "EASE_BOTH"
 
 		action="BeginTimelineEvent"
-		time_start="0" 
+		time_start="0"
 		event="timeline_event_id"
-		
+
 		action="EndTimelineEvent"
-		time_start="0" 
+		time_start="0"
 -->
 
 
@@ -37,8 +37,8 @@
 		<node action="SetProperty" property="dialog_12:alpha" value="0" />
 		<node action="SetProperty" property="Logo:alpha" time_start="0" duration="0" value_from="0" value_to="0" />
 	</array>
-    
-    <array base_time="0.0" >
+
+	<array base_time="0.0" >
 		<node action="PlaySound" sound="sfx/jydge/jydge-logo-sound" time_start="0.25" duration="1" value_from="0" value_to="1" />
 		<node action="PlaySound" sound="sfx/jydge/outro-ambient" time_start="0.1" looping="true" />
 		<node action="SetProperty" property="dialog_pre:alpha" time_start="0.25" duration="0.5" value_from="0" value_to="1" />
@@ -52,91 +52,91 @@
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="3.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-	
-    <array base_time="5.5" >
+
+	<array base_time="5.5" >
 		<node action="SetProperty" property="Logo:alpha" time_start="0" duration="0.75" value_from="0" value_to="1" />
 		<node action="SetProperty" property="Logo:scale" time_start="0" duration="3" value_from="0" value_to="1" />
 		<node action="SetProperty" property="Logo:angle.y" time_start="0" duration="1" value_from="0" value_to="0" />
 		<node action="SetProperty" property="Logo:angle.y" time_start="1.5" duration="80" value_from="0" value_to="160" />
 		<node action="SetProperty" property="Logo:scale" time_start="45.5" duration="4" value_from="1" value_to="0" />
 		<node action="SetProperty" property="Logo:alpha" time_start="46" duration="1.2" value_from="1" value_to="0" />
-	</array>	
-    
+	</array>
+
 	<array base_time="5.8" > <!-- "Adams. John." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-adams-1" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="3.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="8.5" > <!-- "Do you know why we're here..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-official-2-and-6" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="3.5" duration="0.5" value_from="1" value_to="0" />
-	</array>  
+	</array>
 
 	<array base_time="11.3" > <!-- "silence..." -->
 		<node action="SetProperty" property="dialog_3:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="3.5" duration="0.5" value_from="1" value_to="0" />
-	</array>  
-    
+	</array>
+
 	<array base_time="14.0" > <!-- "You used to work as..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-official-3" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="5.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="19.5" > <!-- "Yes." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-adams-2" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_5:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_5:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_5:alpha" time_start="2.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="22.0" > <!-- "Under your..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-official-4" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_6:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_6:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_6:alpha" time_start="9.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="30.5" > <!-- "Those are but minor..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-adams-3" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_7:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_7:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_7:alpha" time_start="6.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="36.1" > <!-- "But those are lives..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-official-5" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_8:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_8:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_8:alpha" time_start="5.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="38.1" > <!-- "Silence..." -->
 		<node action="SetProperty" property="dialog_9:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_9:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_9:alpha" time_start="3.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="42.5" > <!-- "Do you know why we're here..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-official-2-and-6" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_10:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_10:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_10:alpha" time_start="3.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="46.0" > <!-- "Yes. Let's get it over with..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-adams-4" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_11:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_11:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_11:alpha" time_start="5.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-    
+
  	<array base_time="52.5" >
 		<node action="PlaySound" sound="sfx/cyberchair-close" time_start="0" />
 		<node action="PlaySound" sound="sfx/cryocask-open" time_start="1" />
@@ -145,5 +145,5 @@
 		<node action="PlayMusic" sound="music/Cafe_Sensual" time_start="6" />
 		<node action="BeginTimelineEvent" time_start="6.0" event="Credits" />
 	</array>
-	
+
 </root>

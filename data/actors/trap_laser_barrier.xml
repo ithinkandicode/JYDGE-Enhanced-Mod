@@ -2,52 +2,52 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="STEEL" 
-		 renderer="LaserBarrier" 
-		 ai="LaserBarrier" 
-         name="Laser Barrier"
-		 additional_flags="INDESTRUCTIBLE" 
-		 friend_group="ENEMIES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/lasertrap.xml" 
-		 bitmap_shadow="shadows/shadow-circle-large.png" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="0.5" 
-		 hit_points="170" 
-		 aggro_radius="470" 
-		 minimum_damage_threshold="50" 
+		<node id="PARAMETERS"
+		 physics_material="STEEL"
+		 renderer="LaserBarrier"
+		 ai="LaserBarrier"
+		 name="Laser Barrier"
+		 additional_flags="INDESTRUCTIBLE"
+		 friend_group="ENEMIES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/lasertrap.xml"
+		 bitmap_shadow="shadows/shadow-circle-large.png"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="0.5"
+		 hit_points="170"
+		 aggro_radius="470"
+		 minimum_damage_threshold="50"
 		/>
 
 		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
-		<node id="CUSTOM_DATA" 
-		 explosion_required_to_damage="true" 
-		 max_range="900" 
-		 field_of_vision="360" 
+		<node id="CUSTOM_DATA"
+		 explosion_required_to_damage="true"
+		 max_range="900"
+		 field_of_vision="360"
 		/>
 
 	</array>
-	
+
 	<array id="ACTOR_DEFAULT_KEY_VALUES">
 		<node id="is_rotating" type="BOOLEAN" value="false" />
 		<node id="range" type="FLOAT" value="300" />
 	</array>
-		
+
 
 	<array id="GIBS_EXPLOSION">
-		<node id="EXPLOSION_1" 
-		 model="" 
-		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL" 
-		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
-		 model_group_3="OBJECT_LARGE,NONE,3,NONE" 
-		 model_group_4="METAL_SMALL,NONE,2,NONE" 
-		 model_group_5="METAL_LARGE,NONE,3,NONE" 
-		 model_group_6="METAL_MISC,NONE,2,OIL" 
-		 particle_effect_1="effects/explosion-generic-medium.xml" 
-		 death_animations="" 
+		<node id="EXPLOSION_1"
+		 model=""
+		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL"
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE"
+		 model_group_3="OBJECT_LARGE,NONE,3,NONE"
+		 model_group_4="METAL_SMALL,NONE,2,NONE"
+		 model_group_5="METAL_LARGE,NONE,3,NONE"
+		 model_group_6="METAL_MISC,NONE,2,OIL"
+		 particle_effect_1="effects/explosion-generic-medium.xml"
+		 death_animations=""
 		/>
 
 	</array>

@@ -7,25 +7,25 @@
 			name="Exotic Plasma Rifle"
 			displayable_type="Exotic Plasma Rifle"
 			displayable_lore="While Baeder is known for reliable workhorse weapons, the PPG-5 Phased Plasma Gun prototype exists to prove that an old dog can learn new tricks. The PPG-5 is quite bulky but also vastly superior in power and accuracy to every other plasma weapon on the market."
-			
-            equip_price="600"
-            unlock_price="1600"
+
+			equip_price="600"
+			unlock_price="1600"
 			bm_icon="!NONE"
-             bm_manufacturer_icon="weapons/gfx/logo_baeder.png"
+			 bm_manufacturer_icon="weapons/gfx/logo_baeder.png"
 			snd_fire="sfx/weapons/plasma-rifle-fire"
 			snd_reload="sfx/weapons/autorifle_reload"
 			snd_empty_clip="sfx/weapons/empty_clip_plasma"
 
 			effect_muzzle_flash="effects/muzzle-plasma.xml"
 			effect_shell_eject="effects/one_shell_ejected.xml"
-            type="WEAPON_TYPE_PROJECTILE"
-            related_actor = "actors/weapon-assault_rifle-plasma-exotic.xml"
-          
-          
-            crit_chance="0.08"
-            
+			type="WEAPON_TYPE_PROJECTILE"
+			related_actor = "actors/weapon-assault_rifle-plasma-exotic.xml"
+
+
+			crit_chance="0.08"
+
 			projectile_actor="actors/projectile-assault_rifle-plasma-b.xml"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="900"
 			projectile_range_random="0.1"
@@ -36,7 +36,7 @@
 			max_accuracy_spread="45"
 			recoil="0.52"
 			rebound_speed="0.35"
-			
+
 			shot_interval="0.20"
 			ammo_cost_per_shot="1"
 			heat_per_shot="0.1"
@@ -44,8 +44,8 @@
 			reload_time="1.32"
 			reload_size="20"
 			clip_size="20"
-            ammo_refill_size="1"
-            
+			ammo_refill_size="1"
+
 			damage="12"
 			projectile_speed="1200"
 			projectile_speed_random="0.02"
@@ -60,12 +60,12 @@
 			damage_multiplier="1.0"
 
 			model="models/plasma-gun.xml"
-			
+
 			damage_multiplier_robotic="0.80"
 			damage_multiplier_organic="1.23"
-			
+
 		/>
-		
+
 	</array>
 </root>
 

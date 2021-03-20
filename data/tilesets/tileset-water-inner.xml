@@ -8,39 +8,39 @@
 	<array id="WALL_INNER_DOT">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_CAP">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_STRAIGHT">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_STRAIGHT">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_CORNER">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_CORNER_MINOR">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_CORNER_MAJOR">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_*_FULL">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_*_QUARTER_OUTSIDE">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_T">
 		<node output="actors/water.xml" />
 	</array>
@@ -48,7 +48,7 @@
 	<array id="WALL_OUTER_T">
 		<node output="actors/water.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_T_QUARTER_OUTSIDE">
 		<node output="actors/water.xml" />
 	</array>

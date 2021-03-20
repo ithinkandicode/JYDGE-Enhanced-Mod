@@ -18,14 +18,14 @@
 	</array>
 
 	<array id="vertex_output">
-    	<node id="position" type="FLOAT4" semantic="POSITION" />
-    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
-    	<node id="world_position" type="FLOAT3" />
+		<node id="position" type="FLOAT4" semantic="POSITION" />
+		<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+		<node id="world_position" type="FLOAT3" />
 	</array>
 
 	<array id="pixel_constants">
-    	<node id="fog_color" type="FLOAT4" />
-    	<node id="fog_range" type="FLOAT4" />
+		<node id="fog_color" type="FLOAT4" />
+		<node id="fog_range" type="FLOAT4" />
 	</array>
 
 	<array id="pixel_textures">
@@ -58,7 +58,7 @@
 							7000.0f;
 
 					float fog_factor =
-                        saturate((input.world_position.z - fog_range.x) / fog_range.y + (0.1f - 0.1f * cos(fog_wave_angle)));
+						saturate((input.world_position.z - fog_range.x) / fog_range.y + (0.1f - 0.1f * cos(fog_wave_angle)));
 
 					float4 diffuse_sample = sampleTexture(texture.diffuse, input.texture_coordinate);
 					output.color = diffuse_sample;

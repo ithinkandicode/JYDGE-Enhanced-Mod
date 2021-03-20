@@ -2,19 +2,19 @@
 
 
 <root>
-	<!-- 
+	<!--
 		Defines currency symbol mapping from strings to graphics.
-		
+
 		id				defines the 3 letter currency code.
 		bm 				defines the icon that will replace the currency code
 		bm_offset_y		defines the y offset for drawing
 		text			defines the text that will replace the currency code
-		
+
 		for example RMB 40 with bm="yuan.png" would replace the price string
 		"RMB 40" to "|img src='in-app-purchases/yuan.png' offset=0 color=#ffffff| 40"
-     
-        set color="ffffff" to force color
-		
+
+		set color="ffffff" to force color
+
 	-->
 
 	<array id="CURRENCY_MAP">

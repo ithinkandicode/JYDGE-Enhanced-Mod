@@ -7,24 +7,24 @@
 			name="Plasma Burst SMG"
 			displayable_type="Plasma Burst SMG"
 			displayable_lore="The Kochnikov PSB-400 'Hellfire' is a compact plasma weapon with a high rate of fire. The gun is extremely compact made possible with the small clip size."
-			
-            equip_price="350"
-            unlock_price="700"
-            
+
+			equip_price="350"
+			unlock_price="700"
+
 			bm_icon="!NONE"
-            bm_manufacturer_icon="weapons/gfx/logo_kochnikov.png"
+			bm_manufacturer_icon="weapons/gfx/logo_kochnikov.png"
 			snd_fire="sfx/weapons/plasma-smg-fire"
 			snd_reload="sfx/weapons/autorifle_reload"
 			snd_empty_clip="sfx/weapons/empty_clip_plasma"
-			 
+
 			effect_muzzle_flash="effects/muzzle-plasma.xml"
-            effect_shell_eject="effects/one_shell_ejected.xml"
-			
-            type="WEAPON_TYPE_PROJECTILE"
-            crit_chance="0.08"
-            related_actor = "actors/weapon-smg-plasma.xml"
+			effect_shell_eject="effects/one_shell_ejected.xml"
+
+			type="WEAPON_TYPE_PROJECTILE"
+			crit_chance="0.08"
+			related_actor = "actors/weapon-smg-plasma.xml"
 			projectile_actor="actors/projectile-smg-plasma.xml"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="900"
 			projectile_range_random="0.1"
@@ -42,8 +42,8 @@
 			reload_time="1.26"
 			reload_size="3"
 			clip_size="3"
-            ammo_refill_size="1"
-            
+			ammo_refill_size="1"
+
 			damage="8"
 			projectile_speed="550"
 			projectile_speed_random="0.0"
@@ -57,13 +57,13 @@
 			unlimited_ammo="true"
 			damage_multiplier="1.0"
 
-            model="models/smg.xml"
+			model="models/smg.xml"
 
 			damage_multiplier_robotic="0.85"
 			damage_multiplier_organic="1.15"
 
 		/>
-		
+
 	</array>
 </root>
 

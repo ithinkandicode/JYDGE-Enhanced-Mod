@@ -2,47 +2,47 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="STEEL" 
-		 name="Console" 
-		 renderer="Model" 
-		 ai="Interactive" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/console-interactive.xml" 
-		 bitmap_shadow="shadows/console-shadow.png" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="1" 
-		 hit_points="80" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="STEEL"
+		 name="Console"
+		 renderer="Model"
+		 ai="Interactive"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/console-interactive.xml"
+		 bitmap_shadow="shadows/console-shadow.png"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="1"
+		 hit_points="80"
+		 damage="0.0"
 		/>
 
-		<node id="COLLIDER" 
-		 collider_generation_method="AUTOMATIC" 
-		 edge_generation_height="-44" 
+		<node id="COLLIDER"
+		 collider_generation_method="AUTOMATIC"
+		 edge_generation_height="-44"
 		/>
 
-		<node id="CUSTOM_DATA" 
-		 interaction_type="generator_config" 
-		 interaction_tip="{k_use}OPEN" 
+		<node id="CUSTOM_DATA"
+		 interaction_type="generator_config"
+		 interaction_tip="{k_use}OPEN"
 		/>
 
 	</array>
 
 	<array id="GIBS_EXPLOSION">
-		<node id="EXPLOSION_1" 
-		 model="" 
-		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL" 
-		 model_group_2="OBJECT_SMALL,NONE,1,NONE" 
-		 model_group_3="OBJECT_LARGE,NONE,2,NONE" 
-		 model_group_4="METAL_SMALL,NONE,1,NONE" 
-		 model_group_5="METAL_LARGE,NONE,2,NONE" 
-		 model_group_6="METAL_MISC,NONE,1,NONE" 
-		 particle_effect_1="effects/explosion-electric-medium.xml" 
-		 death_animations="" 
+		<node id="EXPLOSION_1"
+		 model=""
+		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL"
+		 model_group_2="OBJECT_SMALL,NONE,1,NONE"
+		 model_group_3="OBJECT_LARGE,NONE,2,NONE"
+		 model_group_4="METAL_SMALL,NONE,1,NONE"
+		 model_group_5="METAL_LARGE,NONE,2,NONE"
+		 model_group_6="METAL_MISC,NONE,1,NONE"
+		 particle_effect_1="effects/explosion-electric-medium.xml"
+		 death_animations=""
 		/>
 
 	</array>

@@ -6,7 +6,7 @@
  <node id="cells_width" value="52" />
  <node id="cells_height" value="47" />
  <node id="ambient_light" r="0.12" g="0.14" b="0.14" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -3182,15 +3182,15 @@
  <node ref_number="705" type="actors/dumpster.xml" x="2702" y="733" angle_z="355"  />
  <node ref_number="706" type="actors/dumpster.xml" x="2770" y="588" angle_z="89"  />
  <node ref_number="707" type="actors/enemy-jydge-shooter-tough.xml" x="2236" y="473" angle_z="183" scale="1.000000" key_BOOLEAN_elimination_target="true" key_INTEGER_required_difficulty="3" key_STRING_name="Lanz"  />
- <node ref_number="708" type="actors/enemy-jydge-shooter-tough.xml" x="2578" y="1553" angle_z="331" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_INTEGER_required_difficulty="1" 
- key_STRING_name="Lanz" 
+ <node ref_number="708" type="actors/enemy-jydge-shooter-tough.xml" x="2578" y="1553" angle_z="331" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_INTEGER_required_difficulty="1"
+ key_STRING_name="Lanz"
   />
- <node ref_number="709" type="actors/enemy-jydge-shooter-tough.xml" x="2206" y="762" angle_z="90" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="2" 
- key_INTEGER_highest_allowed_difficulty="2" 
- key_STRING_name="Lanz" 
+ <node ref_number="709" type="actors/enemy-jydge-shooter-tough.xml" x="2206" y="762" angle_z="90" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="2"
+ key_INTEGER_highest_allowed_difficulty="2"
+ key_STRING_name="Lanz"
   />
  <node ref_number="710" type="actors/wall-residential-thick-L.xml" x="2040" y="2280" angle_z="90"  />
  <node ref_number="711" type="actors/wall-residential-thick-I.xml" x="2040" y="2340" angle_z="180"  />
@@ -3207,10 +3207,10 @@
  <node ref_number="722" type="actors/wall-warehouse-thick-L.xml" x="180" y="1200" angle_z="90"  />
  <node ref_number="723" type="actors/wall-warehouse-thick-I.xml" x="180" y="1260" angle_z="180"  />
  <node ref_number="724" type="actors/wall-warehouse-thick-I.xml" x="120" y="1200" angle_z="90"  />
- <node ref_number="725" type="actors/billboard-standing.xml" x="240" y="1560" angle_z="-30" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-neoncorp.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="725" type="actors/billboard-standing.xml" x="240" y="1560" angle_z="-30" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-neoncorp.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="726" type="actors/shadowmask-solid.xml" x="840" y="720" z="-121" scale="6.000000"  />
  <node ref_number="727" type="actors/wall-residential-thick-L.xml" x="1020" y="840"  />
@@ -3584,10 +3584,10 @@
  <node ref_number="1095" type="actors/wall-residential-thin-I.xml" x="1020" y="900"  />
  <node ref_number="1096" type="actors/door-double-frame.xml" x="1020" y="960" angle_z="180"  />
  <node ref_number="1097" type="actors/shelf.xml" x="1954" y="2425" angle_z="87"  />
- <node ref_number="1098" type="actors/screen-billboard.xml" x="2535" y="1701" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/omni-sec.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1098" type="actors/screen-billboard.xml" x="2535" y="1701" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/omni-sec.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1099" type="actors/wall-residential-thick-I.xml" x="900" y="900" z="-108" angle_z="90"  />
  <node ref_number="1100" type="actors/wall-residential-thick-I.xml" x="960" y="900" z="-108" angle_z="90"  />
@@ -3604,35 +3604,35 @@
  <node ref_number="1111" type="actors/wall-residential-thick-I.xml" x="780" y="900" z="-226" angle_z="90"  />
  <node ref_number="1112" type="actors/wall-residential-thick-I.xml" x="720" y="900" z="-226" angle_z="90"  />
  <node ref_number="1113" type="actors/wall-residential-thick-L.xml" x="660" y="900" z="-226" angle_z="270"  />
- <node ref_number="1114" type="actors/screen-billboard.xml" x="743" y="923" z="-248" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/fembot.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1114" type="actors/screen-billboard.xml" x="743" y="923" z="-248" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/fembot.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1115" type="actors/screen-billboard.xml" x="932" y="926" z="-247" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1115" type="actors/screen-billboard.xml" x="932" y="926" z="-247" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1116" type="actors/screen-billboard.xml" x="743" y="922" z="-133" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/kosla.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1116" type="actors/screen-billboard.xml" x="743" y="922" z="-133" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/kosla.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1117" type="actors/screen-billboard.xml" x="931" y="930" z="-139" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1117" type="actors/screen-billboard.xml" x="931" y="930" z="-139" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1118" type="actors/screen-billboard.xml" x="700" y="918" z="-33" angle_z="90" scale="0.411903" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/omni-sec.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1118" type="actors/screen-billboard.xml" x="700" y="918" z="-33" angle_z="90" scale="0.411903" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/omni-sec.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1119" type="actors/screen-billboard.xml" x="944" y="915" z="-26" angle_z="90" scale="0.588231" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1119" type="actors/screen-billboard.xml" x="944" y="915" z="-26" angle_z="90" scale="0.588231" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1120" type="actors/civilian-generic-pedestrian.xml" x="1388" y="988" angle_z="170" scale="1.000000" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1317,978,0;373,954,0;383,1251,0;1412,1350,-0;1490,992,0"  />
  <node ref_number="1121" type="actors/civilian-generic-pedestrian-male.xml" x="1422" y="1048" angle_z="170" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1350,1030,0;406,1006,0;416,1303,0;1445,1402,-0;1523,1044,0"  />
@@ -3656,15 +3656,15 @@
  <node ref_number="1139" type="actors/wall-residential-thick-I.xml" x="660" y="720" z="-222" angle_z="180"  />
  <node ref_number="1140" type="actors/wall-residential-thick-I.xml" x="660" y="780" z="-222" angle_z="180"  />
  <node ref_number="1141" type="actors/wall-residential-thick-I.xml" x="660" y="840" z="-222" angle_z="180"  />
- <node ref_number="1142" type="actors/screen-billboard.xml" x="638" y="636" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/omni-sec.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1142" type="actors/screen-billboard.xml" x="638" y="636" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/omni-sec.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1143" type="actors/screen-billboard.xml" x="637" y="821" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/explodz.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1143" type="actors/screen-billboard.xml" x="637" y="821" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/explodz.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1144" type="actors/vending-machine.xml" x="634" y="813" angle_z="181"  />
  <node ref_number="1145" type="actors/civilian-generic-pedestrian-male.xml" x="1584" y="1040" angle_z="170" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1317,978,0;639,976,0;577,946,0;572,771,0;551,579,0;550,460,0;362,482,0;415,1305,0;1394,1363,0;1543,1060,0"  />
@@ -3704,30 +3704,30 @@
  <node ref_number="1179" type="actors/wall-residential-thick-I.xml" x="1438" y="905" z="-226" angle_z="90"  />
  <node ref_number="1180" type="actors/wall-residential-thick-I.xml" x="1378" y="905" z="-226" angle_z="90"  />
  <node ref_number="1181" type="actors/wall-residential-thick-L.xml" x="1318" y="905" z="-226" angle_z="270"  />
- <node ref_number="1182" type="actors/screen-billboard.xml" x="1401" y="928" z="-248" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/fembot.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1182" type="actors/screen-billboard.xml" x="1401" y="928" z="-248" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/fembot.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1183" type="actors/screen-billboard.xml" x="1590" y="931" z="-247" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1183" type="actors/screen-billboard.xml" x="1590" y="931" z="-247" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1184" type="actors/screen-billboard.xml" x="1401" y="927" z="-133" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1184" type="actors/screen-billboard.xml" x="1401" y="927" z="-133" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1185" type="actors/screen-billboard.xml" x="1589" y="935" z="-139" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/edenbyrg.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1185" type="actors/screen-billboard.xml" x="1589" y="935" z="-139" angle_z="90" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/edenbyrg.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1186" type="actors/screen-billboard.xml" x="1602" y="920" z="-26" angle_z="90" scale="0.588231" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1186" type="actors/screen-billboard.xml" x="1602" y="920" z="-26" angle_z="90" scale="0.588231" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1187" type="actors/wall-residential-thick-I.xml" x="1318" y="845" z="-108" angle_z="180"  />
  <node ref_number="1188" type="actors/wall-residential-thick-I.xml" x="1318" y="785" z="-108" angle_z="180"  />
@@ -3737,15 +3737,15 @@
  <node ref_number="1192" type="actors/wall-residential-thick-I.xml" x="1318" y="725" z="-222" angle_z="180"  />
  <node ref_number="1193" type="actors/wall-residential-thick-I.xml" x="1318" y="785" z="-222" angle_z="180"  />
  <node ref_number="1194" type="actors/wall-residential-thick-I.xml" x="1318" y="845" z="-222" angle_z="180"  />
- <node ref_number="1195" type="actors/screen-billboard.xml" x="1296" y="641" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/omni-sec.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1195" type="actors/screen-billboard.xml" x="1296" y="641" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/omni-sec.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1196" type="actors/screen-billboard.xml" x="1295" y="826" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/explodz.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1196" type="actors/screen-billboard.xml" x="1295" y="826" z="-264" angle_z="180" scale="0.800000" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/explodz.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1197" type="actors/vending-machine.xml" x="1291" y="830" angle_z="181"  />
  <node ref_number="1198" type="actors/wall-residential-thick-I.xml" x="1140" y="780" angle_z="180"  />
@@ -3755,15 +3755,15 @@
  <node id="G27882" ref_number="1202" type="actors/atm.xml" x="1283" y="750" angle_z="180" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node ref_number="1203" type="actors/wall-residential-thick-I.xml" x="660" y="600" z="-108" angle_z="180"  />
  <node ref_number="1204" type="actors/vending-machine-red.xml" x="1354" y="956" angle_z="90"  />
- <node ref_number="1205" type="actors/billboard-standing.xml" x="240" y="1260" angle_z="-30" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-default.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1205" type="actors/billboard-standing.xml" x="240" y="1260" angle_z="-30" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-default.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="1206" type="actors/screen-billboard.xml" x="2275" y="1702" angle_z="90" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1206" type="actors/screen-billboard.xml" x="2275" y="1702" angle_z="90" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
   />
 </array>
 

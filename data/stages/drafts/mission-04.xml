@@ -9,7 +9,7 @@
  <node id="script" value="scripts/stage-scripts/jydge.nut" />
  <node id="name" value="Overrun Market District" />
  <node id="music_track" value="music/game_2" />
- <node id="key_values" 
+ <node id="key_values"
 key_STRING_mission_type="kill_targets"  />
 </array>
 
@@ -1821,11 +1821,11 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="696" type="actors/box-cardboard-plain.xml" x="1530" y="935" angle_z="351" scale="0.423668"  />
  <node ref_number="697" type="actors/door-outer-double-red-sliding.xml" x="1020" y="840"  />
  <node ref_number="698" type="actors/door-outer-double-red-sliding.xml" x="1020" y="780" angle_z="180"  />
- <node ref_number="699" type="actors/enemy-soldier-elite-railgun.xml" x="961" y="148" angle_z="76" key_STRING_name="|#ff0000|TARGET" 
- key_BOOLEAN_immune_to_conversion="true" 
- key_STRING_enhancements="MINIBOSS" 
- key_STRING_drop_on_death="actors/keycard-red.xml" 
- key_BOOLEAN_player_target="true" 
+ <node ref_number="699" type="actors/enemy-soldier-elite-railgun.xml" x="961" y="148" angle_z="76" key_STRING_name="|#ff0000|TARGET"
+ key_BOOLEAN_immune_to_conversion="true"
+ key_STRING_enhancements="MINIBOSS"
+ key_STRING_drop_on_death="actors/keycard-red.xml"
+ key_BOOLEAN_player_target="true"
   />
  <node ref_number="700" type="actors/wall-warehouse-thick-column.xml" x="1830" y="1140" angle_z="90"  />
  <node ref_number="701" parent="214" type="actors/box-cardboard-plain.xml" x="15" y="1" z="-36" angle_z="45" scale="0.709867"  />
@@ -1953,49 +1953,49 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="823" type="actors/skyscraper1-billboard3.xml" x="-30120" y="6060" angle_z="180" scale="0.764464"  />
  <node ref_number="824" type="actors/skyscraper3.xml" x="-40020" y="6060" angle_z="90" scale="0.796614"  />
  <node ref_number="825" type="actors/skyscraper3-billboard2.xml" x="-40020" y="6060" angle_z="90" scale="0.796614"  />
- <node ref_number="826" type="actors/traffic-spawner.xml" x="-3312" y="16560" angle_z="270" scale="1.000000" key_INTEGER_max_living_spawns="5" 
- key_INTEGER_num_prespawns="0" 
- key_FLOAT_distance_to_cover="38640" 
- key_FLOAT_pre_travel="0" 
- key_FLOAT_actor_speed="1800" 
- key_FLOAT_scale_multiplier="1" 
- key_FLOAT_spawn_area_width="2760" 
- key_FLOAT_spawn_area_height="8280" 
- key_STRING_actor_to_spawn="actors/spinner-plane.xml" 
- key_STRING_bitmap_to_spawn="UNSET" 
+ <node ref_number="826" type="actors/traffic-spawner.xml" x="-3312" y="16560" angle_z="270" scale="1.000000" key_INTEGER_max_living_spawns="5"
+ key_INTEGER_num_prespawns="0"
+ key_FLOAT_distance_to_cover="38640"
+ key_FLOAT_pre_travel="0"
+ key_FLOAT_actor_speed="1800"
+ key_FLOAT_scale_multiplier="1"
+ key_FLOAT_spawn_area_width="2760"
+ key_FLOAT_spawn_area_height="8280"
+ key_STRING_actor_to_spawn="actors/spinner-plane.xml"
+ key_STRING_bitmap_to_spawn="UNSET"
   />
- <node ref_number="827" type="actors/traffic-spawner.xml" x="-3312" y="-13800" angle_z="90" scale="1.000000" key_INTEGER_max_living_spawns="5" 
- key_INTEGER_num_prespawns="0" 
- key_FLOAT_distance_to_cover="38640" 
- key_FLOAT_pre_travel="0" 
- key_FLOAT_actor_speed="1800" 
- key_FLOAT_scale_multiplier="1" 
- key_FLOAT_spawn_area_width="2760" 
- key_FLOAT_spawn_area_height="8280" 
- key_STRING_actor_to_spawn="actors/spinner-plane.xml" 
- key_STRING_bitmap_to_spawn="UNSET" 
+ <node ref_number="827" type="actors/traffic-spawner.xml" x="-3312" y="-13800" angle_z="90" scale="1.000000" key_INTEGER_max_living_spawns="5"
+ key_INTEGER_num_prespawns="0"
+ key_FLOAT_distance_to_cover="38640"
+ key_FLOAT_pre_travel="0"
+ key_FLOAT_actor_speed="1800"
+ key_FLOAT_scale_multiplier="1"
+ key_FLOAT_spawn_area_width="2760"
+ key_FLOAT_spawn_area_height="8280"
+ key_STRING_actor_to_spawn="actors/spinner-plane.xml"
+ key_STRING_bitmap_to_spawn="UNSET"
   />
- <node ref_number="828" type="actors/traffic-spawner.xml" x="-3312" y="-13800" angle_z="90" scale="1.000000" key_INTEGER_max_living_spawns="5" 
- key_INTEGER_num_prespawns="0" 
- key_FLOAT_distance_to_cover="38640" 
- key_FLOAT_pre_travel="0" 
- key_FLOAT_actor_speed="1800" 
- key_FLOAT_scale_multiplier="1" 
- key_FLOAT_spawn_area_width="2760" 
- key_FLOAT_spawn_area_height="8280" 
- key_STRING_actor_to_spawn="actors/spinner-plane.xml" 
- key_STRING_bitmap_to_spawn="UNSET" 
+ <node ref_number="828" type="actors/traffic-spawner.xml" x="-3312" y="-13800" angle_z="90" scale="1.000000" key_INTEGER_max_living_spawns="5"
+ key_INTEGER_num_prespawns="0"
+ key_FLOAT_distance_to_cover="38640"
+ key_FLOAT_pre_travel="0"
+ key_FLOAT_actor_speed="1800"
+ key_FLOAT_scale_multiplier="1"
+ key_FLOAT_spawn_area_width="2760"
+ key_FLOAT_spawn_area_height="8280"
+ key_STRING_actor_to_spawn="actors/spinner-plane.xml"
+ key_STRING_bitmap_to_spawn="UNSET"
   />
- <node ref_number="829" type="actors/traffic-spawner.xml" x="-5000" y="16560" angle_z="270" scale="1.000000" key_INTEGER_max_living_spawns="1" 
- key_INTEGER_num_prespawns="0" 
- key_FLOAT_distance_to_cover="77280" 
- key_FLOAT_pre_travel="0" 
- key_FLOAT_actor_speed="300" 
- key_FLOAT_scale_multiplier="1" 
- key_FLOAT_spawn_area_width="3" 
- key_FLOAT_spawn_area_height="3" 
- key_STRING_actor_to_spawn="actors/airship.xml" 
- key_STRING_bitmap_to_spawn="UNSET" 
+ <node ref_number="829" type="actors/traffic-spawner.xml" x="-5000" y="16560" angle_z="270" scale="1.000000" key_INTEGER_max_living_spawns="1"
+ key_INTEGER_num_prespawns="0"
+ key_FLOAT_distance_to_cover="77280"
+ key_FLOAT_pre_travel="0"
+ key_FLOAT_actor_speed="300"
+ key_FLOAT_scale_multiplier="1"
+ key_FLOAT_spawn_area_width="3"
+ key_FLOAT_spawn_area_height="3"
+ key_STRING_actor_to_spawn="actors/airship.xml"
+ key_STRING_bitmap_to_spawn="UNSET"
   />
  <node ref_number="830" type="actors/enemy-jydge-shooter-regular.xml" x="741" y="1127" angle_z="112"  />
  <node ref_number="831" type="actors/enemy-jydge-shooter-regular.xml" x="469" y="1391"  />
@@ -2014,15 +2014,15 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="844" type="actors/enemy-jydge-shooter-regular.xml" x="189" y="320" angle_z="112"  />
  <node ref_number="845" type="actors/enemy-jydge-shooter-regular.xml" x="1789" y="1092" angle_z="112"  />
  <node ref_number="846" type="actors/enemy-jydge-shooter-regular.xml" x="1650" y="800" angle_z="112"  />
- <node ref_number="847" type="actors/logic-playerobserver.xml" x="328" y="1847" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="80" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_BOOLEAN_player_exit="true" 
+ <node ref_number="847" type="actors/logic-playerobserver.xml" x="328" y="1847" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="80"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_BOOLEAN_player_exit="true"
   />
  <node ref_number="848" type="actors/keycard-red.xml" x="1920" y="1919" angle_z="159"  />
  <node ref_number="849" type="actors/enemy-jydge-shooter-regular.xml" x="1837" y="889" angle_z="179"  />
@@ -2036,10 +2036,10 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="857" type="actors/enemy-jydge-shooter-regular.xml" x="1332" y="709" angle_z="179"  />
  <node ref_number="858" type="actors/enemy-jydge-shooter-regular.xml" x="1234" y="881" angle_z="179"  />
  <node ref_number="859" type="actors/enemy-jydge-shooter-regular.xml" x="1238" y="986" angle_z="179"  />
- <node ref_number="860" type="actors/enemy-soldier-elite-railgun.xml" x="921" y="598" angle_z="76" key_STRING_name="|#ff0000|TARGET" 
- key_BOOLEAN_immune_to_conversion="true" 
- key_STRING_enhancements="MINIBOSS" 
- key_BOOLEAN_player_target="true" 
+ <node ref_number="860" type="actors/enemy-soldier-elite-railgun.xml" x="921" y="598" angle_z="76" key_STRING_name="|#ff0000|TARGET"
+ key_BOOLEAN_immune_to_conversion="true"
+ key_STRING_enhancements="MINIBOSS"
+ key_BOOLEAN_player_target="true"
   />
  <node ref_number="861" type="actors/sofa.xml" x="827" y="593" angle_z="359"  />
  <node ref_number="862" type="actors/screen-agriglobal.xml" x="942" y="439" angle_z="90" scale="0.846649"  />

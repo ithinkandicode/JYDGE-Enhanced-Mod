@@ -2,19 +2,19 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
-		number_of_particles="4" 
-		 initial_age="-0.2;0.2" 
-		 age_to_die="0.9;1.2" 
-		 position_spread_box="30,30,3" 
-		 gravity_multiplier="-0.22" 
-		 alpha_curve="0,0;0.5,0.5;1,0" 
-		 alpha_multiplier="0.15;0.3" 
-		 scale_multiplier="0.9;2.2" 
-		 rotation_angles="0,0,0;0,0,360" 
-		 angular_velocity="0,0,20;0,0,50" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/smoke_white.png" 
+		<node class="BITMAP"
+		number_of_particles="4"
+		 initial_age="-0.2;0.2"
+		 age_to_die="0.9;1.2"
+		 position_spread_box="30,30,3"
+		 gravity_multiplier="-0.22"
+		 alpha_curve="0,0;0.5,0.5;1,0"
+		 alpha_multiplier="0.15;0.3"
+		 scale_multiplier="0.9;2.2"
+		 rotation_angles="0,0,0;0,0,360"
+		 angular_velocity="0,0,20;0,0,50"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/smoke_white.png"
 		 />
 
 	</array>

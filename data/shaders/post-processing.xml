@@ -17,12 +17,12 @@
 	</array>
 
 	<array id="vertex_output">
-    	<node id="position" type="FLOAT4" semantic="POSITION" />
-    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+		<node id="position" type="FLOAT4" semantic="POSITION" />
+		<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
 	</array>
 
 	<array id="pixel_constants">
-    	<node id="screen_dimensions" type="FLOAT4" />
+		<node id="screen_dimensions" type="FLOAT4" />
 	</array>
 
 	<array id="pixel_textures">
@@ -44,7 +44,7 @@
 			]]>
 		</node>
 
-		
+
 		<node type="pixel">
 			<![CDATA[
 // Define when applying FXAA to an sRGB back buffer
@@ -81,50 +81,50 @@
 FXAA_PRESET - Choose compile-in knob preset 0-5.
 ------------------------------------------------------------------------------
 FXAA_EDGE_THRESHOLD - The minimum amount of local contrast required
-                      to apply algorithm.
-                      1.0/3.0  - too little
-                      1.0/4.0  - good start
-                      1.0/8.0  - applies to more edges
-                      1.0/16.0 - overkill
+					  to apply algorithm.
+					  1.0/3.0  - too little
+					  1.0/4.0  - good start
+					  1.0/8.0  - applies to more edges
+					  1.0/16.0 - overkill
 ------------------------------------------------------------------------------
 FXAA_EDGE_THRESHOLD_MIN - Trims the algorithm from processing darks.
-                          Perf optimization.
-                          1.0/32.0 - visible limit (smaller isn't visible)
-                          1.0/16.0 - good compromise
-                          1.0/12.0 - upper limit (seeing artifacts)
+						  Perf optimization.
+						  1.0/32.0 - visible limit (smaller isn't visible)
+						  1.0/16.0 - good compromise
+						  1.0/12.0 - upper limit (seeing artifacts)
 ------------------------------------------------------------------------------
 FXAA_SEARCH_STEPS - Maximum number of search steps for end of span.
 ------------------------------------------------------------------------------
 FXAA_SEARCH_ACCELERATION - How much to accelerate search,
-                           1 - no acceleration
-                           2 - skip by 2 pixels
-                           3 - skip by 3 pixels
-                           4 - skip by 4 pixels
+						   1 - no acceleration
+						   2 - skip by 2 pixels
+						   3 - skip by 3 pixels
+						   4 - skip by 4 pixels
 ------------------------------------------------------------------------------
 FXAA_SEARCH_THRESHOLD - Controls when to stop searching.
-                        1.0/4.0 - seems to be the best quality wise
+						1.0/4.0 - seems to be the best quality wise
 ------------------------------------------------------------------------------
 FXAA_SUBPIX_FASTER - Turn on lower quality but faster subpix path.
-                     Not recomended, but used in preset 0.
+					 Not recomended, but used in preset 0.
 ------------------------------------------------------------------------------
 FXAA_SUBPIX - Toggle subpix filtering.
-              0 - turn off
-              1 - turn on
-              2 - turn on full (ignores FXAA_SUBPIX_TRIM and CAP)
+			  0 - turn off
+			  1 - turn on
+			  2 - turn on full (ignores FXAA_SUBPIX_TRIM and CAP)
 ------------------------------------------------------------------------------
 FXAA_SUBPIX_TRIM - Controls sub-pixel aliasing removal.
-                   1.0/2.0 - low removal
-                   1.0/3.0 - medium removal
-                   1.0/4.0 - default removal
-                   1.0/8.0 - high removal
-                   0.0 - complete removal
+				   1.0/2.0 - low removal
+				   1.0/3.0 - medium removal
+				   1.0/4.0 - default removal
+				   1.0/8.0 - high removal
+				   0.0 - complete removal
 ------------------------------------------------------------------------------
 FXAA_SUBPIX_CAP - Insures fine detail is not completely removed.
-                  This is important for the transition of sub-pixel detail,
-                  like fences and wires.
-                  3.0/4.0 - default (medium amount of filtering)
-                  7.0/8.0 - high amount of filtering
-                  1.0 - no capping of sub-pixel aliasing removal
+				  This is important for the transition of sub-pixel detail,
+				  like fences and wires.
+				  3.0/4.0 - default (medium amount of filtering)
+				  7.0/8.0 - high amount of filtering
+				  1.0 - no capping of sub-pixel aliasing removal
 */
 
 #define FXAA_PRESET 2
@@ -150,45 +150,45 @@ FXAA_SUBPIX_CAP - Insures fine detail is not completely removed.
 	#define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
 	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
 #elif FXAA_PRESET == 2
-    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
-    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
-    #define FXAA_SEARCH_STEPS        8
-    #define FXAA_SEARCH_ACCELERATION 2
-    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
-    #define FXAA_SUBPIX              1
-    #define FXAA_SUBPIX_FASTER       0
-    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
-    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+	#define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+	#define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+	#define FXAA_SEARCH_STEPS        8
+	#define FXAA_SEARCH_ACCELERATION 2
+	#define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+	#define FXAA_SUBPIX              1
+	#define FXAA_SUBPIX_FASTER       0
+	#define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
 #elif FXAA_PRESET == 3
-    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
-    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
-    #define FXAA_SEARCH_STEPS        16
-    #define FXAA_SEARCH_ACCELERATION 1
-    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
-    #define FXAA_SUBPIX              1
-    #define FXAA_SUBPIX_FASTER       0
-    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
-    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+	#define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+	#define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+	#define FXAA_SEARCH_STEPS        16
+	#define FXAA_SEARCH_ACCELERATION 1
+	#define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+	#define FXAA_SUBPIX              1
+	#define FXAA_SUBPIX_FASTER       0
+	#define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
 #elif FXAA_PRESET == 4
-    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
-    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
-    #define FXAA_SEARCH_STEPS        24
-    #define FXAA_SEARCH_ACCELERATION 1
-    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
-    #define FXAA_SUBPIX              1
-    #define FXAA_SUBPIX_FASTER       0
-    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
-    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+	#define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+	#define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+	#define FXAA_SEARCH_STEPS        24
+	#define FXAA_SEARCH_ACCELERATION 1
+	#define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+	#define FXAA_SUBPIX              1
+	#define FXAA_SUBPIX_FASTER       0
+	#define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
 #elif FXAA_PRESET == 5
-    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
-    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
-    #define FXAA_SEARCH_STEPS        32
-    #define FXAA_SEARCH_ACCELERATION 1
-    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
-    #define FXAA_SUBPIX              1
-    #define FXAA_SUBPIX_FASTER       0
-    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
-    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+	#define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+	#define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+	#define FXAA_SEARCH_STEPS        32
+	#define FXAA_SEARCH_ACCELERATION 1
+	#define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+	#define FXAA_SUBPIX              1
+	#define FXAA_SUBPIX_FASTER       0
+	#define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
 #endif
 
 #define FXAA_SUBPIX_TRIM_SCALE (1.0f / (1.0f - FXAA_SUBPIX_TRIM))
@@ -460,9 +460,9 @@ float3 FxaaPixelShader(float2 position, float2 reciprocal_screen_size)
 			]]>
 		</node>
 
-        <node type="pixel" target="ESSL20">
+		<node type="pixel" target="ESSL20">
 			<![CDATA[
-				// ESSL20 doesn't support all the required instructions for this fxaa, so we'll just have a simple 
+				// ESSL20 doesn't support all the required instructions for this fxaa, so we'll just have a simple
 				// passthrough pixel shader to avoid getting warnings. We'll never use this shader on GLES in any case.
 				void main()
 				{
@@ -471,6 +471,6 @@ float3 FxaaPixelShader(float2 position, float2 reciprocal_screen_size)
 				}
 			]]>
 		</node>
-		
+
 	</array>
 </root>

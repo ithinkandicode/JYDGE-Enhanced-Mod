@@ -9,7 +9,7 @@
  <node id="script" value="scripts/stage-scripts/jydge.nut" />
  <node id="name" value="St. Patrick Hospital" />
  <node id="music_track" value="music/game_2" />
- <node id="key_values" 
+ <node id="key_values"
 key_STRING_mission_type="kill_targets"  />
 </array>
 
@@ -1300,12 +1300,12 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="372" type="actors/cable-I.xml" x="1440" y="300" angle_z="180"  />
  <node ref_number="373" type="actors/power-cell.xml" x="1440" y="240" angle_z="90" key_BOOLEAN_indestructible="false" key_BOOLEAN_friend_or_foe="false" key_STAGE_OBJECT_REFERENCE_new_2="375"  />
  <node ref_number="374" type="actors/power-cell.xml" x="1560" y="240" angle_z="90" key_BOOLEAN_indestructible="false" key_BOOLEAN_friend_or_foe="false" key_STAGE_OBJECT_REFERENCE_new_1="375"  />
- <node ref_number="375" type="actors/relay_device.xml" x="1770" y="120" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_INTEGER_num_unique_signals_required="2" 
- key_STAGE_OBJECT_REFERENCE_new_0="380" 
- key_STAGE_OBJECT_REFERENCE_new_12="416" 
- key_STAGE_OBJECT_REFERENCE_new_15="469" 
+ <node ref_number="375" type="actors/relay_device.xml" x="1770" y="120" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_INTEGER_num_unique_signals_required="2"
+ key_STAGE_OBJECT_REFERENCE_new_0="380"
+ key_STAGE_OBJECT_REFERENCE_new_12="416"
+ key_STAGE_OBJECT_REFERENCE_new_15="469"
   />
  <node ref_number="376" type="actors/wall-lab-thick-I.xml" x="1740" y="780" angle_z="90"  />
  <node ref_number="377" type="actors/wall-lab-thick-I.xml" x="1680" y="720" angle_z="180"  />
@@ -1345,35 +1345,35 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="411" type="actors/door-outer-double-sliding-unlit.xml" x="1200" y="60" angle_z="90"  />
  <node ref_number="412" type="actors/door-outer-double-sliding-unlit.xml" x="60" y="540"  />
  <node ref_number="413" type="actors/door-outer-double-sliding-unlit.xml" x="60" y="480" angle_z="180"  />
- <node ref_number="414" type="actors/invisible-spawner.xml" x="180" y="510" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="7" 
- key_INTEGER_max_living_spawns="7" 
- key_FLOAT_spawn_interval="0.3" 
- key_BOOLEAN_indestructible="true" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-soldier.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="414" type="actors/invisible-spawner.xml" x="180" y="510" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="7"
+ key_INTEGER_max_living_spawns="7"
+ key_FLOAT_spawn_interval="0.3"
+ key_BOOLEAN_indestructible="true"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-soldier.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
- <node ref_number="415" type="actors/invisible-spawner.xml" x="357" y="1648" angle_z="90" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="7" 
- key_INTEGER_max_living_spawns="7" 
- key_FLOAT_spawn_interval="0.3" 
- key_BOOLEAN_indestructible="true" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-security-guard.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="415" type="actors/invisible-spawner.xml" x="357" y="1648" angle_z="90" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="7"
+ key_INTEGER_max_living_spawns="7"
+ key_FLOAT_spawn_interval="0.3"
+ key_BOOLEAN_indestructible="true"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-security-guard.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
- <node ref_number="416" type="actors/invisible-spawner.xml" x="508" y="1742" angle_z="270" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="20" 
- key_INTEGER_max_living_spawns="5" 
- key_FLOAT_spawn_interval="0.3" 
- key_BOOLEAN_indestructible="true" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-security-guard.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="416" type="actors/invisible-spawner.xml" x="508" y="1742" angle_z="270" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="20"
+ key_INTEGER_max_living_spawns="5"
+ key_FLOAT_spawn_interval="0.3"
+ key_BOOLEAN_indestructible="true"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-security-guard.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
  <node ref_number="417" type="actors/door-sliding.xml" x="780" y="840" angle_z="180"  />
  <node ref_number="418" type="actors/door-sliding.xml" x="780" y="720"  />
@@ -1420,39 +1420,39 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="459" type="actors/mainframe-small.xml" x="1560" y="1680" angle_z="90"  />
  <node ref_number="460" type="actors/mainframe-small.xml" x="1320" y="1680" angle_z="90"  />
  <node ref_number="461" type="actors/mainframe-small.xml" x="1200" y="1680" angle_z="90"  />
- <node ref_number="462" type="actors/watchdog_device.xml" x="1800" y="1080" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_FLOAT_radius="200" 
- key_BOOLEAN_active="true" 
- key_BOOLEAN_scan_on_hack="false" 
- key_STRING_actor_to_scan_for="actors/dummy.xml" 
- key_STAGE_OBJECT_REFERENCE_watched="461" 
- key_STAGE_OBJECT_REFERENCE_watched_2="460" 
- key_STAGE_OBJECT_REFERENCE_watched_3="437" 
- key_STAGE_OBJECT_REFERENCE_watched_4="459" 
- key_STAGE_OBJECT_REFERENCE_new_8="373" 
- key_STAGE_OBJECT_REFERENCE_new_9="374" 
- key_STAGE_OBJECT_REFERENCE_new_11="469" 
+ <node ref_number="462" type="actors/watchdog_device.xml" x="1800" y="1080" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_FLOAT_radius="200"
+ key_BOOLEAN_active="true"
+ key_BOOLEAN_scan_on_hack="false"
+ key_STRING_actor_to_scan_for="actors/dummy.xml"
+ key_STAGE_OBJECT_REFERENCE_watched="461"
+ key_STAGE_OBJECT_REFERENCE_watched_2="460"
+ key_STAGE_OBJECT_REFERENCE_watched_3="437"
+ key_STAGE_OBJECT_REFERENCE_watched_4="459"
+ key_STAGE_OBJECT_REFERENCE_new_8="373"
+ key_STAGE_OBJECT_REFERENCE_new_9="374"
+ key_STAGE_OBJECT_REFERENCE_new_11="469"
   />
  <node ref_number="463" type="actors/kitchen-desk.xml" x="1200" y="1560" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
  <node ref_number="464" parent="463" type="actors/workstation.xml" x="-5" y="4" z="-36" angle_z="5"  />
- <node ref_number="465" type="actors/logic-playerobserver.xml" x="903" y="739" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="600" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_13="415" 
+ <node ref_number="465" type="actors/logic-playerobserver.xml" x="903" y="739" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="600"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_13="415"
   />
  <node ref_number="466" type="actors/cable-cap.xml" x="1860" y="480" angle_z="90"  />
  <node ref_number="467" type="actors/cable-T.xml" x="1800" y="480" angle_z="90"  />
  <node ref_number="468" type="actors/cable-I.xml" x="1800" y="540" angle_z="180"  />
- <node ref_number="469" type="actors/relay_device.xml" x="152" y="689" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_INTEGER_num_unique_signals_required="1" 
- key_STAGE_OBJECT_REFERENCE_new_14="414" 
+ <node ref_number="469" type="actors/relay_device.xml" x="152" y="689" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_INTEGER_num_unique_signals_required="1"
+ key_STAGE_OBJECT_REFERENCE_new_14="414"
   />
  <node ref_number="470" type="actors/sink.xml" x="720" y="750" angle_z="270"  />
  <node ref_number="471" type="actors/sink.xml" x="720" y="810" angle_z="90"  />
@@ -1760,15 +1760,15 @@ key_STRING_mission_type="kill_targets"  />
  <node ref_number="773" type="actors/skyscraper1.xml" x="-36060" y="-39060" z="42477" angle_z="270" scale="1.223836"  />
  <node ref_number="774" type="actors/skyscraper1-billboard3.xml" x="-36060" y="-39060" z="42477" angle_z="270" scale="1.223836"  />
  <node ref_number="775" type="actors/skyscraper3.xml" x="12530" y="-2282" z="40624" angle_z="90" scale="1.119669"  />
- <node ref_number="776" type="actors/logic-playerobserver.xml" x="247" y="1655" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="80" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_BOOLEAN_player_exit="true" 
+ <node ref_number="776" type="actors/logic-playerobserver.xml" x="247" y="1655" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="80"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_BOOLEAN_player_exit="true"
   />
  <node ref_number="777" type="actors/box-mesh.xml" x="3430" y="1070" angle_z="91"  />
  <node ref_number="778" parent="777" type="actors/box-cardboard-plain.xml" x="1" y="0" z="-36" angle_z="356" scale="0.915759"  />

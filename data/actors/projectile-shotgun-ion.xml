@@ -2,35 +2,35 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="ION" 
-		 name="Plasma Bolt" 
-		 renderer="ProjectileIonBolt" 
-		 ai="NCBullet" 
-		 base="bullet" 
-		 friend_group="PROJECTILES" 
-		 mass="2.5" 
-		 turn_speed="0" 
-		 move_speed="300" 
-		 scale="1" 
-		 bitmap_move="actors/gfx/bullet-ion-ball.png" 
-		 bitmap_attack="actors/gfx/bullet-ion-ball.png" 
-		 bitmap_death="!NONE" 
-		 bitmap_trail="actors/gfx/trail-blue.png" 
-		 hit_points="1" 
-         death_duration="0.5"
+		<node id="PARAMETERS"
+		 physics_material="ION"
+		 name="Plasma Bolt"
+		 renderer="ProjectileIonBolt"
+		 ai="NCBullet"
+		 base="bullet"
+		 friend_group="PROJECTILES"
+		 mass="2.5"
+		 turn_speed="0"
+		 move_speed="300"
+		 scale="1"
+		 bitmap_move="actors/gfx/bullet-ion-ball.png"
+		 bitmap_attack="actors/gfx/bullet-ion-ball.png"
+		 bitmap_death="!NONE"
+		 bitmap_trail="actors/gfx/trail-blue.png"
+		 hit_points="1"
+		 death_duration="0.5"
 		/>
 
-		<node id="COLLIDER" 
-		 collider_generation_method="AUTOMATIC" 
-		 cylinder_radius="0" 
+		<node id="COLLIDER"
+		 collider_generation_method="AUTOMATIC"
+		 cylinder_radius="0"
 		/>
 
 		<node id="CUSTOM_DATA"
-        tesla_attack_radius="130"
-        max_tesla_attack_targets="2"
-        bullet_scale="2"
-        bitmap_lightning="actors/gfx/bullet-ion-bolt-lighting-tiny.png" 
-        bitmap_lightning_alpha="0.03" />
+		tesla_attack_radius="130"
+		max_tesla_attack_targets="2"
+		bullet_scale="2"
+		bitmap_lightning="actors/gfx/bullet-ion-bolt-lighting-tiny.png"
+		bitmap_lightning_alpha="0.03" />
 	</array>
 </root>

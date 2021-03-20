@@ -17,7 +17,7 @@
 
 	-->
 
-    <!--
+	<!--
 
 Achievement ideas for Jydge:
 
@@ -36,7 +36,7 @@ Achievement ideas for Jydge:
 
 
 
-    -->
+	-->
 
 	<array id="ACHIEVEMENTS">
 
@@ -46,7 +46,7 @@ Achievement ideas for Jydge:
 		 desc_post="Got three medals in a mission on one difficulty."
 		 icon="achievements/three_medals.png"
 		 points="15"
-         psn_type="Bronze (15 pts)"
+		 psn_type="Bronze (15 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQAQ"
 		/>
@@ -57,7 +57,7 @@ Achievement ideas for Jydge:
 		 desc_post="Rescued 50 Citizens."
 		 icon="achievements/savior.png"
 		 points="15"
-         psn_type="Bronze (15 pts)"
+		 psn_type="Bronze (15 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQAg"
 		/>
@@ -68,7 +68,7 @@ Achievement ideas for Jydge:
 		 desc_post="Completed the first act."
 		 icon="achievements/act_1.png"
 		 points="15"
-         psn_type="Silver (30 pts)"
+		 psn_type="Silver (30 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQAw"
 		/>
@@ -79,7 +79,7 @@ Achievement ideas for Jydge:
 		 desc_post="Completed the second act."
 		 icon="achievements/act_2.png"
 		 points="15"
-         psn_type="Silver (30 pts)"
+		 psn_type="Silver (30 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQBA"
 		/>
@@ -90,7 +90,7 @@ Achievement ideas for Jydge:
 		 desc_post="Completed the third act."
 		 icon="achievements/act_3.png"
 		 points="15"
-         psn_type="Silver (30 pts)"
+		 psn_type="Silver (30 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQBQ"
 		/>
@@ -101,7 +101,7 @@ Achievement ideas for Jydge:
 		 desc_post="Completed the game as the hero of the citizens."
 		 icon="achievements/good_ending.png"
 		 points="30"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQBg"
 		/>
@@ -112,7 +112,7 @@ Achievement ideas for Jydge:
 		 desc_post="Got all medals for all missions of the Acts on Normal difficulty."
 		 icon="achievements/difficulty_normal.png"
 		 points="30"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQBw"
 		/>
@@ -123,7 +123,7 @@ Achievement ideas for Jydge:
 		 desc_post="Got all medals for all missions of the Acts on Hardcore difficulty."
 		 icon="achievements/difficulty_hardcore.png"
 		 points="30"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQCA"
 		/>
@@ -134,7 +134,7 @@ Achievement ideas for Jydge:
 		 desc_post="Got all medals for all missions of the Acts on Grim difficulty."
 		 icon="achievements/difficulty_grim.png"
 		 points="30"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQCQ"
 		/>
@@ -145,7 +145,7 @@ Achievement ideas for Jydge:
 		 desc_post="Got all medals for all missions of the Acts on Nightmare difficulty."
 		 icon="achievements/difficulty_nightmare.png"
 		 points="30"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQCg"
 		/>
@@ -156,7 +156,7 @@ Achievement ideas for Jydge:
 		 desc_post="Purchased all cyberware."
 		 icon="achievements/cyberware.png"
 		 points="15"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQCw"
 		/>
@@ -167,7 +167,7 @@ Achievement ideas for Jydge:
 		 desc_post="Purchased all weapon mods."
 		 icon="achievements/weapon_mods.png"
 		 points="15"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQDA"
 		/>
@@ -178,7 +178,7 @@ Achievement ideas for Jydge:
 		 desc_post="Upgraded four Gavel firemodes to the max."
 		 icon="achievements/upgrade_all_firemodes.png"
 		 points="15"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQDQ"
 		/>
@@ -189,7 +189,7 @@ Achievement ideas for Jydge:
 		 desc_post="Upgraded four special weapons to the max."
 		 icon="achievements/upgrade_all_specials.png"
 		 points="15"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQDg"
 		/>
@@ -200,7 +200,7 @@ Achievement ideas for Jydge:
 		 desc_post="Found all collectibles."
 		 icon="achievements/collector.png"
 		 points="30"
-         psn_type="Gold (90 pts)"
+		 psn_type="Gold (90 pts)"
 
 		 play_games_id="CgkIrY2qmOoIEAIQDw"
 		/>

@@ -9,7 +9,7 @@
 		<node id="weapons/assault_rifle-conventional-burst.xml" type="weapon" always_unlocked="true" />
 		<node id="weapons/shotgun-conventional.xml" type="weapon" always_unlocked="true" />
 		<node id="MICRO_MISSILES" type="ability" always_unlocked="true" />
-        <node id="LASER_PULSE" type="ability" always_unlocked="true" />
+		<node id="LASER_PULSE" type="ability" always_unlocked="true" />
 		<node id="SKINWEAVE" type="enhancement" always_unlocked="true" />
 		<node id="ELECTROSHOCK" type="enhancement" always_unlocked="true" />
 		<node id="SCYTHE_HANDS" type="enhancement" always_unlocked="true" />
@@ -28,7 +28,7 @@
 		<node id="weapons/assault_rifle-laser.xml" type="weapon" tip="" />
 		<node id="weapons/assault_rifle-laser-burst.xml" type="weapon" tip="" />
 		<node id="DEFENSIVE_GRENADES" type="ability" tip="" />
-        <node id="NADE_LAUNCHER" type="ability" tip="" />
+		<node id="NADE_LAUNCHER" type="ability" tip="" />
 		<node id="FLOOR_HEAL" type="enhancement" tip="" />
 		<node id="HEALTH_GAMBLER" type="enhancement" tip="" />
 		<node id="BOSS_KILLER" type="enhancement" tip="" />
@@ -66,7 +66,7 @@
 		<node id="NANOSYMBIOTES" type="enhancement" tip="" />
 		<node id="GAS_LEAK" type="enhancement" tip="" />
 		<node id="EXPLOSIVE_BULLET" type="enhancement" tip="" />
-        <node id="SONIC_PULSE" type="ability" tip="" />
+		<node id="SONIC_PULSE" type="ability" tip="" />
 		<node id="weapons/rocket-launcher.xml" type="weapon" tip="" fixed="true" />
 
 		<!-- CHAPTER 4 -->
@@ -81,7 +81,7 @@
 		<node id="CRIT_FLAMES" type="enhancement" tip="" />
 		<node id="FLOOR_ENERGY_BONUS" type="enhancement" tip="" />
 		<node id="ORDNANCE_2" type="enhancement" tip="" />
-        <node id="ULTRA_GRENADES" type="enhancement" tip="" />
+		<node id="ULTRA_GRENADES" type="enhancement" tip="" />
 		<node id="weapons/crossbow-explosive.xml" type="weapon" tip="" fixed="true" />
 
 		<!-- CHAPTER 5 -->
@@ -107,8 +107,8 @@
 		<node id="WALL_SMASHER" type="enhancement" tip="" special="true" />
 		<node id="ANTIOCH_GRENADES" type="ability" tip="" special="true" />
 		<node id="C4" type="ability" tip="" special="true" />
-        <node id="RAIL_PULSE" type="ability" special="true" />
-		
+		<node id="RAIL_PULSE" type="ability" special="true" />
+
 	</array>
 
 	<array id="tips">

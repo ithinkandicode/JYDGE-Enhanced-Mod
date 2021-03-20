@@ -6,7 +6,7 @@
  <node id="cells_width" value="16" />
  <node id="cells_height" value="16" />
  <node id="ambient_light" r="0.05" g="0.05" b="0.06" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -542,14 +542,14 @@
  <node ref_number="252" type="actors/tube-I.xml" x="300" y="420" angle_z="90"  />
  <node ref_number="253" type="actors/collectible-item.xml" x="690" y="852" angle_z="-86" scale="0.840000" key_STRING_collectible_id="FRIENDLY_FIRE"  />
  <node ref_number="254" type="actors/logic-objectremover.xml" x="776" y="954" angle_z="90" key_BOOLEAN_draw_in_game="false" key_BOOLEAN_is_one_timer="false" key_STAGE_OBJECT_REFERENCE_new_0="253"  />
- <node ref_number="255" type="actors/watchdog_device.xml" x="671" y="965" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_radius="200" 
- key_BOOLEAN_active="true" 
- key_BOOLEAN_scan_on_hack="false" 
- key_STRING_actor_to_scan_for="actors/dummy.xml" 
- key_STAGE_OBJECT_REFERENCE_watched="161" 
- key_STAGE_OBJECT_REFERENCE_new_3="254" 
+ <node ref_number="255" type="actors/watchdog_device.xml" x="671" y="965" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_radius="200"
+ key_BOOLEAN_active="true"
+ key_BOOLEAN_scan_on_hack="false"
+ key_STRING_actor_to_scan_for="actors/dummy.xml"
+ key_STAGE_OBJECT_REFERENCE_watched="161"
+ key_STAGE_OBJECT_REFERENCE_new_3="254"
   />
  <node ref_number="256" type="actors/enemy-pressure-mine.xml" x="381" y="564" angle_z="51"  />
  <node ref_number="257" type="actors/enemy-pressure-mine.xml" x="520" y="638" angle_z="48"  />

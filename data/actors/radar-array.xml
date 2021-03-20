@@ -2,38 +2,38 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 name="RadarArray" 
-		 renderer="Model" 
-		 ai="Obstacle" 
-		 additional_flags="INDESTRUCTIBLE" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/radar-array.model" 
-		 bitmap_shadow="!NONE" 
-		 shadow_angle="0" 
-		 shadow_alpha="0.75" 
-		 shadow_scale="1" 
-		 hit_points="1500" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 name="RadarArray"
+		 renderer="Model"
+		 ai="Obstacle"
+		 additional_flags="INDESTRUCTIBLE"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/radar-array.model"
+		 bitmap_shadow="!NONE"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="1"
+		 hit_points="1500"
+		 damage="0.0"
 		/>
 
 		<node id="RENDERER_DATA" has_reflection="false" />
-		<node id="COLLIDER" 
+		<node id="COLLIDER"
 		 collider_generation_method="AUTOMATIC"
-		 generate_convex_hull_for_edges="true" 	
+		 generate_convex_hull_for_edges="true"
 		 edge_generation_height="-1"
-		 
+
 		/>
-        
-                     <node id="CUSTOM_DATA" 
-		 
-         
-         fog_range_min="3000" 
+
+					 <node id="CUSTOM_DATA"
+
+
+		 fog_range_min="3000"
 		 fog_range_max="2000"
-         
+
 		/>
 
 	</array>

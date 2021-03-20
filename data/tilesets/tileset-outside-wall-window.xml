@@ -8,7 +8,7 @@
 	<array id="WALL_INNER_STRAIGHT">
 		<node output="actors/wall-outside-window.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_STRAIGHT">
 		<node output="actors/wall-outside-window.xml" />
 	</array>

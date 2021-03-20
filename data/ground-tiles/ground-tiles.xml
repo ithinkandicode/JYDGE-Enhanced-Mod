@@ -3,25 +3,25 @@
 <root>
 
 	<!--
-	
+
 	All jpg and png files in ground-tiles/ folder are automatically appended to this list with following default values:
-	
+
 	id="ground-tiles/filename"
 	tags=""
 	physics_material="CONCRETE" (first one in physics-materials.xml definition)
 	z_offset="0"
-	
+
 	tags
 	SKIP_RENDERING
-    
-    forced_tile_pattern_marker can be used to convert tileset pattern "F" into this character (mostly likely just "0").
-	
+
+	forced_tile_pattern_marker can be used to convert tileset pattern "F" into this character (mostly likely just "0").
+
 	-->
 
 	<array id="GROUND_TILES">
 
 		<node id="ground-tiles/floor-transparent.png" tags="SKIP_RENDERING" />
-	
+
 		<node id="ground-tiles/floor-metal-large.jpg" physics_material="CONCRETE" />
 		<node id="ground-tiles/floor-metal-brushed.jpg" physics_material="CONCRETE" />
 		<node id="ground-tiles/black.jpg" physics_material="CONCRETE" z_offset="-122" />

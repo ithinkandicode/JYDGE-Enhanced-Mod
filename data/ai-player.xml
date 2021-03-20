@@ -5,15 +5,15 @@
 NOTES:
 
 	"navigation"  array contains hints for the AI player how to navigate through the UI properly.
-	
+
 	"forward"  array contains general component names which always get you forward. This information is applied to every screen.
 	           "probability" value contains a number between 0 and 100 describing how probably the ai uses this navigation hint when
 			   reading through the array. NOTE this is not the actual probability certain button gets clicked!
 			   If "probability" is not defined, probability of 100 is used. If probability is 100 the component is always clicked.
-			   If 50, it's clicked half the time, and so on. HOWEVER, note that if you want to divide clicks between two buttons in 
-			   the same screen, set the probability of the first one to 50, and the second one to 100. If you'd set both at 50, the 
+			   If 50, it's clicked half the time, and so on. HOWEVER, note that if you want to divide clicks between two buttons in
+			   the same screen, set the probability of the first one to 50, and the second one to 100. If you'd set both at 50, the
 			   probability of the second would actually be 0.5*0.5 = 25%.
-		
+
 -->
 
 
@@ -26,12 +26,12 @@ NOTES:
 		<node id="JydgeNewFeature"			forward="Show" 	    			probability="100" />
 		<node id="Options"					forward="fader" 	    		probability="50" />
 		<node id="Options"					forward="OK" 	    			probability="50" />
-		
+
 		<node id="JydgeMissionDetails"		forward="Play_DIFFICULTY_0" 	probability="30" />
 		<node id="JydgeMissionDetails"		forward="Play_DIFFICULTY_1" 	probability="30" />
 		<node id="JydgeMissionDetails"		forward="Play_DIFFICULTY_2" 	probability="30" />
 		<node id="JydgeMissionDetails"		forward="Play_DIFFICULTY_3" 	probability="30" />
-		
+
 	</array>
 
 	<array id="forward">
@@ -43,5 +43,5 @@ NOTES:
 		<node id="Next" />
 		<node id="Close" />
 	</array>
-	
+
 </root>

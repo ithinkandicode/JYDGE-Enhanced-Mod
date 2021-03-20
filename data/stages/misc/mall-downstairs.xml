@@ -6,7 +6,7 @@
  <node id="cells_width" value="64" />
  <node id="cells_height" value="50" />
  <node id="ambient_light" r="0.12" g="0.13" b="0.22" />
- <node id="key_values" 
+ <node id="key_values"
 key_FLOAT_fog_r="0.06" key_FLOAT_fog_g="0.1" key_FLOAT_fog_b="0.2"  />
 </array>
 
@@ -1121,15 +1121,15 @@ key_FLOAT_fog_r="0.06" key_FLOAT_fog_g="0.1" key_FLOAT_fog_b="0.2"  />
  <node ref_number="274" type="actors/wall-outside-L-major.xml" x="2160" y="1980" angle_z="180"  />
  <node ref_number="275" type="actors/wall-outside-window.xml" x="2160" y="1860" angle_z="180"  />
  <node ref_number="276" type="actors/wall-outside-window.xml" x="2160" y="1920" angle_z="180"  />
- <node ref_number="277" type="actors/screen-billboard.xml" x="285" y="20" z="95" angle_z="180" scale="1.400000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/duramax.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="277" type="actors/screen-billboard.xml" x="285" y="20" z="95" angle_z="180" scale="1.400000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/duramax.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="278" type="actors/screen-billboard.xml" x="45" y="940" z="74" angle_z="180" scale="1.300000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="278" type="actors/screen-billboard.xml" x="45" y="940" z="74" angle_z="180" scale="1.300000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="279" type="actors/car-civilian-black-fog.xml" x="-254" y="248" z="2000"  />
  <node ref_number="280" type="actors/streetlight-fog.xml" x="-60" y="360" z="2000" angle_z="180"  />
@@ -1163,19 +1163,19 @@ key_FLOAT_fog_r="0.06" key_FLOAT_fog_g="0.1" key_FLOAT_fog_b="0.2"  />
  <node ref_number="308" type="actors/wall-outside-I.xml" x="2820" y="1020" angle_z="270"  />
  <node ref_number="309" type="actors/skyscraper1.xml" x="4151" y="615" z="5869" angle_z="90" scale="0.130000"  />
  <node ref_number="310" type="actors/wall-residential-thin-cap.xml" x="300" y="-360" angle_z="270"  />
- <node ref_number="311" type="actors/screen-billboard.xml" x="1596" y="2295" z="171" angle_z="90" scale="1.150000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="1" 
+ <node ref_number="311" type="actors/screen-billboard.xml" x="1596" y="2295" z="171" angle_z="90" scale="1.150000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="1"
   />
  <node ref_number="312" type="actors/skybridge-plane-I.xml" x="1590" y="2370" z="552"  />
  <node ref_number="313" type="actors/skybridge-plane-I.xml" x="1590" y="2550" z="552"  />
  <node ref_number="314" type="actors/skybridge-plane-I.xml" x="1590" y="2730" z="558"  />
  <node ref_number="315" type="actors/skybridge-plane-door.xml" x="1590" y="2280" z="552" angle_z="90"  />
- <node ref_number="316" type="actors/screen-billboard.xml" x="1597" y="2296" z="384" angle_z="90" scale="1.150000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/armocore.jpg" 
- key_FLOAT_luminocity="1" 
+ <node ref_number="316" type="actors/screen-billboard.xml" x="1597" y="2296" z="384" angle_z="90" scale="1.150000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/armocore.jpg"
+ key_FLOAT_luminocity="1"
   />
  <node ref_number="317" type="actors/skybridge-plane-I.xml" x="1590" y="2910" z="558"  />
  <node ref_number="318" type="actors/skybridge-plane-I.xml" x="1590" y="3090" z="558"  />
@@ -1193,10 +1193,10 @@ key_FLOAT_fog_r="0.06" key_FLOAT_fog_g="0.1" key_FLOAT_fog_b="0.2"  />
  <node ref_number="330" type="actors/palm-tall-fog-01.xml" x="1727" y="2946" z="2000" angle_z="51" scale="1.300000"  />
  <node ref_number="331" type="actors/display-case.xml" x="3390" y="-360" z="2919" angle_z="45" scale="3.250000"  />
  <node ref_number="332" type="actors/display-case.xml" x="2912" y="1650" z="2520" angle_z="45" scale="3.250000"  />
- <node ref_number="333" type="actors/screen-billboard.xml" x="285" y="-320" z="95" angle_z="180" scale="1.400000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/kosla.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="333" type="actors/screen-billboard.xml" x="285" y="-320" z="95" angle_z="180" scale="1.400000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/kosla.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="334" type="actors/wall-outside-I.xml" x="1200" y="1260" angle_z="90"  />
  <node ref_number="335" type="actors/wall-outside-I.xml" x="1260" y="1020" angle_z="270"  />

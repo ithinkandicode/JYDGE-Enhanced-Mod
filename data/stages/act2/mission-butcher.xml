@@ -6,7 +6,7 @@
  <node id="cells_width" value="52" />
  <node id="cells_height" value="52" />
  <node id="ambient_light" r="0.17" g="0.17" b="0.23" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -3891,12 +3891,12 @@
  <node ref_number="1153" type="actors/door-garage-sliding-remote.xml" x="840" y="1650" angle_z="180"  />
  <node ref_number="1154" type="actors/door-garage-sliding-remote.xml" x="840" y="1410" angle_z="180"  />
  <node ref_number="1155" type="actors/door-garage-sliding-remote.xml" x="840" y="1410"  />
- <node ref_number="1156" type="actors/terminal.xml" x="820" y="1529" angle_z="172" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_STAGE_OBJECT_REFERENCE_new_0="1154" 
- key_STAGE_OBJECT_REFERENCE_new_1="1155" 
- key_STAGE_OBJECT_REFERENCE_new_2="1153" 
- key_STAGE_OBJECT_REFERENCE_new_3="1152" 
+ <node ref_number="1156" type="actors/terminal.xml" x="820" y="1529" angle_z="172" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_STAGE_OBJECT_REFERENCE_new_0="1154"
+ key_STAGE_OBJECT_REFERENCE_new_1="1155"
+ key_STAGE_OBJECT_REFERENCE_new_2="1153"
+ key_STAGE_OBJECT_REFERENCE_new_3="1152"
   />
  <node ref_number="1157" type="actors/door-double-sliding.xml" x="1500" y="2100" angle_z="90"  />
  <node ref_number="1158" type="actors/door-double-sliding.xml" x="1560" y="2100" angle_z="270"  />
@@ -3924,12 +3924,12 @@
  <node ref_number="1180" parent="658" type="actors/box-retail-01.xml" x="0" y="0" z="-12" angle_z="-1"  />
  <node ref_number="1181" parent="658" type="actors/box-cardboard-plain.xml" x="0" y="0" z="-60" angle_z="3"  />
  <node ref_number="1182" parent="658" type="actors/box-retail-03.xml" x="0" y="0" z="-108" angle_z="4"  />
- <node ref_number="1183" type="actors/button.xml" x="895" y="1530" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_STAGE_OBJECT_REFERENCE_new_4="1154" 
- key_STAGE_OBJECT_REFERENCE_new_5="1155" 
- key_STAGE_OBJECT_REFERENCE_new_6="1153" 
- key_STAGE_OBJECT_REFERENCE_new_7="1152" 
+ <node ref_number="1183" type="actors/button.xml" x="895" y="1530" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_STAGE_OBJECT_REFERENCE_new_4="1154"
+ key_STAGE_OBJECT_REFERENCE_new_5="1155"
+ key_STAGE_OBJECT_REFERENCE_new_6="1153"
+ key_STAGE_OBJECT_REFERENCE_new_7="1152"
   />
  <node ref_number="1184" type="actors/enemy-jydge-shooter-tough.xml" x="977" y="1020" angle_z="158" scale="1.000000"  />
  <node ref_number="1185" type="actors/enemy-jydge-shooter-tough.xml" x="1029" y="1192" angle_z="190" scale="1.000000"  />
@@ -3937,34 +3937,34 @@
  <node ref_number="1187" type="actors/door-outer-double-sliding.xml" x="660" y="1080" angle_z="180"  />
  <node ref_number="1188" type="actors/door-outer-double-sliding.xml" x="1920" y="2100" angle_z="90"  />
  <node ref_number="1189" type="actors/door-outer-double-sliding.xml" x="1980" y="2100" angle_z="270"  />
- <node ref_number="1190" type="actors/enemy-jydge-shooter-tough.xml" x="1113" y="715" angle_z="348" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="2" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="1127,713,0;1464,716,0;1882,711,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&8&Q&}};1471,743,0;1468,1007,0;1116,1011,0;1112,717,0" 
- key_STRING_name="Phillip" 
- key_STRING_enhancements="HEALTH_2X" 
+ <node ref_number="1190" type="actors/enemy-jydge-shooter-tough.xml" x="1113" y="715" angle_z="348" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="2"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="1127,713,0;1464,716,0;1882,711,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&8&Q&}};1471,743,0;1468,1007,0;1116,1011,0;1112,717,0"
+ key_STRING_name="Phillip"
+ key_STRING_enhancements="HEALTH_2X"
   />
- <node ref_number="1191" type="actors/enemy-jydge-shooter-tough.xml" x="2203" y="1467" angle_z="109" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="2" 
- key_STRING_name="Gary" 
- key_STRING_enhancements="HEALTH_2X" 
- key_INTEGER_highest_allowed_difficulty="2" 
+ <node ref_number="1191" type="actors/enemy-jydge-shooter-tough.xml" x="2203" y="1467" angle_z="109" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="2"
+ key_STRING_name="Gary"
+ key_STRING_enhancements="HEALTH_2X"
+ key_INTEGER_highest_allowed_difficulty="2"
   />
- <node ref_number="1192" type="actors/enemy-jydge-shooter-tough.xml" x="957" y="2152" angle_z="71" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="2" 
- key_INTEGER_highest_allowed_difficulty="2" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="959,2157,0;973,2433,0;837,2381,0;851,2161,0;818,1919,0;972,1904,0;961,2153,0" 
- key_STRING_name="Timothy" 
- key_STRING_enhancements="HEALTH_2X" 
+ <node ref_number="1192" type="actors/enemy-jydge-shooter-tough.xml" x="957" y="2152" angle_z="71" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="2"
+ key_INTEGER_highest_allowed_difficulty="2"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="959,2157,0;973,2433,0;837,2381,0;851,2161,0;818,1919,0;972,1904,0;961,2153,0"
+ key_STRING_name="Timothy"
+ key_STRING_enhancements="HEALTH_2X"
   />
- <node ref_number="1193" type="actors/enemy-jydge-shooter-tough.xml" x="2162" y="1893" angle_z="29" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="3" 
- key_INTEGER_highest_allowed_difficulty="3" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="2179,1967,0;2171,1899,0;2186,1812,0;2150,1578,0;2211,1518,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&6&Q&}};2177,1609,0;2186,1773,0;2150,1899,0;2213,1985,0;2500,2007,0;2666,1997,0;2279,2002,0;2180,1968,0" 
- key_STRING_name="Gary" 
- key_STRING_enhancements="HEALTH_2X" 
+ <node ref_number="1193" type="actors/enemy-jydge-shooter-tough.xml" x="2162" y="1893" angle_z="29" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="3"
+ key_INTEGER_highest_allowed_difficulty="3"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="2179,1967,0;2171,1899,0;2186,1812,0;2150,1578,0;2211,1518,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&6&Q&}};2177,1609,0;2186,1773,0;2150,1899,0;2213,1985,0;2500,2007,0;2666,1997,0;2279,2002,0;2180,1968,0"
+ key_STRING_name="Gary"
+ key_STRING_enhancements="HEALTH_2X"
   />
  <node ref_number="1194" type="actors/enemy-jydge-shooter-tough.xml" x="1201" y="1580" angle_z="121" scale="1.000000" key_BOOLEAN_patrol="true" key_PATH_patrol_route="1205,1553,0;1145,1604,0;992,1628,0;910,1629,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};986,1782,0;1187,1664,0;1693,1651,0;1259,1648,0;1180,1525,0;1090,1437,0;919,1423,0;1335,1389,0;1700,1395,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};1241,1439,0;1204,1552,0"  />
  <node ref_number="1195" type="actors/door-double-sliding.xml" x="2520" y="1920" angle_z="90"  />
@@ -3992,11 +3992,11 @@
  <node ref_number="1217" type="actors/enemy-jydge-shooter-rockets.xml" x="1262" y="1935" angle_z="1" scale="1.000000"  />
  <node ref_number="1218" type="actors/enemy-jydge-shooter-rockets.xml" x="2183" y="2500" angle_z="197" scale="1.000000"  />
  <node ref_number="1219" type="actors/enemy-jydge-shooter-tough.xml" x="2049" y="2424" angle_z="38" scale="1.000000"  />
- <node ref_number="1220" type="actors/enemy-jydge-shooter-tough.xml" x="2530" y="2524" angle_z="170" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_INTEGER_required_difficulty="3" 
- key_INTEGER_highest_allowed_difficulty="3" 
- key_STRING_name="Manny" 
- key_STRING_enhancements="MINIBOSS,HEALTH_2X" 
+ <node ref_number="1220" type="actors/enemy-jydge-shooter-tough.xml" x="2530" y="2524" angle_z="170" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_INTEGER_required_difficulty="3"
+ key_INTEGER_highest_allowed_difficulty="3"
+ key_STRING_name="Manny"
+ key_STRING_enhancements="MINIBOSS,HEALTH_2X"
   />
  <node ref_number="1221" type="actors/streetlight.xml" x="780" y="2820" angle_z="270"  />
  <node ref_number="1222" type="actors/streetlight.xml" x="1140" y="2820" angle_z="270"  />
@@ -4106,10 +4106,10 @@
  <node ref_number="1326" type="actors/enemy-jydge-shooter-tough.xml" x="2439" y="1342" angle_z="115" scale="1.000000" key_INTEGER_required_difficulty="0" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1327" type="actors/enemy-jydge-shooter-tough.xml" x="2404" y="574" angle_z="188" scale="1.000000" key_INTEGER_required_difficulty="0" key_INTEGER_highest_allowed_difficulty="1"  />
  <node ref_number="1328" type="actors/enemy-jydge-shooter-tough.xml" x="1575" y="883" angle_z="222" scale="1.000000" key_INTEGER_required_difficulty="0" key_INTEGER_highest_allowed_difficulty="1"  />
- <node ref_number="1329" type="actors/civilian-generic-male-white.xml" x="2169" y="1312" angle_z="123" key_BOOLEAN_can_be_rescued="true" 
- key_INTEGER_required_difficulty="1" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_STAGE_OBJECT_REFERENCE_rescue_exit="4" 
+ <node ref_number="1329" type="actors/civilian-generic-male-white.xml" x="2169" y="1312" angle_z="123" key_BOOLEAN_can_be_rescued="true"
+ key_INTEGER_required_difficulty="1"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_STAGE_OBJECT_REFERENCE_rescue_exit="4"
   />
  <node ref_number="1330" type="actors/enemy-proximity-mine.xml" x="1969" y="1545" angle_z="31" key_INTEGER_required_difficulty="1"  />
  <node ref_number="1331" type="actors/enemy-proximity-mine.xml" x="1809" y="1524" angle_z="46"  />
@@ -4169,26 +4169,26 @@
  <node ref_number="1385" type="actors/shadowmask-gradient.xml" x="360" y="2940" z="-180" angle_z="270" scale="4.000000"  />
  <node ref_number="1386" type="actors/shadowmask-solid.xml" x="600" y="3180" z="-180" angle_z="180" scale="4.000000"  />
  <node ref_number="1387" type="actors/shadowmask-gradient.xml" x="600" y="2940" z="-180" angle_z="270" scale="4.000000"  />
- <node ref_number="1388" type="actors/civilian-generic-male-white.xml" x="2688" y="1870" angle_z="161" key_BOOLEAN_can_be_rescued="true" 
- key_INTEGER_required_difficulty="1" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_STAGE_OBJECT_REFERENCE_rescue_exit="4" 
+ <node ref_number="1388" type="actors/civilian-generic-male-white.xml" x="2688" y="1870" angle_z="161" key_BOOLEAN_can_be_rescued="true"
+ key_INTEGER_required_difficulty="1"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_STAGE_OBJECT_REFERENCE_rescue_exit="4"
   />
- <node ref_number="1389" type="actors/civilian-generic-male-white.xml" x="1277" y="2213" angle_z="18" key_BOOLEAN_can_be_rescued="true" 
- key_INTEGER_required_difficulty="1" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_STAGE_OBJECT_REFERENCE_rescue_exit="4" 
+ <node ref_number="1389" type="actors/civilian-generic-male-white.xml" x="1277" y="2213" angle_z="18" key_BOOLEAN_can_be_rescued="true"
+ key_INTEGER_required_difficulty="1"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_STAGE_OBJECT_REFERENCE_rescue_exit="4"
   />
- <node ref_number="1390" type="actors/screen-billboard.xml" x="642" y="484" angle_z="180" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/cryonix.jpg" 
- key_FLOAT_luminocity="0.7" 
+ <node ref_number="1390" type="actors/screen-billboard.xml" x="642" y="484" angle_z="180" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/cryonix.jpg"
+ key_FLOAT_luminocity="0.7"
   />
- <node ref_number="1391" type="actors/screen-billboard.xml" x="943" y="2596" z="3" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/explodz.jpg" 
- key_FLOAT_luminocity="1" 
- key_BITMAP_bitmap2="billboards/jydge.jpg" 
+ <node ref_number="1391" type="actors/screen-billboard.xml" x="943" y="2596" z="3" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/explodz.jpg"
+ key_FLOAT_luminocity="1"
+ key_BITMAP_bitmap2="billboards/jydge.jpg"
   />
  <node ref_number="1392" parent="440" type="actors/box-cardboard-plain.xml" x="7" y="-29" z="-36" angle_z="14" scale="0.548304"  />
  <node ref_number="1393" parent="438" type="actors/box-cardboard-plain.xml" x="-3" y="30" z="-36" angle_z="182" scale="0.548304"  />
@@ -4196,17 +4196,17 @@
  <node ref_number="1395" type="actors/mystery-meat2.xml" x="1534" y="814" angle_z="107" scale="1.820815"  />
  <node ref_number="1396" type="actors/bird.xml" x="2496" y="2264" z="-62" angle_z="139" scale="1.000000"  />
  <node ref_number="1397" type="actors/forklift.xml" x="2651" y="2226" angle_z="90" scale="1.973824"  />
- <node ref_number="1398" type="actors/enemy-jydge-melee-tough.xml" x="2687" y="1983" angle_z="179" scale="1.000000" key_STRING_name="Ray Rex" 
- key_STRING_spawn_id="RAY_REX" 
- key_STRING_enhancements="HEALTH_8X,SPEED_2X" 
- key_STRING_animation="models/animations/humanoid_rig-humanoid_drive.xml" 
+ <node ref_number="1398" type="actors/enemy-jydge-melee-tough.xml" x="2687" y="1983" angle_z="179" scale="1.000000" key_STRING_name="Ray Rex"
+ key_STRING_spawn_id="RAY_REX"
+ key_STRING_enhancements="HEALTH_8X,SPEED_2X"
+ key_STRING_animation="models/animations/humanoid_rig-humanoid_drive.xml"
   />
  <node ref_number="1399" type="actors/enemy-spiderbot-grenade.xml" x="325" y="519" angle_z="343" scale="0.900000" key_STRING_spawn_id="TARENTELLA_JR" key_STRING_name="Tarantella Jr."  />
  <node ref_number="1400" type="actors/enemy-spiderbot-rocket.xml" x="814" y="2399" angle_z="298" key_STRING_spawn_id="TARANTELLA_BM" key_STRING_name="Tarantella Bm" key_INTEGER_required_difficulty="2"  />
- <node ref_number="1401" type="actors/enemy-jydge-soldier-shotgun.xml" x="1444" y="2684" angle_z="93" scale="1.000000" key_STRING_animation="models/animations/humanoid_rig-humanoid_dance_unisex.xml" 
- key_STRING_name="Rutger" 
- key_STRING_spawn_id="RUTGER" 
- key_STRING_enhancements="HEALTH_8X,SPEED_2X" 
+ <node ref_number="1401" type="actors/enemy-jydge-soldier-shotgun.xml" x="1444" y="2684" angle_z="93" scale="1.000000" key_STRING_animation="models/animations/humanoid_rig-humanoid_dance_unisex.xml"
+ key_STRING_name="Rutger"
+ key_STRING_spawn_id="RUTGER"
+ key_STRING_enhancements="HEALTH_8X,SPEED_2X"
   />
  <node ref_number="1402" type="actors/bird.xml" x="1042" y="2732" angle_z="322" scale="1.000000"  />
  <node ref_number="1403" type="actors/bird.xml" x="1073" y="2710" angle_z="214" scale="1.000000"  />

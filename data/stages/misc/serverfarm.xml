@@ -6,7 +6,7 @@
  <node id="cells_width" value="24" />
  <node id="cells_height" value="32" />
  <node id="ambient_light" r="0.23" g="0.24" b="0.29" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -1110,15 +1110,15 @@
  <node ref_number="308" type="actors/door-double-frame.xml" x="840" y="1620" angle_z="270"  />
  <node ref_number="309" type="actors/door-sliding-unlit.xml" x="840" y="1620" angle_z="90"  />
  <node ref_number="310" type="actors/door-sliding-unlit.xml" x="840" y="660" angle_z="90"  />
- <node ref_number="311" type="actors/enemy-jydge-soldier-shotgun.xml" x="841" y="709" angle_z="263" scale="1.000000" key_STRING_name="Wistrom" 
- key_STRING_enhancements="HEALTH_4X" 
- key_STRING_animation="models/animations/humanoid_rig-humanoid_melee_fist.xml" 
- key_FLOAT_animation_playback_speed="0.6" 
- key_BOOLEAN_animation_can_be_interrupted="true" 
- key_STAGE_OBJECT_REFERENCE_animation_interaction_target="310" 
- key_STRING_force_loot_table="boss_drop" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="845,1017,0" 
+ <node ref_number="311" type="actors/enemy-jydge-soldier-shotgun.xml" x="841" y="709" angle_z="263" scale="1.000000" key_STRING_name="Wistrom"
+ key_STRING_enhancements="HEALTH_4X"
+ key_STRING_animation="models/animations/humanoid_rig-humanoid_melee_fist.xml"
+ key_FLOAT_animation_playback_speed="0.6"
+ key_BOOLEAN_animation_can_be_interrupted="true"
+ key_STAGE_OBJECT_REFERENCE_animation_interaction_target="310"
+ key_STRING_force_loot_table="boss_drop"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="845,1017,0"
   />
  <node ref_number="312" type="actors/cable-cap.xml" x="510" y="1800" angle_z="180"  />
  <node ref_number="313" type="actors/cable-I.xml" x="510" y="1740" angle_z="180"  />

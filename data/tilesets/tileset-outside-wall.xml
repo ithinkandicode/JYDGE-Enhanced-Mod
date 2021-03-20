@@ -8,43 +8,43 @@
 	<array id="WALL_INNER_DOT">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_CAP">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_DOUBLEFRAME">
 		<node output="actors/wall-thick-frame.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_STRAIGHT">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_STRAIGHT">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_CORNER">
 		<node output="actors/wall-outside-L-major.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_CORNER_MINOR">
 		<node output="actors/wall-outside-L-minor.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_CORNER_MAJOR">
 		<node output="actors/wall-outside-L-major.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_*_FULL">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_*_QUARTER_OUTSIDE">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_T">
 		<node output="actors/wall-outside-T.xml" />
 	</array>
@@ -52,27 +52,27 @@
 	<array id="WALL_OUTER_T">
 		<node output="actors/wall-outside-T.xml" />
 	</array>
-	
+
 	<array id="WALL_INNER_T_QUARTER_OUTSIDE">
 		<node output="actors/wall-outside-T.xml" />
 	</array>
-	
+
 	<array id="WALL_DOUBLE_STRAIGHT">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
-	
+
 	<array id="WALL_DOUBLE_T">
 		<node output="actors/wall-outside-T.xml" />
 	</array>
-	
+
 	<array id="WALL_DOUBLE_CORNER_L">
 		<node output="actors/wall-outside-L-major.xml" />
 	</array>
-	
+
 	<array id="WALL_DOUBLE_CORNER_R">
 		<node output="actors/wall-outside-L-major.xml" />
 	</array>
-	
+
 	<array id="WALL_MIDDLE">
 		<node output="actors/wall-outside-I.xml" />
 	</array>
@@ -80,7 +80,7 @@
 	<array id="WALL_OUTER_T_LEFT">
 		<node output="actors/wall-outside-T-L.xml" />
 	</array>
-	
+
 	<array id="WALL_OUTER_T_RIGHT">
 		<node output="actors/wall-outside-T-R.xml" />
 	</array>

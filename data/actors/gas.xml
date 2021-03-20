@@ -2,25 +2,25 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 name="Gas" 
-		 renderer="FireAndGas" 
-		 ai="FireAndGas" 
-		 friend_group="FIRE" 
-		 turn_speed="6.0" 
-		 move_speed="300" 
-		 move_acceleration="600" 
-		 dampening_factor="2.0" 
-		 restitution_coefficient="0.15" 
-		 scale="1.0" 
-		 aggro_radius="30" 
-		 model_idle="models/explosive.xml" 
+		<node id="PARAMETERS"
+		 name="Gas"
+		 renderer="FireAndGas"
+		 ai="FireAndGas"
+		 friend_group="FIRE"
+		 turn_speed="6.0"
+		 move_speed="300"
+		 move_acceleration="600"
+		 dampening_factor="2.0"
+		 restitution_coefficient="0.15"
+		 scale="1.0"
+		 aggro_radius="30"
+		 model_idle="models/explosive.xml"
 		/>
 
 		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
-		<node id="CUSTOM_DATA" 
-		 damage_per_second="10" 
-		 max_time_alive="5" 
+		<node id="CUSTOM_DATA"
+		 damage_per_second="10"
+		 max_time_alive="5"
 		/>
 
 	</array>

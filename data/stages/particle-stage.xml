@@ -5,7 +5,7 @@
  <node id="cells_height" value="16" />
  <node id="ambient_light" r="0.50" g="0.50" b="0.50" />
  <node id="name" value="Hovertank Boss" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 

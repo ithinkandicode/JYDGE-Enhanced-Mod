@@ -6,7 +6,7 @@
  <node id="cells_width" value="48" />
  <node id="cells_height" value="50" />
  <node id="ambient_light" r="0.11" g="0.19" b="0.25" />
- <node id="key_values" 
+ <node id="key_values"
 key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
 </array>
 
@@ -15,20 +15,20 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node id="mission_exit" ref_number="2" x="1713" y="2754" radius="81" />
  <node id="civ_exit" ref_number="3" x="2131" y="2803" radius="60" key_INTEGER_required_difficulty="1" key_INTEGER_highest_allowed_difficulty="1" />
  <node id="mission_start_camera" ref_number="4" x="780" y="365" radius="40" key_FLOAT_pan_duration="2" key_FLOAT_initial_delay="1" key_INTEGER_highest_allowed_difficulty="0" />
- <node id="mission_start_camera" ref_number="5" x="2374" y="584" radius="40" key_FLOAT_pan_duration="2" 
- key_FLOAT_initial_delay="1" 
- key_INTEGER_highest_allowed_difficulty="3" 
- key_INTEGER_required_difficulty="3" 
+ <node id="mission_start_camera" ref_number="5" x="2374" y="584" radius="40" key_FLOAT_pan_duration="2"
+ key_FLOAT_initial_delay="1"
+ key_INTEGER_highest_allowed_difficulty="3"
+ key_INTEGER_required_difficulty="3"
  />
- <node id="mission_start_camera" ref_number="6" x="1493" y="347" radius="40" key_FLOAT_pan_duration="2" 
- key_FLOAT_initial_delay="1" 
- key_INTEGER_highest_allowed_difficulty="2" 
- key_INTEGER_required_difficulty="2" 
+ <node id="mission_start_camera" ref_number="6" x="1493" y="347" radius="40" key_FLOAT_pan_duration="2"
+ key_FLOAT_initial_delay="1"
+ key_INTEGER_highest_allowed_difficulty="2"
+ key_INTEGER_required_difficulty="2"
  />
- <node id="mission_start_camera" ref_number="7" x="2439" y="1543" radius="40" key_FLOAT_pan_duration="2" 
- key_FLOAT_initial_delay="1" 
- key_INTEGER_highest_allowed_difficulty="1" 
- key_INTEGER_required_difficulty="1" 
+ <node id="mission_start_camera" ref_number="7" x="2439" y="1543" radius="40" key_FLOAT_pan_duration="2"
+ key_FLOAT_initial_delay="1"
+ key_INTEGER_highest_allowed_difficulty="1"
+ key_INTEGER_required_difficulty="1"
  />
 </array>
 
@@ -2652,35 +2652,35 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="484" type="actors/cupboard.xml" x="1013" y="458" angle_z="92"  />
  <node ref_number="485" parent="417" type="actors/caffeinator.xml" x="-3" y="-1" z="-36"  />
  <node ref_number="486" type="actors/storage-shelf.xml" x="664" y="512" angle_z="86"  />
- <node ref_number="487" type="actors/relay_device.xml" x="1500" y="1317" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_INTEGER_num_unique_signals_required="1" 
- key_STAGE_OBJECT_REFERENCE_new_0="8" 
- key_STAGE_OBJECT_REFERENCE_new_6="1140" 
- key_STAGE_OBJECT_REFERENCE_new_7="1139" 
- key_BOOLEAN_show_alarm_notification="true" 
+ <node ref_number="487" type="actors/relay_device.xml" x="1500" y="1317" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_INTEGER_num_unique_signals_required="1"
+ key_STAGE_OBJECT_REFERENCE_new_0="8"
+ key_STAGE_OBJECT_REFERENCE_new_6="1140"
+ key_STAGE_OBJECT_REFERENCE_new_7="1139"
+ key_BOOLEAN_show_alarm_notification="true"
   />
- <node ref_number="488" parent="1101" type="actors/logic-playerobserver.xml" x="484" y="251" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="180" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="488" parent="1101" type="actors/logic-playerobserver.xml" x="484" y="251" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="180"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="489" parent="1101" type="actors/logic-playerobserver.xml" x="225" y="-15" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="160" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="489" parent="1101" type="actors/logic-playerobserver.xml" x="225" y="-15" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="160"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="490" type="actors/wall-residential-thin-I.xml" x="420" y="1200" angle_z="90"  />
  <node ref_number="491" type="actors/wall-residential-thin-I.xml" x="360" y="1200" angle_z="90"  />
@@ -2781,40 +2781,40 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="586" type="actors/wall-residential-thin-L.xml" x="660" y="1380" angle_z="270"  />
  <node ref_number="587" type="actors/wall-residential-thin-I.xml" x="720" y="1380" angle_z="90"  />
  <node ref_number="588" type="actors/sofa-comfy.xml" x="726" y="1526" angle_z="272"  />
- <node ref_number="589" type="actors/screen-billboard.xml" x="740" y="1385" z="-29" angle_z="90" scale="0.707204" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/nanoedge.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="589" type="actors/screen-billboard.xml" x="740" y="1385" z="-29" angle_z="90" scale="0.707204" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/nanoedge.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="590" type="actors/screen-billboard.xml" x="912" y="834" z="-29" angle_z="270" scale="0.710000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/armocore.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="590" type="actors/screen-billboard.xml" x="912" y="834" z="-29" angle_z="270" scale="0.710000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/armocore.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="591" type="actors/wall-residential-thin-I.xml" x="360" y="1560" angle_z="90"  />
  <node ref_number="592" type="actors/door-double-frame.xml" x="420" y="1560" angle_z="90"  />
  <node ref_number="593" type="actors/door-double-frame.xml" x="480" y="1560" angle_z="270"  />
- <node ref_number="594" parent="1098" type="actors/logic-playerobserver.xml" x="215" y="-446" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="90" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="594" parent="1098" type="actors/logic-playerobserver.xml" x="215" y="-446" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="90"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="595" parent="1098" type="actors/logic-playerobserver.xml" x="-150" y="-334" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="270" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="595" parent="1098" type="actors/logic-playerobserver.xml" x="-150" y="-334" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="270"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="596" type="actors/shower.xml" x="844" y="1323" angle_z="181"  />
  <node ref_number="597" type="actors/toilet-seat.xml" x="718" y="1346" angle_z="270"  />
@@ -3080,43 +3080,43 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="857" type="actors/wall-residential-thin-I.xml" x="960" y="1500" angle_z="90"  />
  <node ref_number="858" type="actors/door-sliding.xml" x="1560" y="2700" angle_z="180"  />
  <node ref_number="859" parent="533" type="actors/caffeinator.xml" x="-5" y="0" z="-36"  />
- <node ref_number="860" parent="1099" type="actors/logic-playerobserver.xml" x="-17" y="336" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="270" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="860" parent="1099" type="actors/logic-playerobserver.xml" x="-17" y="336" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="270"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="861" type="actors/wall-residential-thin-T.xml" x="840" y="2040" angle_z="270"  />
  <node ref_number="862" type="actors/wall-residential-thin-L.xml" x="960" y="2040" angle_z="90"  />
  <node ref_number="863" type="actors/wall-residential-thin-I.xml" x="900" y="2040" angle_z="90"  />
  <node ref_number="864" type="actors/wall-residential-thin-L.xml" x="960" y="2100" angle_z="270"  />
  <node ref_number="865" type="actors/wall-residential-thin-I.xml" x="1020" y="2100" angle_z="90"  />
- <node ref_number="866" parent="1099" type="actors/logic-playerobserver.xml" x="-347" y="605" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="130" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="866" parent="1099" type="actors/logic-playerobserver.xml" x="-347" y="605" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="130"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="867" parent="1099" type="actors/logic-playerobserver.xml" x="-380" y="118" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="70" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="867" parent="1099" type="actors/logic-playerobserver.xml" x="-380" y="118" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="70"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="868" parent="580" type="actors/caffeinator.xml" x="-4" y="2" z="-36" angle_z="1"  />
  <node ref_number="869" type="actors/table.xml" x="353" y="1234" angle_z="89" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
@@ -3288,10 +3288,10 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1035" type="actors/wall-residential-thin-T.xml" x="2040" y="1380" angle_z="180"  />
  <node ref_number="1036" type="actors/wall-glass-I.xml" x="2040" y="1320" angle_z="180"  />
  <node ref_number="1037" type="actors/wall-residential-thin-I.xml" x="2100" y="1140" angle_z="90"  />
- <node ref_number="1038" type="actors/screen-billboard.xml" x="2182" y="1146" z="-10" angle_z="90" scale="0.830000" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/chiphow.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="1038" type="actors/screen-billboard.xml" x="2182" y="1146" z="-10" angle_z="90" scale="0.830000" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/chiphow.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="1039" type="actors/sofa-comfy.xml" x="2112" y="1316" angle_z="275"  />
  <node ref_number="1040" type="actors/sofa-comfy.xml" x="2233" y="1320" angle_z="269"  />
@@ -3347,61 +3347,61 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1090" parent="1088" type="actors/workstation.xml" x="-2" y="15" z="-36" angle_z="-19"  />
  <node ref_number="1091" parent="1075" type="actors/bottle-green.xml" x="0" y="20" z="-36" angle_z="141" scale="1.077945"  />
  <node ref_number="1092" type="actors/cyberchair-noninteractive.xml" x="828" y="2500" angle_z="67"  />
- <node ref_number="1093" parent="1100" type="actors/logic-playerobserver.xml" x="-332" y="-272" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="90" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1093" parent="1100" type="actors/logic-playerobserver.xml" x="-332" y="-272" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="90"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="1094" parent="1100" type="actors/logic-playerobserver.xml" x="-145" y="-445" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="160" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1094" parent="1100" type="actors/logic-playerobserver.xml" x="-145" y="-445" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="160"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="1095" parent="1100" type="actors/logic-playerobserver.xml" x="215" y="-213" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="true" 
- key_BOOLEAN_active="true" 
- key_FLOAT_radius="220" 
- key_BOOLEAN_send_hack_on_player_entering_radius="true" 
- key_BOOLEAN_send_hack_on_leaving_radius="false" 
- key_BOOLEAN_send_hack_on_player_entering_view="false" 
- key_BOOLEAN_send_hack_on_player_leaving_view="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="487" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1095" parent="1100" type="actors/logic-playerobserver.xml" x="215" y="-213" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="true"
+ key_BOOLEAN_active="true"
+ key_FLOAT_radius="220"
+ key_BOOLEAN_send_hack_on_player_entering_radius="true"
+ key_BOOLEAN_send_hack_on_leaving_radius="false"
+ key_BOOLEAN_send_hack_on_player_entering_view="false"
+ key_BOOLEAN_send_hack_on_player_leaving_view="false"
+ key_STAGE_OBJECT_REFERENCE_new_1="487"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="1096" type="actors/door-outside-wall-frame.xml" x="2220" y="420" angle_z="180"  />
  <node ref_number="1097" type="actors/door-outside-wall-frame.xml" x="2220" y="420"  />
- <node ref_number="1098" type="actors/power-cell.xml" x="750" y="1830" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_STAGE_OBJECT_REFERENCE_new_3="" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1098" type="actors/power-cell.xml" x="750" y="1830" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_STAGE_OBJECT_REFERENCE_new_3=""
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="1099" type="actors/power-cell.xml" x="797" y="2004" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_STAGE_OBJECT_REFERENCE_new_4="" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1099" type="actors/power-cell.xml" x="797" y="2004" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_STAGE_OBJECT_REFERENCE_new_4=""
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="1100" type="actors/power-cell.xml" x="2365" y="1773" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_STAGE_OBJECT_REFERENCE_new_2="" 
- key_STAGE_OBJECT_REFERENCE_new_5="" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1100" type="actors/power-cell.xml" x="2365" y="1773" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_STAGE_OBJECT_REFERENCE_new_2=""
+ key_STAGE_OBJECT_REFERENCE_new_5=""
+ key_INTEGER_required_difficulty="1"
   />
- <node ref_number="1101" type="actors/power-cell.xml" x="386" y="379" key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_friend_or_foe="false" 
- key_STAGE_OBJECT_REFERENCE_new_1="" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1101" type="actors/power-cell.xml" x="386" y="379" key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_friend_or_foe="false"
+ key_STAGE_OBJECT_REFERENCE_new_1=""
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="1102" type="actors/bed-single.xml" x="2178" y="108"  />
  <node ref_number="1103" type="actors/bed-single.xml" x="2290" y="106" angle_z="1"  />
@@ -3436,65 +3436,65 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node id="G26449" ref_number="1132" type="actors/box-closed.xml" x="151" y="1662" angle_z="3" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node id="G15370" ref_number="1133" type="actors/box-closed.xml" x="2777" y="1007" angle_z="357" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node id="G23849" ref_number="1134" type="actors/box-closed.xml" x="2148" y="154" angle_z="4" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
- <node ref_number="1135" type="actors/invisible-spawner.xml" x="2130" y="2701" angle_z="258" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="21" 
- key_INTEGER_max_living_spawns="3" 
- key_FLOAT_spawn_interval="0.3" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-regular.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="1135" type="actors/invisible-spawner.xml" x="2130" y="2701" angle_z="258" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="21"
+ key_INTEGER_max_living_spawns="3"
+ key_FLOAT_spawn_interval="0.3"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-regular.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
- <node ref_number="1136" type="actors/invisible-spawner.xml" x="1592" y="143" angle_z="100" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="21" 
- key_INTEGER_max_living_spawns="2" 
- key_FLOAT_spawn_interval="0.3" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-regular.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="1136" type="actors/invisible-spawner.xml" x="1592" y="143" angle_z="100" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="21"
+ key_INTEGER_max_living_spawns="2"
+ key_FLOAT_spawn_interval="0.3"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-regular.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
- <node ref_number="1137" type="actors/invisible-spawner.xml" x="1411" y="146" angle_z="88" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="12" 
- key_INTEGER_max_living_spawns="2" 
- key_FLOAT_spawn_interval="2" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="1137" type="actors/invisible-spawner.xml" x="1411" y="146" angle_z="88" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="12"
+ key_INTEGER_max_living_spawns="2"
+ key_FLOAT_spawn_interval="2"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
- <node ref_number="1138" type="actors/invisible-spawner.xml" x="2307" y="2699" angle_z="256" key_BOOLEAN_invisible="true" 
- key_INTEGER_max_spawns_total="12" 
- key_INTEGER_max_living_spawns="3" 
- key_FLOAT_spawn_interval="2" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="1138" type="actors/invisible-spawner.xml" x="2307" y="2699" angle_z="256" key_BOOLEAN_invisible="true"
+ key_INTEGER_max_spawns_total="12"
+ key_INTEGER_max_living_spawns="3"
+ key_FLOAT_spawn_interval="2"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-jydge-shooter-tough.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
- <node ref_number="1139" type="actors/timerdevice.xml" x="2160" y="2507" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_countdown_timer="5" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="false" 
- key_BOOLEAN_looping="true" 
- key_BOOLEAN_can_be_stopped="false" 
- key_STAGE_OBJECT_REFERENCE_new_10="1135" 
- key_STAGE_OBJECT_REFERENCE_new_11="1138" 
+ <node ref_number="1139" type="actors/timerdevice.xml" x="2160" y="2507" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_countdown_timer="5"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="false"
+ key_BOOLEAN_looping="true"
+ key_BOOLEAN_can_be_stopped="false"
+ key_STAGE_OBJECT_REFERENCE_new_10="1135"
+ key_STAGE_OBJECT_REFERENCE_new_11="1138"
   />
- <node ref_number="1140" type="actors/timerdevice.xml" x="1454" y="304" angle_z="90" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_countdown_timer="5" 
- key_FLOAT_pre_countdown_timer="0" 
- key_BOOLEAN_start_automatically="false" 
- key_BOOLEAN_looping="true" 
- key_BOOLEAN_can_be_stopped="false" 
- key_STAGE_OBJECT_REFERENCE_new_10="1137" 
- key_STAGE_OBJECT_REFERENCE_new_11="1136" 
+ <node ref_number="1140" type="actors/timerdevice.xml" x="1454" y="304" angle_z="90" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_countdown_timer="5"
+ key_FLOAT_pre_countdown_timer="0"
+ key_BOOLEAN_start_automatically="false"
+ key_BOOLEAN_looping="true"
+ key_BOOLEAN_can_be_stopped="false"
+ key_STAGE_OBJECT_REFERENCE_new_10="1137"
+ key_STAGE_OBJECT_REFERENCE_new_11="1136"
   />
  <node id="G16328" ref_number="1141" type="actors/premium-box.xml" x="2768" y="1527" angle_z="85" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node ref_number="1142" type="actors/cupboard.xml" x="489" y="1230" angle_z="90" scale="0.829619"  />
@@ -3515,11 +3515,11 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1157" type="actors/enemy-jydge-shooter-regular.xml" x="2594" y="2238" angle_z="59"  />
  <node ref_number="1158" type="actors/enemy-jydge-shooter-regular.xml" x="395" y="2625" angle_z="162"  />
  <node id="G16131" ref_number="1159" type="actors/premium-box.xml" x="2158" y="587" angle_z="87" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
- <node ref_number="1160" type="actors/enemy-jydge-shooter-regular.xml" x="459" y="277" angle_z="5" key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Black Jack" 
- key_STRING_enhancements="MINIBOSS" 
- key_INTEGER_required_difficulty="0" 
- key_INTEGER_highest_allowed_difficulty="0" 
+ <node ref_number="1160" type="actors/enemy-jydge-shooter-regular.xml" x="459" y="277" angle_z="5" key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Black Jack"
+ key_STRING_enhancements="MINIBOSS"
+ key_INTEGER_required_difficulty="0"
+ key_INTEGER_highest_allowed_difficulty="0"
   />
  <node ref_number="1161" type="actors/enemy-jydge-shooter-regular.xml" x="530" y="1078" angle_z="268" key_BOOLEAN_patrol="true"  />
  <node ref_number="1162" type="actors/enemy-jydge-shooter-regular.xml" x="421" y="1678" angle_z="110" key_BOOLEAN_patrol="true"  />
@@ -3575,11 +3575,11 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1212" type="actors/enemy-jydge-melee-tough.xml" x="644" y="2084" angle_z="40" scale="1.000000" key_INTEGER_required_difficulty="2" key_BOOLEAN_patrol="true"  />
  <node ref_number="1213" type="actors/enemy-jydge-melee-tough.xml" x="1572" y="1825" angle_z="40" scale="1.000000" key_INTEGER_required_difficulty="2" key_BOOLEAN_patrol="true"  />
  <node ref_number="1214" type="actors/enemy-jydge-melee-tough.xml" x="2755" y="2526" angle_z="331" scale="1.000000" key_INTEGER_required_difficulty="2"  />
- <node ref_number="1215" type="actors/enemy-jydge-miniboss-act1.xml" x="1504" y="901" angle_z="77" key_INTEGER_required_difficulty="2" 
- key_STRING_spawn_id="DOG1" 
- key_STRING_force_loot_table="boss_drop" 
- key_STRING_name="D.O.G. v1" 
- key_BOOLEAN_draw_boss_health_bar="true" 
+ <node ref_number="1215" type="actors/enemy-jydge-miniboss-act1.xml" x="1504" y="901" angle_z="77" key_INTEGER_required_difficulty="2"
+ key_STRING_spawn_id="DOG1"
+ key_STRING_force_loot_table="boss_drop"
+ key_STRING_name="D.O.G. v1"
+ key_BOOLEAN_draw_boss_health_bar="true"
   />
  <node ref_number="1216" type="actors/wall-residential-thin-I.xml" x="2700" y="1320" angle_z="90"  />
  <node ref_number="1217" type="actors/wall-outside-railing-connector-I.xml" x="2700" y="780" angle_z="450"  />
@@ -3910,19 +3910,19 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1542" type="actors/wall-outside-window.xml" x="900" y="60" angle_z="90"  />
  <node ref_number="1543" type="actors/wall-outside-I.xml" x="840" y="60" angle_z="90"  />
  <node ref_number="1544" type="actors/wall-outside-window.xml" x="960" y="60" angle_z="90"  />
- <node ref_number="1545" type="actors/enemy-jydge-shooter-regular.xml" x="2168" y="662" angle_z="339" key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Black Jack" 
- key_STRING_enhancements="MINIBOSS" 
- key_INTEGER_required_difficulty="3" 
- key_INTEGER_highest_allowed_difficulty="3" 
+ <node ref_number="1545" type="actors/enemy-jydge-shooter-regular.xml" x="2168" y="662" angle_z="339" key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Black Jack"
+ key_STRING_enhancements="MINIBOSS"
+ key_INTEGER_required_difficulty="3"
+ key_INTEGER_highest_allowed_difficulty="3"
   />
- <node ref_number="1546" type="actors/enemy-jydge-shooter-regular.xml" x="1403" y="218" angle_z="230" key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Black Jack" 
- key_STRING_enhancements="MINIBOSS" 
- key_INTEGER_required_difficulty="2" 
- key_INTEGER_highest_allowed_difficulty="2" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="1398,217,0;1319,144,0;926,125,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&5&Q&}};1173,124,0;1462,167,0;1599,327,0;1727,414,0;1915,420,0;2273,417,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};2045,418,0;1592,457,0;1309,596,0;1002,600,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&6&Q&}};1234,603,0;1385,542,0;1418,408,0;1398,216,0" 
+ <node ref_number="1546" type="actors/enemy-jydge-shooter-regular.xml" x="1403" y="218" angle_z="230" key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Black Jack"
+ key_STRING_enhancements="MINIBOSS"
+ key_INTEGER_required_difficulty="2"
+ key_INTEGER_highest_allowed_difficulty="2"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="1398,217,0;1319,144,0;926,125,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&5&Q&}};1173,124,0;1462,167,0;1599,327,0;1727,414,0;1915,420,0;2273,417,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}};2045,418,0;1592,457,0;1309,596,0;1002,600,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&6&Q&}};1234,603,0;1385,542,0;1418,408,0;1398,216,0"
   />
  <node ref_number="1547" type="actors/mailbox.xml" x="1710" y="510" angle_z="180"  />
  <node ref_number="1548" type="actors/mailbox.xml" x="1710" y="1590" angle_z="180"  />
@@ -3947,11 +3947,11 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1567" type="actors/bush-01.xml" x="1738" y="1198" angle_z="59" scale="1.200443"  />
  <node ref_number="1568" type="actors/bush-01.xml" x="1750" y="1721" scale="1.227420"  />
  <node ref_number="1569" type="actors/shadowmask-solid.xml" x="2220" y="3060" z="-121" scale="6.000000"  />
- <node ref_number="1570" type="actors/enemy-jydge-shooter-regular.xml" x="2621" y="1493" angle_z="166" key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Black Jack" 
- key_STRING_enhancements="MINIBOSS" 
- key_INTEGER_required_difficulty="1" 
- key_INTEGER_highest_allowed_difficulty="1" 
+ <node ref_number="1570" type="actors/enemy-jydge-shooter-regular.xml" x="2621" y="1493" angle_z="166" key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Black Jack"
+ key_STRING_enhancements="MINIBOSS"
+ key_INTEGER_required_difficulty="1"
+ key_INTEGER_highest_allowed_difficulty="1"
   />
  <node ref_number="1571" type="actors/bush-02.xml" x="162" y="2083" angle_z="50" scale="0.587488"  />
  <node ref_number="1572" type="actors/bush-03.xml" x="162" y="2144" angle_z="272" scale="0.629614"  />
@@ -4049,11 +4049,11 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1664" type="actors/bush-02.xml" x="2660" y="2592" angle_z="347" scale="1.088850"  />
  <node ref_number="1665" type="actors/palm-01.xml" x="224" y="187" angle_z="320"  />
  <node ref_number="1666" type="actors/bush-02.xml" x="230" y="484" angle_z="96" scale="0.969180"  />
- <node ref_number="1667" type="actors/enemy-jydge-miniboss-act2.xml" x="1498" y="1634" angle_z="89" key_INTEGER_required_difficulty="3" 
- key_STRING_spawn_id="DOG2" 
- key_STRING_force_loot_table="boss_drop" 
- key_STRING_name="D.O.G. v2" 
- key_BOOLEAN_draw_boss_health_bar="true" 
+ <node ref_number="1667" type="actors/enemy-jydge-miniboss-act2.xml" x="1498" y="1634" angle_z="89" key_INTEGER_required_difficulty="3"
+ key_STRING_spawn_id="DOG2"
+ key_STRING_force_loot_table="boss_drop"
+ key_STRING_name="D.O.G. v2"
+ key_BOOLEAN_draw_boss_health_bar="true"
   />
  <node ref_number="1668" type="actors/door-outer-double-remote-sliding.xml" x="2160" y="2820" angle_z="270" key_BOOLEAN_indestructible="true"  />
  <node ref_number="1669" type="actors/door-outer-double-remote-sliding.xml" x="2340" y="2820" angle_z="270" key_BOOLEAN_indestructible="true"  />
@@ -4178,11 +4178,11 @@ key_FLOAT_fog_r="0.4" key_FLOAT_fog_g="0.15" key_FLOAT_fog_b="0.1"  />
  <node ref_number="1788" type="actors/wall-picket-fence-I.xml" x="2580" y="1020" angle_z="180"  />
  <node id="G3125" ref_number="1789" type="actors/hacker-box.xml" x="2303" y="1175" angle_z="95" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
  <node id="G11222" ref_number="1790" type="actors/hacker-box.xml" x="382" y="543" angle_z="176" key_BOOLEAN_unlimited_use="false" key_BOOLEAN_indestructible="false"  />
- <node ref_number="1791" type="actors/screen-billboard.xml" x="1844" y="1881" angle_z="112" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/neon-chrome.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_BITMAP_bitmap2="billboards/edenbyrg.jpg" 
+ <node ref_number="1791" type="actors/screen-billboard.xml" x="1844" y="1881" angle_z="112" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/neon-chrome.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_BITMAP_bitmap2="billboards/edenbyrg.jpg"
   />
 </array>
 

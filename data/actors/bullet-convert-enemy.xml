@@ -2,37 +2,37 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 name="ConvertEnemyBullet" 
-		 renderer="ProjectilePlasmaBolt" 
-		 ai="ConvertEnemyBullet" 
-		 turn_speed="4.0" 
-		 move_speed="4000" 
-		 move_acceleration="50000" 
-		 dampening_factor="0.0" 
-		 restitution_coefficient="0.5" 
-		 friend_group="PROJECTILES" 
-		 scale="1" 
-		 mass="0" 
-		 damage="0" 
-		 bitmap_move="actors/gfx/bullet-convert-enemy.png" 
-		 bitmap_attack="actors/gfx/bullet-convert-enemy.png" 
-		 bitmap_death="!NONE" 
-		 bitmap_trail="actors/gfx/trail-green.png" 
-		 trail_length="4000" 
-		 hit_points="5" 
+		<node id="PARAMETERS"
+		 name="ConvertEnemyBullet"
+		 renderer="ProjectilePlasmaBolt"
+		 ai="ConvertEnemyBullet"
+		 turn_speed="4.0"
+		 move_speed="4000"
+		 move_acceleration="50000"
+		 dampening_factor="0.0"
+		 restitution_coefficient="0.5"
+		 friend_group="PROJECTILES"
+		 scale="1"
+		 mass="0"
+		 damage="0"
+		 bitmap_move="actors/gfx/bullet-convert-enemy.png"
+		 bitmap_attack="actors/gfx/bullet-convert-enemy.png"
+		 bitmap_death="!NONE"
+		 bitmap_trail="actors/gfx/trail-green.png"
+		 trail_length="4000"
+		 hit_points="5"
 		/>
 
 		<node id="COLLIDER"
-          type="SPHERE"
-          sphere_radius="30" 
-         />
+		  type="SPHERE"
+		  sphere_radius="30"
+		 />
 
-		<node id="CUSTOM_DATA" 
-		 bullet_trail_effect="effects/ring-convert-tail.xml" 
-		 bullet_trail_interval="10" 
+		<node id="CUSTOM_DATA"
+		 bullet_trail_effect="effects/ring-convert-tail.xml"
+		 bullet_trail_interval="10"
 		 sound="sfx/weapons/convert-dart-fire"
 		/>
-		
+
 	</array>
 </root>

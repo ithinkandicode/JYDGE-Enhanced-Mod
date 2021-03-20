@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <!--
-		action="SetProperty" 
-		property="TF:touchfield.value_x" 
-		time_start="0" 
-		duration="30" 
-		value_from="0" 
+		action="SetProperty"
+		property="TF:touchfield.value_x"
+		time_start="0"
+		duration="30"
+		value_from="0"
 		value_to="1500"
 		curve=  "LINEAR" "EASE_IN" "EASE_OUT" "EASE_BOTH"
 
 		action="BeginTimelineEvent"
-		time_start="0" 
+		time_start="0"
 		event="timeline_event_id"
-		
+
 		action="EndTimelineEvent"
-		time_start="0" 
+		time_start="0"
 -->
 
 
@@ -41,34 +41,34 @@
 		<node action="SetProperty" property="NCLogo:alpha" time_start="5" duration="2" value_from="1" value_to="0" />
 		<node action="SetProperty" property="NCLogo:scale" time_start="1" duration="5" value_from="0.8" value_to="0.85" />
 	</array>
-    
+
 	<array base_time="0.0" > <!-- This is Channel Neon... -->
 		<node action="PlaySound" sound="sfx/jydge/jydge-intro-dialog-0" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="4.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="4.3" > <!-- Multiple citizens... -->
 		<node action="PlaySound" sound="sfx/jydge/jydge-intro-dialog-1" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="6.3" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="10.5" > <!-- We're here with... -->
 		<node action="PlaySound" sound="sfx/jydge/jydge-intro-dialog-2" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="10.95" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="21.0" > <!-- Yes. Send in the JYDGE. -->
 		<node action="PlaySound" sound="sfx/jydge/jydge-intro-dialog-3" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="4.95" duration="0.5" value_from="1" value_to="0" />
-	</array>  
+	</array>
 
 	<array base_time="25.0" >
 		<node action="PlaySound" sound="sfx/jydge/jydge-logo-sound" time_start="1" duration="1" value_from="0" value_to="1" />
@@ -77,9 +77,9 @@
 		<node action="SetProperty" property="JydgeLogo:alpha" time_start="2.5" duration="2" value_from="1" value_to="0" />
 		<node action="SetProperty" property="JydgeLogo:scale" time_start="1" duration="4" value_from="0.95" value_to="1.075" />
 	</array>
-	
+
 	<array base_time="29.5" >
 		<node action="BeginTimelineEvent" time_start="0" event="JydgeTutorial" />
 	</array>
-	
+
 </root>

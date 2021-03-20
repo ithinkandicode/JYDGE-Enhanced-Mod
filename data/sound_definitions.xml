@@ -4,142 +4,142 @@
  <!-- the loader fills 01,02,03,04,05 at end until file does not exist -->
 
 <root>
-  
+
   <array id="security_guard" >
-     <node id="damage" file="sfx/actors/pain_human_" />
-     <node id="death" file="sfx/actors/death_male_" />
+	 <node id="damage" file="sfx/actors/pain_human_" />
+	 <node id="death" file="sfx/actors/death_male_" />
 	 <node id="death_gibbed" file="sfx/actors/death_male_gibbed_" />
-     <node id="alert" file="sfx/actors/alert_sounds/alert_security_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/alert_security_" />
   </array>
-  
+
   <array id="large_thug" >
-     <node id="damage" file="sfx/actors/pain_large_thug_" />
-     <node id="death" file="sfx/actors/death_male_large_" />
+	 <node id="damage" file="sfx/actors/pain_large_thug_" />
+	 <node id="death" file="sfx/actors/death_male_large_" />
 	 <node id="death_gibbed" file="sfx/actors/death_male_gibbed_" />
-     <node id="alert" file="sfx/actors/alert_sounds/alert_large_thug_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/alert_large_thug_" />
   </array>
-  
+
   <array id="cyborg" >
-     <node id="damage" file="sfx/actors/pain_cyborg_" />
-     <node id="death" file="sfx/actors/death_male_radio_" />
+	 <node id="damage" file="sfx/actors/pain_cyborg_" />
+	 <node id="death" file="sfx/actors/death_male_radio_" />
 	 <node id="death_gibbed" file="sfx/actors/death_male_gibbed_" />
-     <node id="alert" file="sfx/actors/alert_sounds/alert_cyborg_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/alert_cyborg_" />
   </array>
-  
-   
+
+
   <array id="soldier" >
-     <node id="damage" file="sfx/actors/pain_human_" />
-     <node id="death" file="sfx/actors/death_male_radio_" />
+	 <node id="damage" file="sfx/actors/pain_human_" />
+	 <node id="death" file="sfx/actors/death_male_radio_" />
 	 <node id="death_gibbed" file="sfx/actors/death_male_gibbed_" />
-     <node id="alert" file="sfx/actors/alert_sounds/alert_soldier_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/alert_soldier_" />
   </array>
-  
+
   <array id="humanoid" >
-     <node id="damage" file="sfx/actors/damage_male_" />
-     <node id="death" file="sfx/actors/death_male_" />
-     <node id="alert" file="sfx/actors/alert_sounds/cyborg_" />
+	 <node id="damage" file="sfx/actors/damage_male_" />
+	 <node id="death" file="sfx/actors/death_male_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/cyborg_" />
   </array>
-  
+
   <array id="robotics" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/gremlin_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/gremlin_" />
   </array>
-  
+
   <array id="minispider" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/minispider_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/minispider_alert_" />
   </array>
-  
+
   <array id="spiderbot" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/attack_drone_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/attack_drone_alert_" />
   </array>
-  
+
   <array id="mad_drone" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/mad_drone_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/mad_drone_alert_" />
   </array>
-  
+
   <array id="laser_drone" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/laser_drone_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/laser_drone_alert_" />
   </array>
-  
+
   <array id="attack_drone" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/attack_drone_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/attack_drone_alert_" />
   </array>
-  
-    <array id="centipede_drone" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/attack_drone_alert_" />
+
+	<array id="centipede_drone" >
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/attack_drone_alert_" />
   </array>
-  
+
   <array id="kamikaze_drone" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/kamikaze_drone_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/kamikaze_drone_alert_" />
   </array>
-    
+
   <array id="autoturret" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/autoturret_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/autoturret_alert_" />
   </array>
-  
+
   <array id="wall_turret" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/wall_turret_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/wall_turret_alert_" />
   </array>
-  
+
   <array id="mine" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/wall_turret_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/wall_turret_alert_" />
   </array>
-  
+
   <array id="companion_drone" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/companion_drone_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/companion_drone_alert_" />
   </array>
-  
+
   <array id="nanocloud" >
-     <node id="damage" file="sfx/actors/damage_robotic_" />
-     <node id="death" file="sfx/actors/death_robotic_" />
-     <node id="alert" file="sfx/actors/alert_sounds/nanocloud_alert_" />
+	 <node id="damage" file="sfx/actors/damage_robotic_" />
+	 <node id="death" file="sfx/actors/death_robotic_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/nanocloud_alert_" />
   </array>
-  
+
   <array id="player" >
-     <node id="damage" file="sfx/actors/pain_human_" />
-     <node id="death" file="sfx/actors/death_male_" />
-     <node id="alert" file="sfx/actors/alert_sounds/alert_security_" />
+	 <node id="damage" file="sfx/actors/pain_human_" />
+	 <node id="death" file="sfx/actors/death_male_" />
+	 <node id="alert" file="sfx/actors/alert_sounds/alert_security_" />
   </array>
-  
+
   <array id="civilian_male" >
-     <node id="damage" file="sfx/actors/pain_human_" />
-     <node id="death" file="sfx/actors/death_male_" />
-     <!--<node id="alert" file="sfx/actors/alert_sounds/alert_security_" />-->
+	 <node id="damage" file="sfx/actors/pain_human_" />
+	 <node id="death" file="sfx/actors/death_male_" />
+	 <!--<node id="alert" file="sfx/actors/alert_sounds/alert_security_" />-->
   </array>
-  
+
   <array id="civilian_female" >
-     <node id="damage" file="sfx/actors/damage_female_" />
-     <node id="death" file="sfx/actors/death_female_" />
-     <!--<node id="alert" file="sfx/actors/alert_sounds/alert_security_" />-->
+	 <node id="damage" file="sfx/actors/damage_female_" />
+	 <node id="death" file="sfx/actors/death_female_" />
+	 <!--<node id="alert" file="sfx/actors/alert_sounds/alert_security_" />-->
   </array>
-  
+
   <array id="bird" >
-     <!--<node id="damage" file="sfx/actors/pain_human_" />
-     <node id="death" file="sfx/actors/death_male_" />-->
-     <node id="alert" file="sfx/bird-taking-off" />
+	 <!--<node id="damage" file="sfx/actors/pain_human_" />
+	 <node id="death" file="sfx/actors/death_male_" />-->
+	 <node id="alert" file="sfx/bird-taking-off" />
   </array>
 
 </root>

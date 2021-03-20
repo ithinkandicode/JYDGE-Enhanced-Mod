@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <!--
-		action="SetProperty" 
-		property="TF:touchfield.value_x" 
-		time_start="0" 
-		duration="30" 
-		value_from="0" 
+		action="SetProperty"
+		property="TF:touchfield.value_x"
+		time_start="0"
+		duration="30"
+		value_from="0"
 		value_to="1500"
 		curve=  "LINEAR" "EASE_IN" "EASE_OUT" "EASE_BOTH"
 
 		action="BeginTimelineEvent"
-		time_start="0" 
+		time_start="0"
 		event="timeline_event_id"
-		
+
 		action="EndTimelineEvent"
-		time_start="0" 
+		time_start="0"
 -->
 
 
@@ -31,41 +31,41 @@
 		<node action="SetProperty" property="dialog_6:alpha" value="0" />
 		<node action="SetProperty" property="Gavel:angle" time_start="0" duration="40" value_from="0" value_to="20" />
 	</array>
-    
+
 	<array base_time="0.1" >
 		<node action="SetProperty" property="gavel:angle" time_start="0" duration="40" value_from="0" value_to="100" />
 	</array>
-    
+
    	<array base_time="0.0" > <!-- "The Gavel..." -->
 		<node action="PlaySound" sound="sfx/jydge/gavel-1" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="2.5" > <!-- "" -->
 		<node action="PlaySound" sound="sfx/jydge/gavel-2" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="8.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="10.5" > <!-- "" -->
 		<node action="PlaySound" sound="sfx/jydge/gavel-3" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="9.0" duration="0.5" value_from="1" value_to="0" />
-	</array>  
-    
+	</array>
+
 	<array base_time="20.0" > <!-- "" -->
 		<node action="PlaySound" sound="sfx/jydge/gavel-4" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="8.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="30.0" >
 		<node action="BeginTimelineEvent" time_start="0" event="JydgeMetagame" />
 	</array>
-	
+
 </root>

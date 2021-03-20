@@ -23,11 +23,11 @@
 		 shadow_alpha="0.75"
 		 shadow_scale="0.5"
 		 hit_points="12"
-		 walk_forward_animation="models/animations/pigeon_rig-pigeon_flight.xml" 
-		 move_animation_playback_speed="2" 
-		 idle_animation="models/animations/pigeon_rig-pigeon_idle1.xml" 
-		 idle_animations="models/animations/pigeon_rig-pigeon_idle1.xml,models/animations/pigeon_rig-pigeon_idle2.xml" 
-		 idle_animation_playback_speed="1" 
+		 walk_forward_animation="models/animations/pigeon_rig-pigeon_flight.xml"
+		 move_animation_playback_speed="2"
+		 idle_animation="models/animations/pigeon_rig-pigeon_idle1.xml"
+		 idle_animations="models/animations/pigeon_rig-pigeon_idle1.xml,models/animations/pigeon_rig-pigeon_idle2.xml"
+		 idle_animation_playback_speed="1"
 		 mass="999"
 		/>
 
@@ -52,31 +52,31 @@
 
 	</array>
 	<array id="GIBS_NONE">
-		<node id="SPLAT_SMALL" 
-		 model_group_1="MEAT_SMALL,root,1" 
-		 model_group_2="MEAT_SMALL,root,2" 
-		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
-		 death_animations="" 
+		<node id="SPLAT_SMALL"
+		 model_group_1="MEAT_SMALL,root,1"
+		 model_group_2="MEAT_SMALL,root,2"
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root"
+		 death_animations=""
 		/>
 
 	</array>
 
 	<array id="GIBS_PARTIAL">
-		<node id="SPLAT_MEDIUM" 
-		 model_group_1="MEAT_SMALL,root,1" 
-		 model_group_2="MEAT_SMALL,root,3" 
-		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
-		 death_animations="" 
+		<node id="SPLAT_MEDIUM"
+		 model_group_1="MEAT_SMALL,root,1"
+		 model_group_2="MEAT_SMALL,root,3"
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root"
+		 death_animations=""
 		/>
 
 	</array>
 
 	<array id="GIBS_FULL">
-		<node id="SPLAT_LARGE" 
-		 model_group_1="MEAT_SMALL,root,2" 
-		 model_group_2="MEAT_SMALL,root,3" 
-		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
-		 death_animations="" 
+		<node id="SPLAT_LARGE"
+		 model_group_1="MEAT_SMALL,root,2"
+		 model_group_2="MEAT_SMALL,root,3"
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root"
+		 death_animations=""
 		/>
 
 	</array>

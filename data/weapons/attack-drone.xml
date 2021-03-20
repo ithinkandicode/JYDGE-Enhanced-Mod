@@ -10,13 +10,13 @@
 			snd_reload="sfx/weapons/shotgun_reload"
 			fx_muzzle_flash="fxs/muzzle-br_revolver.lua"
 			effect_muzzle_flash="effects/muzzle-test.xml"
-			
-            type="WEAPON_TYPE_PROJECTILE"
-            
-            crit_chance="0.02"
-            
+
+			type="WEAPON_TYPE_PROJECTILE"
+
+			crit_chance="0.02"
+
 			projectile_actor="actors/bullet-wall-turret.xml"
-	
+
 			projectiles_per_shot="1"
 			projectile_range="1500"
 			projectile_range_random="0.1"

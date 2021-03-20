@@ -6,7 +6,7 @@
  <node id="cells_width" value="40" />
  <node id="cells_height" value="20" />
  <node id="ambient_light" r="0.19" g="0.19" b="0.19" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -907,15 +907,15 @@
 </array>
 
 <array id="actors">
- <node ref_number="76" type="actors/subway-elevator.xml" x="420" y="600" key_BOOLEAN_invisible="false" 
- key_INTEGER_max_spawns_total="20" 
- key_INTEGER_max_living_spawns="5" 
- key_FLOAT_spawn_interval="10" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-mini-spider.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="76" type="actors/subway-elevator.xml" x="420" y="600" key_BOOLEAN_invisible="false"
+ key_INTEGER_max_spawns_total="20"
+ key_INTEGER_max_living_spawns="5"
+ key_FLOAT_spawn_interval="10"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-mini-spider.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
  <node ref_number="77" type="actors/subway-elevator-door-R.xml" x="480" y="600" angle_z="180"  />
  <node ref_number="78" type="actors/subway-elevator-door-L.xml" x="480" y="600" angle_z="360"  />
@@ -1058,20 +1058,20 @@
  <node ref_number="215" type="actors/wall-warehouse-thick-column.xml" x="720" y="660" angle_z="90"  />
  <node ref_number="216" type="actors/wall-warehouse-thick-column.xml" x="1080" y="660" angle_z="90"  />
  <node ref_number="217" type="actors/wall-warehouse-thick-column.xml" x="1440" y="660" angle_z="90"  />
- <node ref_number="218" type="actors/screen-billboard.xml" x="1500" y="1000" angle_z="270" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/mask.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="218" type="actors/screen-billboard.xml" x="1500" y="1000" angle_z="270" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/mask.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="219" type="actors/screen-billboard.xml" x="1080" y="1000" angle_z="270" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/cryonix.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="219" type="actors/screen-billboard.xml" x="1080" y="1000" angle_z="270" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/cryonix.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="220" type="actors/screen-billboard.xml" x="660" y="1000" angle_z="270" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/explodz.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="220" type="actors/screen-billboard.xml" x="660" y="1000" angle_z="270" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/explodz.jpg"
+ key_FLOAT_luminocity="0.9"
   />
  <node ref_number="221" type="actors/door-garage-frame.xml" x="840" y="300" z="107" angle_z="90"  />
  <node ref_number="222" parent="221" type="actors/door-garage-frame.xml" x="-30" y="0" z="-11"  />
@@ -1083,15 +1083,15 @@
  <node ref_number="228" parent="221" type="actors/skybridge-plane-door.xml" x="-120" y="0" z="-146"  />
  <node ref_number="229" type="actors/wall-metal-thick-I.xml" x="1800" y="780" angle_z="90"  />
  <node ref_number="230" type="actors/wall-metal-thick-L.xml" x="1740" y="780"  />
- <node ref_number="231" type="actors/subway-elevator.xml" x="1740" y="600" angle_z="180" key_BOOLEAN_invisible="false" 
- key_INTEGER_max_spawns_total="20" 
- key_INTEGER_max_living_spawns="5" 
- key_FLOAT_spawn_interval="10" 
- key_BOOLEAN_indestructible="false" 
- key_BOOLEAN_start_automatically="false" 
- key_STRING_actor_to_spawn="actors/enemy-mini-spider.xml" 
- key_BOOLEAN_force_spawning_when_invisible="false" 
- key_BOOLEAN_force_chase="false" 
+ <node ref_number="231" type="actors/subway-elevator.xml" x="1740" y="600" angle_z="180" key_BOOLEAN_invisible="false"
+ key_INTEGER_max_spawns_total="20"
+ key_INTEGER_max_living_spawns="5"
+ key_FLOAT_spawn_interval="10"
+ key_BOOLEAN_indestructible="false"
+ key_BOOLEAN_start_automatically="false"
+ key_STRING_actor_to_spawn="actors/enemy-mini-spider.xml"
+ key_BOOLEAN_force_spawning_when_invisible="false"
+ key_BOOLEAN_force_chase="false"
   />
  <node ref_number="232" type="actors/subway-elevator-door-L.xml" x="1680" y="600" angle_z="180"  />
  <node ref_number="233" type="actors/subway-elevator-door-R.xml" x="1680" y="600"  />
@@ -1118,24 +1118,24 @@
  <node ref_number="254" type="actors/wall-light.xml" x="720" y="645" z="-58" angle_z="270"  />
  <node ref_number="255" type="actors/wall-light.xml" x="1080" y="645" z="-58" angle_z="270"  />
  <node ref_number="256" type="actors/wall-light.xml" x="1440" y="645" z="-58" angle_z="270"  />
- <node ref_number="257" type="actors/billboard-standing.xml" x="900" y="660" angle_z="87" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-cyberhance.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="257" type="actors/billboard-standing.xml" x="900" y="660" angle_z="87" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-cyberhance.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="258" type="actors/billboard-standing.xml" x="1260" y="660" angle_z="89" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/standing-billboard-default.jpg" 
- key_FLOAT_luminocity="0.9" 
+ <node ref_number="258" type="actors/billboard-standing.xml" x="1260" y="660" angle_z="89" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/standing-billboard-default.jpg"
+ key_FLOAT_luminocity="0.9"
   />
- <node ref_number="259" type="actors/watchdog_device.xml" x="1627" y="410" key_BOOLEAN_draw_in_game="false" 
- key_BOOLEAN_is_one_timer="false" 
- key_FLOAT_radius="200" 
- key_BOOLEAN_active="true" 
- key_BOOLEAN_scan_on_hack="false" 
- key_STRING_actor_to_scan_for="actors/dummy.xml" 
- key_STAGE_OBJECT_REFERENCE_watched="247" 
- key_STAGE_OBJECT_REFERENCE_new_1="3" 
+ <node ref_number="259" type="actors/watchdog_device.xml" x="1627" y="410" key_BOOLEAN_draw_in_game="false"
+ key_BOOLEAN_is_one_timer="false"
+ key_FLOAT_radius="200"
+ key_BOOLEAN_active="true"
+ key_BOOLEAN_scan_on_hack="false"
+ key_STRING_actor_to_scan_for="actors/dummy.xml"
+ key_STAGE_OBJECT_REFERENCE_watched="247"
+ key_STAGE_OBJECT_REFERENCE_new_1="3"
   />
  <node ref_number="260" type="actors/collectible-item.xml" x="1639" y="315" angle_z="-94" key_STRING_collectible_id="PIXELATED"  />
 </array>

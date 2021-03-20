@@ -2,20 +2,20 @@
 <root>
 
 	<array id="ACTOR">
-		<node id="PARAMETERS" 
-		 physics_material="CONCRETE" 
-		 renderer="NeonChromeModelAlphaDiscard" 
-		 ai="Wall" 
-		 friend_group="OBSTACLES" 
-		 turn_speed="2.5" 
-		 move_speed="10" 
-		 scale="1" 
-		 model_idle="models/wall-picket-fence-I.xml" 
-		 bitmap_shadow="!NONE" 
-		 shadow_angle="0" 
-		 shadow_scale="1" 
-		 hit_points="15" 
-		 damage="0.0" 
+		<node id="PARAMETERS"
+		 physics_material="CONCRETE"
+		 renderer="NeonChromeModelAlphaDiscard"
+		 ai="Wall"
+		 friend_group="OBSTACLES"
+		 turn_speed="2.5"
+		 move_speed="10"
+		 scale="1"
+		 model_idle="models/wall-picket-fence-I.xml"
+		 bitmap_shadow="!NONE"
+		 shadow_angle="0"
+		 shadow_scale="1"
+		 hit_points="15"
+		 damage="0.0"
 		/>
 
 		<node id="RENDERER_DATA" has_reflection="false" />
@@ -23,12 +23,12 @@
 	</array>
 
 	<array id="GIBS_WALL">
-		<node id="DESTRUCTION_1" 
-		 model="" 
-		 model_group_1="LIGHTWALL,NONE,12,LIGHTWALL" 
-		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
-		 model_group_3="METAL_SMALL,NONE,1,NONE" 
-		 particle_effect_1="effects/wall-low-breaks.xml" 
+		<node id="DESTRUCTION_1"
+		 model=""
+		 model_group_1="LIGHTWALL,NONE,12,LIGHTWALL"
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE"
+		 model_group_3="METAL_SMALL,NONE,1,NONE"
+		 particle_effect_1="effects/wall-low-breaks.xml"
 		/>
 
 	</array>

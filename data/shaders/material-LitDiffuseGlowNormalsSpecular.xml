@@ -25,20 +25,20 @@
 	</array>
 
 	<array id="vertex_output">
-    	<node id="position" type="FLOAT4" semantic="POSITION" />
-    	<node id="color" type="FLOAT4" semantic="COLOR" />
-    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
-    	<node id="normal" type="FLOAT3" />
-    	<node id="tangent" type="FLOAT3" />
-    	<node id="bitangent" type="FLOAT3" />
-    	<node id="world_position" type="FLOAT3" />
+		<node id="position" type="FLOAT4" semantic="POSITION" />
+		<node id="color" type="FLOAT4" semantic="COLOR" />
+		<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+		<node id="normal" type="FLOAT3" />
+		<node id="tangent" type="FLOAT3" />
+		<node id="bitangent" type="FLOAT3" />
+		<node id="world_position" type="FLOAT3" />
 	</array>
 
 	<array id="pixel_constants">
 		<node id="ambient_light" type="FLOAT4" />
 		<node id="light_color" type="FLOAT4" count="4" />
 		<node id="light_position_radius" type="FLOAT4" count="4" />
-    	<node id="eye_position" type="FLOAT4" />
+		<node id="eye_position" type="FLOAT4" />
 		<node id="glow_color" type="FLOAT4" />
 	</array>
 
@@ -88,7 +88,7 @@
 					float3 normal =	normalize(normal_sample.x * input.tangent + normal_sample.y * input.bitangent + normal_sample.z * input.normal);
 
 					float4 specular_sample = sampleTexture(texture.specular_map, input.texture_coordinate);
-                    float3 direction_to_eye = normalize(input.world_position - eye_position.xyz);
+					float3 direction_to_eye = normalize(input.world_position - eye_position.xyz);
 
 					for (int i = 0; i < 4; ++i)
 					{
@@ -100,11 +100,11 @@
 
 						float diffuse_component = saturate(dot(light_direction, normal));
 
-                        float3 reflected_light = reflect(light_direction, normal);
-                        float specular_component = specular_sample.x * pow(saturate(dot(reflected_light, direction_to_eye)), 12.0f);
+						float3 reflected_light = reflect(light_direction, normal);
+						float specular_component = specular_sample.x * pow(saturate(dot(reflected_light, direction_to_eye)), 12.0f);
 
 						total_light_color += light_color[i] * (attenuation * diffuse_component);
-                        total_specular_color += light_color[i] * (attenuation * specular_component);
+						total_specular_color += light_color[i] * (attenuation * specular_component);
 					}
 
 					float4 diffuse_specular_color = float4(saturate(total_light_color.xyz * diffuse_sample.xyz + total_specular_color.xyz), diffuse_sample.w);

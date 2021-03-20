@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <root>
 
-<!-- 
+<!--
 NOTES:
 
 -->
-       
+
 	<array id="ACTS">
-		<node 
+		<node
 		 id="ACT_1"
-         name="The Dawn of Jydgement"
+		 name="The Dawn of Jydgement"
 		 screen_name="JydgeIntro"
 		 next_mission_index="0"
-        />
-		
-		<node 
+		/>
+
+		<node
 		 id="ACT_2"
-         name="The Jydgement Day"
+		 name="The Jydgement Day"
 		 screen_name="JydgeInterval1"
 		 next_mission_index="5"
-        />
-		
-		<node 
+		/>
+
+		<node
 		 id="ACT_3"
-         name="The Dusk Falls"
+		 name="The Dusk Falls"
 		 screen_name="JydgeInterval2"
 		 next_mission_index="10"
-        />
-		
-		<node 
+		/>
+
+		<node
 		 id="ACT_4"
-         name="The Night Imminent"
+		 name="The Night Imminent"
 		 screen_name="JydgeInterval3"
 		 next_mission_index="14"
-        />
-		 
-		<node 
+		/>
+
+		<node
 		 id="EPILOGUE_1"
-         name="The Unrelenting Night"
+		 name="The Unrelenting Night"
 		 tags="SHOW_BUTTON_ONLY_AFTER_EVENT_IS_SEEN"
 		 screen_name="JydgeOutro"
 		 next_mission_index="1"
-        />
-		 
-		<node 
+		/>
+
+		<node
 		 id="EPILOGUE_2"
-         name="Gently Into The Night"
+		 name="Gently Into The Night"
 		 tags="SHOW_BUTTON_ONLY_AFTER_EVENT_IS_SEEN"
 		 screen_name="JydgeOutroGood"
 		 next_mission_index="1"
-        />
-		
-		
+		/>
+
+
 	</array>
 
-    
+
 </root>

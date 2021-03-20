@@ -9,16 +9,16 @@
 			snd_fire="sfx/weapons/plasma-shotgun-fire"
 			snd_reload="sfx/weapons/shotgun_reload"
 			snd_empty_clip="sfx/weapons/empty_clip_plasma"
-		 
-		 
+
+
 			effect_muzzle_flash="effects/muzzle-plasma.xml"
 			effect_shell_eject="effects/one_big_shell_ejected.xml"
-            
-            type="WEAPON_TYPE_PROJECTILE"
-            crit_chance="0.00"
-            
+
+			type="WEAPON_TYPE_PROJECTILE"
+			crit_chance="0.00"
+
 			projectile_actor="actors/projectile-shotgun-plasma.xml"
-	
+
 			projectiles_per_shot="3"
 			projectile_range="900"
 			projectile_range_random="0.1"
@@ -37,7 +37,7 @@
 			reload_time="2.7"
 			reload_size="40"
 			clip_size="40"
-            ammo_refill_size="1"
+			ammo_refill_size="1"
 
 			damage="3"
 			projectile_speed="700"
@@ -48,11 +48,11 @@
 			trail_alpha="1"
 
 			move_speed_modifier="0.9"
-			
+
 			model="models/heavy-minigun.xml"
-			
+
 		/>
-		
+
 	</array>
 </root>
 

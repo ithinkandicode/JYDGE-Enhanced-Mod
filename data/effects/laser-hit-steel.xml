@@ -2,27 +2,27 @@
 <root>
 
 	<array id="DEFAULT">
-		
-		<node class="BITMAP" 
-		 number_of_particles="1" 
-		 initial_age="0;0.5" 
-		 age_to_die="1.0;1.2" 
-		 gravity_multiplier="0" 
-		 alpha_curve="0,0;0.5,1;1,0" 
-		 scale_multiplier="0.5;0.6" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/light-red.png" 
+
+		<node class="BITMAP"
+		 number_of_particles="1"
+		 initial_age="0;0.5"
+		 age_to_die="1.0;1.2"
+		 gravity_multiplier="0"
+		 alpha_curve="0,0;0.5,1;1,0"
+		 scale_multiplier="0.5;0.6"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/light-red.png"
 		 />
 
-		<node class="BITMAP" 
-		 number_of_particles="1" 
-		 initial_age="0" 
-		 age_to_die="1.0;1.2" 
-		 gravity_multiplier="0" 
-		 alpha_curve="0,0;0.1,1;1,0"  
-		 scale_multiplier="0.5;0.6" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/light-orange.png" 
+		<node class="BITMAP"
+		 number_of_particles="1"
+		 initial_age="0"
+		 age_to_die="1.0;1.2"
+		 gravity_multiplier="0"
+		 alpha_curve="0,0;0.1,1;1,0"
+		 scale_multiplier="0.5;0.6"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/light-orange.png"
 		 />
 
 	</array>

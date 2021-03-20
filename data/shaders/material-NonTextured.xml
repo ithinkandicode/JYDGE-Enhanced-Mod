@@ -21,8 +21,8 @@
 	</array>
 
 	<array id="vertex_output">
-    	<node id="position" type="FLOAT4" semantic="POSITION" />
-    	<node id="color" type="FLOAT4" semantic="COLOR" />
+		<node id="position" type="FLOAT4" semantic="POSITION" />
+		<node id="color" type="FLOAT4" semantic="COLOR" />
 	</array>
 
 	<array id="pixel_output">

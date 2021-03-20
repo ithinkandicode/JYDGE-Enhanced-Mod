@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
 <!--
-		action="SetProperty" 
-		property="TF:touchfield.value_x" 
-		time_start="0" 
-		duration="30" 
-		value_from="0" 
+		action="SetProperty"
+		property="TF:touchfield.value_x"
+		time_start="0"
+		duration="30"
+		value_from="0"
 		value_to="1500"
 		curve=  "LINEAR" "EASE_IN" "EASE_OUT" "EASE_BOTH"
 
 		action="BeginTimelineEvent"
-		time_start="0" 
+		time_start="0"
 		event="timeline_event_id"
-		
+
 		action="EndTimelineEvent"
-		time_start="0" 
+		time_start="0"
 -->
 
 
@@ -35,19 +35,19 @@
 		<node action="SetProperty" property="dialog_10:alpha" value="0" />
 		<node action="SetProperty" property="dialog_11:alpha" value="0" />
 		<node action="SetProperty" property="dialog_12:alpha" value="0" />
-		
+
 		<node action="SetProperty" property="Logo:alpha" time_start="0" duration="0" value_from="0" value_to="0" />
 	</array>
-    
-    <array base_time="0.0" >
+
+	<array base_time="0.0" >
 		<node action="PlaySound" sound="sfx/jydge/jydge-logo-sound" time_start="0.25" duration="1" value_from="0" value_to="1" />
 		<node action="PlaySound" sound="sfx/jydge/outro-ambient" time_start="0.1" looping="true" />
 		<node action="SetProperty" property="dialog_pre:alpha" time_start="0.25" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_pre:alpha" time_start="1" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_pre:alpha" time_start="1.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-    
-    <array base_time="2.5" >
+
+	<array base_time="2.5" >
 		<node action="SetProperty" property="Logo:alpha" time_start="0" duration="0.75" value_from="0" value_to="1" />
 		<node action="SetProperty" property="Logo:scale" time_start="0" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="Logo:angle.y" time_start="0" duration="1" value_from="0" value_to="0" />
@@ -55,77 +55,77 @@
 		<node action="SetProperty" property="Logo:scale" time_start="61.5" duration="2" value_from="1" value_to="0" />
 		<node action="SetProperty" property="Logo:alpha" time_start="62" duration="1.2" value_from="1" value_to="0" />
 	</array>
-	
+
    	<array base_time="3.0" > <!-- "First off..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-reporter-1" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_0:alpha" time_start="5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="7.7" > <!-- "Thank you." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-1" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_1:alpha" time_start="2.5" duration="0.5" value_from="1" value_to="0" />
 	</array>
-    
+
 	<array base_time="9.5" > <!-- "You have been praised..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-reporter-2" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_2:alpha" time_start="7.0" duration="0.5" value_from="1" value_to="0" />
-	</array>  
+	</array>
 
 	<array base_time="16.3" > <!-- "So tell me..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-reporter-3" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_3:alpha" time_start="3.5" duration="0.5" value_from="1" value_to="0" />
-	</array>  
-    
+	</array>
+
 	<array base_time="20.0" > <!-- "There is still..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-2" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_4:alpha" time_start="6.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="26.5" > <!-- "My vision is grand." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-3" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_5:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_5:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_5:alpha" time_start="3.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="30.0" > <!-- "Imagine millions of..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-4" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_6:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_6:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_6:alpha" time_start="9.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="39.5" > <!-- "An arcology." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-5" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_7:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_7:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_7:alpha" time_start="2.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="42.5" > <!-- "Everyone under the..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-6" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_8:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_8:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_8:alpha" time_start="12.5" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="55.0" > <!-- "That sounds..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-reporter-4" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_9:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_9:alpha" time_start="2" duration="1" value_from="1" value_to="1" />
 		<node action="SetProperty" property="dialog_9:alpha" time_start="7.0" duration="1.0" value_from="1" value_to="0" />
 	</array>
-        
+
 	<array base_time="62.5" > <!-- "Let's keep..." -->
 		<node action="PlaySound" sound="sfx/jydge/outro-good-adams-7" time_start="1" duration="1" value_from="0" value_to="1" />
 		<node action="SetProperty" property="dialog_10:alpha" time_start="1" duration="0.5" value_from="0" value_to="1" />
@@ -137,5 +137,5 @@
  	<array base_time="68.0" >
 		<node action="BeginTimelineEvent" time_start="0.0" event="Credits" />
 	</array>
-	
+
 </root>

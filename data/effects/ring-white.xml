@@ -2,24 +2,24 @@
 <root>
 
 	<array id="DEFAULT">
-		<node class="BITMAP" 
-		 number_of_particles="1" 
-		 initial_age="0" 
-		 age_to_die="0.4;0.6" 
-		 move_speed="100;150" 
-		 move_direction="0,0,-1" 
-		 gravity_multiplier="0" 
-		 alpha_curve="0,0;0.1,1;1,0" 
-		 scale_curve="0,1;1,0.2" 
-		  
-		 alpha_multiplier="0.2;0.3" 
-		 scale_multiplier="0.4;0.5" 
-		 rotation_angles="0,0,0;0,0,360" 
-		 blend_mode="ADDITIVE" 
-		 bitmaps="fxs/ring.png" 
+		<node class="BITMAP"
+		 number_of_particles="1"
+		 initial_age="0"
+		 age_to_die="0.4;0.6"
+		 move_speed="100;150"
+		 move_direction="0,0,-1"
+		 gravity_multiplier="0"
+		 alpha_curve="0,0;0.1,1;1,0"
+		 scale_curve="0,1;1,0.2"
+
+		 alpha_multiplier="0.2;0.3"
+		 scale_multiplier="0.4;0.5"
+		 rotation_angles="0,0,0;0,0,360"
+		 blend_mode="ADDITIVE"
+		 bitmaps="fxs/ring.png"
 		 />
 
-		 
+
 
 	</array>
 </root>

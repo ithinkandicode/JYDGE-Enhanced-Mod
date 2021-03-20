@@ -6,7 +6,7 @@
  <node id="cells_width" value="48" />
  <node id="cells_height" value="48" />
  <node id="ambient_light" r="0.12" g="0.10" b="0.18" />
- <node id="key_values" 
+ <node id="key_values"
  />
 </array>
 
@@ -3678,10 +3678,10 @@
  <node ref_number="1340" type="actors/civilian-generic-female-white.xml" x="620" y="2185" scale="1.000000" key_BOOLEAN_can_be_rescued="true" key_INTEGER_highest_allowed_difficulty="1" key_INTEGER_required_difficulty="1"  />
  <node ref_number="1341" type="actors/civilian-generic-male-white.xml" x="2235" y="1563" key_BOOLEAN_can_be_rescued="true" key_INTEGER_highest_allowed_difficulty="1" key_INTEGER_required_difficulty="1"  />
  <node ref_number="1342" type="actors/civilian-generic-female-white.xml" x="630" y="930" scale="1.000000" key_BOOLEAN_can_be_rescued="true" key_INTEGER_highest_allowed_difficulty="1"  />
- <node ref_number="1343" type="actors/enemy-jydge-shooter-tough.xml" x="769" y="1304" angle_z="256" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Gang Officer" 
- key_STRING_enhancements="MINIBOSS" 
- key_INTEGER_required_difficulty="2" 
+ <node ref_number="1343" type="actors/enemy-jydge-shooter-tough.xml" x="769" y="1304" angle_z="256" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Gang Officer"
+ key_STRING_enhancements="MINIBOSS"
+ key_INTEGER_required_difficulty="2"
   />
  <node ref_number="1344" type="actors/enemy-jydge-melee-tough.xml" x="705" y="951" angle_z="191" scale="1.000000"  />
  <node ref_number="1345" type="actors/wall-lab-thin-I.xml" x="840" y="1380" angle_z="180"  />
@@ -3700,10 +3700,10 @@
  <node ref_number="1358" type="actors/enemy-jydge-shooter-regular.xml" x="1245" y="1648" angle_z="343"  />
  <node ref_number="1359" type="actors/enemy-jydge-shooter-regular.xml" x="1331" y="1680" angle_z="251"  />
  <node ref_number="1360" type="actors/enemy-jydge-melee-tough.xml" x="486" y="1702" angle_z="99" scale="1.000000"  />
- <node ref_number="1361" type="actors/enemy-jydge-melee-tough.xml" x="2227" y="1683" angle_z="130" scale="1.000000" key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Gang Officer" 
- key_STRING_enhancements="MINIBOSS" 
- key_INTEGER_required_difficulty="1" 
+ <node ref_number="1361" type="actors/enemy-jydge-melee-tough.xml" x="2227" y="1683" angle_z="130" scale="1.000000" key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Gang Officer"
+ key_STRING_enhancements="MINIBOSS"
+ key_INTEGER_required_difficulty="1"
   />
  <node ref_number="1362" type="actors/wall-residential-thin-I.xml" x="420" y="1980" angle_z="90"  />
  <node ref_number="1363" type="actors/wall-residential-thin-T.xml" x="480" y="1980" angle_z="180"  />
@@ -3717,24 +3717,24 @@
  <node ref_number="1371" type="actors/enemy-jydge-shooter-regular.xml" x="2458" y="1808" angle_z="182" key_BOOLEAN_patrol="true" key_PATH_patrol_route="2370,1797,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&10&Q&}};2460,1783,0;2453,1665,0;2464,1462,0;2548,1431,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&5&Q&}};2474,1437,0;2462,1771,0"  />
  <node ref_number="1372" type="actors/enemy-jydge-shooter-regular.xml" x="2313" y="738" angle_z="351"  />
  <node ref_number="1373" type="actors/enemy-jydge-shooter-regular.xml" x="2387" y="707" angle_z="129"  />
- <node ref_number="1374" type="actors/enemy-jydge-soldier.xml" x="2432" y="1023" angle_z="26" scale="1.000000" key_INTEGER_required_difficulty="3" 
- key_BOOLEAN_elimination_target="true" 
- key_STRING_name_id="Gang Officer" 
- key_STRING_enhancements="MINIBOSS" 
- key_BOOLEAN_patrol="true" 
- key_PATH_patrol_route="2445,1061,0;2463,994,0;2567,945,0;2591,816,0;2497,809,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&10&Q&}};2583,862,0;2570,973,0;2467,979,0;2460,1072,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}}" 
+ <node ref_number="1374" type="actors/enemy-jydge-soldier.xml" x="2432" y="1023" angle_z="26" scale="1.000000" key_INTEGER_required_difficulty="3"
+ key_BOOLEAN_elimination_target="true"
+ key_STRING_name_id="Gang Officer"
+ key_STRING_enhancements="MINIBOSS"
+ key_BOOLEAN_patrol="true"
+ key_PATH_patrol_route="2445,1061,0;2463,994,0;2567,945,0;2591,816,0;2497,809,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&10&Q&}};2583,862,0;2570,973,0;2467,979,0;2460,1072,0,{{STRING,&Q&animation&Q&,&Q&models/animations/humanoid_rig-humanoid_idle.xml&Q&},{FLOAT,&Q&animation_duration&Q&,&Q&4&Q&}}"
   />
- <node ref_number="1375" type="actors/screen-billboard.xml" x="846" y="1198" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/explodz.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1375" type="actors/screen-billboard.xml" x="846" y="1198" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/explodz.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_STRING_script="scripts/billboards/default.nut"
   />
- <node ref_number="1376" type="actors/screen-billboard.xml" x="2150" y="1528" angle_z="180" scale="0.829900" key_BOOLEAN_draw_in_game="true" 
- key_BOOLEAN_is_one_timer="false" 
- key_BITMAP_bitmap="billboards/fembot.jpg" 
- key_FLOAT_luminocity="0.9" 
- key_STRING_script="scripts/billboards/default.nut" 
+ <node ref_number="1376" type="actors/screen-billboard.xml" x="2150" y="1528" angle_z="180" scale="0.829900" key_BOOLEAN_draw_in_game="true"
+ key_BOOLEAN_is_one_timer="false"
+ key_BITMAP_bitmap="billboards/fembot.jpg"
+ key_FLOAT_luminocity="0.9"
+ key_STRING_script="scripts/billboards/default.nut"
   />
  <node ref_number="1377" type="actors/hoload-small.xml" x="2222" y="1289" angle_z="5"  />
  <node ref_number="1378" parent="1377" type="actors/hoload-image-3.xml" x="0" y="0" key_BOOLEAN_is_spinning="true"  />
@@ -3771,15 +3771,15 @@
  <node ref_number="1409" type="actors/register.xml" x="2424" y="813" z="-36"  />
  <node ref_number="1410" type="actors/caffeinator.xml" x="2497" y="744" z="-36" angle_z="90"  />
  <node ref_number="1411" type="actors/enemy-jydge-melee-tough.xml" x="2563" y="606" angle_z="354" scale="1.000000" key_STRING_spawn_id="RAY_RAM" key_STRING_name="Ray Ram" key_STRING_enhancements="HEALTH_2X,SPEED_2X"  />
- <node ref_number="1412" type="actors/enemy-jydge-melee-tough.xml" x="2559" y="479" angle_z="354" scale="1.000000" key_STRING_spawn_id="RAY_RIM" 
- key_STRING_name="Ray Rim" 
- key_STRING_enhancements="HEALTH_2X,SPEED_2X" 
- key_INTEGER_required_difficulty="2" 
+ <node ref_number="1412" type="actors/enemy-jydge-melee-tough.xml" x="2559" y="479" angle_z="354" scale="1.000000" key_STRING_spawn_id="RAY_RIM"
+ key_STRING_name="Ray Rim"
+ key_STRING_enhancements="HEALTH_2X,SPEED_2X"
+ key_INTEGER_required_difficulty="2"
   />
- <node ref_number="1413" type="actors/enemy-spiderbot-rocket.xml" x="1347" y="2095" angle_z="277" scale="1.470000" key_STRING_spawn_id="SPIDER3" 
- key_STRING_name="Raimo" 
- key_STRING_enhancements="HEALTH_2X,SPEED_3X" 
- key_INTEGER_required_difficulty="2" 
+ <node ref_number="1413" type="actors/enemy-spiderbot-rocket.xml" x="1347" y="2095" angle_z="277" scale="1.470000" key_STRING_spawn_id="SPIDER3"
+ key_STRING_name="Raimo"
+ key_STRING_enhancements="HEALTH_2X,SPEED_3X"
+ key_INTEGER_required_difficulty="2"
   />
  <node ref_number="1414" type="actors/enemy-spiderbot-rocket.xml" x="1682" y="1691" angle_z="228" scale="1.160000" key_STRING_spawn_id="SPIDER1" key_STRING_name="Simo-Sami"  />
  <node ref_number="1415" type="actors/enemy-spiderbot-rocket.xml" x="1318" y="1154" angle_z="60" key_STRING_spawn_id="SPIDER0" key_STRING_name="Pekka"  />

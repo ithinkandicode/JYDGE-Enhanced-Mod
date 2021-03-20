@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
- <!-- 
- 
+ <!--
+
 - any loot can become level 0,1,2 or 3 when opened, the chances would be 20/4/1 (probabilities defined in gamesettings)
 - the multipliers would be 1x common, 3x uncommon, 6x rare (multipliers defined in gamesettings)
 - common loot would include one item from common, if common group is empty, there's no additional items
@@ -17,26 +17,26 @@
 - basevalue is basically the number of credits spawned from the box multiplied by the energy/credits ratio (with 0.5 ratio, 40 basevalue will yield 20 credits at 1.0 loot multiplier)
 
  -->
- 
+
 <root>
-  
+
 <!--			Loot crates				-->
 	<array id="actors/box-closed.xml" loot_items_second="25" basevalue="100" >
-    </array>
-    
-    <array id="actors/premium-box.xml" loot_items_second="15" basevalue="1000" >
-    </array>
-    
+	</array>
+
+	<array id="actors/premium-box.xml" loot_items_second="15" basevalue="1000" >
+	</array>
+
 	<array id="actors/vending-machine-energy.xml" loot_items_second="25" basevalue="0" >
-    </array>
-    
+	</array>
+
 	<array id="actors/atm.xml" loot_items_second="25"  basevalue="40">
-    </array>
-    
-    <array id="actors/hacker-box.xml" loot_items_second="15" basevalue="1500">
-    </array>
-    
-	
+	</array>
+
+	<array id="actors/hacker-box.xml" loot_items_second="15" basevalue="1500">
+	</array>
+
+
 <!--			Enemies				-->
 
 	<array id="actors/enemy-jydge-shooter-weak.xml" loot_items_second="20" basevalue="20" >
@@ -55,160 +55,160 @@
 	</array>
 	<array id="actors/enemy-jydge-miniboss.xml" loot_items_second="20" basevalue="400" >
 	</array>
-    
-    
+
+
 	<array id="actors/enemy-autoturret.xml" loot_items_second="20" >
 	</array>
-    
+
 	<array id="actors/enemy-autoturret-rocket.xml" loot_items_second="20" >
 	</array>
-    
+
 	<array id="actors/enemy-wall-turret.xml" loot_items_second="20" >
 	</array>
-    
+
 	<array id="actors/wall-hatch.xml" loot_items_second="20" >
 	</array>
-    
+
 	<array id="actors/mine-shooter.xml" loot_items_second="20" basevalue="0" >
 	</array>
-    
+
 	<array id="actors/enemy-pressure-mine.xml" loot_items_second="20" basevalue="0" >
 	</array>
-    
+
 	<array id="actors/enemy-proximity-mine.xml" loot_items_second="20" basevalue="0" >
 	</array>
-    
-    
+
+
 <!--			Misc				-->
-    <array id="actors/box-simple.xml" loot_items_second="20" basevalue="0">
+	<array id="actors/box-simple.xml" loot_items_second="20" basevalue="0">
 		<node id="actors/credit-chip.xml" rarity="uncommon" />
 		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-chip.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/box-cardboard-plain.xml" loot_items_second="20" basevalue="0">
+	</array>
+
+	<array id="actors/box-cardboard-plain.xml" loot_items_second="20" basevalue="0">
 		<node id="actors/credit-chip.xml" rarity="uncommon" />
 		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/box-mesh.xml" loot_items_second="20" basevalue="0" >
-        <node id="actors/credit-chip.xml" rarity="uncommon" />
-		<node id="actors/credit-chip.xml" rarity="rare" />
-		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/barrel-simple.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/box-mesh.xml" loot_items_second="20" basevalue="0" >
 		<node id="actors/credit-chip.xml" rarity="uncommon" />
 		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/barrel-mesh.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/barrel-simple.xml" loot_items_second="20" basevalue="0" >
 		<node id="actors/credit-chip.xml" rarity="uncommon" />
 		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/crate.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/barrel-mesh.xml" loot_items_second="20" basevalue="0" >
+		<node id="actors/credit-chip.xml" rarity="uncommon" />
+		<node id="actors/credit-chip.xml" rarity="rare" />
+		<node id="actors/credit-box.xml" rarity="mythic" />
+	</array>
+
+	<array id="actors/crate.xml" loot_items_second="20" basevalue="0" >
 		<node id="actors/credit-box.xml" rarity="uncommon" />
 		<node id="actors/credit-box.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/crate-open.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/crate-open.xml" loot_items_second="20" basevalue="0" >
 		<node id="actors/credit-box.xml" rarity="uncommon" />
 		<node id="actors/credit-box.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/crate-open-lid.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/crate-open-lid.xml" loot_items_second="20" basevalue="0" >
 		<node id="actors/credit-box.xml" rarity="uncommon" />
 		<node id="actors/credit-box.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/big-crate.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/big-crate.xml" loot_items_second="20" basevalue="0" >
 		<node id="actors/credit-box.xml" rarity="uncommon" />
 		<node id="actors/credit-box.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
-    </array>
-    
-    <array id="actors/big-crate-machine.xml" loot_items_second="20" basevalue="0" >
-    </array>
-    
-    <array id="actors/can-explodz.xml" loot_items_second="20" basevalue="0" >
-    </array>
-    
-    <array id="actors/mainframe.xml" loot_items_second="20" basevalue="0" >
-    </array>
-    
-    <array id="actors/mainframe-round.xml" loot_items_second="20" basevalue="0" >
-    </array>
-    
-    <array id="actors/mainframe-small.xml" loot_items_second="20" basevalue="0" >
-    </array>
-    
+	</array>
+
+	<array id="actors/big-crate-machine.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/can-explodz.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/mainframe.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/mainframe-round.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
+	<array id="actors/mainframe-small.xml" loot_items_second="20" basevalue="0" >
+	</array>
+
 	<array id="actors/autodoc.xml" loot_items_second="20"  basevalue="0">
 		<node id="actors/medikit.xml" rarity="uncommon" />
-    </array>
-    
+	</array>
+
 	<array id="actors/ultradoc.xml" loot_items_second="20"  basevalue="0">
 		<node id="actors/medikit.xml" rarity="uncommon" />
-    </array>
-    
+	</array>
+
 	<array id="actors/vending-machine.xml" loot_items_second="20" basevalue="0" >
-        <node id="actors/credit-chip.xml" rarity="common" />
-        <node id="actors/credit-chip.xml" rarity="uncommon" />
-        <node id="actors/credit-chip.xml" rarity="rare" />
+		<node id="actors/credit-chip.xml" rarity="common" />
+		<node id="actors/credit-chip.xml" rarity="uncommon" />
+		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
 	</array>
-    
+
 	<array id="actors/vending-machine-blue.xml" loot_items_second="20" basevalue="0" >
-        <node id="actors/credit-chip.xml" rarity="common" />
-        <node id="actors/credit-chip.xml" rarity="uncommon" />
-        <node id="actors/credit-chip.xml" rarity="rare" />
+		<node id="actors/credit-chip.xml" rarity="common" />
+		<node id="actors/credit-chip.xml" rarity="uncommon" />
+		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
 	</array>
-    
+
 	<array id="actors/vending-machine-green.xml" loot_items_second="20" basevalue="0" >
-        <node id="actors/credit-chip.xml" rarity="common" />
-        <node id="actors/credit-chip.xml" rarity="uncommon" />
-        <node id="actors/credit-chip.xml" rarity="rare" />
+		<node id="actors/credit-chip.xml" rarity="common" />
+		<node id="actors/credit-chip.xml" rarity="uncommon" />
+		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
 	</array>
-    
+
 	<array id="actors/vending-machine-red.xml" loot_items_second="20" basevalue="0" >
-        <node id="actors/credit-chip.xml" rarity="common" />
-        <node id="actors/credit-chip.xml" rarity="uncommon" />
-        <node id="actors/credit-chip.xml" rarity="rare" />
+		<node id="actors/credit-chip.xml" rarity="common" />
+		<node id="actors/credit-chip.xml" rarity="uncommon" />
+		<node id="actors/credit-chip.xml" rarity="rare" />
 		<node id="actors/credit-box.xml" rarity="mythic" />
 	</array>
-    
+
 	<array id="actors/vending-machine-explodz.xml" loot_items_second="20" basevalue="0" >
 	</array>
-    
-	<array id="actors/register.xml" loot_items_second="25"  basevalue="40">
-    </array>
 
-<!--			special overrides				--> 
-    <array id="boosters" loot_items_second="15" basevalue="10" >
-        <node id="booster" rarity="common"  /> 
-    </array>
-    
-    <array id="chaser_drop" loot_items_second="20" basevalue="0" >
-        <node id="actors/credit-box.xml" rarity="common" />
+	<array id="actors/register.xml" loot_items_second="25"  basevalue="40">
+	</array>
+
+<!--			special overrides				-->
+	<array id="boosters" loot_items_second="15" basevalue="10" >
+		<node id="booster" rarity="common"  />
+	</array>
+
+	<array id="chaser_drop" loot_items_second="20" basevalue="0" >
+		<node id="actors/credit-box.xml" rarity="common" />
 		<node id="actors/medikit.xml" rarity="rare" />
-    </array>
-    
-    <array id="boss_drop" loot_items_second="15" basevalue="200" >
-    </array>
+	</array>
+
+	<array id="boss_drop" loot_items_second="15" basevalue="200" >
+	</array>
 
 	<array id="massacre_drop" loot_items_second="15" basevalue="10" >
 		<node id="actors/medikit.xml" rarity="common" />
-    </array>
+	</array>
 
 	<array id="blue_key_only" loot_items_second="15" basevalue="0" >
 		<node id="actors/keycard-blue.xml" rarity="common" />
-    </array>
+	</array>
 </root>

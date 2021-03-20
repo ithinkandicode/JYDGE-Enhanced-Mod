@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<root> 
+<root>
 
 <!--
 
@@ -103,78 +103,78 @@ If 'sound' is not defined, sound file used is 'sfx/speeches/'+array_id+'-'+node_
 
 
   	<array id="EnteringMainMenu">
-        <node id="0"    subtitles="JYDGE!" />
-    </array>
+		<node id="0"    subtitles="JYDGE!" />
+	</array>
 
   	<array id="_EnteringMetagame">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-        <node id="3"    subtitles="TODO" />
-        <node id="4"    subtitles="TODO" />
-        <node id="5"    subtitles="TODO" />
-        <node id="6"    subtitles="TODO" />
-        <node id="7"    subtitles="TODO" />
-    </array>
-    
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+		<node id="3"    subtitles="TODO" />
+		<node id="4"    subtitles="TODO" />
+		<node id="5"    subtitles="TODO" />
+		<node id="6"    subtitles="TODO" />
+		<node id="7"    subtitles="TODO" />
+	</array>
+
   	<array id="_MissionStart">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-        <node id="3"    subtitles="TODO" />
-        <node id="4"    subtitles="TODO" />
-        <node id="5"    subtitles="TODO" />
-        <node id="6"    subtitles="TODO" />
-    </array>
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+		<node id="3"    subtitles="TODO" />
+		<node id="4"    subtitles="TODO" />
+		<node id="5"    subtitles="TODO" />
+		<node id="6"    subtitles="TODO" />
+	</array>
 
 	<array id="_MissionOverSuccess">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-    </array>
-  
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+	</array>
+
 	<array id="_MissionOverFailed">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-        <node id="3"    subtitles="TODO" />
-        <node id="4"    subtitles="TODO" />
-        <node id="5"    subtitles="TODO" />
-        <node id="6"    subtitles="TODO" />
-        <node id="7"    subtitles="TODO" />
-    </array>
-    
-  
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+		<node id="3"    subtitles="TODO" />
+		<node id="4"    subtitles="TODO" />
+		<node id="5"    subtitles="TODO" />
+		<node id="6"    subtitles="TODO" />
+		<node id="7"    subtitles="TODO" />
+	</array>
+
+
 	<array id="MissionPaused">
-    </array>
-  
+	</array>
+
 	<array id="MissionResumed">
-    </array>
-  
+	</array>
+
 	<array id="_MapMedalsAdded">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-        <node id="3"    subtitles="TODO" />
-    </array>    
-  
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+		<node id="3"    subtitles="TODO" />
+	</array>
+
 	<array id="CollectibleFound">
-    </array>
-    
+	</array>
+
    	<array id="_WeaponUpgraded">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-    </array>    
-    
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+	</array>
+
    	<array id="_InstallCyberware">
-        <node id="0"    subtitles="TODO" />
-        <node id="1"    subtitles="TODO" />
-        <node id="2"    subtitles="TODO" />
-        <node id="3"    subtitles="TODO" />
-    </array>    
-   
-   
-   
- 
+		<node id="0"    subtitles="TODO" />
+		<node id="1"    subtitles="TODO" />
+		<node id="2"    subtitles="TODO" />
+		<node id="3"    subtitles="TODO" />
+	</array>
+
+
+
+
 </root>

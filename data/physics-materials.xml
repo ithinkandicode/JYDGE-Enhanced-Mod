@@ -5,37 +5,37 @@
 <!--
 
 Arrays define materials. Nodes inside an array define how to react when thing with given hit id hits the material.
-Reactions (particle effect + decal + sound) are only done if both actors (one heing hit and the one hitting) have physics_material defined. 
+Reactions (particle effect + decal + sound) are only done if both actors (one heing hit and the one hitting) have physics_material defined.
 
  -->
 
 	<array id="CONCRETE" friction="0.5" >
 		<!-- Define reaction for what happens when CONCRETE is hit by BULLET -->
-		<node id="BULLET" 
+		<node id="BULLET"
 		 hit_effect="effects/bullet_hit_concrete.xml"
-		 
+
 		 decal_1="wall-decals/bullet-hole-small1.png"
 		 decal_2="wall-decals/bullet-hole-small2.png"
 		 decal_3="wall-decals/bullet-hole-small3.png"
 		 decal_4="wall-decals/bullet-hole-small4.png"
-		 
+
 		 sound_1="sfx/hit_sounds/bullet_hit_concrete_01"
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/railgun-hit-concrete.xml"
-		 
+
 		 decal_1="wall-decals/bullet-hole-large1.png"
 		 decal_2="wall-decals/bullet-hole-large2.png"
 		 decal_3="wall-decals/bullet-hole-large3.png"
 		 decal_4="wall-decals/bullet-hole-large4.png"
-		 
+
 		 sound_1="sfx/hit_sounds/railgun-hit-steel-01"
 		/>
-		
-		<node id="LASER" 
+
+		<node id="LASER"
 		 hit_effect="effects/laser-hit-concrete.xml"
-		 
+
 		 decal_1="wall-decals/bullet-hole-small1.png"
 		 decal_2="wall-decals/bullet-hole-small2.png"
 		 decal_3="wall-decals/bullet-hole-small3.png"
@@ -44,10 +44,10 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="ION" 
+
+		<node id="ION"
 		 hit_effect="effects/ion-hit-concrete.xml"
-		 
+
 		 decal_1="wall-decals/scorch-mark1.png"
 		 decal_2="wall-decals/scorch-mark2.png"
 		 decal_3="wall-decals/scorch-mark3.png"
@@ -56,10 +56,10 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="PLASMA"
 		 hit_effect="effects/plasma-hit-concrete.xml"
-		 
+
 		 decal_1="wall-decals/scorch-mark1.png"
 		 decal_2="wall-decals/scorch-mark2.png"
 		 decal_3="wall-decals/scorch-mark3.png"
@@ -69,19 +69,19 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_2="sfx/hit_sounds/plasma-hit-steel-02"
 		/>
 	</array>
-	
+
 	<array id="STEEL" friction="0.5" >
-	 
-		<node id="BULLET" 
+
+		<node id="BULLET"
 		 hit_effect="effects/bullet_hit_steel.xml"
-	 
+
 		 sound_1="sfx/hit_sounds/bullet_hit_steel_01"
 		 sound_2="sfx/hit_sounds/bullet_hit_steel_02"
 		 sound_3="sfx/hit_sounds/bullet_hit_steel_03"
-		
+
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/railgun-hit-steel.xml"
 		 decal_1="wall-decals/bullet-hole-large1.png"
 		 decal_2="wall-decals/bullet-hole-large2.png"
@@ -89,80 +89,80 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 decal_4="wall-decals/bullet-hole-large4.png"
 		 sound_1="sfx/hit_sounds/railgun-hit-steel-01"
 		/>
-		
-		<node id="LASER" 
+
+		<node id="LASER"
 		 hit_effect="effects/laser-hit-steel.xml"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="ION" 
+
+		<node id="ION"
 		 hit_effect="effects/ion-hit-steel.xml"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="PLASMA"
 		 hit_effect="effects/plasma-hit-steel.xml"
-		 
+
 		 sound_1="sfx/hit_sounds/plasma-hit-steel-01"
 		 sound_2="sfx/hit_sounds/plasma-hit-steel-02"
 		/>
 	</array>
-	
+
 	<array id="STEEL_ENEMY" friction="0.5" >
-	 
-		<node id="BULLET" 
+
+		<node id="BULLET"
 		 hit_effect="effects/bullet_hit_steel.xml"
-	 
+
 		 sound_1="sfx/hit_sounds/bullet_hit_steel_01"
 		 sound_2="sfx/hit_sounds/bullet_hit_steel_02"
 		 sound_3="sfx/hit_sounds/bullet_hit_steel_03"
-		
+
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/railgun-hit-steel.xml"
 		 sound_1="sfx/hit_sounds/railgun-hit-steel-01"
 		/>
-		
-		<node id="LASER" 
+
+		<node id="LASER"
 		 hit_effect="effects/bullet_hit_steel.xml"
-		
+
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="ION" 
+
+		<node id="ION"
 		 hit_effect="effects/ion-hit-steel.xml"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="PLASMA"
 		 hit_effect="effects/plasma-hit-steel.xml"
 
 		 sound_1="sfx/hit_sounds/plasma-hit-steel-01"
 		 sound_2="sfx/hit_sounds/plasma-hit-steel-02"
 		/>
 	</array>
-	
+
 	<array id="LIGHTWALL" friction="0.5" >
-	 
-		<node id="BULLET" 
+
+		<node id="BULLET"
 		 hit_effect="effects/bullet_hit_lightwall.xml"
 		 decal_1="wall-decals/bullet-hole-small1.png"
 		 decal_2="wall-decals/bullet-hole-small2.png"
 		 decal_3="wall-decals/bullet-hole-small3.png"
 		 decal_4="wall-decals/bullet-hole-small4.png"
 		 sound_1="sfx/hit_sounds/bullet_hit_concrete_01"
-		
+
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/railgun-hit-concrete.xml"
 		 decal_1="wall-decals/bullet-hole-large1.png"
 		 decal_2="wall-decals/bullet-hole-large2.png"
@@ -170,8 +170,8 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 decal_4="wall-decals/bullet-hole-large4.png"
 		 sound_1="sfx/hit_sounds/railgun-hit-steel-01"
 		/>
-		
-		<node id="LASER" 
+
+		<node id="LASER"
 		 hit_effect="effects/laser-hit-concrete.xml"
 		 decal_1="wall-decals/bullet-hole-small1.png"
 		 decal_2="wall-decals/bullet-hole-small2.png"
@@ -181,10 +181,10 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="ION" 
+
+		<node id="ION"
 		 hit_effect="effects/ion-hit-concrete.xml"
-		 
+
 		 decal_1="wall-decals/scorch-mark1.png"
 		 decal_2="wall-decals/scorch-mark2.png"
 		 decal_3="wall-decals/scorch-mark3.png"
@@ -193,10 +193,10 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="PLASMA"
 		 hit_effect="effects/plasma-hit-concrete.xml"
-		 
+
 		 decal_1="wall-decals/scorch-mark1.png"
 		 decal_2="wall-decals/scorch-mark2.png"
 		 decal_3="wall-decals/scorch-mark3.png"
@@ -206,12 +206,12 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_2="sfx/hit_sounds/plasma-hit-steel-02"
 		/>
 	</array>
-	
+
 	<array id="FLESH" friction="0.5" >
-	 
-		<node id="BULLET" 
- 
-	 
+
+		<node id="BULLET"
+
+
 		 sound_1="sfx/hit_sounds/bullet_hit_flesh_01"
 		 sound_2="sfx/hit_sounds/bullet_hit_flesh_02"
 		 sound_3="sfx/hit_sounds/bullet_hit_flesh_03"
@@ -220,13 +220,13 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_6="sfx/hit_sounds/bullet_hit_flesh_06"
 		 sound_7="sfx/hit_sounds/bullet_hit_flesh_07"
 		/>
-		<node id="LASER" 
+		<node id="LASER"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/railgun-hit-flesh.xml"
 		 sound_1="sfx/hit_sounds/bullet_hit_flesh_01"
 		 sound_2="sfx/hit_sounds/bullet_hit_flesh_02"
@@ -236,15 +236,15 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_6="sfx/hit_sounds/bullet_hit_flesh_06"
 		 sound_7="sfx/hit_sounds/bullet_hit_flesh_07"
 		/>
-		
-		<node id="ION" 
+
+		<node id="ION"
 		 hit_effect="effects/ion-hit-steel.xml"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="PLASMA"
 		 hit_effect="effects/plasma-hit-steel.xml"
 
 		 sound_1="sfx/hit_sounds/plasma-hit-steel-01"
@@ -254,31 +254,31 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 
 	<array id="GLASS" friction="0.5" >
 		<!-- Define reaction for what happens when GLASS is hit by BULLET -->
-		<node id="BULLET" 
+		<node id="BULLET"
 	     hit_effect="effects/bullet_hit_glass.xml"
 	     decal_1="wall-decals/bullet-hole-glass.png"
 		 sound_1="sfx/hit_sounds/bullet_hit_glass_01"
 		 sound_2="sfx/hit_sounds/bullet_hit_glass_02"
 		 sound_3="sfx/hit_sounds/bullet_hit_glass_03"
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/railgun-hit-steel.xml"
 		 decal_1="wall-decals/bullet-hole-glass.png"
 		 sound_1="sfx/hit_sounds/railgun-hit-steel-01"
 		/>
-		
-		<node id="LASER" 
+
+		<node id="LASER"
 		 hit_effect="effects/bullet_hit_glass.xml"
 		 decal_1="wall-decals/bullet-hole-glass.png"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="ION" 
+
+		<node id="ION"
 		 hit_effect="effects/ion-hit-steel.xml"
-		 
+
 		 decal_1="wall-decals/scorch-mark1.png"
 		 decal_2="wall-decals/scorch-mark2.png"
 		 decal_3="wall-decals/scorch-mark3.png"
@@ -287,10 +287,10 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="PLASMA"
 		 hit_effect="effects/plasma-hit-steel.xml"
-		 
+
 		 decal_1="wall-decals/scorch-mark1.png"
 		 decal_2="wall-decals/scorch-mark2.png"
 		 decal_3="wall-decals/scorch-mark3.png"
@@ -299,60 +299,60 @@ Reactions (particle effect + decal + sound) are only done if both actors (one he
 		 sound_1="sfx/hit_sounds/plasma-hit-steel-01"
 		 sound_2="sfx/hit_sounds/plasma-hit-steel-02"
 		/>
-		
+
 	</array>
 
 	<array id="ENERGY_SHIELD" friction="0.5" >
-	 
-		<node id="BULLET" 
+
+		<node id="BULLET"
 		 hit_effect="effects/energy-flash.xml"
-	 
+
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
-		
+
 		/>
-		
-		<node id="RAILGUN" 
+
+		<node id="RAILGUN"
 		 hit_effect="effects/energy-flash.xml"
-		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
-		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
-		/>
-		
-		<node id="LASER" 
-		 hit_effect="effects/energy-flash.xml"
-		
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="ION" 
+
+		<node id="LASER"
 		 hit_effect="effects/energy-flash.xml"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-		
-		<node id="PLASMA" 
+
+		<node id="ION"
 		 hit_effect="effects/energy-flash.xml"
 
 		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
 		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
 		/>
-	</array>	
-	
+
+		<node id="PLASMA"
+		 hit_effect="effects/energy-flash.xml"
+
+		 sound_1="sfx/hit_sounds/laser-hit-steel-01"
+		 sound_2="sfx/hit_sounds/laser-hit-steel-02"
+		/>
+	</array>
+
 	<array id="BULLET" friction="0.5" >
 	</array>
-	
+
 	<array id="LASER" friction="0.5" >
 	</array>
-	
+
 	<array id="ION" friction="0.5" >
 	</array>
-	
+
 	<array id="PLASMA" friction="0.5" >
 	</array>
-	
+
 	<array id="RAILGUN" friction="0.5" >
 	</array>
-	
+
 </root>

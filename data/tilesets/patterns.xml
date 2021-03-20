@@ -37,37 +37,37 @@ KERNELS array tile_id matches tilesets/tileset-<tilesetname>.xml array ids. Each
 		W,W,W,
 		0,W,F,
 	</node>
-	
+
 	<node tile_id="WALL_OUTER_T_RIGHT" angle="90" >
 		*,E,*,
 		W,W,W,
 		F,W,0,
 	</node>
-	
+
 	<node tile_id="BRIDGE_FLOOR_CONNECTOR" angle="180" >
 		W,W,*,
 		W,W,F,
 		W,W,*,
 	</node>
-	
+
 	<node tile_id="WALL_MIDDLE" angle="0" >
 		W,W,W,
 		W,W,W,
 		W,W,W,
 	</node>
-	
+
 	<node tile_id="WALL_DOUBLE_CORNER_L" angle="0" >
 		W,W,W,
 		W,W,W,
 		W,W,E,
 	</node>
-	
+
 	<node tile_id="WALL_DOUBLE_CORNER_R" angle="90" >
 		W,W,W,
 		W,W,W,
 		E,W,W,
 	</node>
-	
+
 	<node tile_id="WALL_DOUBLE_T" angle="90" >
 		W,W,W,
 		W,W,W,
@@ -79,73 +79,73 @@ KERNELS array tile_id matches tilesets/tileset-<tilesetname>.xml array ids. Each
 		W,W,W,
 		*,*,*,
 	</node>
-	
+
 	<node tile_id="WALL_OUTER_STRAIGHT" angle="90" >
 		*,0,*,
 		W,W,W,
 		*,F,*,
 	</node>
-	
+
 	<node tile_id="WALL_OUTER_CORNER_MINOR" angle="0" >
 		*,E,*,
 		E,W,W,
 		*,W,0,
-	</node>	
-	
+	</node>
+
 	<node tile_id="WALL_OUTER_CORNER_MAJOR" angle="0" >
 		*,0,*,
 		0,W,W,
 		*,W,E,
 	</node>
-	
+
 	<node tile_id="WALL_OUTER_STRAIGHT" angle="90" >
 		*,0,*,
 		W,W,W,
 		*,E,*,
 	</node>
-	
+
 	<node tile_id="WALL_INNER_DOT" angle="90" >
 		*,E,*,
 		E,W,E,
 		*,E,*,
 	</node>
-	
+
 	<node tile_id="WALL_INNER_CAP" angle="0" >
 		*,E,*,
 		E,W,E,
 		*,W,*,
 	</node>
-	
+
 	<node tile_id="WALL_INNER_STRAIGHT" angle="90" >
 		*,E,*,
 		W,W,W,
 		*,E,*,
 	</node>
-	
+
 	<node tile_id="WALL_INNER_BRIDGE_CORNER" angle="0" >
 		W,W,*,
 		W,W,W,
 		*,W,0,
-	</node>	
-	
+	</node>
+
 	<node tile_id="WALL_INNER_CORNER" angle="0" >
 		*,E,*,
 		E,W,W,
 		*,W,*,
-	</node>	
-	
+	</node>
+
 	<node tile_id="WALL_INNER_*_FULL" angle="90" >
 		*,W,*,
 		W,W,W,
 		*,W,*,
 	</node>
-	
+
 	<node tile_id="WALL_INNER_T" angle="90" >
 		*,E,*,
 		W,W,W,
 		*,W,*,
 	</node>
-	
+
 </array>
 
 

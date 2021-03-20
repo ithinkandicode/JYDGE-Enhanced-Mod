@@ -2,139 +2,139 @@
 <root>
 
 	<array id="COLLECTIBLES">
-    
-		<node id="ODD_ROCK" 
-         name="Odd Rock"
-         desc="Odd rock-like figure with a face. Something |#ff4444|long and sticky|#ffffff| seems to be hiding in its mouth, but you can't quite get it out."
-         hint="Poor little fellow in the hardcore nightclub dumpster."
-         bm="jydge/collectibles-gfx/odd-rock.png"
-         checkbox="Show friends and foes in minimap"
-         enhancements="SHOW_NEAREST_FRIENDS_OR_FOES"
-        />
-    
-		<node id="PIXELATED" 
-         name="Pixelated Glasses"
-         desc="Special glasses which enable you to see the world in a new way."
-         hint="Metro can be a deadly place."
-         bm="jydge/collectibles-gfx/pixelated.png"
-         enhancements=""
-         checkbox="Wear the glasses"
-        />   
-        
-		<node id="SPACE_SHIP" 
-         name="Space Ship Model"
-         desc="A small 20th century space ship model. The ship is armed with guns. Who would do such a thing?"
-         hint="What's this doing in a garden shed?!"
-         bm="jydge/collectibles-gfx/space-ship.png"
-         enhancements="COLLECTIBLE_FIRERATE_INCREASE"
-         checkbox="Increase firerate by 5%"
-        />
-        
-		<node id="GRIM_REAPER" 
-         name="Grim Reaper Poster"
-         desc="Hello old fellow. We shall meet again... Enable to add extra gibs and blood."
-         hint="Behind a crimson red door at dawn."
-         bm="jydge/collectibles-gfx/grim-reaper.png"
-         enhancements=""
-         checkbox="Extra blood and gore"
-        />        
-        
-		<node id="COG_OF_WAR" 
-         name="Cog of War"
-         desc="The cogs of war keep turning. Promise of military prowess lingers in the air."
-         hint="X marks the spot."
-         bm="jydge/collectibles-gfx/cog-of-war.png"
-         enhancements="COLLECTIBLE_RELOAD_SPEED_INCREASE"
-         checkbox="Increase reload speed by 5%"
-        />       
-        
-		<node id="SEASHELL" 
-         name="Seashell"
-         desc="When you hold it to your ear, you don't hear the ocean, but the voice of a military woman. She sounds disappointed."
-         hint="Be Patient, the other elevator seems to be out of order. Normally there should also be a button."
-         bm="jydge/collectibles-gfx/seashell.png"
-         enhancements=""
-         checkbox="Show ghost of your previous run"
-        />
-        
-		<node id="OLD_KEY" 
-         name="Old Key"
-         desc="Said to open doors to unusual places."
-         hint="A dead night watchman's locker holds the key ...to the key."
-         bm="jydge/collectibles-gfx/old-key.png"
-         enhancements=""
-        />
-        
-		<node id="SIN_ERASER" 
-         name="Sin Eraser"
-         desc="Use it to reset your sins but with a cost. One should be very careful with this."
-         hint="Such a dangerous item can only be sold under the counter."
-         bm="jydge/collectibles-gfx/sin-eraser.png"
-         enhancements=""
-         button="Reset Sins"
-        />
-        
-		<node id="TENTACLE_STATUE" 
-         name="Tentacle Statue"
-         desc="A statue with disturbing looking tentacles. You have a sudden urge to apply some electricity to the statue."
-         hint="It seemed like just a normal night at the park..."
-         bm="jydge/collectibles-gfx/tentacle-statue.png"
-         enhancements=""
-         checkbox="See all creatures in their |#119922|true|#ffffff| form"
-        />
 
-		<node id="TIME_RECOIL" 
-         name="Time Recoil Comic"
-         desc="Exciting action-packed comic where the protagonist kills people to slow time. A must read."
-         hint="This comic gave nightmares to the kid next door."
-         bm="jydge/collectibles-gfx/time-recoil-comic.png"
-         enhancements="COLLECTIBLE_TIME_RECOIL"
-         checkbox="Slow down time."
-        />
+		<node id="ODD_ROCK"
+		 name="Odd Rock"
+		 desc="Odd rock-like figure with a face. Something |#ff4444|long and sticky|#ffffff| seems to be hiding in its mouth, but you can't quite get it out."
+		 hint="Poor little fellow in the hardcore nightclub dumpster."
+		 bm="jydge/collectibles-gfx/odd-rock.png"
+		 checkbox="Show friends and foes in minimap"
+		 enhancements="SHOW_NEAREST_FRIENDS_OR_FOES"
+		/>
 
-		<node id="GEMBINE" 
-         name="Peculiar Gem"
-         desc="It's as if the gem is a combination of several smaller gems..."
-         hint="Only found on a grim day in the safe room."
-         bm="jydge/collectibles-gfx/gem.png"
-         enhancements=""
-         button="Gembine"
-        />
+		<node id="PIXELATED"
+		 name="Pixelated Glasses"
+		 desc="Special glasses which enable you to see the world in a new way."
+		 hint="Metro can be a deadly place."
+		 bm="jydge/collectibles-gfx/pixelated.png"
+		 enhancements=""
+		 checkbox="Wear the glasses"
+		/>
 
-		<node id="BOBBLEHEAD" 
-         name="C.A.T.S."
-         desc="Cyberhance Assisted Targeting System"
-         hint="There's been rumours about a vault under the bank..."
-         bm="jydge/collectibles-gfx/bobblehead.png"
-         enhancements="COLLECTIBLE_BOBBLEHEAD"
-         checkbox="Increase accuracy by 25%"
-        />
+		<node id="SPACE_SHIP"
+		 name="Space Ship Model"
+		 desc="A small 20th century space ship model. The ship is armed with guns. Who would do such a thing?"
+		 hint="What's this doing in a garden shed?!"
+		 bm="jydge/collectibles-gfx/space-ship.png"
+		 enhancements="COLLECTIBLE_FIRERATE_INCREASE"
+		 checkbox="Increase firerate by 5%"
+		/>
 
-		<node id="BOOK_OF_SECRETS" 
-         name="Book of Secrets"
-         desc="An old and arcane book keeping track of all the peculiar things you've found."
-         hint="Sometimes science requires sacrifice. Luckily these people are frozen so they won't mind."
-         bm="jydge/collectibles-gfx/book.png"
-         button="View Secrets"
-        />
+		<node id="GRIM_REAPER"
+		 name="Grim Reaper Poster"
+		 desc="Hello old fellow. We shall meet again... Enable to add extra gibs and blood."
+		 hint="Behind a crimson red door at dawn."
+		 bm="jydge/collectibles-gfx/grim-reaper.png"
+		 enhancements=""
+		 checkbox="Extra blood and gore"
+		/>
 
-		<node id="FRIENDLY_FIRE" 
-         name="Friendly Fire"
-         desc="Just look at the warm smile on its face. He's so friendly!"
-         hint="Private elevator, beware of mines though or he's gone."
-         bm="jydge/collectibles-gfx/friendly-fire.png"
-         checkbox="Enable friendly fire"
-        />
+		<node id="COG_OF_WAR"
+		 name="Cog of War"
+		 desc="The cogs of war keep turning. Promise of military prowess lingers in the air."
+		 hint="X marks the spot."
+		 bm="jydge/collectibles-gfx/cog-of-war.png"
+		 enhancements="COLLECTIBLE_RELOAD_SPEED_INCREASE"
+		 checkbox="Increase reload speed by 5%"
+		/>
 
-		<node id="ORB" 
-         name="The Orb"
-         desc="Round and polished. Seemingly does nothing."
-         hint="Follow the rescued shoppers."
-         bm="jydge/collectibles-gfx/orb.png"
-        />
+		<node id="SEASHELL"
+		 name="Seashell"
+		 desc="When you hold it to your ear, you don't hear the ocean, but the voice of a military woman. She sounds disappointed."
+		 hint="Be Patient, the other elevator seems to be out of order. Normally there should also be a button."
+		 bm="jydge/collectibles-gfx/seashell.png"
+		 enhancements=""
+		 checkbox="Show ghost of your previous run"
+		/>
+
+		<node id="OLD_KEY"
+		 name="Old Key"
+		 desc="Said to open doors to unusual places."
+		 hint="A dead night watchman's locker holds the key ...to the key."
+		 bm="jydge/collectibles-gfx/old-key.png"
+		 enhancements=""
+		/>
+
+		<node id="SIN_ERASER"
+		 name="Sin Eraser"
+		 desc="Use it to reset your sins but with a cost. One should be very careful with this."
+		 hint="Such a dangerous item can only be sold under the counter."
+		 bm="jydge/collectibles-gfx/sin-eraser.png"
+		 enhancements=""
+		 button="Reset Sins"
+		/>
+
+		<node id="TENTACLE_STATUE"
+		 name="Tentacle Statue"
+		 desc="A statue with disturbing looking tentacles. You have a sudden urge to apply some electricity to the statue."
+		 hint="It seemed like just a normal night at the park..."
+		 bm="jydge/collectibles-gfx/tentacle-statue.png"
+		 enhancements=""
+		 checkbox="See all creatures in their |#119922|true|#ffffff| form"
+		/>
+
+		<node id="TIME_RECOIL"
+		 name="Time Recoil Comic"
+		 desc="Exciting action-packed comic where the protagonist kills people to slow time. A must read."
+		 hint="This comic gave nightmares to the kid next door."
+		 bm="jydge/collectibles-gfx/time-recoil-comic.png"
+		 enhancements="COLLECTIBLE_TIME_RECOIL"
+		 checkbox="Slow down time."
+		/>
+
+		<node id="GEMBINE"
+		 name="Peculiar Gem"
+		 desc="It's as if the gem is a combination of several smaller gems..."
+		 hint="Only found on a grim day in the safe room."
+		 bm="jydge/collectibles-gfx/gem.png"
+		 enhancements=""
+		 button="Gembine"
+		/>
+
+		<node id="BOBBLEHEAD"
+		 name="C.A.T.S."
+		 desc="Cyberhance Assisted Targeting System"
+		 hint="There's been rumours about a vault under the bank..."
+		 bm="jydge/collectibles-gfx/bobblehead.png"
+		 enhancements="COLLECTIBLE_BOBBLEHEAD"
+		 checkbox="Increase accuracy by 25%"
+		/>
+
+		<node id="BOOK_OF_SECRETS"
+		 name="Book of Secrets"
+		 desc="An old and arcane book keeping track of all the peculiar things you've found."
+		 hint="Sometimes science requires sacrifice. Luckily these people are frozen so they won't mind."
+		 bm="jydge/collectibles-gfx/book.png"
+		 button="View Secrets"
+		/>
+
+		<node id="FRIENDLY_FIRE"
+		 name="Friendly Fire"
+		 desc="Just look at the warm smile on its face. He's so friendly!"
+		 hint="Private elevator, beware of mines though or he's gone."
+		 bm="jydge/collectibles-gfx/friendly-fire.png"
+		 checkbox="Enable friendly fire"
+		/>
+
+		<node id="ORB"
+		 name="The Orb"
+		 desc="Round and polished. Seemingly does nothing."
+		 hint="Follow the rescued shoppers."
+		 bm="jydge/collectibles-gfx/orb.png"
+		/>
 
 
 	</array>
-    
-    
+
+
 </root>
