@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+<root>
+
+	<array id="VIRTUAL_CONTROLS">
+
+		<node id="MOVE"
+		 tags="VIRTUAL_STICK,ALLOW_TOUCH_START_OUTSIDE_AREA,ALLOW_TOUCH_TO_LEAVE_CONTROL"
+		 type="CIRCLE"
+		 circle_radius_inner="50"
+		 circle_radius_outer="120"
+		 dead_zone_margin="90"
+		 allow_moving_stick_within_dead_zone_margin="true"
+		 circle_positioning_radius="120"
+		 position_relative_to_screen_size_x="0"
+		 position_relative_to_screen_size_y="1"
+		 bm_panel="ui/gfx/virtual-gamepad-circle.png"
+		 bm_dot="ui/gfx/virtual-gamepad-dot.png"
+		/>
+
+		<node id="AIM"
+		 tags="VIRTUAL_STICK,ALLOW_TOUCH_START_OUTSIDE_AREA,ALLOW_TOUCH_TO_LEAVE_CONTROL"
+		 type="CIRCLE"
+		 circle_radius_inner="50"
+		 circle_radius_outer="120"
+		 dead_zone_margin="60"
+		 allow_moving_stick_within_dead_zone_margin="false"
+		 circle_positioning_radius="120"
+		 position_relative_to_screen_size_x="1"
+		 position_relative_to_screen_size_y="1"
+		 bm_panel="ui/gfx/virtual-gamepad-circle.png"
+		 bm_dot="ui/gfx/virtual-gamepad-dot.png"
+		/>
+
+		<node id="USE"
+		 type="CIRCLE"
+		 circle_radius_inner="45"
+		 circle_radius_outer="45"
+		 dead_zone_margin="45"
+		 circle_positioning_radius="120"
+		 position_relative_to_screen_size_x="1"
+		 position_relative_to_screen_size_y="1"
+		 offset_x="0"
+		 offset_y="-170"
+		 bm_panel="ui/gfx/virtual-gamepad-use_melee.png"
+		/>
+
+		<node id="ABILITY"
+		 type="CIRCLE"
+		 circle_radius_inner="45"
+		 circle_radius_outer="45"
+		 dead_zone_margin="45"
+		 circle_positioning_radius="120"
+		 position_relative_to_screen_size_x="1"
+		 position_relative_to_screen_size_y="1"
+		 offset_x="-170"
+		 offset_y="0"
+		 bm_panel="ui/gfx/virtual-gamepad-ability.png"
+		/>
+
+		<node id="RELOAD"
+		 type="CIRCLE"
+		 circle_radius_inner="45"
+		 circle_radius_outer="45"
+		 dead_zone_margin="45"
+		 circle_positioning_radius="120"
+		 position_relative_to_screen_size_x="1"
+		 position_relative_to_screen_size_y="1"
+		 offset_x="-125"
+		 offset_y="-125"
+		 bm_panel="ui/gfx/virtual-gamepad-reload.png"
+		/>
+
+
+		<!-- Invisible rectangle that adds a dead zone to the pause button. -->
+		<node id="PAUSE"
+		 type="RECTANGLE"
+		 rectangle_width="0"
+		 rectangle_height="0"
+		 dead_zone_margin="90"
+		 position_relative_to_screen_size_x="1"
+		 position_relative_to_screen_size_y="0"
+		/>
+
+	</array>
+
+</root>

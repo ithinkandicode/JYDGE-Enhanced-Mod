@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 number_of_particles="1" 
+		 initial_age="0;0.1" 
+		 age_to_die="0.1;0.12" 
+		 position_offset="0,0,-1" 
+		 move_speed="0;0" 
+		 move_direction="1,0,0" 
+		 move_angle_y="-90" 
+		 gravity_multiplier="3" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,0.4;0.1,1;1,0.5" 
+		 alpha_multiplier="0.2;0.3" 
+		 scale_multiplier="0.1;0.35" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 angular_velocity="0,0,0;0,0,200" 
+		 blend_mode="NORMAL" 
+		 sounds="sfx/weapons/shells/50cal_01;sfx/weapons/shells/50cal_02;sfx/weapons/shells/50cal_03" 
+		 bitmaps="fxs/smoke-white.png" 
+		/>
+
+ 
+
+	</array>
+</root>

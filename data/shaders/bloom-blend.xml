@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="screen" type="2D" />
+		<node id="bloom_025" type="2D" />
+		<node id="bloom_0125" type="2D" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.texture_coordinate = input.texture_coordinate;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+
+                float MapFloat(float f)
+                {
+                    //f = sqrt(f);
+                    //f *= 1.1f;
+
+                    if (f > 0.5f)
+                        return 0.5f + (f-0.5f)*0.5f;
+                    return f;
+                }
+
+                float3 MapColorRange(float3 color)
+                {
+                    color.r = MapFloat(color.r);
+                    color.g = MapFloat(color.g);
+                    color.b = MapFloat(color.b);
+                    return color;
+                }
+
+                float3 MapColorRange2(float3 A, float3 B)
+                {
+                    return float3(1,1,1) - (float3(1,1,1) - A) * (float3(1,1,1) - B);
+                }
+
+            	void main()
+				{
+					float4 screen_sample = sampleTexture(texture.screen, input.texture_coordinate);
+					float4 bloom_025_sample = sampleTexture(texture.bloom_025, input.texture_coordinate);
+					float4 bloom_0125_sample = sampleTexture(texture.bloom_0125, input.texture_coordinate);
+
+                    float alpha = 0.8f*270.0/400;
+
+					//output.color.rgb = MapColorRange(screen_sample.rgb + alpha * bloom_025_sample.rgb + alpha * bloom_0125_sample.rgb);
+					output.color.rgb = MapColorRange2(screen_sample.rgb, alpha * bloom_025_sample.rgb + alpha * bloom_0125_sample.rgb);
+					output.color.a = 1;
+				}
+			]]>
+		</node>
+	</array>
+</root>

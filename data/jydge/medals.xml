@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+<!--
+
+Ideas:
+ -conserve ammo = take down 5 perps with melee
+ -destroy criminal records = destroy all computers
+ - 
+-->
+
+	<array id="MEDALS">
+		<node id="NONE"
+            name=""
+            desc=""
+            reward_credits="0"
+            bm_icon="!NONE"
+        />	
+
+    	<node id="ELIMINATE_TARGETS"
+            name="Eliminate Target(s)"
+            desc="Eliminate the target(s)."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-eliminate-targets.png"
+        />
+        
+    	<node id="HACK_TARGETS"
+            name="Hack Target(s)"
+            desc="Hack the target(s)."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-hack-targets.png"
+        />      
+        
+		<node id="UNSEEN"
+            name="Unseen"
+            desc="Don't get spotted."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-unseen.png"
+        />
+
+    	<node id="UNTOUCHED"
+            name="Untouched"
+            desc="Don't take any damage."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-untouched.png"
+        />
+
+    	<node id="ALL_ENEMIES"
+            name="All Enemies Down"
+            desc="Destroy all enemies."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-all-enemies.png"
+        />
+
+    	<node id="SWIFT"
+            name="Swift"
+            desc="Exit in {PARM0} seconds."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-swift.png"
+        />
+
+    	<node id="SAVIOR"
+            name="Savior"
+            desc="Rescue all civilians."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-savior.png"
+        />
+
+    	<node id="SHARPSHOOTER"
+            name="Sharpshooter"
+            desc="Never miss a shot."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large.png"
+        />
+
+    	<node id="EFFICIENT"
+            name="Efficient"
+            desc="Only fire weapon {PARM0} times or less."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-efficient.png"
+        />
+        
+    	<node id="LOOTER"
+            name="Looter"
+            desc="Loot all containers."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-looter.png"
+        />
+
+    	<node id="CATCHER"
+            name="Catcher"
+            desc="Don't let any criminals escape."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large.png"
+        />
+        
+    	<node id="USE_WEAPON_X"
+            name="Weapon Specialist"
+            desc="Use {PARM_DERIVED} fire mode."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-use-weapon.png"
+        />
+        
+    	<node id="USE_ABILITY_X"
+            name="Special Specialist"
+            desc="Use {PARM_DERIVED} as special weapon."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-use-ability.png"
+        />
+
+    	<node id="NO_KILLS"
+            name="No Kills"
+            desc="Don't kill anyone."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-no-kills.png"
+        />
+        
+    	<node id="NO_PROPERTY_DAMAGE"
+            name="No Property Damage"
+            desc="Don't break anything."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-no-property-damage.png"
+        />
+        
+    	<node id="MELEE_ONLY"
+            name="Melee"
+            desc="Use only melee."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-melee-only.png"
+        />
+        
+    	<node id="NO_CIVILIAN_CASUALTIES"
+            name="No Civilians Killed"
+            desc="Prevent all civilian casualities."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-no-civilian-casualties.png"
+        />
+        
+    	<node id="SURVIVE_X_SECONDS"
+            name="Survive"
+            desc="Survive {PARM0} seconds."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-survive-x-seconds.png"
+        />
+        
+    	<node id="DEFUSE_X_SECONDS"
+            name="Defuse"
+            desc="Defuse Bomb(s) in {PARM0} seconds."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-defuse-in-x-seconds.png"
+        />
+        
+    	<node id="COLLECT_TARGETS"
+            name="Collect"
+            desc="Collect evidence."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-collect-targets.png"
+        />
+
+    	<node id="KILL_X_ENEMIES"
+            name="Cull the Herd"
+            desc="Kill {PARM0} enemies."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-kill-x-enemies.png"
+        />        
+
+    	<node id="KILL_ALL_ENEMIES_WITHIN_X_SECONDS"
+            name="Kill Enemies Fast"
+            desc="Kill all enemies within {PARM0} seconds."
+            reward_credits="1000"
+            bm_icon="jydge/medal-gfx/medal-large-kill-all-enemies-within-x.png"
+        />        
+        
+	</array>
+	
+</root>

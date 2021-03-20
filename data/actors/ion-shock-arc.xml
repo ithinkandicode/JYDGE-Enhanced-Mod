@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="Lightning" 
+		 renderer="LightningBolt" 
+		 ai="LightningBolt" 
+		 friend_group="PROJECTILES" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+			damage_per_second="12"
+			sound="sfx/weapons/shock_hit_01"
+		/>
+	</array>
+</root>

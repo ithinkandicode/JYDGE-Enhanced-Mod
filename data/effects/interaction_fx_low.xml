@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+ 
+	 
+		 number_of_particles="3" 
+		 initial_age="-0.5;0" 
+		 age_to_die="0.5;0.7" 
+		 position_offset="0,0,0" 
+		 position_spread_box="30,30,100" 
+		 move_speed="32;53" 
+		 move_direction="0,0,-1" 
+		 move_angle_spread="0;2" 
+		 gravity_multiplier="-0.4" 
+		 alpha_curve="0,0;0.5,1;0.7,1;1,0" 
+		 scale_curve="0,0.2;1,0.3" 
+		 alpha_multiplier="0.33;0.44" 
+		 scale_multiplier="1" 
+		 
+		 blend_mode="ADDITIVE" 
+		 
+		 bitmaps="effects/rain-drop-blue.png" 
+		 line_length="100" 
+		 />
+
+	</array>
+</root>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root> 
+  
+	<array id="metagame" >
+        <node id="music/metagame/Modern_Warriors" medals="0" />
+        <node id="music/metagame/Ambient_Space" medals="4" />
+        <node id="music/metagame/Bad_Boys" medals="6" />
+        <node id="music/metagame/Talk_Back" medals="14" />
+        <node id="music/metagame/Beaming_Ray_Of_Light" medals="20" />
+        <node id="music/metagame/Calming_Ambience" medals="40" />
+        <node id="music/metagame/Calm_Future" medals="60" />
+        <node id="music/metagame/Chilled_Beats" medals="100" />
+        <node id="music/metagame/Deep_Dark_Bass" medals="150" />
+    </array>
+  
+	<array id="in-game" default_medal_limit="0">
+    </array>
+ 
+</root>

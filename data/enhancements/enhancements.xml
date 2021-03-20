@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ENHANCEMENTS">
+		<node id="REDUCE_INCOMING_DAMAGE"
+		 category="ATTRIBUTES"
+		 title="Extra Armor"
+		 description="|color|Reduces incoming damage by 50%.|colorend|"
+		 effect_1="damage_resistance_increase,0.5"
+		 medal_requirement="0"
+		/>
+
+		<node id="TOUGH_CIVILIANS"
+		 category="MISC"
+		 title="Citizen Health Plan"
+		 description="|color|All citizens have 100 times more |health|.|colorend|"
+		 medal_requirement="0"
+		/>
+
+		<node id="ELECTROSHOCK"
+		 category="MISC"
+		 title="Electrocyte!"
+		 description="|color|Automatically zaps nearby hostiles with bolts of electricity.|colorend|"
+		 effect_1="electroshock"
+		 medal_requirement="0"
+		/>
+
+		<node id="SHADOW_BLEND"
+		 category="ATTRIBUTES"
+		 title="Shadow Blend"
+		 description="|color|Enemies cannot see you while you remain in the dark.|colorend|"
+		 effect_1="shadow_blend"
+		 medal_requirement="3"
+		/>
+
+		<node id="COMPANION_DRONE_LASER"
+		 category="COMPANION"
+		 title="Liam the Laser Drone"
+		 description="|color|A friendly companion drone armed with a laser assists you.|colorend|"
+		 effect_1="companion,actors/companion-drone.xml"
+		 medal_requirement="6"
+		/>
+
+		<node id="MORE_HEALTH"
+		 category="ATTRIBUTES"
+		 title="Good Heart"
+		 description="|color|150% more health.|colorend|"
+		 effect_1="health_increase,1.5"
+		 medal_requirement="8"
+		/>
+
+		<node id="TACTICAL_VIEW"
+		 category="MISC"
+		 title="Tactical View"
+		 description="|color|The game view is top-down and the camera is pulled back a bit.|colorend|"
+		 medal_requirement="12"
+		/>
+
+		<node id="HACKING_TOOL"
+		 category="MISC"
+		 title="Hacking Tool"
+		 description="|color|Hack terminals, turrets, and other equipment.|colorend|"
+		 medal_requirement="14"
+		/>
+
+		<node id="RIOT_SHIELD"
+		 category="ATTRIBUTES"
+		 title="Riot Shield"
+		 description="A riot shield that |color|blocks all frontal damage up to 200|health| before breaking.|colorend|"
+		 effect_1="riot_shield"
+		 medal_requirement="17"
+		/>
+
+		<node id="SPEED_INCREASE"
+		 category="ATTRIBUTES"
+		 title="Fast Legs"
+		 description="|color|20% speed increase.|colorend|"
+		 effect_1="speed_increase,0.2"
+		 medal_requirement="20"
+		/>
+
+		<node id="SLOWER_ENEMY_PROJECTILES"
+		 category="MISC"
+		 title="Bullet Dodger"
+		 description="|color|Enemy projectiles move 30% slower|colorend| making them easier to dodge."
+		 medal_requirement="24"
+		/>
+
+		<node id="SCALED_DOWN_PLAYER"
+		 category="ATTRIBUTES"
+		 title="Shrinkify"
+		 description="|color|You are 30% smaller.|colorend| Benefits: smaller target, fit into smaller spaces, aim height at crotch level."
+		 effect_1="scale_increase,-0.3"
+		 medal_requirement="28"
+		/>
+
+		<node id="UNDETECTABLE_WHILE_STATIONARY"
+		 category="ATTRIBUTES"
+		 title="Chameleon"
+		 description="|color|You are undetectable while stationary.|colorend| Enemies will still notice you if they bump into you."
+		 effect_1="chameleon_skin"
+		 medal_requirement="32"
+		/>
+
+		<node id="WALL_SMASHER"
+		 category="ATTRIBUTES"
+		 title="Wall Breaker"
+		 description="|color|You can destroy walls and other breakable objects by running through them.|colorend|"
+		 effect_1="wall_smasher"
+		 medal_requirement="36"
+		/>
+
+		<node id="COMPANION_DRONE_MACHINE_GUN"
+		 category="COMPANION"
+		 title="Gina the Gatling Drone"
+		 description="|color|A drone armed with a machine gun assists you.|colorend|"
+		 effect_1="companion,actors/companion-drone-machine-gun.xml"
+		 medal_requirement="41"
+		/>
+
+		<node id="LOWER_ENEMY_PROJECTILE_RANGE"
+		 category="MISC"
+		 title="Fizzled Range"
+		 description="|color|Enemy projectiles have a 30% shorter range|colorend|."
+		 medal_requirement="44"
+		/>
+
+		<node id="FRIEND_OF_MINE"
+		 category="ATTRIBUTES"
+		 title="Friend of Mine"
+		 description="|color|Instead of triggering mines, they become your friends!|colorend|"
+		 effect_1="friend_of_mine"
+		 medal_requirement="48"
+		/>
+
+		<node id="REVENGER"
+		 category="ATTRIBUTES"
+		 title="Revenger"
+		 description="|color|All damage to you is dealt back TEN TIMES to the enemy who hurt you.|colorend|"
+		 effect_1="deal_back_damage_to_enemy,10.0"
+		 medal_requirement="52"
+		/>
+
+		<node id="ENEMIES_DONT_SEE_THROUGH_GLASS"
+		 category="MISC"
+		 title="Tainted Glass"
+		 description="|color|Enemies don't see you through glass.|colorend|"
+		 medal_requirement="56"
+		/>
+
+		<node id="SHIELD"
+		 category="ATTRIBUTES"
+		 title="Shield"
+		 description="A regenerating force field |color|blocks 30 points of damage|colorend|."
+		 effect_1="shield_damage_blocked,30"
+		 effect_2="shield_regeneration_speed,4"
+		 medal_requirement="59"
+		/>
+
+		<node id="STUN_DAMAGE"
+		 category="MISC"
+		 title="Stunning Pain"
+		 description="|color|Increases all damage against stunned targets by 300%.|colorend|"
+		 effect_1="stun_damage_increase,3.0"
+		 medal_requirement="66"
+		/>
+
+		<node id="EXPLOSION_SPECIALIST"
+		 category="MISC"
+		 title="Pyrotechnician"
+		 description="|color|Exploding barrels explode with 20% larger radius and deal twice the damage.|colorend|"
+		 effect_1="explosion_specialist"
+		 medal_requirement="71"
+		/>
+
+		<node id="RUTHLESS"
+		 category="ATTRIBUTES"
+		 title="Rythless"
+		 description="Everything is |color|fast and rythless|colorend|. You deal massive damage, but won't survive a single hit.|colorend|"
+		 effect_1="speed_increase,0.01"
+		 effect_2="stage_time_multiplier,1.2"
+		 effect_3="damage_increase,2.0"
+		 effect_4="forced_hit_points,0.1"
+		 medal_requirement="74"
+		/>
+
+		<node id="EXPLOSION_RESISTANCE"
+		 category="ATTRIBUTES"
+		 title="Explosion Immunity"
+		 description="|color|Immunity to explosions.|colorend| A direct rocket hit will still hurt you. They're sharp."
+		 effect_1="explosion_resistance_increase,1.0"
+		 medal_requirement="81"
+		/>
+
+		<node id="COMPANION_GANG_MEMBER"
+		 category="COMPANION"
+		 title="Groupies"
+		 description="|color|You have two gang member companions.|colorend|"
+		 effect_1="companion,actors/companion-gang-member.xml"
+		 effect_2="companion,actors/companion-gang-member.xml"
+		 medal_requirement="84"
+		/>
+
+		<node id="FINISHER"
+		 category="ATTRIBUTES"
+		 title="Reaper"
+		 description="|color|Damage dealt to enemies with 50% or less |health| left is doubled.|colorend|"
+		 effect_1="increased_damage_to_low_health_foes,2.0"
+		 medal_requirement="90"
+		/>
+
+		<node id="DAMAGE_TO_CREDITS"
+		 category="MISC"
+		 title="Damage Credits"
+		 description="|color|Credits drop when you deal damage to non-static objects.|color|"
+		 effect_1="damage_to_credits_multiplier,1"
+		 medal_requirement="94"
+		/>
+
+		<node id="COMPANION_DRONE_ROCKETS"
+		 category="COMPANION"
+		 title="Rita the Rocket Drone"
+		 description="|color|A reckless drone armed with rockets 'assists' you.|colorend|"
+		 effect_1="companion,actors/companion-drone-rockets.xml"
+		 medal_requirement="100"
+		/>
+
+		<node id="GIANT"
+		 category="ATTRIBUTES"
+		 title="GIANT!"
+		 description="|color|You are giant sized with more health and melee damage|colorend|. You may not fit through doors though."
+		 effect_1="scale_increase,0.5"
+		 effect_2="health_increase,3.0"
+		 effect_3="melee_damage_increase,3.0"
+		 effect_4="melee_push_back_increase,2.5"
+		 medal_requirement="106"
+		/>
+
+		<node id="REFLEX_BOOSTER"
+		 category="MISC"
+		 title="Reflex Booster"
+		 description="|color|Time doesn't move unless you do.|colorend| The booster unit has no cooling so it may get super hot."
+		 effect_1="stop_time_when_inactive"
+		 medal_requirement="110"
+		/>
+
+		<node id="COMPANION_BOOST"
+		 category="COMPANION"
+		 title="Companion Boost"
+		 description="|color|All companions get +50%|health| and +20% in firerate and damage.|colorend|"
+		 effect_1="companion_enhancements,HP_DAMAGE"
+		 medal_requirement="116"
+		/>
+
+		<node id="INVULNERABILITY_START"
+		 category="ATTRIBUTES"
+		 title="Superhero"
+		 description="|color|You are invulnerable for the first 15 seconds of the mission.|colorend|"
+		 effect_1="invulnerability_seconds_at_start,16"
+		 medal_requirement="122"
+		/>
+
+		<node id="HEAL_FRIENDS"
+		 category="COMPANION"
+		 title="Medical Tool"
+		 description="|color|Heal friends and companions in close proximity when standing still.|colorend|"
+		 effect_1="healing_range,380"
+		 effect_2="healing_power,20"
+		 medal_requirement="126"
+		/>
+
+		<node id="ENEMIES_START_WITH_LOWER_HEALTH"
+		 category="MISC"
+		 title="Sickness"
+		 description="|color|Enemies within the mission zone start with 50% less |health|.|colorend|"
+		 medal_requirement="132"
+		/>
+
+		<node id="LESS_LIGHT"
+		 category="MISC"
+		 title="Lights Out!"
+		 description="|color|The lights get dimmer|colorend| enabling you to sneak in shadows more easily."
+		 medal_requirement="138"
+		/>
+
+		<node id="RELOAD_PLASMA"
+		 category="WEAPON"
+		 title="Reload Plasma"
+		 description="|color|Fires 360 degree plasma bolts each time you start reloading.|colorend|"
+		 effect_1="reload_shot,weapons/reload-plasma.xml"
+		 medal_requirement="8"
+		/>
+
+		<node id="CIVILIAN_SAFE_AMMO"
+		 category="WEAPON"
+		 title="Citizen Safe Ammo"
+		 description="|color|Your projectiles won't harm citizens.|colorend| Your explosions might though."
+		 effect_1="civilian_safe_ammo"
+		 medal_requirement="9"
+		/>
+
+		<node id="KILLS_HEAL"
+		 category="WEAPON"
+		 title="Killing Heals"
+		 description="|color|Heals 10|health| each time your projectiles kill a target.|colorend|"
+		 effect_1="nano_vampires,10.0"
+		 medal_requirement="11"
+		/>
+
+		<node id="FIRERATE_INCREASE"
+		 category="WEAPON"
+		 title="Rapid Fire"
+		 description="|color|Increases rate of fire by 20%.|colorend|"
+		 effect_1="rate_of_fire_increase,0.20"
+		 medal_requirement="13"
+		/>
+
+		<node id="STUNNER"
+		 category="WEAPON"
+		 title="Sandman"
+		 description="Each shot has a |color|15% chance to stun|colorend| the target it hits."
+		 effect_1="stun_chance_increase,0.15"
+		 medal_requirement="15"
+		/>
+
+		<node id="PIERCING_LEAD"
+		 category="WEAPON"
+		 title="Piercing Lead"
+		 description="|color|Your non-shotgun lead projectiles pierce through walls.|colorend| Does not affect laser, plasma, or ion."
+		 effect_1="bullets_pierce_walls"
+		 medal_requirement="16"
+		/>
+
+		<node id="ABILITY_USES_INCREASE_RELATIVE"
+		 category="WEAPON"
+		 title="Extra Specials"
+		 description="|color|You get 50% more special weapon uses per mission.|colorend|"
+		 effect_1="ability_use_amount_increase,0.50"
+		 medal_requirement="21"
+		/>
+
+		<node id="MELEE_DAMAGE_INCREASE"
+		 category="MELEE"
+		 title="Power Gavel"
+		 description="|color|Increases melee damage by 300%.|colorend|"
+		 effect_1="melee_damage_increase,3.0"
+		 medal_requirement="23"
+		/>
+
+		<node id="MELEE_DEFLECTS_PROJECTILES"
+		 category="MELEE"
+		 title="Melee Deflect"
+		 description="|color|You can deflect projectiles with well timed melee attacks.|colorend|"
+		 effect_1="melee_attack_deflects_projectiles"
+		 medal_requirement="27"
+		/>
+
+		<node id="WEAPON_RANGE_INCREASE"
+		 category="WEAPON"
+		 title="Long Range"
+		 description="|color|Your projectile range is increased by 50%.|colorend|"
+		 effect_1="projectile_range_increase,0.5"
+		 medal_requirement="29"
+		/>
+
+		<node id="PROJECTILE_KNOCKBACK"
+		 category="WEAPON"
+		 title="Bull Shot"
+		 description="|color|Your projectiles knock back enemies.|colorend| Good for keeping those melee bangers at bay."
+		 effect_1="bullet_mass_increase,10.50"
+		 medal_requirement="33"
+		/>
+
+		<node id="MELEE_EXPLOSIONS"
+		 category="MELEE"
+		 title="Dynamite Gavel"
+		 description="|color|Your melee attacks cause an explosion on each hit.|colorend|"
+		 effect_1="melee_explosions_power,50"
+		 medal_requirement="37"
+		/>
+
+		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
+		 category="WEAPON"
+		 title="Murderous Lead"
+		 description="|color|Increases LEAD weapon damage 50%.|colorend| Does not apply to ion, laser, or plasma weapons."
+		 effect_1="damage_increase_per_damage_type,0.50,PROJECTILE_LEAD"
+		 medal_requirement="42"
+		/>
+
+		<node id="FAST_RELOAD"
+		 category="WEAPON"
+		 title="Fast Reload"
+		 description="|color|Weapon reload speed is increased 300%.|colorend|"
+		 effect_1="reload_speed_increase,3.0"
+		 medal_requirement="46"
+		/>
+
+		<node id="MELEE_DAMAGE_INCREASE_BUT_LOWER_HEALTH"
+		 category="MELEE"
+		 title="Pain Gavel"
+		 description="|color|Increases melee damage by 1000% but lowers your |health| by 75%.|colorend|"
+		 effect_1="melee_damage_increase,10.0"
+		 effect_2="health_increase,-0.75"
+		 medal_requirement="49"
+		/>
+
+		<node id="ION_WEAPON_SPLASH_DAMAGE_BOOST"
+		 category="WEAPON"
+		 title="Overcharge"
+		 description="|color|Ion weapon shock range is increased 25% and damage is doubled.|colorend|"
+		 effect_1="ion_weapon_shock_damage_increase,1.00"
+		 effect_2="ion_weapon_shock_range_increase,0.25"
+		 medal_requirement="53"
+		/>
+
+		<node id="FIRERATE_INCREASE_BUT_LONGER_RELOAD"
+		 category="WEAPON"
+		 title="Mighty Burst"
+		 description="|color|Increases rate of fire by 50% but slows down reload by 25%.|colorend|"
+		 effect_1="rate_of_fire_increase,0.50"
+		 effect_2="reload_speed_increase,-0.25"
+		 medal_requirement="57"
+		/>
+
+		<node id="CLIP_SIZE_INCREASE"
+		 category="WEAPON"
+		 title="Extended Magazine"
+		 description="|color|Weapon magazine size is TRIPLED.|colorend|"
+		 effect_1="clip_size_increase,2.0"
+		 medal_requirement="61"
+		/>
+
+		<node id="MELEE_KNOCKBACK"
+		 category="MELEE"
+		 title="Melee Knockback"
+		 description="|color|Your melee attacks knock back enemies.|colorend|"
+		 effect_1="melee_push_back_increase,2.5"
+		 medal_requirement="65"
+		/>
+
+		<node id="TOUGH_RELOADER"
+		 category="WEAPON"
+		 title="Tough Reloader"
+		 description="|color|You are invulnerable while reloading your weapon.|colorend|"
+		 effect_1="tough_reloader"
+		 medal_requirement="69"
+		/>
+
+		<node id="MELEE_PERSUADE"
+		 category="MELEE"
+		 title="Lovestruck"
+		 description="|color|Your melee attacks may persuade the enemy|colorend| to become your ally."
+		 effect_1="melee_persuades"
+		 medal_requirement="75"
+		/>
+
+		<node id="MELEE_SPEED_INCREASE"
+		 category="MELEE"
+		 title="Fast Melee"
+		 description="|color|Your melee attacks are 100% faster.|colorend|"
+		 effect_1="melee_speed_increase,2.0"
+		 medal_requirement="79"
+		/>
+
+		<node id="EXPLOSIVE_BULLET"
+		 category="WEAPON"
+		 title="Explosive Bullet"
+		 description="|color|The first round in every magazine explodes on impact.|colorend|"
+		 effect_1="first_bullet_explosive"
+		 medal_requirement="83"
+		/>
+
+		<node id="ABILITY_USES_FROM_HEALTH"
+		 category="WEAPON"
+		 title="Blood Specials"
+		 description="|color|Special fire uses 25% of maximum |health|.|colorend| This does not happen if you have special uses left."
+		 effect_1="ability_use_from_health"
+		 medal_requirement="89"
+		/>
+
+		<node id="CRISIS_PROTOCOL"
+		 category="WEAPON"
+		 title="Crisis Protocol"
+		 description="|color|Your normal projectiles inflict double base damage when your health is under 50%.|colorend|"
+		 effect_1="crisis_protocol,0.5"
+		 medal_requirement="93"
+		/>
+
+		<node id="HP_DAMAGE"
+		 title="HP"
+		 description="Increases health and damage. (For companions)"
+		 effect_1="scale_increase,0.1"
+		 effect_2="health_increase,0.5"
+		 effect_3="damage_increase,0.25"
+		 effect_4="rate_of_fire_increase,0.25"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SHOW_NEAREST_FRIENDS_OR_FOES"
+		 title="Radar"
+		 description="|color|Shows all potential threats in the map during mission pause screen.|colorend|"
+		 tags="SPECIAL"
+		/>
+
+		<node id="COLLECTIBLE_FIRERATE_INCREASE"
+		 title="Collectible Firerate"
+		 description=""
+		 effect_1="rate_of_fire_increase,0.05"
+		 tags="SPECIAL"
+		/>
+
+		<node id="COLLECTIBLE_RELOAD_SPEED_INCREASE"
+		 title="Collectible Firerate"
+		 description=""
+		 effect_1="reload_speed_increase,0.05"
+		 tags="SPECIAL"
+		/>
+
+		<node id="COLLECTIBLE_TIME_RECOIL"
+		 title="Collectible Firerate"
+		 description=""
+		 effect_1="stage_time_multiplier,0.75"
+		 effect_2="speed_increase,0.2"
+		 tags="SPECIAL"
+		/>
+
+		<node id="COLLECTIBLE_BOBBLEHEAD"
+		 title="Cyberhance Assisted Targeting System"
+		 description=""
+		 effect_1="accuracy_increase,0.25"
+		 tags="SPECIAL"
+		/>
+
+		<node id="BOOSTER_BLUE"
+		 title="Bluebird"
+		 description="Energy regenerates rapidly."
+		 duration="18.0"
+		 color="0.2,0.2,1.0"
+		 effect_1="energy_regeneration_per_second,80"
+		 tags="SPECIAL,BOOSTER"
+		/>
+
+		<node id="BOOSTER_YELLOW"
+		 title="Razor"
+		 description="Triple rate of fire and quadruple bullet mass!"
+		 duration="20.0"
+		 color="1.0,1.0,0.2"
+		 effect_1="rate_of_fire_increase,3.00"
+		 effect_2="bullet_mass_increase,4.00"
+		 tags="SPECIAL,BOOSTER"
+		/>
+
+		<node id="BOOSTER_RED"
+		 title="Vampiric DeSade"
+		 description="Suck life from everything around you."
+		 duration="18.0"
+		 color="1.0,0.2,0.2"
+		 effect_1="vampiric_ring_power,150"
+		 effect_2="vampiric_ring_range,150"
+		 tags="SPECIAL,BOOSTER"
+		/>
+
+		<node id="BOOSTER_GREEN"
+		 title="Depleted Uranium Bullets"
+		 description="Shoot through everything with DU bullets!"
+		 duration="20.0"
+		 color="0.2,1.0,0.2"
+		 effect_1="bullets_pierce_actors"
+		 effect_2="bullets_pierce_walls"
+		 tags="SPECIAL,BOOSTER"
+		/>
+
+		<node id="SPIDEROID_DOUBLE"
+		 title="SpideroidDouble"
+		 effect_1="spideroid_clone_amount,4"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SPIDEROID_TRIPLE"
+		 title="SpideroidTriple"
+		 effect_1="spideroid_clone_amount,6"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SPIDEROID_QUADRUPLE"
+		 title="SpideroidQuadruple"
+		 effect_1="spideroid_clone_amount,8"
+		 tags="SPECIAL"
+		/>
+
+		<node id="HEALTH_4X"
+		 title="Health4X"
+		 effect_1="health_increase,4"
+		 tags="SPECIAL"
+		/>
+
+		<node id="HEALTH_2X"
+		 title="Health2X"
+		 effect_1="health_increase,2"
+		 tags="SPECIAL"
+		/>
+
+		<node id="HEALTH_8X"
+		 title="Health8X"
+		 effect_1="health_increase,8"
+		 tags="SPECIAL"
+		/>
+
+		<node id="FLAMING_DEATH_200"
+		 title="Flame Death"
+		 effect_1="flaming_death_radius,200"
+		 tags="SPECIAL"
+		/>
+
+		<node id="FLAMING_DEATH_100"
+		 title="Flame Death"
+		 effect_1="flaming_death_radius,100"
+		 tags="SPECIAL"
+		/>
+
+		<node id="CLUSTER_DEATH_5"
+		 title="Submunitive Death"
+		 effect_1="submunitions_on_death,5"
+		 tags="SPECIAL"
+		/>
+
+		<node id="HEALER"
+		 title="Healer"
+		 effect_1="health_increase,3"
+		 effect_2="healing_range,260"
+		 effect_3="healing_power,300"
+		 tags="SPECIAL"
+		/>
+
+		<node id="REGENERATION"
+		 title="Regeneration"
+		 effect_1="regenerate_hp_per_sec,10"
+		 effect_2="regeneration_down_time,2.5"
+		 tags="SPECIAL"
+		/>
+
+		<node id="MEDIBOT_HEALER"
+		 title="Healer"
+		 effect_1="health_increase,5"
+		 effect_2="healing_range,320"
+		 effect_3="healing_power,40"
+		 tags="SPECIAL"
+		/>
+
+		<node id="ENERGY_DRAINER"
+		 title="Healer"
+		 effects_description=""
+		 effect_1="health_increase,5"
+		 effect_2="energy_drain_range,230"
+		 effect_3="energy_drain_power,40"
+		 tags="SPECIAL"
+		/>
+
+		<node id="HEALTH_DRAINER"
+		 title="Healer"
+		 effect_1="health_increase,5"
+		 effect_2="health_drain_range,200"
+		 effect_3="health_drain_power,40"
+		 tags="SPECIAL"
+		/>
+
+		<node id="ROF_SPIDER"
+		 title="Rof Spider"
+		 description="Triple rate of fire"
+		 effect_1="rate_of_fire_increase,15.00"
+		 effect_2="reload_speed_increase,7.2"
+		 tags="SPECIAL"
+		/>
+
+		<node id="GOD_MODE"
+		 title="God Mode"
+		 effect_1="speed_increase,1"
+		 effect_2="health_increase,100"
+		 tags="SPECIAL"
+		/>
+
+		<node id="BOSS_EXPLOSIVES_SCALER"
+		 title="Boss Explosives Scaler"
+		 description="Boss Explosives Scaler"
+		 effect_1="boss_explosives_damage_multi,2.0"
+		 effect_2="boss_explosives_radius_multi,1.2"
+		 tags="SPECIAL"
+		/>
+
+		<node id="MINIBOSS"
+		 title="Miniboss"
+		 effect_1="health_increase,2"
+		 effect_2="shield_damage_blocked,100"
+		 effect_3="shield_regeneration_speed,8"
+		 effect_4="damage_increase,1.0"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SHIELD100"
+		 title="Shield100"
+		 effect_1="shield_damage_blocked,100"
+		 effect_2="shield_regeneration_speed,8"
+		 tags="SPECIAL"
+		/>
+
+		<node id="CENTIPEDESHIELD"
+		 title="CentipedeShield"
+		 effect_1="shield_damage_blocked,100"
+		 effect_2="shield_regeneration_speed,100"
+		 tags="SPECIAL"
+		/>
+
+		<node id="JANITOR"
+		 title="Janitor"
+		 effect_1="health_increase,10.0"
+		 effect_2="speed_increase,0.5"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SPEED_2X"
+		 title="Speed2X"
+		 effect_1="speed_increase,1.0"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SPEED_2_5X"
+		 title="Speed2X"
+		 effect_1="speed_increase,1.5"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SPEED_3X"
+		 title="Speed2X"
+		 effect_1="speed_increase,2.0"
+		 tags="SPECIAL"
+		/>
+
+		<node id="SPEED_50"
+		 title="Speed50"
+		 effect_1="speed_increase,0.5"
+		 tags="SPECIAL"
+		/>
+
+		<node id="MELEE_4X"
+		 title="Melee4X"
+		 effect_1="melee_damage_increase,4.0"
+		 tags="SPECIAL"
+		/>
+
+		<node id="MASSACRE_BOSS"
+		 title="Massacre Boss"
+		 effect_1="health_increase,10.0"
+		 effect_2="speed_increase,0.6"
+		 effect_3="melee_damage_increase,5.0"
+		 effect_4="slowdown_field_range,100"
+		 effect_5="slowdown_field_time,0.5"
+		 effect_6="rate_of_fire_increase,1.5"
+		 tags="SPECIAL"
+		/>
+
+	</array>
+
+	<array id="CATEGORIES">
+		<node id="ATTRIBUTES" color="0.1,0.5,1" />
+		<node id="MISC" color="1,0.1,1" />
+		<node id="COMPANION" color="0.25,1,0.25" />
+		<node id="WEAPON" color="1,0.5,0.05" />
+		<node id="MELEE" color="1,0.1,0.1" />
+		<node id="ABILITY" color="1,0,1" />
+	</array>
+
+	<array id="RESERVE_ENHANCEMENTS" desc="Not used in game, here for safekeeping.">
+		<node category_start="CYBERWARE-------------------------------------------------------------------------------------------------------------------" />
+		<node id="REMEDY_HOSTAGE_DEATHS"
+		 category="MISC"
+		 title="Loss Assessment"
+		 description="|color|One dead hostage is considered an acceptable loss.|colorend|"
+		 effect_1="remedy_hostage_death,1"
+		 energy_cost="3"
+		 tags="NOT_IMPLEMENTED"
+		/>
+
+		<node id="INSTANT_MOVE_DIRECTION_CHANGE"
+		 category="MISC"
+		 title="Instant Move Direction Change"
+		 description="|color|You can change move direction instantly.|colorend| This allows you to dodge projectiles better."
+		 effect_1="dampening_factor_override,40"
+		 energy_cost="2"
+		/>
+
+		<node id="ASSAULT_POD"
+		 category="MISC"
+		 title="Assault Pod"
+		 description="|color|Rather than the actual entry point, you arrive at middle of the map|colorend|"
+		 energy_cost="3"
+		 tags="NOT_IMPLEMENTED"
+		/>
+
+		<node id="MAGAZINE_FEEDER"
+		 category="MISC"
+		 title="Magazine Feeder"
+		 description="|color|Your ammo clips are 50% smaller, but reloading speed is upped by 70%|colorend|"
+		 energy_cost="3"
+		 tags="NOT_IMPLEMENTED"
+		/>
+
+		<node id="ATTRACT_CIVILIANS"
+		 category="MISC"
+		 title="Citizen Attractor"
+		 description="|color|Citizens follow you instead of running automatically to the exit.|colorend|."
+		 energy_cost="3"
+		 tags="NOT_IMPLEMENTED"
+		/>
+
+		<node id="FAST_DAMAGE"
+		 category="MISC"
+		 title="Fast Damage"
+		 description="|color|The faster you move, the more damage you do.|colorend|"
+		 effect_1="increase_damage_by_move_speed,5.0"
+		 energy_cost="3"
+		 tags="NOT_IMPLEMENTED"
+		/>
+
+		<node id="CREDITS_TO_HEALTH"
+		 category="MISC"
+		 title="Credits to Health"
+		 description="|color|You get 10|health| every time you collect single large |credits| chip worth 100|credits| or more.|colorend|"
+		 effect_1="credits_to_health,100,10"
+		 energy_cost="4"
+		/>
+
+		<node id="CREDITS_IMMORTALITY"
+		 category="MISC"
+		 title="Credits Immortality"
+		 description="|color|You are invulnerable 2 seconds each time you collect credits.|color|"
+		 effect_1="credits_immortality_duration,2"
+		 medal_requirement="62"
+		/>
+
+		<node id="COMPANIONS_EXPLODE_ON_DEATH"
+		 category="COMPANION"
+		 title="Explosive Companions"
+		 description="|color|Your companions explode on death.|colorend|"
+		 effect_1="companions_explode_on_death"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="72"
+		/>
+
+		<node id="FASTER_COMPANIONS"
+		 category="COMPANION"
+		 title="Faster Companions"
+		 description="|color|Your companions move 30% faster.|colorend|"
+		 effect_1="companions_speed_increase,0.3"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="74"
+		/>
+
+		<node id="EXTRA_TREASURES"
+		 category="MISC"
+		 title="Confiscation Specialist"
+		 description="|color|There are credits laying around here and there waiting to be confiscated.|colorend|"
+		 effect_1="spawn_random_credits,1000"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="76"
+		/>
+
+		<node id="FIRE_BOOTS"
+		 category="MISC"
+		 title="Fire Boots"
+		 description="|color|You leave a burning trail of fire as you move.|colorend|"
+		 effect_1="fire_trail,5"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="80"
+		/>
+
+		<node id="MONEY_DAMAGE"
+		 category="MISC"
+		 title="Money Damage"
+		 description="|color|Your damage is increased 1% for every 100 credits you collect during mission.|colorend|"
+		 effect_1="credits_damage_boost,0.01,100"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="82"
+		/>
+
+		<node id="MORE_GIBS"
+		 category="MISC"
+		 title="Bloody Mess"
+		 description="|color|Your critical hits deal 3x more damage. All your foes are gibbed on death each time.|colorend|"
+		 effect_1="critical_damage_increase,2.0"
+		 effect_2="always_gib_enemies"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="86"
+		/>
+
+		<node id="ENEMY_REACTION_TIME_DECREASE"
+		 category="MISC"
+		 title="Armor Engraved Badge"
+		 description="|color|Enemies take 50% longer to start firing at you.|colorend|"
+		 effect_1="enemy_reaction_time_modification,-0.5"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="88"
+		/>
+
+		<node id="HEROIC_DEATH"
+		 category="MISC"
+		 title="Heroic Death"
+		 description="|color|Dying counts as successful escape for other than main objectives. You get the medals even if you die.|colorend|"
+		 tags="REQUIRES_TESTING"
+		 medal_requirement="92"
+		/>
+
+		<node id="ALL_DEVICES_EXPLODE"
+		 category="MISC"
+		 title="Exploding Devices"
+		 description="|color|All destroyable devices such as computers explode dealing demage when destroyed.|colorend|"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="112"
+		/>
+
+		<node id="LASER_TRAPS_DESTRUCTIBLE"
+		 category="MISC"
+		 title="Destructible Laser Traps"
+		 description="|color|All laser traps are destructible.|colorend|"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="114"
+		/>
+
+		<node id="FASTER_FASTER"
+		 category="MISC"
+		 title="Faster Faster"
+		 description="|color|Time runs faster, but you do 50% more damage all around.|colorend|"
+		 effect_1="stage_time_multiplier,1.2"
+		 effect_2="damage_increase,0.5"
+		 medal_requirement="58"
+		/>
+
+		<node id="DISABLE_EXPLOSIVES_BY_TOUCHING"
+		 category="MISC"
+		 title="Defuser"
+		 description="Completely neutralise any explosive you touch."
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="72"
+		/>
+
+		<node id="BOOMBOX"
+		 category="MISC"
+		 title="Boombox"
+		 description="Constantly blast loud noise to attract everyone's attention."
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="74"
+		/>
+
+		<node id="INVISIBLE_TO_TURRETS"
+		 category="MISC"
+		 title="Heat Suit"
+		 description="You appear the same temperature as your surroundings so turrets can't see you. (turrets would probably need to see SHADOW_BLEND and CHAMELEON_SKIN)"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="70"
+		/>
+
+		<node id="FIRE_RESISTANCE"
+		 category="ATTRIBUTES"
+		 title="Fire Protection"
+		 description="|color|Total protection from fire damage|colorend|."
+		 effect_1="fire_resistance_increase,1.0"
+		 medal_requirement="30"
+		/>
+
+		<node id="MEDICAL_ENHANCER"
+		 category="MISC"
+		 title="Medical Enhancer"
+		 description="|color|You get 150% more health from autodocs and medikits.|colorend|"
+		 effect_1="autodoc_health_increase,1.5"
+		 medal_requirement="38"
+		/>
+
+		<node id="GIB_PROFIT"
+		 category="MISC"
+		 title="Gib Money"
+		 description="|color|Get 150 credit bonus for each body you'll gib with explosives.|colorend| Streams your POV to media corps distributing Real Hurt(TM) programs."
+		 effect_1="gib_profit,150"
+		 medal_requirement="38"
+		/>
+
+		<node id="MORE_EXPLOSIVES"
+		 category="MISC"
+		 title="More Explosives"
+		 description="|color|There will be a lot more explosive barrels etc in the mission.|colorend|"
+		 effect_1="more_explosives,0.5"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="66"
+		/>
+
+		<node category_start="WEAPON MODS-------------------------------------------------------------------------------------------------------------------" />
+		<node id="MELEE_ATTACK_RANGE_INCREASE"
+		 category="MELEE"
+		 title="Melee Range Increase"
+		 description="|color|Increases your melee attack range by 20%.|colorend|"
+		 effect_1="melee_attack_range_increase,0.2"
+		 medal_requirement="16"
+		/>
+
+		<node id="RELOAD_DASH"
+		 category="WEAPON"
+		 title="Reload Sprinting"
+		 description="|color|You sprint while reloading a weapon.|colorend|"
+		 effect_1="reload_dash"
+		 medal_requirement="29"
+		/>
+
+		<node id="SILENCER"
+		 category="WEAPON"
+		 title="Silencer"
+		 description="Firing your guns doesn't attract attention."
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="28"
+		/>
+
+		<node id="FEAR_MELEE"
+		 category="MELEE"
+		 title="Gavel of Horror"
+		 description="|color|Enemies seeing your melee attack have 25% chance to run away in fear.|colorend|"
+		 effect_1="fear_melee,0.25"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="38"
+		/>
+
+		<node id="MELEE_ATTACK_FLAMES"
+		 category="MELEE"
+		 title="Flaming Gavel"
+		 description="|color|Melee attack has a chance to set target in flames.|colorend|"
+		 effect_1="melee_attack_flames,0.25"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="42"
+		/>
+
+		<node id="FIRE_STARTER"
+		 category="MISC"
+		 title="Firestarter"
+		 description="|color|Fires you start have 4X burn time.|colorend|"
+		 effect_1="fire_starter,4.0"
+		 medal_requirement="46"
+		/>
+
+		<node id="MELEE_HIT_INVULNERABILITY"
+		 category="MELEE"
+		 title="Melee Rush"
+		 description="|color|You are invulnerable 1 second after each successful hit to an enemy.|colorend|"
+		 effect_1="melee_attack_deflects_projectiles"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="62"
+		/>
+
+		<node id="CRIT_FLAMES"
+		 category="WEAPON"
+		 title="Incendiary Bullets"
+		 description="|color|Critical hits set enemies on fire for 3 secs.|colorend|"
+		 effect_1="crit_flames,3.0"
+		 medal_requirement="58"
+		/>
+
+		<node id="DOUBLE_PROJECTILES"
+		 category="WEAPON"
+		 title="Dual Fire"
+		 description="|color|Your weapon shoots dual projectiles coming out from the barrel at 15 degree angle.|colorend|"
+		 effect_1="dual_projectiles,0.15"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="64"
+		/>
+
+		<node id="MELEE_SUBDUES"
+		 category="MELEE"
+		 title="Melee Subdue"
+		 description="|color|Your melee attacks knock enemies unconscious instead of dealing damage.|colorend| One hit is enough to put most criminals to sleep."
+		 effect_1="melee_subdues"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="52"
+		/>
+
+		<node id="WEAPON_SPREAD_DECREASE"
+		 category="WEAPON"
+		 title="Decrease Weapon Spread"
+		 description="|color|Your weapons are more accurate producing less spread. Shotgun weapon cones are also tighter.|colorend|"
+		 medal_requirement="54"
+		/>
+
+		<node id="MELEE_360"
+		 category="MELEE"
+		 title="Melee 360"
+		 description="|color|Your melee attacks hit everyone around you, not just the direction you're attacking.|colorend|"
+		 effect_1="melee_360"
+		 medal_requirement="18"
+		/>
+
+		<node id="PLASMA_FLAMES"
+		 category="WEAPON"
+		 title="Flaming Plasma"
+		 description="Your |color|plasma based weapons set enemies on fire|colorend| on hit."
+		 effect_1="crit_flames,3.0"
+		 medal_requirement="45"
+		/>
+
+		<node category_start="ABILITY MODS-------------------------------------------------------------------------------------------------------------------" />
+		<node id="ABILITY_USES_TO_HEALTH"
+		 category="ABILITY"
+		 title="Secondary Uses Give Health"
+		 description="|color|You get 10|health| each time you use secondary weapon.|colorend|"
+		 effect_1="ability_use_gives_health,10"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="4"
+		/>
+
+		<node id="CREDITS_TO_USES"
+		 category="ABILITY"
+		 title="Credits to Uses"
+		 description="|color|You get one secondary weapon use each time you collect large |credits| chip worth 100|credits| or more.|colorend|"
+		 effect_1="credits_to_ability_uses,100"
+		 medal_requirement="7"
+		/>
+
+		<node id="CIVILIAN_RESCUE_TO_USES"
+		 category="ABILITY"
+		 title="Rescue to Use"
+		 description="|color|You get three secondary weapon uses each time you rescue a civilian.|colorend|"
+		 effect_1="civilian_rescue_to_ability_uses,3"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="10"
+		/>
+
+		<node id="ABILITY_USES_INCREASE_FIXED"
+		 category="ABILITY"
+		 title="More Secondary Uses"
+		 description="|color|You get 3 extra secondary weapon uses per mission.|colorend|"
+		 effect_1="ability_use_amount_fixed_increase,3"
+		 medal_requirement="13"
+		/>
+
+		<node id="KILL_TO_USE"
+		 category="ABILITY"
+		 title="Kill to Use"
+		 description="|color|Get one secondary weapon use for every 10 enemies killed.|colorend|"
+		 effect_1="kill_to_ability_use,10"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="16"
+		/>
+
+		<node id="INCREASE_ABILITY_DAMAGE"
+		 category="ABILITY"
+		 title="Ability Damage Increase"
+		 description="|color|Increase secondary weapon damage by 25% if applicable.|colorend|"
+		 effect_1="ability_damage_increase,0.25"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="19"
+		/>
+
+		<node id="INCREASE_ABILITY_DAMAGE_BUT_LESS_USES"
+		 category="ABILITY"
+		 title="Less Is More (Damage)"
+		 description="|color|Increase secondary weapon damage by 200% if applicable, but you have 50% less uses.|colorend|"
+		 effect_1="ability_damage_increase,1.0"
+		 effect_2="ability_use_amount_increase,-0.50"
+		 tags="NOT_IMPLEMENTED"
+		 medal_requirement="22"
+		/>
+
+		<node id="ABILITY_USE_INVISIBILITY"
+		 category="ABILITY"
+		 title="Secondary Use Invisiblity"
+		 description="|color|You are totally invisible for 4 seconds each time you use secondary weapon. No enemy is able to track you even if you shoot or melee them.|colorend|"
+		 effect_1="ability_use_gives_health,10"
+		 medal_requirement="28"
+		/>
+
+		<node id="ABILITY_USE_INVULNERABILITY"
+		 category="ABILITY"
+		 title="Secondary Uses Invulnerability"
+		 description="|color|You are invulnerable 2 seconds after each secondary weapon use.|colorend|"
+		 effect_1="ability_use_invulnerability,2"
+		 medal_requirement="31"
+		/>
+
+	</array>
+</root>

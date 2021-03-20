@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+<!--
+
+Ideas: stop time for 3-5 seconds, you can move freely.
+
+-->
+
+<root>
+    
+	<array id="ABILITIES">
+    
+        <node id="ROCKETS"
+		 title="Heavy Ryckets"
+		 description="An integrated launcher shooting devastating unguided rockets."
+		 icon="abilities/icons/rockets.png"
+         big_icon="abilities/icons/120px/rockets_120px.png"
+		 target_type="direction"
+		 cooldown="0.2"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="3"
+         
+		 level_1_activation_cost="32"
+		 level_1_description=""
+		 level_1_price="200"
+         color="ORANGE"
+		/>
+        
+		<node id="SHOCK_ORB"
+		 title="Shock Orb"
+		 description="A slowly moving orb of high energy dealing damage to anyone near it."
+		 icon="abilities/icons/shock_orb.png"
+         big_icon="abilities/icons/120px/shock_orb_120px.png"
+		 target_type="direction"
+		 cooldown="0.2"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="3"
+         
+		 level_1_activation_cost="32"
+		 level_1_description=""
+		 level_1_price="200"
+         color="CYAN"
+		/>
+
+		<node id="STUN_GRENADES"
+		 title="Stun Grenades"
+		 description="A grenade which stuns enemies for a short period."
+		 icon="abilities/icons/stun_grenades.png"
+		 target_type="direction_distance"
+		 max_level="3"
+
+         number_of_uses="3"
+         additional_uses_per_upgrade_level="1"
+         
+		 level_1_activation_cost="30"
+		 level_1_stun_duration="5"
+		 level_1_additional_explosion_range="0"
+		 level_1_description="Stuns enemies"
+		 level_1_price="200"
+         color="WHITE"
+		/>
+
+		<node id="FLAME_GRENADES"
+		 title="Flame Grenades"
+		 description="Flame grenades spawning a deadly sea of fire."
+		 icon="abilities/icons/flame_grenades.png"
+         big_icon="abilities/icons/120px/flame_grenades_120px.png"
+		 target_type="direction_distance"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="6"
+         
+		 level_1_activation_cost="30"
+		 level_1_additional_explosion_range="0"
+		 level_1_additional_explosion_damage="0"
+		 level_1_description=""
+		 level_1_price="200"
+         color="ORANGE"
+		/>
+
+		<node id="CONVERT_ENEMY"
+		 title="Psycho Darts"
+		 description="The contained psychoactive compound turns an organic enemy against his own and explodes violently within a few seconds."
+		 icon="abilities/icons/convert_enemy.png"
+         big_icon="abilities/icons/120px/convert_enemy_120px.png"
+		 target_type="direction"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="2"
+         additional_uses_per_upgrade_level="1"
+         
+		 level_1_activation_cost="30"
+		 level_1_conversion_max_time="6"
+		 level_1_explosion_range="120"
+		 level_1_explosion_damage="96"
+		 level_1_description=""
+		 level_1_price="200"
+         color="PURPLE"
+		/>
+
+		<node id="MINES"
+		 title="Mines"
+		 description="Anti-personnel mines that explode when enemies are detected in close proximity."
+		 icon="abilities/icons/mines.png"
+         big_icon="abilities/icons/120px/mines_120px.png"
+		 target_type="nothing"
+		 max_level="1"
+
+         number_of_uses="5"
+         
+		 level_1_activation_cost="21"
+		 level_1_description=""
+		 level_1_price="200"
+         color="GREEN"
+		/>
+
+		<node id="C4"
+		 title="C-4K"
+		 description="C-4K high-explosive is the cutting edge of non-nuclear explosives. Detonate by long pressing |ABILITY_BUTTON|."
+		 icon="abilities/icons/c4.png"
+         big_icon="abilities/icons/120px/c4.png"
+		 target_type="nothing"
+		 max_level="1"
+
+         number_of_uses="5"
+         
+		 level_1_activation_cost="40"
+		 level_1_description=""
+		 level_1_price="200"
+         color="GREEN"
+		/>
+
+		<node id="EXPLOSIVE_BOLT"
+		 title="Explosive Bolt"
+		 description="An explosive bolt that sticks to walls and enemies. Explodes after a short delay."
+		 icon="abilities/icons/explosive_bolt.png"
+         big_icon="abilities/icons/120px/explosive_bolt_120px.png"
+		 target_type="direction"
+		 cooldown="0.2"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="7"
+         
+		 level_1_activation_cost="20"
+		 level_1_description=""
+		 level_1_price="200"
+         color="ORANGE"
+		/>
+
+		<node id="NADE_LAUNCHER"
+		 title="Grenade Launcher"
+		 description="A launcher with grenades that bounce off walls."
+		 icon="abilities/icons/nade_launcher.png"
+         big_icon="abilities/icons/120px/nade_launcher_120px.png"
+		 target_type="direction"
+		 cooldown="0.2"
+		 stop_time="true"
+		 max_level="1"
+         
+         number_of_uses="5"
+
+		 level_1_activation_cost="25"
+		 level_1_description=""
+		 level_1_price="200"
+         color="PURPLE"
+		/>
+
+       <node id="STUN_PULSE"
+		 title="Stun Pulse"
+		 description="A generator that emits a pulse stunning nearby enemies."
+		 icon="abilities/icons/stun_pulse.png"
+		 target_type="direction"
+		 cooldown="0.3"
+		 max_level="1"
+
+         number_of_uses="2"
+         additional_uses_per_upgrade_level="1"
+         
+		 level_1_activation_cost="30"
+		 level_1_description=""
+		 level_1_price="200"
+         color="WHITE"
+		/>
+
+		<node id="OFFENSIVE_GRENADES"
+		 title="Frag Grenades"
+		 description="Grenades with a medium blast radius and long shrapnel range."
+		 icon="abilities/icons/offensive_grenades.png"
+         big_icon="abilities/icons/120px/offensive_grenades_120px.png"
+		 target_type="direction_distance"
+		 stop_time="true"
+		 max_level="1"
+         
+         number_of_uses="6"
+
+	 	 level_1_activation_cost="30"
+	 	 level_1_additional_explosion_range="0"
+	 	 level_1_additional_explosion_damage="0"
+	 	 level_1_additional_explosion_shrapnel="0"
+		 level_1_description="Grenades with blast and shrapnel damage."
+		 level_1_price="200"
+         color="RED"
+		/>
+        
+		<node id="PLASMA_BURST"
+		 title="Plasma Burst"
+		 description="Shoots a burning stream of plasma in a narrow cone."
+		 icon="abilities/icons/plasma_burst.png"
+         big_icon="abilities/icons/120px/plasma_burst_120px.png"
+		 target_type="direction"
+		 cooldown="0.5"
+		 max_level="1"
+
+         number_of_uses="30"
+         additional_uses_per_upgrade_level="5"
+         
+		 level_1_activation_cost="10"
+		 level_1_description=""
+		 level_1_price="200"
+         color="ORANGE"
+		/>
+
+        <node id="MICRO_MISSILES"
+		 title="Micro Missiles"
+		 description="Shoots a guided micro missile that locks on enemy targets."
+		 icon="abilities/icons/micro_missiles.png"
+         big_icon="abilities/icons/120px/micro_missiles_120px.png"
+		 target_type="direction"
+		 cooldown="0.3"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="4"
+         
+		 level_1_activation_cost="20"
+		 level_1_description=""
+		 level_1_price="200"
+         color="PURPLE"
+		/>
+        
+       	<node id="MECHANICAL_SPIDER"
+		 title="Mechanical Spider"
+		 description="Spawns a mechanical spider to aid you."
+		 icon="abilities/icons/spider.png"
+		 target_type="nothing"
+		 max_level="1"
+
+         number_of_uses="4"
+         additional_uses_per_upgrade_level="1"
+         
+		 level_1_activation_cost="50"
+		 level_1_description=""
+		 level_1_price="200"
+         color="GREEN"
+		/>
+        
+       	<node id="TURRET_MACHINE_GUN"
+		 title="Machine Gun Turret"
+		 description="Place a turret with a machine gun."
+		 icon="abilities/icons/turret.png"
+		 target_type="nothing"
+		 max_level="1"
+
+         number_of_uses="1"
+         additional_uses_per_upgrade_level="1"
+         
+		 level_1_activation_cost="50"
+		 level_1_description=""
+		 level_1_price="200"
+         color="GREEN"
+		/>
+
+	</array>
+    
+
+	<array id="UNUSED_ABILITIES">
+
+		<node id="DEFENSIVE_GRENADES"
+		 title="Blast Grenades"
+		 description="Grenades with a large blast radius and no shrapnel."
+		 icon="abilities/icons/defensive_grenades.png"
+         big_icon="abilities/icons/120px/defensive_grenades_120px.png"
+		 target_type="direction_distance"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="5"
+         
+		 level_1_activation_cost="28"
+		 level_1_additional_explosion_range="0"
+	 	 level_1_additional_explosion_damage="0"
+		 level_1_description="Grenades with blast damage."
+		 level_1_price="200"
+         color="RED"
+		/>
+ 
+        <node id="CLUSTER_GRENADES"
+		 title="Cluster Grenades"
+		 description="Cluster grenades with mixture of explosive and incendiary grenades."
+		 icon="abilities/icons/cluster_grenades.png"
+         big_icon="abilities/icons/120px/cluster_grenades_120px.png"
+		 target_type="direction_distance"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="3"
+
+		 level_1_activation_cost="40"
+		 level_1_additional_explosion_range="0"
+	 	 level_1_additional_explosion_damage="0"
+		 level_1_description="Grenades with blast damage."
+		 level_1_price="200"
+         color="ORANGE"
+		/>
+  
+		<node id="ANTIOCH_GRENADES"
+		 title="Antioch Grenades"
+		 description="Pie Jesu Domine, dona eis requiem."
+		 icon="abilities/icons/antioch_grenades.png"
+         big_icon="abilities/icons/120px/antioch_grenades.png"
+		 target_type="direction_distance"
+		 stop_time="true"
+		 max_level="1"
+
+         number_of_uses="2"
+         
+		 level_1_activation_cost="60"
+		 level_1_additional_explosion_range="0"
+	 	 level_1_additional_explosion_damage="0"
+		 level_1_description=""
+		 level_1_price="200"
+         color="WHITE"
+		/>
+        
+		<node id="LASER_PULSE"
+		 title="Laser Pulse"
+		 description="A laser pulse generator shooting hi-intensity laser beams in all directions."
+		 icon="abilities/icons/laser_pulse.png"
+         big_icon="abilities/icons/120px/laser_pulse_120px.png"
+		 target_type="nothing"
+		 cooldown="0.3"
+		 max_level="1"
+
+         number_of_uses="5"
+
+		 level_1_activation_cost="25"
+		 level_1_description=""
+		 level_1_price="200"
+         color="RED"
+		/>
+
+		<node id="RAIL_PULSE"
+		 title="Piercing Pulse"
+		 description="You've basically strapped small explosives to your body and coated them with small metal objects. Good luck."
+		 icon="abilities/icons/rail_pulse.png"
+         big_icon="abilities/icons/120px/rail_pulse.png"
+		 target_type="nothing"
+		 cooldown="0.3"
+		 max_level="1"
+
+         number_of_uses="5"
+         
+		 level_1_activation_cost="40"
+		 level_1_description=""
+		 level_1_price="200"
+         color="WHITE"
+		/>
+        
+       <node id="SONIC_PULSE"
+		 title="Sonic Pulse"
+		 description="A sonic wave generator that emits a pulse stunning all nearby organic enemies."
+		 icon="abilities/icons/stun_pulse.png"
+         big_icon="abilities/icons/120px/stun_pulse_120px.png"
+		 target_type="nothing"
+		 cooldown="0.5"
+		 max_level="1"
+         
+         number_of_uses="3"
+         additional_uses_per_upgrade_level="1"
+
+		 level_1_activation_cost="28"
+		 level_1_description=""
+		 level_1_price="200"
+         color="WHITE"
+		/>
+
+        <node id="EMP_PULSE"
+		 title="EMP Pulse"
+		 description="An EMP generator that emits a pulse stunning all nearby robotic enemies."
+		 icon="abilities/icons/emp.png"
+         big_icon="abilities/icons/120px/emp.png"
+		 target_type="nothing"
+		 cooldown="0.5"
+		 max_level="1"
+
+         number_of_uses="5"
+         
+		 level_1_activation_cost="28"
+		 level_1_description=""
+		 level_1_price="200"
+         color="WHITE"
+		/>
+        
+
+        <node id="DASH"
+		 title="Dash"
+		 description="Dash forward to movement direction while Gavel obliterates almost everything in your way."
+		 icon="abilities/icons/dash.png"
+         big_icon="abilities/icons/120px/dash.png"
+		 target_type="nothing"
+		 cooldown="0.3"
+		 max_level="1"
+
+         number_of_uses="9999"
+         
+		 level_1_activation_cost="2.6"
+		 level_1_description=""
+		 level_1_price="200"
+         color="GREEN"
+		/>
+        
+        <node id="GRASS_HOPPER"
+		 title="(NOT IMPLEMENTED) Grasshopper"
+		 description="Grasshopper grenade which explodes three times."
+		 icon="abilities/icons/dash.png"
+         big_icon="abilities/icons/120px/dash.png"
+		 target_type="nothing"
+		 cooldown="0.3"
+		 max_level="1"
+
+         number_of_uses="3"
+         
+		 level_1_activation_cost="2.6"
+		 level_1_description=""
+		 level_1_price="200"
+         color="GREEN"
+		/>
+       
+    </array>
+    
+</root>

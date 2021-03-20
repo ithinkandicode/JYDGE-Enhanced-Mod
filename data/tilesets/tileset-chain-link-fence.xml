@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="category" value="CHAIN_LINK_FENCE" />
+	</array>
+	
+	<array id="WALL_INNER_DOT">
+		<node output="actors/wall-chain-link-column.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CAP">
+		<node output="actors/wall-chain-link-cap.xml" />
+	</array>
+	
+	<array id="WALL_INNER_STRAIGHT">
+		<node output="actors/wall-chain-link-I.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_STRAIGHT">
+		<node output="actors/wall-chain-link-I.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CORNER">
+		<node output="actors/wall-chain-link-L.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MINOR">
+		<node output="actors/wall-chain-link-L.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MAJOR">
+		<node output="actors/wall-chain-link-L.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_FULL">
+		<node output="actors/wall-chain-link-X.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_QUARTER_OUTSIDE">
+		<node output="actors/wall-chain-link-X.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T">
+		<node output="actors/wall-chain-link-T.xml" />
+	</array>
+
+	<array id="WALL_OUTER_T">
+		<node output="actors/wall-chain-link-T.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T_QUARTER_OUTSIDE">
+		<node output="actors/wall-chain-link-T.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_STRAIGHT">
+		<node output="actors/wall-chain-link-I.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_T">
+		<node output="actors/wall-chain-link-T.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_CORNER_L">
+		<node output="actors/wall-chain-link-L.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_CORNER_R">
+		<node output="actors/wall-chain-link-L.xml" />
+	</array>
+	
+	<array id="WALL_MIDDLE">
+		<node output="actors/wall-chain-link-column.xml" />
+	</array>
+
+</root>

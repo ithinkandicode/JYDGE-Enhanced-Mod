@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+		<node id="tags" value="DISTANCE_FIELD" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+    	<node id="color" type="FLOAT4" semantic="COLOR" />
+    	<node id="relative_screen_position" type="FLOAT4" semantic="TEXTURE_COORDINATE" />
+	</array>
+
+	<array id="pixel_constants">
+		<node id="smoothing" type="FLOAT4" />
+		<node id="time_keys" type="FLOAT4" />
+		<node id="cursor_pos" type="FLOAT4" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="diffuse" type="2D" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.texture_coordinate = input.texture_coordinate;
+                    output.color = input.color;
+                    output.relative_screen_position = output.position;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+                const float TWO_PI = 6.28318530f;
+
+				void main()
+				{
+					float2 tc_offset;
+					if (cos(time_keys.x*TWO_PI)*cos(5+7*time_keys.x*TWO_PI) > -0.3)
+					{
+						tc_offset.x = 0.06*cos(0.75*(30*input.relative_screen_position.x/cursor_pos.z + 10*input.relative_screen_position.y/cursor_pos.w) + 4*time_keys.x * TWO_PI);
+						tc_offset.y = 0.02*cos(4+1.75*(30*input.relative_screen_position.x/cursor_pos.z + 10*input.relative_screen_position.y/cursor_pos.w) + 4*time_keys.x * TWO_PI);
+
+						if (sin(time_keys.x*TWO_PI)*cos(5+7*time_keys.x*TWO_PI) > 0)
+							tc_offset.x *= -1;
+					}
+					else
+					{
+						tc_offset.x = 0;
+						tc_offset.y = 0;
+					}
+
+					float4 diffuse_sample = sampleTexture(texture.diffuse, input.texture_coordinate + tc_offset);
+					diffuse_sample.a = smoothstep(0.5f - smoothing.x, 0.5f + smoothing.x, diffuse_sample.a);
+					output.color = diffuse_sample * input.color;
+				}
+			]]>
+		</node>
+	</array>
+</root>

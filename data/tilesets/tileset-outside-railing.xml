@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="category" value="OUTSIDE_WALL_WALL" />
+	</array>
+
+	<array id="WALL_INNER_CAP">
+		<node output="actors/wall-outside-railing-cap.xml" />
+	</array>
+	
+	<array id="WALL_INNER_STRAIGHT">
+		<node output="actors/wall-outside-railing-I.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_STRAIGHT">
+		<node output="actors/wall-outside-railing-I.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CORNER">
+		<node output="actors/wall-outside-railing-L-major.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MINOR">
+		<node output="actors/wall-outside-railing-L-minor.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MAJOR">
+		<node output="actors/wall-outside-railing-L-major.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CONNECTOR_I">
+		<node output="actors/wall-outside-railing-connector-I.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CONNECTOR_L">
+		<node output="actors/wall-outside-railing-connector-L-left.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CONNECTOR_R">
+		<node output="actors/wall-outside-railing-connector-L-right.xml" />
+	</array>
+	
+	
+	
+</root>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+<root>
+	<!-- You can add anything you like to the nodes, but they must contain at least the
+	following name-value pairs:
+		id			achievement id that matches GameCenter in iTunesConnect
+		points		how many points is this achievement worth.
+		name		achievement display name
+		icon		icon shown in game. (NOTE: be prepared to upload a hires 512x512 version of this file to iTunesConnect).
+		desc_pre	description text BEFORE the player has unlocked the achievement
+		desc_post	description text AFTER the player has unlocked the achievement
+
+	For hidden achievements (not shown in the list until player unlocks it):
+
+		tags		Possible values: "HIDDEN"
+
+	-->
+
+    <!--
+
+Achievement ideas for Jydge:
+
+-Complete the first mission.
+-Own all enhancements.
+-Own all primary weapons.
+-Own all secondary weapons.
+-All medals for all missions in Normal difficulty.
+-All medals for all missions in Hard difficulty.
+-All medals for all missions in Insane difficulty.
+-All medals for all missions in Nightmare difficulty.
+- Kill all unique enemies
+- Overkill: Deal more than X damage in one shot.
+- Open all locked doors (on all difficulties)
+- Find all collectibles
+
+
+
+    -->
+
+	<array id="ACHIEVEMENTS">
+
+		<node id="THREE_MEDALS" xbox_id="16"
+		 name="Mission Mastered"
+		 desc_pre="Get three medals in any mission on one difficulty."
+		 desc_post="Got three medals in a mission on one difficulty."
+		 icon="achievements/three_medals.png"
+		 points="15"
+         psn_type="Bronze (15 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQAQ"
+		/>
+
+		<node id="SAVIOR" xbox_id="17"
+		 name="Savior"
+		 desc_pre="Rescue 50 Citizens."
+		 desc_post="Rescued 50 Citizens."
+		 icon="achievements/savior.png"
+		 points="15"
+         psn_type="Bronze (15 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQAg"
+		/>
+
+		<node id="ACT_1" xbox_id="18"
+		 name="The Dawn of Jydgement"
+		 desc_pre="Complete the first act."
+		 desc_post="Completed the first act."
+		 icon="achievements/act_1.png"
+		 points="15"
+         psn_type="Silver (30 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQAw"
+		/>
+
+		<node id="ACT_2" xbox_id="19"
+		 name="The Jydgement Day"
+		 desc_pre="Complete the second act."
+		 desc_post="Completed the second act."
+		 icon="achievements/act_2.png"
+		 points="15"
+         psn_type="Silver (30 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQBA"
+		/>
+
+		<node id="ACT_3" xbox_id="20"
+		 name="The Dusk Falls"
+		 desc_pre="Complete the third act."
+		 desc_post="Completed the third act."
+		 icon="achievements/act_3.png"
+		 points="15"
+         psn_type="Silver (30 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQBQ"
+		/>
+
+		<node id="GOOD_ENDING" xbox_id="21"
+		 name="Lawful Not Awful"
+		 desc_pre="Complete the game as the hero of the citizens."
+		 desc_post="Completed the game as the hero of the citizens."
+		 icon="achievements/good_ending.png"
+		 points="30"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQBg"
+		/>
+
+		<node id="DIFFICULTY_NORMAL" xbox_id="22"
+		 name="Law Enforced"
+		 desc_pre="Get all medals for all missions of the Acts on Normal difficulty."
+		 desc_post="Got all medals for all missions of the Acts on Normal difficulty."
+		 icon="achievements/difficulty_normal.png"
+		 points="30"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQBw"
+		/>
+
+		<node id="DIFFICULTY_HARDCORE" xbox_id="23"
+		 name="Hardcore Law"
+		 desc_pre="Get all medals for all missions of the Acts on Hardcore difficulty."
+		 desc_post="Got all medals for all missions of the Acts on Hardcore difficulty."
+		 icon="achievements/difficulty_hardcore.png"
+		 points="30"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQCA"
+		/>
+
+		<node id="DIFFICULTY_GRIM" xbox_id="24"
+		 name="Crime Reaper"
+		 desc_pre="Get all medals for all missions of the Acts on Grim difficulty."
+		 desc_post="Got all medals for all missions of the Acts on Grim difficulty."
+		 icon="achievements/difficulty_grim.png"
+		 points="30"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQCQ"
+		/>
+
+		<node id="DIFFICULTY_NIGHTMARE" xbox_id="25"
+		 name="Nightmare Law"
+		 desc_pre="Get all medals for all missions of the Acts on Nightmare difficulty."
+		 desc_post="Got all medals for all missions of the Acts on Nightmare difficulty."
+		 icon="achievements/difficulty_nightmare.png"
+		 points="30"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQCg"
+		/>
+
+		<node id="CYBERWARE" xbox_id="26"
+		 name="Cyberware"
+		 desc_pre="Purchase all cyberware."
+		 desc_post="Purchased all cyberware."
+		 icon="achievements/cyberware.png"
+		 points="15"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQCw"
+		/>
+
+		<node id="WEAPON_MODS" xbox_id="27"
+		 name="Weapon Mods"
+		 desc_pre="Purchase all weapon mods."
+		 desc_post="Purchased all weapon mods."
+		 icon="achievements/weapon_mods.png"
+		 points="15"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQDA"
+		/>
+
+		<node id="UPGRADE_FIREMODES" xbox_id="28"
+		 name="Firemodes to the Max"
+		 desc_pre="Upgrade four Gavel firemodes to the max."
+		 desc_post="Upgraded four Gavel firemodes to the max."
+		 icon="achievements/upgrade_all_firemodes.png"
+		 points="15"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQDQ"
+		/>
+
+		<node id="UPGRADE_SPECIALS" xbox_id="29"
+		 name="Special Specialist"
+		 desc_pre="Upgrade four special weapons to the max."
+		 desc_post="Upgraded four special weapons to the max."
+		 icon="achievements/upgrade_all_specials.png"
+		 points="15"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQDg"
+		/>
+
+		<node id="COLLECTIBLES" xbox_id="30"
+		 name="Collector"
+		 desc_pre="Find all collectibles."
+		 desc_post="Found all collectibles."
+		 icon="achievements/collector.png"
+		 points="30"
+         psn_type="Gold (90 pts)"
+
+		 play_games_id="CgkIrY2qmOoIEAIQDw"
+		/>
+
+<!--
+		<node id="MULTIPLE_MELEE_KILLS"
+		 name="Melee Artist"
+		 desc_pre="Kill 3 enemies with a single melee strike."
+		 desc_post="Killed 3 enemies with a single melee strike."
+		 icon="achievements/temp.png"
+		 points="15"
+		/>
+-->
+
+	</array>
+
+</root>

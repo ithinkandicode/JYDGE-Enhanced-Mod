@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 collide_to_ground_plane="true" 
+		 die_on_collision="true" 
+		 number_of_particles="28" 
+		 initial_age="-0.5;0" 
+		 age_to_die="1;1.5" 
+		 position_offset="0,0,-400" 
+		 position_spread_box="800,700,15" 
+		 move_speed="3000;4200" 
+		 move_direction="0,0,1" 
+		 move_angle_spread="0;2" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.1,1;0.2,1;1,0" 
+		 scale_curve="0,1;1,1" 
+		 alpha_multiplier="0.05;0.07" 
+		 scale_multiplier="1" 
+		 rotation_angles="0,0,-180;0,0,180" 
+		 angular_velocity="0,0,-90;0,0,90" 
+		 blend_mode="ADDITIVE" 
+		 effect_on_collision="effects/raindrop-splash.xml" 
+		 bitmaps="effects/rain-drop.png" 
+		 line_length="300" 
+		 />
+
+	</array>
+</root>

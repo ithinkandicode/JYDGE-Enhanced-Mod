@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL_ENEMY" 
+		 name="Spiderbot" 
+		 renderer="Spider" 
+		 ai="Spiderbot" 
+		 weapon="weapons/heavy-rocket-launcher.xml" 
+		 friend_group="ENEMIES" 
+		 turn_speed="3.5" 
+		 move_speed="130" 
+		 move_acceleration="1900" 
+		 dampening_factor="8.0" 
+		 restitution_coefficient="0.15" 
+		 scale="1.0" 
+		 aggro_radius="2000" 
+		 friend_avoidance_radius="10" 
+		 model_idle="models/spiderbot.xml" 
+		 bitmap_shadow="shadows/shadow-circle-large.png" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 hit_points="2300" 
+		 effect_on_death="effects/explosion-robospider.xml"
+		 move_animation_playback_speed="0.9"		 
+		 death_animation="models/animations/spiderbot_rig-spiderbot_die_shaking.xml" 
+		 walk_forward_animation="models/animations/spiderbot_rig-spiderbot_walk.xml" 
+		 idle_animation="models/animations/spiderbot_rig-spiderbot_idle.xml" 
+		 mass="1000" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 grenade_disorientation_time="1" 
+		 sound_collection="spiderbot" 
+		 actor_class="robotic" 
+		 explosion_damage="1000" 
+		 explosion_range="500" 
+		 sound_blow="sfx/spiderbot-going-to-blow" 
+		 weapon_1="weapons/heavy-rocket-launcher.xml" 
+		 weapon_2="weapons/spiderbot-homing_launcher.xml" 
+		 weapon_3="weapons/spiderbot-homing_launcher-fast.xml" 
+		/>
+
+	</array>
+
+	<array id="GIBS_EXPLOSION">
+		<node id="EXPLOSION_LARGE" 
+		 model_group_1="METAL_LARGE,turret,6" 
+		 model_group_2="METAL_SMALL,turret,6" 
+		 model_group_3="METAL_MISC,turret,6,OIL" 
+		 model_group_4="SPIDERBOT_BODY,turret,6" 
+		 model_group_5="SPIDERBOT_TURRET,turret,6" 
+		 model_group_6="SPIDERBOT_LEG,leg_front.001.L,3" 
+		 model_group_7="SPIDERBOT_LEG,leg_front.001.R,3" 
+		 model_group_8="SPIDERBOT_LEG,leg_rear.001.L,3" 
+		 model_group_9="SPIDERBOT_LEG,leg_rear.001.R,3" 
+		 particle_effect_1="effects/explosion-robospider.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

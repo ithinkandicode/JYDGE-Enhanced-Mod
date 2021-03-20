@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+<array id="info">
+ <node id="creator_program" value="JYDGE" />
+ <node id="creator_version" value="0.9.0" />
+ <node id="cells_width" value="64" />
+ <node id="cells_height" value="50" />
+ <node id="ambient_light" r="0.12" g="0.13" b="0.22" />
+ <node id="key_values" 
+key_FLOAT_fog_r="0.06" key_FLOAT_fog_g="0.1" key_FLOAT_fog_b="0.2"  />
+</array>
+
+<array id="markers">
+ <node id="entry_point" ref_number="1" x="1590" y="2190" angle_z="270.00" radius="0" key_STRING_name="Shady Back Alley" />
+ <node id="jump_to_mission" ref_number="2" x="2010" y="2070" radius="54" key_STRING_target="Menu" key_BOOLEAN_allow_entry="true" />
+</array>
+
+<array id="sound_sources">
+ <node ref_number="3" x="1153" y="2099" radius="120" sound="sfx/elevator_music_1" looping="1" volume="1.0" />
+ <node ref_number="4" x="1338" y="2175" radius="120" sound="sfx/elevator_music_2" looping="1" volume="1.0" />
+ <node ref_number="5" x="1615" y="2233" radius="120" sound="sfx/elevator_music_3" looping="1" volume="1.0" />
+ <node ref_number="6" x="2027" y="2110" radius="120" sound="sfx/elevator_music_4" looping="1" volume="1.0" />
+</array>
+
+<array id="lights">
+ <node type="POINT" x="1170" y="2040" z="-120" ref_number="7" color_g="0.24" color_b="0.25" radius="174.00" draw_hilight="false" />
+ <node type="POINT" x="1350" y="2100" z="-120" ref_number="8" color_r="0.20" color_b="0.24" radius="172.00" draw_hilight="false" />
+ <node type="POINT" x="1590" y="2160" z="-120" ref_number="9" color_r="0.21" color_g="0.21" radius="173.00" draw_hilight="false" />
+ <node type="POINT" x="2010" y="2039" z="-120" ref_number="10" color_g="0.22" radius="173.00" draw_hilight="false" />
+ <node type="POINT" x="1595" y="2452" z="447" ref_number="11" radius="212.00" draw_hilight="false" />
+ <node type="POINT" x="1596" y="2735" z="447" ref_number="12" radius="212.00" draw_hilight="false" />
+ <node type="POINT" x="1597" y="3028" z="447" ref_number="13" radius="212.00" draw_hilight="false" />
+ <node type="POINT" x="1589" y="1673" z="-120" ref_number="14" radius="344.92" draw_hilight="false" />
+ <node type="POINT" x="1883" y="1881" z="-120" ref_number="15" radius="229.72" draw_hilight="false" />
+ <node type="POINT" x="1237" y="1589" z="-120" ref_number="16" radius="260.96" draw_hilight="false" />
+ <node type="POINT" x="1992" y="1603" z="-120" ref_number="17" radius="210.06" draw_hilight="false" />
+ <node type="POINT" x="1291" y="1865" z="-120" ref_number="18" radius="229.72" draw_hilight="false" />
+ <node type="POINT" x="1281" y="1352" z="-120" ref_number="19" radius="200.90" draw_hilight="false" />
+ <node type="POINT" x="1593" y="1358" z="-120" ref_number="20" radius="159.88" draw_hilight="false" />
+ <node type="POINT" x="1869" y="1331" z="-120" ref_number="21" radius="189.27" draw_hilight="false" />
+ <node type="POINT" x="2002" y="1423" z="-120" ref_number="22" radius="199.15" draw_hilight="false" />
+ <node type="POINT" x="1780" y="1512" z="-120" ref_number="23" radius="199.15" draw_hilight="false" />
+ <node type="POINT" x="1458" y="1494" z="-120" ref_number="24" radius="199.15" draw_hilight="false" />
+ <node type="SPOT" x="1500" y="1200" z="-50" ref_number="25" angle_z="89.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="1680" y="1200" z="-50" ref_number="26" angle_z="89.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="1830" y="1200" z="-50" ref_number="27" angle_z="89.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="2160" y="1500" z="-50" ref_number="28" angle_z="179.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="2100" y="1350" z="-50" ref_number="29" angle_z="179.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="1020" y="1890" z="-50" ref_number="30" angle_z="359.98" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="2160" y="1890" z="-50" ref_number="31" angle_z="179.98" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="1080" y="1350" z="-50" ref_number="32" angle_z="359.97" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="SPOT" x="1350" y="1200" z="-50" ref_number="33" angle_z="89.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="137.58" draw_hilight="false" />
+ <node type="POINT" x="1614" y="2004" z="-120" ref_number="34" radius="229.72" draw_hilight="false" />
+ <node type="POINT" x="2917" y="1661" z="1768" ref_number="35" color_r="0.10" radius="205.23" />
+ <node type="POINT" x="2913" y="1665" z="2280" ref_number="36" color_r="0.10" intensity="2.00" radius="257.00" />
+ <node type="SPOT" x="2160" y="1560" z="-50" ref_number="37" angle_z="179.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="2160" y="1620" z="-50" ref_number="38" angle_z="179.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="2160" y="1680" z="-50" ref_number="39" angle_z="179.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="1020" y="1500" z="-50" ref_number="40" angle_z="359.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="1020" y="1560" z="-50" ref_number="41" angle_z="359.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="1020" y="1620" z="-50" ref_number="42" angle_z="359.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+ <node type="SPOT" x="1020" y="1680" z="-50" ref_number="43" angle_z="359.99" color_r="0.31" color_g="0.58" color_b="0.70" radius="111.58" draw_hilight="false" />
+</array>
+
+<array id="particle_emitters">
+ <node ref_number="49" x="2866" y="1471" scale="1.36" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="50" x="551" y="1693" scale="1.02" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="51" x="1554" y="687" scale="1.15" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="52" x="988" y="480" scale="1.15" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="53" x="2193" y="2530" scale="1.14" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="54" x="1703" y="2693" scale="1.14" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="55" x="1126" y="2575" scale="1.14" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="56" x="-125" y="1676" scale="1.02" emit_interval="0.50" effect="effects/rain-small.xml" />
+ <node ref_number="57" x="1682" y="662" z="1448" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="58" x="1565" y="355" z="1413" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="59" x="1545" y="910" z="1413" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="60" x="1332" y="2564" z="1413" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="61" x="1741" y="2824" z="1448" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="62" x="1580" y="3016" z="1413" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="63" x="1858" y="2491" z="1448" scale="1.18" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="64" x="2833" y="1815" z="1887" scale="1.36" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="65" x="3020" y="1602" z="1818" scale="1.36" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="66" x="2767" y="1623" z="1738" scale="1.36" emit_interval="0.50" effect="effects/fog-immortal.xml" number_of_times_to_emit="1" />
+ <node ref_number="67" x="2830" y="1644" z="2271" scale="1.36" emit_interval="0.50" effect="effects/fog-immortal.xml" particle_spawn_alpha="0.20" number_of_times_to_emit="1" />
+</array>
+
+<array id="scriptable_surfaces">
+ <node ref_number="68" x="1978" y="2080" z="-160" angle_x="-80.00" angle_z="85.61" script="scriptable-surfaces/neon_exit.nut" />
+</array>
+
+<array id="cells">
+ <node x="5" y="0" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="6" y="0" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="7" y="0" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="8" y="0" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="9" y="0" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="10" y="0" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="11" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="12" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="13" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="14" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="15" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="16" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="17" y="0" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="18" y="0" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="19" y="0" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="20" y="0" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="21" y="0" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="1" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="6" y="1" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="7" y="1" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="8" y="1" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="9" y="1" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="10" y="1" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="11" y="1" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="12" y="1" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="13" y="1" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="14" y="1" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="15" y="1" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="16" y="1" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="17" y="1" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="18" y="1" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="19" y="1" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="20" y="1" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="21" y="1" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="2" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="6" y="2" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="7" y="2" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="8" y="2" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="9" y="2" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="10" y="2" bm="ground-tiles/black.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="11" y="2" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="12" y="2" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="13" y="2" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="14" y="2" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="15" y="2" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="16" y="2" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="17" y="2" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="18" y="2" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="19" y="2" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="20" y="2" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="21" y="2" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="31" y="2" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="2" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="2" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="2" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="35" y="2" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="36" y="2" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="37" y="2" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="2" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="2" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="40" y="2" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="41" y="2" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="42" y="2" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="43" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="46" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="47" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="48" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="49" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="50" y="2" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="31" y="3" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="3" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="3" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="3" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="35" y="3" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="36" y="3" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="37" y="3" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="3" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="3" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="40" y="3" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="41" y="3" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="42" y="3" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="43" y="3" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="3" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="3" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="46" y="3" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="47" y="3" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="48" y="3" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="49" y="3" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="50" y="3" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="4" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="4" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="4" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="4" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="35" y="4" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="36" y="4" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="37" y="4" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="4" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="4" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="40" y="4" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="41" y="4" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="42" y="4" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="43" y="4" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="4" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="4" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="46" y="4" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="47" y="4" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="48" y="4" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="49" y="4" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="50" y="4" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="5" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="5" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="5" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="5" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="5" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="5" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="5" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="5" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="5" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="40" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="43" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="46" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="47" y="5" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="48" y="5" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="49" y="5" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="50" y="5" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="6" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="6" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="6" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="6" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="6" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="6" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="6" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="6" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="6" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="40" y="6" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="6" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="6" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="43" y="6" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="6" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="6" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="6" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="6" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="6" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="49" y="6" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="50" y="6" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="7" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="7" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="7" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="7" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="7" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="7" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="7" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="7" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="7" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="40" y="7" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="7" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="7" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="43" y="7" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="7" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="7" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="7" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="7" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="7" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="49" y="7" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="50" y="7" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="8" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="8" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="8" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="8" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="8" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="8" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="8" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="8" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="8" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="40" y="8" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="8" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="8" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="43" y="8" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="8" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="8" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="8" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="8" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="8" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="49" y="8" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="50" y="8" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="9" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="9" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="9" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="9" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="9" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="9" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="9" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="9" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="9" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="40" y="9" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="9" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="9" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="43" y="9" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="9" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="9" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="9" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="9" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="9" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="9" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="9" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="31" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="32" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="38" y="10" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="39" y="10" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="40" y="10" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="10" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="10" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="43" y="10" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="44" y="10" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="45" y="10" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="10" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="10" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="10" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="10" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="10" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="31" y="11" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="32" y="11" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="11" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="11" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="11" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="11" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="11" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="38" y="11" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="39" y="11" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="40" y="11" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="11" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="11" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="43" y="11" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="44" y="11" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="45" y="11" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="11" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="11" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="11" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="11" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="11" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="31" y="12" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="32" y="12" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="12" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="12" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="35" y="12" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="36" y="12" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="37" y="12" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="38" y="12" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="39" y="12" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="40" y="12" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="12" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="12" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="43" y="12" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="44" y="12" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="45" y="12" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="12" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="12" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="12" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="12" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="12" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="1" y="13" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="2" y="13" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="3" y="13" bm="ground-tiles/black.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="4" y="13" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="13" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="6" y="13" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="7" y="13" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="8" y="13" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="9" y="13" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="10" y="13" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="11" y="13" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="12" y="13" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="13" y="13" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="14" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="15" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="16" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="17" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="18" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="19" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="20" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="13" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="31" y="13" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="32" y="13" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="13" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="35" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="36" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="37" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="38" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="39" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="40" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="41" y="13" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="42" y="13" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="43" y="13" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="44" y="13" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="45" y="13" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="46" y="13" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="47" y="13" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="48" y="13" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="13" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="13" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="1" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="6" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="7" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="8" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="9" y="14" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="10" y="14" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="11" y="14" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="12" y="14" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="13" y="14" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="14" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="15" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="16" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="17" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="18" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="19" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="20" y="14" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="14" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="31" y="14" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="32" y="14" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="14" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="14" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="35" y="14" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="36" y="14" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="37" y="14" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="38" y="14" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="39" y="14" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="40" y="14" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="41" y="14" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="42" y="14" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="43" y="14" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="44" y="14" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="45" y="14" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="46" y="14" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="47" y="14" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="48" y="14" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="14" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="14" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="1" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="6" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="7" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="8" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="9" y="15" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="10" y="15" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="11" y="15" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="12" y="15" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="13" y="15" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="14" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="15" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="16" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="17" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="18" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="19" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="20" y="15" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="15" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="31" y="15" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="32" y="15" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="15" bm="ground-tiles/black.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="15" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="35" y="15" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="36" y="15" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="37" y="15" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="38" y="15" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="39" y="15" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="40" y="15" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="41" y="15" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="42" y="15" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="43" y="15" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="44" y="15" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="45" y="15" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="46" y="15" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="47" y="15" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="48" y="15" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="15" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="15" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="1" y="16" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="16" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="16" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="16" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="16" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="6" y="16" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="7" y="16" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="8" y="16" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="9" y="16" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="10" y="16" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="11" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="14" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="15" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="16" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="17" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="18" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="19" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="20" y="16" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="16" bm="ground-tiles/black.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="31" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="32" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="33" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="34" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="35" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="36" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="37" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="38" y="16" bm="ground-tiles/black.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="39" y="16" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="40" y="16" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="41" y="16" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="42" y="16" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="43" y="16" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="44" y="16" bm="ground-tiles/black.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="45" y="16" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="46" y="16" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="47" y="16" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="48" y="16" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="49" y="16" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="50" y="16" bm="ground-tiles/black.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="1" y="17" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="17" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="17" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="8" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="9" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="10" y="17" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="11" y="17" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="17" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="17" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="1" y="18" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="18" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="18" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="18" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="18" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="18" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="18" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="8" y="18" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="9" y="18" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="18" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="18" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="18" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="18" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="1" y="19" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="19" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="19" bm="ground-tiles/black.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="19" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="19" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="19" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="19" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="8" y="19" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="9" y="19" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="19" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="19" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="19" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="19" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="1" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="2" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="3" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="4" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="8" y="20" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="9" y="20" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="20" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="20" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="20" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="20" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="22" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="23" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="24" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="25" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="26" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="27" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="28" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="29" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="30" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="31" y="20" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="1" y="21" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="2" y="21" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="3" y="21" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="4" y="21" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="21" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="21" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="8" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="9" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="21" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="18" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="19" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="20" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="21" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="22" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="23" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="24" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="25" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="26" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="27" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="28" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="29" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="30" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="31" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="32" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="33" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="34" y="21" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="1" y="22" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="2" y="22" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="3" y="22" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="4" y="22" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="22" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="22" bm="ground-tiles/black.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="8" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="9" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="22" bm="ground-tiles/black.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="18" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="19" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="20" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="22" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="23" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="24" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="25" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="26" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="27" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="28" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="29" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="30" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="31" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="32" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="33" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="22" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="18" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="19" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="20" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="21" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="22" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="23" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="24" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="25" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="26" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="27" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="28" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="29" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="30" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="31" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="32" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="33" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="34" y="23" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="17" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="18" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="19" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="20" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="21" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="22" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="23" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="24" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="25" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="26" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="27" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="28" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="29" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="30" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="31" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="32" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="33" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="34" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="35" y="24" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="17" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="18" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="19" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="20" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="21" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="22" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="25" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="26" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="27" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="28" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="29" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="30" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="32" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="25" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="18" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="19" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="20" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="21" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="22" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="26" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="25" y="26" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="26" y="26" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="27" y="26" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="28" y="26" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="29" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="30" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="32" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="26" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="18" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="19" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="20" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="21" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="22" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="27" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="25" y="27" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="26" y="27" bm="ground-tiles/white-tiles.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="27" y="27" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="28" y="27" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="29" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="30" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="32" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="27" bm="ground-tiles/floor-wood-dark.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="18" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="19" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="20" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="21" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="22" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="25" y="28" bm="ground-tiles/white-tiles.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="26" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="27" y="28" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="28" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="29" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="30" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="31" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="32" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="28" bm="ground-tiles/floor-tiled-small2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="18" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="19" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="20" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="21" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="22" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="29" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="25" y="29" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="26" y="29" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="27" y="29" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="28" y="29" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="29" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="30" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="31" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="32" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="29" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="18" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="19" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="20" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="21" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="22" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="30" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="30" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="25" y="30" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="26" y="30" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="27" y="30" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="28" y="30" bm="ground-tiles/floor-tiled-small2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="29" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="30" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="31" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="32" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="30" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="18" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="19" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="20" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="21" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="22" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="31" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="31" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="25" y="31" bm="ground-tiles/white-tiles.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="26" y="31" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="27" y="31" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="28" y="31" bm="ground-tiles/white-tiles.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="29" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="30" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="31" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="32" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="34" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="35" y="31" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="17" y="32" bm="ground-tiles/white-tiles.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="18" y="32" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="19" y="32" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="20" y="32" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="21" y="32" bm="ground-tiles/white-tiles.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="22" y="32" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="23" y="32" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="24" y="32" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="25" y="32" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="26" y="32" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="27" y="32" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="28" y="32" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="29" y="32" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="30" y="32" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="31" y="32" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="32" y="32" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="32" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="34" y="32" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="35" y="32" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="18" y="33" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="19" y="33" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="20" y="33" bm="ground-tiles/white-tiles.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="21" y="33" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="22" y="33" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="23" y="33" bm="ground-tiles/white-tiles.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="24" y="33" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="25" y="33" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="26" y="33" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="27" y="33" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="28" y="33" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="29" y="33" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="30" y="33" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="31" y="33" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="32" y="33" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="33" y="33" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="34" y="33" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="18" y="34" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="19" y="34" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="20" y="34" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="21" y="34" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="22" y="34" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="23" y="34" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="24" y="34" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="25" y="34" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="26" y="34" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="27" y="34" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="28" y="34" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="29" y="34" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="30" y="34" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="31" y="34" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="32" y="34" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="33" y="34" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="34" y="34" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="18" y="35" bm="ground-tiles/white-tiles.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="19" y="35" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="20" y="35" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="21" y="35" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="22" y="35" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="23" y="35" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="24" y="35" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="25" y="35" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="26" y="35" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="27" y="35" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="28" y="35" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="29" y="35" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="30" y="35" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="31" y="35" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="32" y="35" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="33" y="35" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="34" y="35" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="21" y="36" bm="ground-tiles/white-tiles.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="22" y="36" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="23" y="36" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="24" y="36" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="25" y="36" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="26" y="36" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="27" y="36" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="28" y="36" bm="ground-tiles/white-tiles.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="29" y="36" bm="ground-tiles/white-tiles.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="30" y="36" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="31" y="36" bm="ground-tiles/white-tiles.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="24" y="37" bm="ground-tiles/white-tiles.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="25" y="37" bm="ground-tiles/white-tiles.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="26" y="37" bm="ground-tiles/white-tiles.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="27" y="37" bm="ground-tiles/white-tiles.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="28" y="37" bm="ground-tiles/white-tiles.jpg" r="0.88" g="0.88" b="0.88" />
+</array>
+
+<array id="ground_decals">
+ <node x="2010.00" y="1980.00" a="180.00" s="1.00" fnt="fonts/big-text.mft" text="A" color_g="0.00"  />
+ <node x="1170.00" y="1980.00" a="180.00" s="1.00" fnt="fonts/big-text.mft" text="E" color_g="0.00" color_b="0.00"  />
+ <node x="1590.00" y="2100.00" a="180.00" s="1.00" fnt="fonts/big-text.mft" text="C" color_r="0.00" color_g="0.00"  />
+ <node x="1350.00" y="2040.00" a="180.00" s="1.00" fnt="fonts/big-text.mft" text="D" color_r="0.00" color_b="0.00"  />
+ <node x="1830.00" y="2040.00" a="180.00" s="1.00" fnt="fonts/big-text.mft" text="B" color_g="0.54" color_b="0.00"  />
+</array>
+
+<array id="actors">
+ <node ref_number="69" type="actors/wall-outside-I.xml" x="1980" y="1260" angle_z="90"  />
+ <node ref_number="70" type="actors/wall-outside-I.xml" x="2100" y="2040" angle_z="180"  />
+ <node ref_number="71" type="actors/wall-outside-I.xml" x="2100" y="2100" angle_z="180"  />
+ <node ref_number="72" type="actors/wall-outside-L-major.xml" x="2100" y="2160" angle_z="180"  />
+ <node ref_number="73" type="actors/wall-outside-I.xml" x="2040" y="2160" angle_z="270"  />
+ <node ref_number="74" type="actors/wall-outside-I.xml" x="1200" y="2160" angle_z="270"  />
+ <node ref_number="75" type="actors/wall-outside-L-major.xml" x="1080" y="2160" angle_z="270"  />
+ <node ref_number="76" type="actors/wall-outside-I.xml" x="1140" y="2160" angle_z="270"  />
+ <node ref_number="77" type="actors/wall-outside-I.xml" x="1080" y="2100" angle_z="360"  />
+ <node ref_number="78" type="actors/wall-outside-I.xml" x="1080" y="2040" angle_z="360"  />
+ <node ref_number="79" type="actors/wall-outside-I.xml" x="1980" y="2160" angle_z="270"  />
+ <node ref_number="80" type="actors/wall-outside-L-minor.xml" x="1920" y="2160"  />
+ <node ref_number="81" type="actors/wall-outside-L-major.xml" x="1920" y="2220" angle_z="180"  />
+ <node ref_number="82" type="actors/wall-outside-I.xml" x="1860" y="2220" angle_z="270"  />
+ <node ref_number="83" type="actors/wall-outside-I.xml" x="1320" y="2220" angle_z="270"  />
+ <node ref_number="84" type="actors/wall-outside-L-minor.xml" x="1260" y="2160" angle_z="90"  />
+ <node ref_number="85" type="actors/wall-outside-L-major.xml" x="1260" y="2220" angle_z="270"  />
+ <node ref_number="86" type="actors/elevator-small.xml" x="1170" y="2070" angle_z="270"  />
+ <node ref_number="87" type="actors/elevator-small.xml" x="1350" y="2130" angle_z="270"  />
+ <node ref_number="88" type="actors/elevator-small.xml" x="1830" y="2130" angle_z="270"  />
+ <node ref_number="89" type="actors/elevator-small.xml" x="2010" y="2070" angle_z="270"  />
+ <node ref_number="90" type="actors/elevator-small.xml" x="1590" y="2190" angle_z="270"  />
+ <node ref_number="91" type="actors/wall-outside-I.xml" x="540" y="780" angle_z="90"  />
+ <node ref_number="92" type="actors/wall-outside-I.xml" x="480" y="780" angle_z="90"  />
+ <node ref_number="93" type="actors/wall-outside-window.xml" x="660" y="1380" angle_z="270"  />
+ <node ref_number="94" type="actors/wall-outside-window.xml" x="720" y="1380" angle_z="270"  />
+ <node ref_number="95" type="actors/door-elevator-small-sliding.xml" x="1590" y="2130" angle_z="270"  />
+ <node ref_number="96" type="actors/door-elevator-small-sliding.xml" x="1590" y="2130" angle_z="90"  />
+ <node ref_number="97" type="actors/door-elevator-small-sliding.xml" x="2010" y="2010" angle_z="270"  />
+ <node ref_number="98" type="actors/door-elevator-small-sliding.xml" x="2010" y="2010" angle_z="90"  />
+ <node ref_number="99" type="actors/door-elevator-small-sliding.xml" x="1350" y="2070" angle_z="270"  />
+ <node ref_number="100" type="actors/door-elevator-small-sliding.xml" x="1350" y="2070" angle_z="90"  />
+ <node ref_number="101" type="actors/door-elevator-small-sliding.xml" x="1170" y="2010" angle_z="270"  />
+ <node ref_number="102" type="actors/door-elevator-small-sliding.xml" x="1170" y="2010" angle_z="90"  />
+ <node ref_number="103" type="actors/wall-outside-L-major.xml" x="1320" y="180" angle_z="180"  />
+ <node ref_number="104" type="actors/wall-outside-I.xml" x="1320" y="120" angle_z="180"  />
+ <node ref_number="105" type="actors/wall-outside-I.xml" x="1320" y="60" angle_z="180"  />
+ <node ref_number="106" type="actors/wall-outside-I.xml" x="1320" y="0" angle_z="180"  />
+ <node ref_number="107" type="actors/wall-outside-I.xml" x="1320" y="-60" angle_z="180"  />
+ <node ref_number="108" type="actors/wall-outside-I.xml" x="1320" y="-120" angle_z="180"  />
+ <node ref_number="109" type="actors/wall-outside-I.xml" x="1320" y="-180" angle_z="180"  />
+ <node ref_number="110" type="actors/wall-outside-I.xml" x="1320" y="-240" angle_z="180"  />
+ <node ref_number="111" type="actors/wall-outside-L-major.xml" x="1320" y="-480" angle_z="90"  />
+ <node ref_number="112" type="actors/wall-outside-I.xml" x="1260" y="-480" angle_z="90"  />
+ <node ref_number="113" type="actors/wall-outside-I.xml" x="1200" y="-480" angle_z="90"  />
+ <node ref_number="114" type="actors/wall-outside-I.xml" x="1140" y="-480" angle_z="90"  />
+ <node ref_number="115" type="actors/wall-outside-L-major.xml" x="300" y="-480"  />
+ <node ref_number="116" type="actors/wall-outside-I.xml" x="360" y="-480" angle_z="90"  />
+ <node ref_number="117" type="actors/wall-outside-I.xml" x="300" y="-420" angle_z="360"  />
+ <node ref_number="118" type="actors/wall-outside-I.xml" x="300" y="-360" angle_z="360"  />
+ <node ref_number="119" type="actors/wall-outside-I.xml" x="300" y="-300" angle_z="360"  />
+ <node ref_number="120" type="actors/wall-outside-I.xml" x="300" y="-240" angle_z="360"  />
+ <node ref_number="121" type="actors/wall-outside-I.xml" x="300" y="-180" angle_z="360"  />
+ <node ref_number="122" type="actors/wall-outside-I.xml" x="300" y="-120" angle_z="360"  />
+ <node ref_number="123" type="actors/wall-outside-I.xml" x="300" y="-60" angle_z="360"  />
+ <node ref_number="124" type="actors/wall-outside-I.xml" x="300" y="0" angle_z="360"  />
+ <node ref_number="125" type="actors/wall-outside-I.xml" x="300" y="60" angle_z="360"  />
+ <node ref_number="126" type="actors/wall-outside-I.xml" x="300" y="120" angle_z="360"  />
+ <node ref_number="127" type="actors/wall-outside-L-major.xml" x="300" y="180" angle_z="270"  />
+ <node ref_number="128" type="actors/wall-outside-I.xml" x="360" y="180" angle_z="270"  />
+ <node ref_number="129" type="actors/wall-outside-L-major.xml" x="1320" y="1020" angle_z="180"  />
+ <node ref_number="130" type="actors/wall-outside-I.xml" x="1320" y="960" angle_z="180"  />
+ <node ref_number="131" type="actors/wall-outside-I.xml" x="1320" y="900" angle_z="180"  />
+ <node ref_number="132" type="actors/wall-outside-L-major.xml" x="1320" y="780" angle_z="90"  />
+ <node ref_number="133" type="actors/wall-outside-I.xml" x="1320" y="840" angle_z="180"  />
+ <node ref_number="134" type="actors/wall-outside-I.xml" x="420" y="780" angle_z="90"  />
+ <node ref_number="135" type="actors/wall-outside-L-major.xml" x="60" y="780"  />
+ <node ref_number="136" type="actors/wall-outside-I.xml" x="120" y="780" angle_z="90"  />
+ <node ref_number="137" type="actors/wall-outside-I.xml" x="60" y="840" angle_z="360"  />
+ <node ref_number="138" type="actors/wall-outside-I.xml" x="60" y="900" angle_z="360"  />
+ <node ref_number="139" type="actors/wall-outside-I.xml" x="60" y="960" angle_z="360"  />
+ <node ref_number="140" type="actors/wall-outside-I.xml" x="60" y="1020" angle_z="360"  />
+ <node ref_number="141" type="actors/wall-outside-window.xml" x="420" y="1380" angle_z="270"  />
+ <node ref_number="142" type="actors/wall-outside-I.xml" x="360" y="1380" angle_z="270"  />
+ <node ref_number="143" type="actors/wall-outside-window.xml" x="120" y="1380" angle_z="270"  />
+ <node ref_number="144" type="actors/wall-outside-L-major.xml" x="60" y="1380" angle_z="270"  />
+ <node ref_number="145" type="actors/wall-outside-window.xml" x="240" y="1380" angle_z="270"  />
+ <node ref_number="146" type="actors/wall-outside-window.xml" x="180" y="1380" angle_z="270"  />
+ <node ref_number="147" type="actors/wall-outside-I.xml" x="300" y="1380" angle_z="270"  />
+ <node ref_number="148" type="actors/wall-outside-window.xml" x="540" y="1380" angle_z="270"  />
+ <node ref_number="149" type="actors/wall-outside-window.xml" x="480" y="1380" angle_z="270"  />
+ <node ref_number="150" type="actors/wall-outside-I.xml" x="600" y="1380" angle_z="270"  />
+ <node ref_number="151" type="actors/wall-outside-I.xml" x="60" y="1320" angle_z="360"  />
+ <node ref_number="152" type="actors/wall-outside-window.xml" x="60" y="1260" angle_z="360"  />
+ <node ref_number="153" type="actors/wall-outside-window.xml" x="60" y="1140" angle_z="360"  />
+ <node ref_number="154" type="actors/wall-outside-I.xml" x="60" y="1080" angle_z="360"  />
+ <node ref_number="155" type="actors/wall-outside-window.xml" x="60" y="1200" angle_z="360"  />
+ <node ref_number="156" type="actors/wall-residential-thin-cap.xml" x="60" y="1020" angle_z="270"  />
+ <node ref_number="157" type="actors/wall-residential-thin-cap.xml" x="600" y="1380" angle_z="180"  />
+ <node ref_number="158" type="actors/wall-residential-thin-cap.xml" x="300" y="-60" angle_z="270"  />
+ <node ref_number="159" type="actors/wall-residential-thin-cap.xml" x="300" y="-240" angle_z="270"  />
+ <node ref_number="160" type="actors/wall-outside-window.xml" x="1200" y="180" angle_z="270"  />
+ <node ref_number="161" type="actors/wall-outside-I.xml" x="1140" y="180" angle_z="270"  />
+ <node ref_number="162" type="actors/wall-outside-I.xml" x="1260" y="180" angle_z="270"  />
+ <node ref_number="163" type="actors/wall-outside-window.xml" x="1020" y="180" angle_z="270"  />
+ <node ref_number="164" type="actors/wall-outside-I.xml" x="1080" y="180" angle_z="270"  />
+ <node ref_number="165" type="actors/wall-outside-window.xml" x="900" y="180" angle_z="270"  />
+ <node ref_number="166" type="actors/wall-outside-window.xml" x="960" y="180" angle_z="270"  />
+ <node ref_number="167" type="actors/wall-outside-window.xml" x="600" y="180" angle_z="270"  />
+ <node ref_number="168" type="actors/wall-outside-window.xml" x="480" y="180" angle_z="270"  />
+ <node ref_number="169" type="actors/wall-outside-I.xml" x="420" y="180" angle_z="270"  />
+ <node ref_number="170" type="actors/wall-outside-window.xml" x="540" y="180" angle_z="270"  />
+ <node ref_number="171" type="actors/wall-outside-window.xml" x="900" y="-480" angle_z="90"  />
+ <node ref_number="172" type="actors/wall-outside-window.xml" x="1020" y="-480" angle_z="90"  />
+ <node ref_number="173" type="actors/wall-outside-window.xml" x="960" y="-480" angle_z="90"  />
+ <node ref_number="174" type="actors/wall-outside-I.xml" x="1080" y="-480" angle_z="90"  />
+ <node ref_number="175" type="actors/wall-outside-window.xml" x="600" y="-480" angle_z="90"  />
+ <node ref_number="176" type="actors/wall-outside-window.xml" x="480" y="-480" angle_z="90"  />
+ <node ref_number="177" type="actors/wall-outside-I.xml" x="420" y="-480" angle_z="90"  />
+ <node ref_number="178" type="actors/wall-outside-window.xml" x="540" y="-480" angle_z="90"  />
+ <node ref_number="179" type="actors/wall-outside-railing-cap-left.xml" x="2400" y="1020" angle_z="270"  />
+ <node ref_number="180" type="actors/wall-outside-I.xml" x="2520" y="120" angle_z="90"  />
+ <node ref_number="181" type="actors/wall-outside-I.xml" x="2580" y="120" angle_z="90"  />
+ <node ref_number="182" type="actors/wall-outside-I.xml" x="2640" y="120" angle_z="90"  />
+ <node ref_number="183" type="actors/wall-outside-I.xml" x="2700" y="120" angle_z="90"  />
+ <node ref_number="184" type="actors/wall-outside-I.xml" x="2820" y="120" angle_z="90"  />
+ <node ref_number="185" type="actors/wall-outside-I.xml" x="2760" y="120" angle_z="90"  />
+ <node ref_number="186" type="actors/wall-outside-I.xml" x="2940" y="120" angle_z="90"  />
+ <node ref_number="187" type="actors/wall-outside-I.xml" x="3000" y="120" angle_z="90"  />
+ <node ref_number="188" type="actors/wall-outside-L-major.xml" x="3060" y="120" angle_z="90"  />
+ <node ref_number="189" type="actors/wall-outside-I.xml" x="3060" y="180" angle_z="180"  />
+ <node ref_number="190" type="actors/wall-outside-I.xml" x="3060" y="240" angle_z="180"  />
+ <node ref_number="191" type="actors/wall-outside-I.xml" x="3060" y="300" angle_z="180"  />
+ <node ref_number="192" type="actors/wall-outside-I.xml" x="3060" y="360" angle_z="180"  />
+ <node ref_number="193" type="actors/wall-outside-I.xml" x="3060" y="420" angle_z="180"  />
+ <node ref_number="194" type="actors/wall-outside-L-major.xml" x="3060" y="1020" angle_z="180"  />
+ <node ref_number="195" type="actors/wall-outside-railing-cap-right.xml" x="2400" y="120" angle_z="90"  />
+ <node ref_number="196" type="actors/wall-outside-I.xml" x="120" y="2100" angle_z="90"  />
+ <node ref_number="197" type="actors/wall-outside-I.xml" x="180" y="2100" angle_z="90"  />
+ <node ref_number="198" type="actors/wall-outside-I.xml" x="240" y="2100" angle_z="90"  />
+ <node ref_number="199" type="actors/wall-outside-I.xml" x="300" y="2100" angle_z="90"  />
+ <node ref_number="200" type="actors/wall-outside-I.xml" x="360" y="2100" angle_z="90"  />
+ <node ref_number="201" type="actors/wall-outside-I.xml" x="420" y="2100" angle_z="90"  />
+ <node ref_number="202" type="actors/wall-outside-I.xml" x="480" y="2100" angle_z="90"  />
+ <node ref_number="203" type="actors/wall-outside-I.xml" x="540" y="2100" angle_z="90"  />
+ <node ref_number="204" type="actors/wall-outside-I.xml" x="660" y="2220" angle_z="180"  />
+ <node ref_number="205" type="actors/wall-outside-I.xml" x="660" y="2280" angle_z="180"  />
+ <node ref_number="206" type="actors/wall-outside-I.xml" x="660" y="2340" angle_z="180"  />
+ <node ref_number="207" type="actors/wall-outside-I.xml" x="660" y="2400" angle_z="180"  />
+ <node ref_number="208" type="actors/wall-outside-I.xml" x="60" y="2100" angle_z="90"  />
+ <node ref_number="209" type="actors/wall-outside-I.xml" x="0" y="2100" angle_z="90"  />
+ <node ref_number="210" type="actors/wall-outside-I.xml" x="-60" y="2100" angle_z="90"  />
+ <node ref_number="211" type="actors/wall-outside-I.xml" x="-120" y="2100" angle_z="90"  />
+ <node ref_number="212" type="actors/wall-outside-I.xml" x="-180" y="2100" angle_z="90"  />
+ <node ref_number="213" type="actors/wall-outside-I.xml" x="-240" y="2100" angle_z="90"  />
+ <node ref_number="214" type="actors/wall-outside-I.xml" x="-300" y="2100" angle_z="90"  />
+ <node ref_number="215" type="actors/wall-outside-I.xml" x="-360" y="2100" angle_z="90"  />
+ <node ref_number="216" type="actors/wall-outside-L-major.xml" x="660" y="2100" angle_z="90"  />
+ <node ref_number="217" type="actors/wall-outside-I.xml" x="600" y="2100" angle_z="90"  />
+ <node ref_number="218" type="actors/wall-outside-I.xml" x="660" y="2160" angle_z="180"  />
+ <node ref_number="219" type="actors/wall-outside-I.xml" x="660" y="2460" angle_z="180"  />
+ <node ref_number="220" type="actors/wall-outside-I.xml" x="660" y="2520" angle_z="180"  />
+ <node ref_number="221" type="actors/wall-outside-I.xml" x="3000" y="2100" angle_z="90"  />
+ <node ref_number="222" type="actors/wall-outside-I.xml" x="2940" y="2100" angle_z="90"  />
+ <node ref_number="223" type="actors/wall-outside-I.xml" x="2880" y="2100" angle_z="90"  />
+ <node ref_number="224" type="actors/wall-outside-I.xml" x="2820" y="2100" angle_z="90"  />
+ <node ref_number="225" type="actors/wall-outside-I.xml" x="2760" y="2100" angle_z="90"  />
+ <node ref_number="226" type="actors/wall-outside-I.xml" x="2700" y="2100" angle_z="90"  />
+ <node ref_number="227" type="actors/wall-outside-I.xml" x="2640" y="2100" angle_z="90"  />
+ <node ref_number="228" type="actors/wall-outside-L-major.xml" x="2520" y="2100"  />
+ <node ref_number="229" type="actors/wall-outside-I.xml" x="2580" y="2100" angle_z="90"  />
+ <node ref_number="230" type="actors/wall-outside-I.xml" x="2520" y="2160" angle_z="360"  />
+ <node ref_number="231" type="actors/wall-outside-I.xml" x="2520" y="2220" angle_z="360"  />
+ <node ref_number="232" type="actors/wall-outside-I.xml" x="2520" y="2580"  />
+ <node ref_number="233" type="actors/wall-outside-I.xml" x="2520" y="2520"  />
+ <node ref_number="234" type="actors/wall-outside-I.xml" x="2520" y="2460"  />
+ <node ref_number="235" type="actors/wall-outside-I.xml" x="2520" y="2400"  />
+ <node ref_number="236" type="actors/wall-outside-I.xml" x="2520" y="2340"  />
+ <node ref_number="237" type="actors/wall-outside-I.xml" x="2520" y="2280"  />
+ <node ref_number="238" type="actors/wall-outside-I.xml" x="3060" y="2100" angle_z="90"  />
+ <node ref_number="239" type="actors/wall-outside-I.xml" x="3120" y="2100" angle_z="90"  />
+ <node ref_number="240" type="actors/wall-outside-I.xml" x="3180" y="2100" angle_z="90"  />
+ <node ref_number="241" type="actors/wall-outside-I.xml" x="3240" y="2100" angle_z="90"  />
+ <node ref_number="242" type="actors/wall-outside-I.xml" x="3300" y="2100" angle_z="90"  />
+ <node ref_number="243" type="actors/wall-outside-I.xml" x="3360" y="2100" angle_z="90"  />
+ <node ref_number="244" type="actors/wall-outside-I.xml" x="3420" y="2100" angle_z="90"  />
+ <node ref_number="245" type="actors/wall-outside-I.xml" x="3480" y="2100" angle_z="90"  />
+ <node ref_number="246" type="actors/wall-outside-I.xml" x="3600" y="2100" angle_z="90"  />
+ <node ref_number="247" type="actors/wall-outside-I.xml" x="3540" y="2100" angle_z="90"  />
+ <node ref_number="248" type="actors/shadowmask-solid.xml" x="2820" y="2400" z="-131" scale="10.000000"  />
+ <node ref_number="249" type="actors/shadowmask-solid.xml" x="3360" y="2400" z="-131" scale="10.000000"  />
+ <node ref_number="250" type="actors/shadowmask-solid.xml" x="360" y="2400" z="-131" scale="10.000000"  />
+ <node ref_number="251" type="actors/shadowmask-solid.xml" x="-180" y="2400" z="-131" scale="10.000000"  />
+ <node ref_number="252" type="actors/wall-outside-I.xml" x="1800" y="2220" angle_z="270"  />
+ <node ref_number="253" type="actors/wall-outside-I.xml" x="1380" y="2220" angle_z="270"  />
+ <node ref_number="254" type="actors/wall-outside-window.xml" x="1500" y="2280" angle_z="270"  />
+ <node ref_number="255" type="actors/wall-outside-L-minor.xml" x="1440" y="2220" angle_z="90"  />
+ <node ref_number="256" type="actors/wall-outside-L-major.xml" x="1440" y="2280" angle_z="270"  />
+ <node ref_number="257" type="actors/wall-outside-I.xml" x="1560" y="2280" angle_z="270"  />
+ <node ref_number="258" type="actors/wall-outside-window.xml" x="1680" y="2280" angle_z="270"  />
+ <node ref_number="259" type="actors/wall-outside-L-minor.xml" x="1740" y="2220"  />
+ <node ref_number="260" type="actors/wall-outside-I.xml" x="1620" y="2280" angle_z="270"  />
+ <node ref_number="261" type="actors/wall-outside-L-major.xml" x="1740" y="2280" angle_z="180"  />
+ <node ref_number="262" type="actors/wall-outside-I.xml" x="2040" y="1260" angle_z="90"  />
+ <node ref_number="263" type="actors/wall-outside-L-major.xml" x="2100" y="1260" angle_z="90"  />
+ <node ref_number="264" type="actors/wall-outside-window.xml" x="2100" y="1380" angle_z="180"  />
+ <node ref_number="265" type="actors/wall-outside-window.xml" x="2100" y="1320" angle_z="180"  />
+ <node ref_number="266" type="actors/wall-outside-L-minor.xml" x="2100" y="1440" angle_z="270"  />
+ <node ref_number="267" type="actors/wall-outside-L-major.xml" x="2160" y="1440" angle_z="90"  />
+ <node ref_number="268" type="actors/wall-outside-window.xml" x="2160" y="1500" angle_z="180"  />
+ <node ref_number="269" type="actors/wall-outside-L-major.xml" x="1020" y="1980" angle_z="270"  />
+ <node ref_number="270" type="actors/wall-outside-L-minor.xml" x="1080" y="1980" angle_z="90"  />
+ <node ref_number="271" type="actors/wall-outside-window.xml" x="1020" y="1860" angle_z="360"  />
+ <node ref_number="272" type="actors/wall-outside-window.xml" x="1020" y="1920" angle_z="360"  />
+ <node ref_number="273" type="actors/wall-outside-L-minor.xml" x="2100" y="1980"  />
+ <node ref_number="274" type="actors/wall-outside-L-major.xml" x="2160" y="1980" angle_z="180"  />
+ <node ref_number="275" type="actors/wall-outside-window.xml" x="2160" y="1860" angle_z="180"  />
+ <node ref_number="276" type="actors/wall-outside-window.xml" x="2160" y="1920" angle_z="180"  />
+ <node ref_number="277" type="actors/screen-billboard.xml" x="285" y="20" z="95" angle_z="180" scale="1.400000" key_BOOLEAN_draw_in_game="false" 
+ key_BOOLEAN_is_one_timer="false" 
+ key_BITMAP_bitmap="billboards/duramax.jpg" 
+ key_FLOAT_luminocity="0.9" 
+  />
+ <node ref_number="278" type="actors/screen-billboard.xml" x="45" y="940" z="74" angle_z="180" scale="1.300000" key_BOOLEAN_draw_in_game="false" 
+ key_BOOLEAN_is_one_timer="false" 
+ key_BITMAP_bitmap="billboards/nanoedge.jpg" 
+ key_FLOAT_luminocity="0.9" 
+  />
+ <node ref_number="279" type="actors/car-civilian-black-fog.xml" x="-254" y="248" z="2000"  />
+ <node ref_number="280" type="actors/streetlight-fog.xml" x="-60" y="360" z="2000" angle_z="180"  />
+ <node ref_number="281" type="actors/streetlight-fog.xml" x="-60" y="600" z="2000" angle_z="180"  />
+ <node ref_number="282" type="actors/streetlight-fog.xml" x="-60" y="840" z="2000" angle_z="180"  />
+ <node ref_number="283" type="actors/streetlight-fog.xml" x="-60" y="1080" z="2000" angle_z="180"  />
+ <node ref_number="284" type="actors/streetlight-fog.xml" x="-60" y="120" z="2000" angle_z="180"  />
+ <node ref_number="285" type="actors/streetlight-fog.xml" x="-60" y="-120" z="2000" angle_z="180"  />
+ <node ref_number="286" type="actors/palm-tall-fog-01.xml" x="-91" y="732" z="2000" angle_z="59"  />
+ <node ref_number="287" type="actors/palm-tall-fog-01.xml" x="-58" y="954" z="2000" angle_z="277"  />
+ <node ref_number="288" type="actors/palm-tall-fog-01.xml" x="-41" y="499" z="2000" angle_z="357"  />
+ <node ref_number="289" type="actors/palm-tall-fog-01.xml" x="-43" y="243" z="2000" angle_z="288"  />
+ <node ref_number="290" type="actors/palm-tall-fog-01.xml" x="-37" y="18" z="2000" angle_z="45"  />
+ <node ref_number="291" type="actors/wall-outside-I.xml" x="3060" y="960" angle_z="180"  />
+ <node ref_number="292" type="actors/wall-outside-window.xml" x="3060" y="900" angle_z="180"  />
+ <node ref_number="293" type="actors/wall-outside-window.xml" x="3060" y="840" angle_z="180"  />
+ <node ref_number="294" type="actors/wall-outside-window.xml" x="3060" y="540" angle_z="180"  />
+ <node ref_number="295" type="actors/wall-outside-I.xml" x="3060" y="480" angle_z="180"  />
+ <node ref_number="296" type="actors/wall-outside-window.xml" x="3060" y="600" angle_z="180"  />
+ <node ref_number="297" type="actors/wall-outside-I.xml" x="3060" y="720" angle_z="180"  />
+ <node ref_number="298" type="actors/wall-outside-window.xml" x="3060" y="660" angle_z="180"  />
+ <node ref_number="299" type="actors/wall-outside-window.xml" x="3060" y="780" angle_z="180"  />
+ <node ref_number="300" type="actors/wall-outside-I.xml" x="2520" y="1020" angle_z="270"  />
+ <node ref_number="301" type="actors/wall-outside-I.xml" x="2580" y="1020" angle_z="270"  />
+ <node ref_number="302" type="actors/wall-outside-I.xml" x="2640" y="1020" angle_z="270"  />
+ <node ref_number="303" type="actors/wall-outside-I.xml" x="2940" y="1020" angle_z="270"  />
+ <node ref_number="304" type="actors/wall-outside-I.xml" x="2880" y="1020" angle_z="270"  />
+ <node ref_number="305" type="actors/wall-outside-I.xml" x="3000" y="1020" angle_z="270"  />
+ <node ref_number="306" type="actors/wall-outside-window.xml" x="2760" y="1020" angle_z="270"  />
+ <node ref_number="307" type="actors/wall-outside-I.xml" x="2700" y="1020" angle_z="270"  />
+ <node ref_number="308" type="actors/wall-outside-I.xml" x="2820" y="1020" angle_z="270"  />
+ <node ref_number="309" type="actors/skyscraper1.xml" x="4151" y="615" z="5869" angle_z="90" scale="0.130000"  />
+ <node ref_number="310" type="actors/wall-residential-thin-cap.xml" x="300" y="-360" angle_z="270"  />
+ <node ref_number="311" type="actors/screen-billboard.xml" x="1596" y="2295" z="171" angle_z="90" scale="1.150000" key_BOOLEAN_draw_in_game="false" 
+ key_BOOLEAN_is_one_timer="false" 
+ key_BITMAP_bitmap="billboards/nanoedge.jpg" 
+ key_FLOAT_luminocity="1" 
+  />
+ <node ref_number="312" type="actors/skybridge-plane-I.xml" x="1590" y="2370" z="552"  />
+ <node ref_number="313" type="actors/skybridge-plane-I.xml" x="1590" y="2550" z="552"  />
+ <node ref_number="314" type="actors/skybridge-plane-I.xml" x="1590" y="2730" z="558"  />
+ <node ref_number="315" type="actors/skybridge-plane-door.xml" x="1590" y="2280" z="552" angle_z="90"  />
+ <node ref_number="316" type="actors/screen-billboard.xml" x="1597" y="2296" z="384" angle_z="90" scale="1.150000" key_BOOLEAN_draw_in_game="false" 
+ key_BOOLEAN_is_one_timer="false" 
+ key_BITMAP_bitmap="billboards/armocore.jpg" 
+ key_FLOAT_luminocity="1" 
+  />
+ <node ref_number="317" type="actors/skybridge-plane-I.xml" x="1590" y="2910" z="558"  />
+ <node ref_number="318" type="actors/skybridge-plane-I.xml" x="1590" y="3090" z="558"  />
+ <node ref_number="319" type="actors/car-civilian-black-fog.xml" x="-251" y="386" z="2000"  />
+ <node ref_number="320" type="actors/car-civilian-black-fog.xml" x="-241" y="-9" z="2000"  />
+ <node ref_number="321" type="actors/skyscraper1.xml" x="-1447" y="149" z="6314" angle_z="90" scale="0.127171"  />
+ <node ref_number="322" type="actors/palm-tall-fog-01.xml" x="108" y="-160" z="2218" angle_z="96" scale="1.608431"  />
+ <node ref_number="323" type="actors/palm-tall-fog-01.xml" x="109" y="-516" z="2218" angle_z="170" scale="1.608431"  />
+ <node ref_number="324" type="actors/palm-tall-fog-01.xml" x="351" y="476" z="2218" angle_z="175" scale="1.608431"  />
+ <node ref_number="325" type="actors/palm-tall-fog-01.xml" x="1394" y="2486" z="2000" angle_z="212" scale="1.300000"  />
+ <node ref_number="326" type="actors/palm-tall-fog-01.xml" x="1406" y="2681" z="2000" angle_z="142" scale="1.300000"  />
+ <node ref_number="327" type="actors/palm-tall-fog-01.xml" x="1389" y="2924" z="2000" angle_z="142" scale="1.300000"  />
+ <node ref_number="328" type="actors/palm-tall-fog-01.xml" x="1737" y="2488" z="2000" angle_z="142" scale="1.300000"  />
+ <node ref_number="329" type="actors/palm-tall-fog-01.xml" x="1748" y="2704" z="2000" angle_z="228" scale="1.300000"  />
+ <node ref_number="330" type="actors/palm-tall-fog-01.xml" x="1727" y="2946" z="2000" angle_z="51" scale="1.300000"  />
+ <node ref_number="331" type="actors/display-case.xml" x="3390" y="-360" z="2919" angle_z="45" scale="3.250000"  />
+ <node ref_number="332" type="actors/display-case.xml" x="2912" y="1650" z="2520" angle_z="45" scale="3.250000"  />
+ <node ref_number="333" type="actors/screen-billboard.xml" x="285" y="-320" z="95" angle_z="180" scale="1.400000" key_BOOLEAN_draw_in_game="false" 
+ key_BOOLEAN_is_one_timer="false" 
+ key_BITMAP_bitmap="billboards/kosla.jpg" 
+ key_FLOAT_luminocity="0.9" 
+  />
+ <node ref_number="334" type="actors/wall-outside-I.xml" x="1200" y="1260" angle_z="90"  />
+ <node ref_number="335" type="actors/wall-outside-I.xml" x="1260" y="1020" angle_z="270"  />
+ <node ref_number="336" type="actors/wall-outside-I.xml" x="1200" y="1020" angle_z="270"  />
+ <node ref_number="337" type="actors/wall-outside-I.xml" x="1140" y="1020" angle_z="270"  />
+ <node ref_number="338" type="actors/wall-outside-I.xml" x="1080" y="1020" angle_z="270"  />
+ <node ref_number="339" type="actors/wall-outside-I.xml" x="1020" y="1020" angle_z="270"  />
+ <node ref_number="340" type="actors/wall-outside-I.xml" x="960" y="1020" angle_z="270"  />
+ <node ref_number="341" type="actors/wall-outside-L-minor.xml" x="840" y="1020"  />
+ <node ref_number="342" type="actors/wall-outside-I.xml" x="900" y="1020" angle_z="270"  />
+ <node ref_number="343" type="actors/wall-outside-I.xml" x="840" y="1080" angle_z="180"  />
+ <node ref_number="344" type="actors/wall-outside-I.xml" x="840" y="1140" angle_z="180"  />
+ <node ref_number="345" type="actors/wall-outside-I.xml" x="840" y="1200" angle_z="180"  />
+ <node ref_number="346" type="actors/wall-outside-I.xml" x="840" y="1320" angle_z="180"  />
+ <node ref_number="347" type="actors/wall-outside-I.xml" x="840" y="1260" angle_z="180"  />
+ <node ref_number="348" type="actors/wall-outside-window.xml" x="780" y="1380" angle_z="270"  />
+ <node ref_number="349" type="actors/wall-outside-L-major.xml" x="840" y="1380" angle_z="180"  />
+ <node ref_number="350" type="actors/wall-outside-I.xml" x="1260" y="780" angle_z="90"  />
+ <node ref_number="351" type="actors/wall-outside-I.xml" x="1200" y="780" angle_z="90"  />
+ <node ref_number="352" type="actors/wall-outside-I.xml" x="1140" y="780" angle_z="90"  />
+ <node ref_number="353" type="actors/wall-outside-I.xml" x="1080" y="780" angle_z="90"  />
+ <node ref_number="354" type="actors/wall-outside-I.xml" x="1020" y="780" angle_z="90"  />
+ <node ref_number="355" type="actors/wall-outside-I.xml" x="960" y="780" angle_z="90"  />
+ <node ref_number="356" type="actors/wall-outside-I.xml" x="900" y="780" angle_z="90"  />
+ <node ref_number="357" type="actors/wall-outside-I.xml" x="840" y="780" angle_z="90"  />
+ <node ref_number="358" type="actors/wall-outside-I.xml" x="780" y="780" angle_z="90"  />
+ <node ref_number="359" type="actors/wall-outside-I.xml" x="660" y="780" angle_z="90"  />
+ <node ref_number="360" type="actors/wall-outside-I.xml" x="600" y="780" angle_z="90"  />
+ <node ref_number="361" type="actors/wall-outside-I.xml" x="720" y="780" angle_z="90"  />
+ <node ref_number="362" type="actors/wall-outside-I.xml" x="180" y="780" angle_z="90"  />
+ <node ref_number="363" type="actors/wall-outside-I.xml" x="300" y="780" angle_z="90"  />
+ <node ref_number="364" type="actors/wall-outside-I.xml" x="240" y="780" angle_z="90"  />
+ <node ref_number="365" type="actors/wall-outside-I.xml" x="360" y="780" angle_z="90"  />
+ <node ref_number="366" type="actors/wall-outside-I.xml" x="660" y="180" angle_z="270"  />
+ <node ref_number="367" type="actors/wall-outside-I.xml" x="780" y="180" angle_z="270"  />
+ <node ref_number="368" type="actors/wall-outside-I.xml" x="720" y="180" angle_z="270"  />
+ <node ref_number="369" type="actors/wall-outside-I.xml" x="840" y="180" angle_z="270"  />
+ <node ref_number="370" type="actors/wall-outside-I.xml" x="1320" y="-360" angle_z="180"  />
+ <node ref_number="371" type="actors/wall-outside-I.xml" x="1320" y="-420" angle_z="180"  />
+ <node ref_number="372" type="actors/wall-outside-I.xml" x="1320" y="-300" angle_z="180"  />
+ <node ref_number="373" type="actors/wall-outside-I.xml" x="840" y="-480" angle_z="90"  />
+ <node ref_number="374" type="actors/wall-outside-I.xml" x="720" y="-480" angle_z="90"  />
+ <node ref_number="375" type="actors/wall-outside-I.xml" x="660" y="-480" angle_z="90"  />
+ <node ref_number="376" type="actors/wall-outside-I.xml" x="780" y="-480" angle_z="90"  />
+ <node ref_number="377" type="actors/wall-outside-I.xml" x="2460" y="120" angle_z="90"  />
+ <node ref_number="378" type="actors/wall-outside-I.xml" x="2400" y="120" angle_z="90"  />
+ <node ref_number="379" type="actors/wall-outside-I.xml" x="2340" y="120" angle_z="90"  />
+ <node ref_number="380" type="actors/wall-outside-I.xml" x="2280" y="120" angle_z="90"  />
+ <node ref_number="381" type="actors/wall-outside-I.xml" x="2220" y="120" angle_z="90"  />
+ <node ref_number="382" type="actors/wall-outside-I.xml" x="2160" y="120" angle_z="90"  />
+ <node ref_number="383" type="actors/wall-outside-I.xml" x="2100" y="120" angle_z="90"  />
+ <node ref_number="384" type="actors/wall-outside-I.xml" x="2040" y="120" angle_z="90"  />
+ <node ref_number="385" type="actors/wall-outside-I.xml" x="1980" y="120" angle_z="90"  />
+ <node ref_number="386" type="actors/wall-outside-L-major.xml" x="1860" y="120"  />
+ <node ref_number="387" type="actors/wall-outside-I.xml" x="1920" y="120" angle_z="90"  />
+ <node ref_number="388" type="actors/wall-outside-I.xml" x="1860" y="180" angle_z="360"  />
+ <node ref_number="389" type="actors/wall-outside-I.xml" x="1860" y="240" angle_z="360"  />
+ <node ref_number="390" type="actors/wall-outside-I.xml" x="1860" y="300" angle_z="360"  />
+ <node ref_number="391" type="actors/wall-outside-I.xml" x="1860" y="360" angle_z="360"  />
+ <node ref_number="392" type="actors/wall-outside-I.xml" x="1860" y="660" angle_z="360"  />
+ <node ref_number="393" type="actors/wall-outside-I.xml" x="1860" y="720" angle_z="360"  />
+ <node ref_number="394" type="actors/wall-outside-I.xml" x="1860" y="780" angle_z="360"  />
+ <node ref_number="395" type="actors/wall-outside-I.xml" x="1860" y="840" angle_z="360"  />
+ <node ref_number="396" type="actors/wall-outside-I.xml" x="1860" y="900" angle_z="360"  />
+ <node ref_number="397" type="actors/wall-outside-I.xml" x="1860" y="960" angle_z="360"  />
+ <node ref_number="398" type="actors/wall-outside-L-major.xml" x="1860" y="1020" angle_z="270"  />
+ <node ref_number="399" type="actors/wall-outside-I.xml" x="1920" y="1020" angle_z="270"  />
+ <node ref_number="400" type="actors/wall-outside-I.xml" x="1980" y="1020" angle_z="270"  />
+ <node ref_number="401" type="actors/wall-outside-I.xml" x="2040" y="1020" angle_z="270"  />
+ <node ref_number="402" type="actors/wall-outside-I.xml" x="2100" y="1020" angle_z="270"  />
+ <node ref_number="403" type="actors/wall-outside-I.xml" x="2160" y="1020" angle_z="270"  />
+ <node ref_number="404" type="actors/wall-outside-I.xml" x="2220" y="1020" angle_z="270"  />
+ <node ref_number="405" type="actors/wall-outside-I.xml" x="2280" y="1020" angle_z="270"  />
+ <node ref_number="406" type="actors/wall-outside-I.xml" x="2400" y="1020" angle_z="270"  />
+ <node ref_number="407" type="actors/wall-outside-I.xml" x="2340" y="1020" angle_z="270"  />
+ <node ref_number="408" type="actors/wall-outside-I.xml" x="2460" y="1020" angle_z="270"  />
+ <node ref_number="409" type="actors/wall-outside-window.xml" x="1020" y="1500" angle_z="360"  />
+ <node ref_number="410" type="actors/wall-outside-L-major.xml" x="1020" y="1440"  />
+ <node ref_number="411" type="actors/wall-outside-L-minor.xml" x="1080" y="1440" angle_z="180"  />
+ <node ref_number="412" type="actors/wall-outside-window.xml" x="1080" y="1320" angle_z="360"  />
+ <node ref_number="413" type="actors/wall-outside-L-major.xml" x="1080" y="1260"  />
+ <node ref_number="414" type="actors/wall-outside-I.xml" x="1140" y="1260" angle_z="90"  />
+ <node ref_number="415" type="actors/wall-outside-window.xml" x="1080" y="1380" angle_z="360"  />
+ <node ref_number="416" type="actors/wall-glass-I.xml" x="1140" y="1740" angle_z="90"  />
+ <node ref_number="417" type="actors/wall-glass-I.xml" x="1200" y="1740" angle_z="90"  />
+ <node ref_number="418" type="actors/wall-glass-I.xml" x="1260" y="1740" angle_z="90"  />
+ <node ref_number="419" type="actors/wall-glass-I.xml" x="1320" y="1740" angle_z="90"  />
+ <node ref_number="420" type="actors/wall-glass-I.xml" x="2040" y="1740" angle_z="90"  />
+ <node ref_number="421" type="actors/wall-glass-I.xml" x="1980" y="1740" angle_z="90"  />
+ <node ref_number="422" type="actors/wall-glass-I.xml" x="1920" y="1740" angle_z="90"  />
+ <node ref_number="423" type="actors/wall-glass-I.xml" x="1860" y="1740" angle_z="90"  />
+ <node ref_number="424" type="actors/wall-outside-I.xml" x="2160" y="1800" angle_z="180"  />
+ <node ref_number="425" type="actors/wall-outside-I.xml" x="1020" y="1800" angle_z="360"  />
+ <node ref_number="426" type="actors/wall-office-thin-cap.xml" x="2160" y="1740" angle_z="90"  />
+ <node ref_number="427" type="actors/wall-glass-I.xml" x="2100" y="1740" angle_z="90"  />
+ <node ref_number="428" type="actors/wall-office-thin-cap.xml" x="1020" y="1740" angle_z="270"  />
+ <node ref_number="429" type="actors/wall-glass-I.xml" x="1080" y="1740" angle_z="90"  />
+ <node ref_number="430" type="actors/wall-glass-I.xml" x="1380" y="1740" angle_z="90"  />
+ <node ref_number="431" type="actors/wall-office-thin-L.xml" x="1440" y="1740" angle_z="90"  />
+ <node ref_number="432" type="actors/wall-office-thin-L.xml" x="1440" y="1860" angle_z="270"  />
+ <node ref_number="433" type="actors/wall-office-thin-I.xml" x="1440" y="1800" angle_z="180"  />
+ <node ref_number="434" type="actors/wall-office-thin-I.xml" x="1500" y="1860" angle_z="90"  />
+ <node ref_number="435" type="actors/wall-office-thin-I.xml" x="1680" y="1860" angle_z="90"  />
+ <node ref_number="436" type="actors/wall-office-thin-L.xml" x="1740" y="1860" angle_z="180"  />
+ <node ref_number="437" type="actors/wall-office-thin-L.xml" x="1740" y="1740"  />
+ <node ref_number="438" type="actors/wall-glass-I.xml" x="1800" y="1740" angle_z="90"  />
+ <node ref_number="439" type="actors/wall-office-thin-I.xml" x="1740" y="1800" angle_z="180"  />
+ <node ref_number="440" type="actors/door-double-frame.xml" x="1560" y="1860" angle_z="90"  />
+ <node ref_number="441" type="actors/door-double-frame.xml" x="1620" y="1860" angle_z="270"  />
+ <node ref_number="442" type="actors/kitchen-desk-corner.xml" x="1470" y="1410" angle_z="270"  />
+ <node ref_number="443" type="actors/kitchen-desk.xml" x="1530" y="1410" angle_z="270" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
+ <node ref_number="444" type="actors/kitchen-desk.xml" x="1470" y="1350" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
+ <node ref_number="445" type="actors/kitchen-desk.xml" x="1590" y="1410" angle_z="270" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
+ <node ref_number="446" type="actors/kitchen-desk.xml" x="1650" y="1410" angle_z="270" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
+ <node ref_number="447" type="actors/kitchen-desk-corner.xml" x="1710" y="1410" angle_z="180"  />
+ <node ref_number="448" type="actors/kitchen-desk.xml" x="1710" y="1350" angle_z="180" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
+ <node ref_number="449" type="actors/wall-office-thin-cap.xml" x="1440" y="1200"  />
+ <node ref_number="450" type="actors/wall-office-thin-cap.xml" x="1740" y="1200"  />
+ <node ref_number="451" type="actors/wall-outside-window.xml" x="1320" y="1200" angle_z="90"  />
+ <node ref_number="452" type="actors/wall-outside-L-major.xml" x="1260" y="1200"  />
+ <node ref_number="453" type="actors/wall-outside-window.xml" x="1380" y="1200" angle_z="90"  />
+ <node ref_number="454" type="actors/wall-outside-L-minor.xml" x="1260" y="1260" angle_z="180"  />
+ <node ref_number="455" type="actors/wall-outside-window.xml" x="1860" y="1200" angle_z="90"  />
+ <node ref_number="456" type="actors/wall-outside-window.xml" x="1800" y="1200" angle_z="90"  />
+ <node ref_number="457" type="actors/wall-outside-L-major.xml" x="1920" y="1200" angle_z="90"  />
+ <node ref_number="458" type="actors/wall-outside-L-minor.xml" x="1920" y="1260" angle_z="270"  />
+ <node ref_number="459" parent="443" type="actors/register.xml" x="-5" y="1" z="-36" angle_z="1"  />
+ <node ref_number="460" parent="446" type="actors/register.xml" x="-7" y="2" z="-36" angle_z="352"  />
+ <node ref_number="461" type="actors/table.xml" x="2000" y="1306" angle_z="90" key_BOOLEAN_indestructible="false" key_BOOLEAN_has_bottles="false" key_INTEGER_max_bottles="5"  />
+ <node ref_number="462" type="actors/workstation2.xml" x="2005" y="1303" z="-36" angle_z="91"  />
+ <node ref_number="463" type="actors/armchair-comfy.xml" x="1908" y="1537" angle_z="6"  />
+ <node ref_number="464" type="actors/lab-chair.xml" x="2003" y="1325" angle_z="264"  />
+ <node ref_number="465" type="actors/storage-shelf.xml" x="1194" y="1304" angle_z="91"  />
+ <node ref_number="466" type="actors/plant.xml" x="1273" y="1305" angle_z="2"  />
+ <node ref_number="467" type="actors/armchair-comfy.xml" x="1917" y="1619" angle_z="353"  />
+ <node ref_number="468" type="actors/table-boardroom.xml" x="1988" y="1576" scale="0.637155"  />
+ <node ref_number="469" type="actors/armchair-comfy.xml" x="2071" y="1624" angle_z="182"  />
+ <node ref_number="470" type="actors/armchair-comfy.xml" x="2064" y="1543" angle_z="180"  />
+ <node ref_number="471" type="actors/door-double-frame.xml" x="1740" y="1260" angle_z="180"  />
+ <node ref_number="472" type="actors/door-double-frame.xml" x="1740" y="1260" angle_z="360"  />
+ <node ref_number="473" type="actors/fridge.xml" x="1614" y="1243" angle_z="89"  />
+ <node ref_number="474" type="actors/fridge.xml" x="1557" y="1241" angle_z="88"  />
+ <node ref_number="475" type="actors/door-double-sliding.xml" x="1560" y="1860" angle_z="90"  />
+ <node ref_number="476" type="actors/door-double-sliding.xml" x="1620" y="1860" angle_z="270"  />
+ <node ref_number="477" type="actors/wall-outside-I.xml" x="1860" y="600" angle_z="360"  />
+ <node ref_number="478" type="actors/wall-outside-I.xml" x="1860" y="480" angle_z="360"  />
+ <node ref_number="479" type="actors/wall-outside-I.xml" x="1860" y="420" angle_z="360"  />
+ <node ref_number="480" type="actors/wall-outside-I.xml" x="1860" y="540" angle_z="360"  />
+ <node ref_number="481" type="actors/door-double-frame.xml" x="1440" y="1260" angle_z="180"  />
+ <node ref_number="482" type="actors/door-double-frame.xml" x="1440" y="1260" angle_z="360"  />
+ <node ref_number="483" type="actors/wall-office-thin-T.xml" x="1440" y="1320"  />
+ <node ref_number="484" type="actors/door-double-frame.xml" x="1440" y="1380" angle_z="180"  />
+ <node ref_number="485" type="actors/wall-office-thin-T.xml" x="1740" y="1320" angle_z="180"  />
+ <node ref_number="486" type="actors/door-double-frame.xml" x="1740" y="1380" angle_z="180"  />
+ <node ref_number="487" type="actors/door-sliding.xml" x="1740" y="1260"  />
+ <node ref_number="488" type="actors/door-sliding.xml" x="1440" y="1260"  />
+ <node ref_number="489" type="actors/wall-outside-I.xml" x="1440" y="1200" angle_z="90"  />
+ <node ref_number="490" type="actors/wall-outside-I.xml" x="1740" y="1200" angle_z="90"  />
+ <node ref_number="491" type="actors/wall-outside-window.xml" x="1500" y="1200" angle_z="90"  />
+ <node ref_number="492" type="actors/wall-outside-I.xml" x="1620" y="1200" angle_z="90"  />
+ <node ref_number="493" type="actors/wall-outside-I.xml" x="1560" y="1200" angle_z="90"  />
+ <node ref_number="494" type="actors/wall-outside-window.xml" x="1680" y="1200" angle_z="90"  />
+ <node ref_number="495" type="actors/bush-02.xml" x="1703" y="1903" angle_z="64"  />
+ <node ref_number="496" type="actors/bush-01.xml" x="1489" y="1907" angle_z="104"  />
+ <node ref_number="497" type="actors/armchair-comfy.xml" x="1120" y="1552" angle_z="358"  />
+ <node ref_number="498" type="actors/armchair-comfy.xml" x="1118" y="1640" angle_z="9"  />
+ <node ref_number="499" type="actors/table-boardroom.xml" x="1186" y="1593" scale="0.637155"  />
+ <node ref_number="500" type="actors/armchair-comfy.xml" x="1255" y="1645" angle_z="192"  />
+ <node ref_number="501" type="actors/armchair-comfy.xml" x="1251" y="1535" angle_z="176"  />
+ <node ref_number="502" type="actors/plant.xml" x="1129" y="1435" angle_z="50"  />
+ <node ref_number="503" type="actors/plant.xml" x="1918" y="1307" angle_z="129"  />
+ <node ref_number="504" type="actors/plant.xml" x="2053" y="1436" angle_z="265"  />
+ <node ref_number="505" type="actors/plant.xml" x="1435" y="1700" angle_z="161"  />
+ <node ref_number="506" type="actors/plant.xml" x="1737" y="1701" angle_z="1"  />
+ <node ref_number="507" type="actors/palm-tall-fog-01.xml" x="1449" y="921" z="2000" angle_z="292" scale="1.300000"  />
+ <node ref_number="508" type="actors/palm-tall-fog-01.xml" x="1745" y="907" z="2000" angle_z="113" scale="1.300000"  />
+ <node ref_number="509" type="actors/palm-tall-fog-01.xml" x="1755" y="580" z="2000" angle_z="214" scale="1.300000"  />
+ <node ref_number="510" type="actors/palm-tall-fog-01.xml" x="1741" y="304" z="2000" angle_z="289" scale="1.300000"  />
+ <node ref_number="511" type="actors/palm-tall-fog-01.xml" x="1216" y="304" z="2000" angle_z="5" scale="1.300000"  />
+ <node ref_number="512" parent="332" type="actors/hologram-sphere.xml" x="0" y="0" z="-2" angle_z="-45" scale="0.789825" key_BOOLEAN_is_spinning="true"  />
+ <node ref_number="513" parent="332" type="actors/streetlight-fog.xml" x="0" y="90" z="-6" angle_z="90" scale="0.307692"  />
+ <node ref_number="514" parent="332" type="actors/streetlight-fog.xml" x="90" y="0" z="-6" scale="0.307692"  />
+ <node ref_number="515" parent="332" type="actors/streetlight-fog.xml" x="0" y="-90" z="-6" angle_z="270" scale="0.307692"  />
+ <node ref_number="516" parent="332" type="actors/streetlight-fog.xml" x="-90" y="0" z="-6" angle_z="180" scale="0.307692"  />
+ <node ref_number="517" type="actors/door-elevator-small-sliding.xml" x="1830" y="2070" angle_z="90"  />
+ <node ref_number="518" type="actors/door-elevator-small-sliding.xml" x="1830" y="2070" angle_z="270"  />
+ <node ref_number="519" type="actors/enemy-jydge-shooter-tough.xml" x="1719" y="1469" angle_z="114" scale="1.000000" key_STRING_name="James" key_STRING_enhancements="MINIBOSS" key_STRING_force_loot_table="boss_drop"  />
+ <node ref_number="520" type="actors/enemy-jydge-melee-tough.xml" x="1409" y="1453" scale="1.000000" key_STRING_name="Jesse" key_STRING_enhancements="HEALTH_2X" key_STRING_force_loot_table="boss_drop"  />
+ <node ref_number="521" type="actors/wall-outside-window.xml" x="2160" y="1560" angle_z="180"  />
+ <node ref_number="522" type="actors/wall-outside-window.xml" x="2160" y="1680" angle_z="180"  />
+ <node ref_number="523" type="actors/wall-outside-window.xml" x="2160" y="1620" angle_z="180"  />
+ <node ref_number="524" type="actors/wall-outside-I.xml" x="2160" y="1740" angle_z="180"  />
+ <node ref_number="525" type="actors/wall-outside-I.xml" x="1020" y="1740" angle_z="360"  />
+ <node ref_number="526" type="actors/wall-outside-window.xml" x="1020" y="1620" angle_z="360"  />
+ <node ref_number="527" type="actors/wall-outside-window.xml" x="1020" y="1560" angle_z="360"  />
+ <node ref_number="528" type="actors/wall-outside-window.xml" x="1020" y="1680" angle_z="360"  />
+ <node ref_number="529" type="actors/wall-office-thin-I.xml" x="1500" y="1320" angle_z="90"  />
+ <node ref_number="530" type="actors/wall-office-thin-I.xml" x="1680" y="1320" angle_z="90"  />
+ <node ref_number="531" type="actors/door-double-frame.xml" x="1560" y="1320" angle_z="90"  />
+ <node ref_number="532" type="actors/door-double-frame.xml" x="1620" y="1320" angle_z="270"  />
+ <node ref_number="533" parent="499" type="actors/bottles-01.xml" x="20" y="-78" z="-36" angle_z="94" scale="1.569477"  />
+ <node ref_number="534" parent="499" type="actors/bottle-purple.xml" x="-28" y="46" z="-36" angle_z="54" scale="1.569477"  />
+ <node ref_number="535" parent="468" type="actors/bottles-04.xml" x="-21" y="-73" z="-36" angle_z="137" scale="1.569477"  />
+ <node ref_number="536" parent="468" type="actors/bottle-blue.xml" x="-29" y="46" z="-36" angle_z="76" scale="1.569477"  />
+ <node ref_number="537" parent="468" type="actors/bottle-green.xml" x="31" y="-1" z="-36" angle_z="39" scale="1.569477"  />
+ <node ref_number="538" type="actors/collectible-item.xml" x="1588" y="1298" angle_z="-92" scale="0.791172" key_STRING_collectible_id="ORB"  />
+</array>
+
+</root>

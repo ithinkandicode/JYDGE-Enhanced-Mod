@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="GLASS" 
+		 name="Explosive" 
+		 renderer="DamageableObstacle" 
+		 ai="DamageableObstacle" 
+		 friend_group="OBSTACLES" 
+		 turn_speed="2.5" 
+		 move_speed="10" 
+		 scale="1" 
+		 model_idle="models/explosive.xml" 
+		 bitmap_shadow="shadows/hoload-shadow.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.55" 
+		 hit_points="20" 
+		 damage="0.0" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 explosion_damage="800" 
+		 explosion_range="150" 
+		 damaged_effect="effects/damaged_explosive.xml" 
+		 damaged_effect_interval="0.2" 
+		 damaged_effect_health_threshold="0.8" 
+		 self_destruct_health_threshold="0.95" 
+		 self_destruct_time_in_seconds="0.75" 
+		 sound_blow="sfx/explosive-going-to-blow" 
+		/>
+
+	</array>
+
+	<array id="GIBS_EXPLOSION">
+		<node id="EXPLOSION_1" 
+		 model="" 
+		 model_group_1="LIGHTWALL,NONE,8,LIGHTWALL" 
+		 model_group_2="OBJECT_SMALL,NONE,3,NONE" 
+		 model_group_3="METAL_SMALL,NONE,3,NONE" 
+		 particle_effect_1="effects/explosion-explosive.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

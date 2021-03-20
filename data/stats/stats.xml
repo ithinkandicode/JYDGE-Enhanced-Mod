@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="STATS">
+
+		<node id="HEALTH" 
+		 title="Health"
+		 description="Health attribute increases the amount of hit points you have. You can simply take more damage."
+		/>
+
+		<node id="CRITS" 
+		 title="Luck"
+		 description="Improves the chance of critical hits, increases amount of credits looted, and makes uncommon loot more probable."
+		/>
+
+		<node id="DAMAGE" 
+		 title="Weapon Damage"
+		 description="Damage attribute improves your main weapon and ability damage. The higher the damage, the faster your enemies die."
+		/>
+
+		<node id="SLOTS" 
+		 title="Enhancement slots"
+		 description="The number of cybernetic slots you have. The amount of cybernetics you can install is limited by the number of these slots."
+		/>
+
+	</array>
+</root>

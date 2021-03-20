@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="MODEL" 
+		 die_on_collision="true" 
+		 number_of_particles="1" 
+		 initial_age="0" 
+		 age_to_die="0.9;1.2" 
+		 position_offset="0,0,-6" 
+		 move_speed="400;600" 
+		 move_direction="0,0,-1" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 alpha_multiplier="0.7;0.8" 
+		 scale_multiplier="1.15;1.2" 
+		 rotation_angles="0,0,360" 
+		 angular_velocity="10,10,10;20,20,20" 
+		 blend_mode="ADDITIVE" 
+		 sounds="sfx/pickup_health"  
+		 models="models/key-yellow.xml" 
+		 />
+
+	</array>
+</root>

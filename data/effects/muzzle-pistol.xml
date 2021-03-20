@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 number_of_particles="1" 
+		 initial_age="0" 
+		 age_to_die="0.13" 
+		 position_offset="100,0,0" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,0.7;0.1,9.6;1,1" 
+		 alpha_multiplier="0.7;0.9" 
+		 scale_multiplier="0.2" 
+		 blend_mode="ADDITIVE" 
+		 bitmaps="fxs/muzzle_flashes/pistol1.png" 
+		 />
+
+		<node class="BITMAP" 
+		 collide_to_ground_plane="false" 
+		 number_of_particles="12" 
+		 initial_age="0;0.1" 
+		 age_to_die="0.14;0.19" 
+		 position_offset="0,0,-1" 
+		 move_speed="1200;1800" 
+		 move_direction="0,0,1" 
+		 move_angle_spread="30" 
+		 move_angle_y="-90" 
+		 gravity_multiplier="3" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,0.4;0.1,1;1,0.5" 
+		 alpha_multiplier="0.7;1" 
+		 scale_multiplier="0.2;0.5" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 angular_velocity="0,0,0;0,0,200" 
+		 blend_mode="ADDITIVE" 
+		 bitmaps="fxs/spark.png" 
+		 />
+
+	</array>
+</root>

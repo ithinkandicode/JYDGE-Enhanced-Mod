@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS"
+		 physics_material="STEEL_ENEMY"
+		 name="Kamikaze drone"
+		 renderer="Kamikaze"
+		 ai="Kamikaze"
+		 friend_group="ENEMIES"
+		 turn_speed="6.0"
+		 move_speed="800"
+		 move_acceleration="3200"
+		 dampening_factor="0.5"
+		 restitution_coefficient="0.15"
+		 scale="1"
+		 aggro_radius="700"
+		 friend_avoidance_radius="30"
+		 model_idle="models/kamikaze-drone.xml"
+		 effect_on_death="effects/explosion-drone.xml"
+		 bitmap_shadow="shadows/shadow-circle.png"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="0.5"
+		 hit_points="12"
+		 walk_forward_animation="models/animations/kamikaze_drone_rig-kamikaze_drone_spin_fast.xml"
+		 idle_animation="models/animations/kamikaze_drone_rig-kamikaze_drone_spin_slow.xml"
+		 mass="999"
+		/>
+
+		<node id="COLLIDER"
+		 cylinder_max_z="100"
+		 cylinder_min_z="-100"
+		 cylinder_radius="15"
+		 collider_generation_method="AUTOMATIC"
+		/>
+
+		<node id="CUSTOM_DATA"
+		 explosion_damage="45"
+		 explosion_range="70"
+		 rise_time="0.15"
+		 field_of_vision="60"
+		 sound_collection="kamikaze_drone"
+		 actor_class="robotic"
+		 is_lesser_enemy="true"
+		 reaction_time="0.05"
+		/>
+
+	</array>
+</root>

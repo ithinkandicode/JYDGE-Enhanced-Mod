@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="Explosive Bolt" 
+		 renderer="Bolt" 
+		 ai="ExplosiveBolt" 
+		 turn_speed="4.0" 
+		 move_speed="1600" 
+		 move_acceleration="1900" 
+		 dampening_factor="0.0" 
+		 restitution_coefficient="0.5" 
+		 friend_group="PROJECTILES" 
+		 scale="1" 
+		 mass="0" 
+		 effect_on_death="effects/explosion-explodz.xml" 
+		 bitmap_move="actors/gfx/bullet-ion-bolt.png" 
+		 bitmap_attack="actors/gfx/bullet-ion-bolt.png" 
+		 bitmap_death="!NONE" 
+		 bitmap_trail="actors/gfx/trail-white.png" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.24" 
+		 hit_points="3" 
+		/>
+
+		<node id="COLLIDER"
+          type="SPHERE"
+          sphere_radius="20" 
+         />
+         
+		<node id="CUSTOM_DATA" 
+		 bullet_trail_effect="effects/bullet_trail_railgun.xml" 
+		 bullet_trail_interval="10" 
+		 bullet_glow_size="0.0" 
+		 bitmap_trail_color="55335E" 
+		 explosion_damage="85" 
+		 explosion_range="80" 
+		/>
+
+	</array>
+</root>

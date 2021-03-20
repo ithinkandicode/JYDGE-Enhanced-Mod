@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="Rocket Mini" 
+		 renderer="Missile" 
+		 ai="Missile" 
+		 turn_speed="4.0" 
+		 move_speed="700" 
+		 move_acceleration="1400" 
+		 dampening_factor="0.0" 
+		 restitution_coefficient="0.5" 
+		 friend_group="PROJECTILES" 
+		 scale="0.5" 
+		 mass="5" 
+		 model_idle="models/rocket.xml" 
+		 effect_on_death="effects/explosion-missile-mini.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.24" 
+		 hit_points="4" 
+		/>
+
+		<node id="COLLIDER"
+          type="SPHERE"
+          sphere_radius="4" 
+		  />
+          
+		<node id="CUSTOM_DATA" 
+		 explosion_damage="50" 
+		 explosion_range="75" 
+		 initial_speed_at_birth="500" 
+		 missile_trail_effect="effects/missile_travel_mini.xml" 
+		 bullet_glow_size="0.3"	 
+		/>
+
+	</array>
+</root>

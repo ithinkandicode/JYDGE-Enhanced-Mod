@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+	<array id="CHARACTER">
+
+		<node id="name" value="Ada Turing" />
+		<node id="role" value="HACKER" actor_number="2" />
+		<node id="ability" value="DEFENSIVE_GRENADES" />
+		<node id="weapon" value="weapons/assault_rifle-conventional.xml" />
+
+<!--
+		<node id="enhancements" value="WALL_SMASHER,SLOWDOWN_FIELD" />
+
+		<node id="stat_HEALTH" value="0" />
+		<node id="stat_ENERGY" value="0" />
+		<node id="stat_DAMAGE" value="0" />
+		<node id="stat_CRITS" value="0" />
+		<node id="stat_SLOTS" value="0" />
+-->
+
+	</array>
+</root>

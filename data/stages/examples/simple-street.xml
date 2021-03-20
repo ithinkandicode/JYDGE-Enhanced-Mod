@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+<array id="info">
+ <node id="creator_program" value="JYDGE" />
+ <node id="creator_version" value="1.1.0" />
+ <node id="cells_width" value="16" />
+ <node id="cells_height" value="16" />
+ <node id="ambient_light" r="0.50" g="0.43" b="0.35" />
+ <node id="key_values" 
+ />
+</array>
+
+<array id="JYDGE">
+ <node id="mission"
+  name="Kalastrofi"
+  desc="Lohi pommpas poydalle."
+  location="Kalatori, Hervanta"
+  main_objective_name="TAPA |#00ff00|KALA|#ffffff|!!!"
+  medals_0="ALL_ENEMIES,SAVIOR,UNTOUCHED"
+  medals_1="ALL_ENEMIES,UNTOUCHED,SAVIOR"
+  medals_2="ALL_ENEMIES,UNTOUCHED,SAVIOR"
+  medals_3="ALL_ENEMIES,UNTOUCHED,SAVIOR"
+ />
+</array>
+
+<array id="markers">
+ <node id="entry_point" ref_number="1" x="388" y="680" radius="0" key_STRING_name="Shady Back Alley" />
+ <node id="mission_exit" ref_number="2" x="255" y="695" radius="60" />
+</array>
+
+<array id="sound_sources">
+</array>
+
+<array id="lights">
+ <node type="POINT" x="58" y="2" z="-120" ref_number="3" parent="7" angle_z="-124.30" color_r="0.72" color_g="0.67" color_b="0.54" radius="242.00" bm_glow="fxs/light-orange.png" />
+ <node type="POINT" x="58" y="2" z="-120" ref_number="4" parent="8" angle_z="-124.30" color_r="0.72" color_g="0.67" color_b="0.54" radius="242.00" bm_glow="fxs/light-orange.png" />
+ <node type="POINT" x="58" y="2" z="-120" ref_number="5" parent="9" angle_z="-124.30" color_r="0.72" color_g="0.67" color_b="0.54" radius="242.00" bm_glow="fxs/light-orange.png" />
+ <node type="POINT" x="58" y="2" z="-120" ref_number="6" parent="20" angle_z="-124.30" color_r="0.72" color_g="0.67" color_b="0.54" radius="242.00" bm_glow="fxs/light-orange.png" />
+</array>
+
+<array id="particle_emitters">
+</array>
+
+<array id="scriptable_surfaces">
+</array>
+
+<array id="cells">
+ <node x="0" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.80" g="0.80" b="0.80" />
+ <node x="1" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.81" g="0.81" b="0.81" />
+ <node x="2" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.81" g="0.81" b="0.81" />
+ <node x="3" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="4" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="5" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="6" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="7" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="8" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="9" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="10" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="11" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="12" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="14" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="15" y="0" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="0" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.81" g="0.81" b="0.81" />
+ <node x="1" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.81" g="0.81" b="0.81" />
+ <node x="2" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="3" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="4" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="5" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="6" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="7" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="8" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="9" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="10" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="11" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="13" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="14" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="15" y="1" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="0" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.81" g="0.81" b="0.81" />
+ <node x="1" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="2" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="3" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="4" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="5" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="6" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="7" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="8" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="9" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="10" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="12" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="13" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="14" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="15" y="2" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="0" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="1" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="2" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="3" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="4" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="5" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="6" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="7" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="8" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="9" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="11" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="12" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="13" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="14" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="15" y="3" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="0" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.82" g="0.82" b="0.82" />
+ <node x="1" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="2" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="3" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="4" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="5" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="6" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="7" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="8" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="9" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="10" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="11" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="12" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="13" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="14" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="15" y="4" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="0" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.83" g="0.83" b="0.83" />
+ <node x="1" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="2" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="3" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="4" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="6" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="7" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="8" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="9" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="10" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="11" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="12" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="13" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="14" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="15" y="5" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="0" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="1" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="2" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="3" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="5" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="6" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="7" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="8" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="9" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="10" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="11" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="12" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="13" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="14" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="15" y="6" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="0" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.84" g="0.84" b="0.84" />
+ <node x="1" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="2" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="4" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="5" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="6" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="7" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="8" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="9" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="10" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="11" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="12" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="13" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="14" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="15" y="7" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="0" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.85" g="0.85" b="0.85" />
+ <node x="1" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="3" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="4" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="5" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="6" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="7" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="8" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="9" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="10" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="11" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="12" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="13" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="14" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="15" y="8" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="0" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="1" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="2" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="3" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="4" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="5" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="6" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="7" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="8" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="9" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="10" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="11" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="12" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="13" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="14" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="15" y="9" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="0" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.86" g="0.86" b="0.86" />
+ <node x="1" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="2" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="3" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="4" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="5" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="6" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="7" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="8" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="9" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="10" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="11" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="12" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="13" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="14" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="15" y="10" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="0" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.87" g="0.87" b="0.87" />
+ <node x="1" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="2" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="3" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="4" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="5" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="6" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="7" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="8" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="9" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="10" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="11" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="12" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="13" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="14" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="15" y="11" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="0" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="1" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="2" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="3" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="4" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="5" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="6" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="7" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="8" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="9" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="10" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="11" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="12" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="13" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="14" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="15" y="12" bm="ground-tiles/asphalt-2x2.jpg" r="0.97" g="0.97" b="0.97" />
+ <node x="0" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.88" g="0.88" b="0.88" />
+ <node x="1" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="2" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="3" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="4" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="5" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="6" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="7" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="8" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="9" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="10" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="11" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="12" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="13" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="14" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.97" g="0.97" b="0.97" />
+ <node x="15" y="13" bm="ground-tiles/asphalt-2x2.jpg" r="0.98" g="0.98" b="0.98" />
+ <node x="0" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="1" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="2" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="3" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="4" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="5" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="6" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="7" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="8" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="9" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="10" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="11" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="12" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="13" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.97" g="0.97" b="0.97" />
+ <node x="14" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.98" g="0.98" b="0.98" />
+ <node x="15" y="14" bm="ground-tiles/asphalt-2x2.jpg" r="0.98" g="0.98" b="0.98" />
+ <node x="0" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.89" g="0.89" b="0.89" />
+ <node x="1" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.90" g="0.90" b="0.90" />
+ <node x="2" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="3" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.91" g="0.91" b="0.91" />
+ <node x="4" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.92" g="0.92" b="0.92" />
+ <node x="5" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="6" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.93" g="0.93" b="0.93" />
+ <node x="7" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="8" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.94" g="0.94" b="0.94" />
+ <node x="9" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.95" g="0.95" b="0.95" />
+ <node x="10" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="11" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.96" g="0.96" b="0.96" />
+ <node x="12" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.97" g="0.97" b="0.97" />
+ <node x="13" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.98" g="0.98" b="0.98" />
+ <node x="14" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.98" g="0.98" b="0.98" />
+ <node x="15" y="15" bm="ground-tiles/asphalt-2x2.jpg" r="0.99" g="0.99" b="0.99" />
+</array>
+
+<array id="ground_decals">
+</array>
+
+<array id="actors">
+ <node ref_number="7" type="actors/streetlight.xml" x="766" y="212" angle_z="161"  />
+ <node ref_number="8" type="actors/streetlight.xml" x="795" y="393" angle_z="171"  />
+ <node ref_number="9" type="actors/streetlight.xml" x="793" y="563" angle_z="183"  />
+ <node ref_number="10" type="actors/car-police.xml" x="221" y="710" angle_z="242" key_STRING_arrive_style="FROM_ABOVE" key_STRING_leave_style="UPWARDS" key_BOOLEAN_dont_open_left_door="true"  />
+ <node ref_number="11" type="actors/wall-rusty-thick-cap.xml" x="120" y="480" angle_z="270"  />
+ <node ref_number="12" type="actors/wall-rusty-thick-I.xml" x="180" y="480" angle_z="90"  />
+ <node ref_number="13" type="actors/wall-rusty-thick-I.xml" x="240" y="480" angle_z="90"  />
+ <node ref_number="14" type="actors/wall-rusty-thick-I.xml" x="300" y="480" angle_z="90"  />
+ <node ref_number="15" type="actors/wall-rusty-thick-I.xml" x="360" y="480" angle_z="90"  />
+ <node ref_number="16" type="actors/wall-rusty-thick-cap.xml" x="480" y="480" angle_z="90"  />
+ <node ref_number="17" type="actors/wall-rusty-thick-I.xml" x="420" y="480" angle_z="90"  />
+ <node ref_number="18" type="actors/enemy-jydge-shooter-weak.xml" x="642" y="271" angle_z="326"  />
+ <node ref_number="19" type="actors/enemy-jydge-shooter-tough.xml" x="344" y="238" angle_z="43" scale="1.000000"  />
+ <node ref_number="20" type="actors/streetlight.xml" x="122" y="112" angle_z="44"  />
+</array>
+
+</root>

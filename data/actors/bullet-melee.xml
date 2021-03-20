@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="BULLET" 
+		 name="Bullet Melee" 
+		 renderer="Projectile" 
+		 ai="NCBullet" 
+		 base="bullet" 
+		 friend_group="PROJECTILES" 
+		 turn_speed="0" 
+		 move_speed="800" 
+		 mass="10" 
+		 scale="1" 
+		 damage="9" 
+		 bitmap_move="actors/gfx/bullet-tracer.png" 
+		 bitmap_attack="actors/gfx/bullet-tracer.png" 
+		 bitmap_death="!NONE" 
+		 bitmap_trail="actors/gfx/trail-white.png" 
+		 hit_points="1" 
+		/>
+
+		<node id="COLLIDER" 
+		 collider_generation_method="AUTOMATIC" 
+		 cylinder_radius="0" 
+		/>
+
+	</array>
+</root>

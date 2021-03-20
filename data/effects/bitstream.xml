@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 bitmaps="fxs/binary-0.png;fxs/binary-1.png" 
+		 number_of_particles="1" 
+		 initial_age="-0.7;0" 
+		 age_to_die="0.7;0.9" 
+		 time="0" 
+		 blend_mode="ADDITIVE" 
+		 position_offset="0,0,0" 
+		 move_speed="32;48" 
+		 move_direction="0,0,-1" 
+		 move_angle_spread="0" 
+		 move_angle_z="0" 
+		 move_angle_y="0" 
+		 move_angle_x="0" 
+		 dampening_factor="1" 
+		 restitution_coefficient="0.5" 
+		 gravity_multiplier="-1" 
+		 alpha_curve="0,0;0.5,1;0.7,1;1,0" 
+		 scale_curve="0,0.3;1,0.4" 
+		 alpha_multiplier="1" 
+		 scale_multiplier="1" 
+		 rotation_angles="0,0,0" 
+		 angular_velocity="0,0,0" 
+		/>
+
+	</array>
+</root>

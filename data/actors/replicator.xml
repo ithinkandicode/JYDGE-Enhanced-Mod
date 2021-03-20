@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL" 
+		 renderer="AnimatedObstacle" 
+		 ai="Lootable" 
+		 friend_group="OBSTACLES" 
+		 turn_speed="2.5" 
+		 move_speed="10" 
+		 scale="1" 
+		 model_idle="models/replicator.xml" 
+		 bitmap_shadow="shadows/replicator-shadow.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="1" 
+		 hit_points="230" 
+		 idle_animation="models/animations/replicator_rig-replicator_idle.xml" 
+		 damage="0.0" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+	</array>
+
+	<array id="GIBS_EXPLOSION">
+		<node id="EXPLOSION_1" 
+		 model="" 
+		 model_group_1="LIGHTWALL,NONE,16,LIGHTWALL" 
+		 model_group_2="GLASS,NONE,16,GLASS" 
+		 model_group_3="OBJECT_SMALL,NONE,2,NONE" 
+		 model_group_4="OBJECT_LARGE,NONE,4,NONE" 
+		 model_group_5="METAL_SMALL,NONE,2,NONE" 
+		 model_group_6="METAL_LARGE,NONE,4,NONE" 
+		 model_group_7="METAL_MISC,NONE,2,OIL" 
+		 model_group_8="METAL_PLATE,NONE,4,NONE" 
+		 particle_effect_1="effects/explosion-generic-medium.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

@@ -1,0 +1,1 @@
+Put all bloody gfx in this dir. That way the game can be censored by using override packet for this folder.

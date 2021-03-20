@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="WEAPON">
+		<node id="PARAMETERS" 
+		 name="Laser Assault Rifle" 
+		 displayable_type="Laser Assault Rifle" 
+		 displayable_lore="Lore here" 
+		 equip_price="600" 
+		 unlock_price="1600" 
+		 bm_icon="!NONE" 
+		 snd_fire="sfx/explosion_small" 
+		 snd_reload="sfx/weapons/autorifle_reload" 
+		 effect_muzzle_flash="effects/muzzle-conventional.xml" 
+		 type="WEAPON_TYPE_PROJECTILE" 
+		 related_actor="actors/weapon-heavy_rifle.xml" 
+		 crit_chance="0.18" 
+		 projectile_actor="actors/projectile-heavy_rifle.xml" 
+		 projectiles_per_shot="1" 
+		 projectile_range="900" 
+		 projectile_range_random="0.1" 
+		 projectile_angle_spread="0" 
+		 min_accuracy_spread="1.2" 
+		 moving_accuracy_spread="4.2" 
+		 max_accuracy_spread="45" 
+		 recoil="0.11" 
+		 rebound_speed="0.9" 
+		 shot_interval="0.22" 
+		 ammo_cost_per_shot="1" 
+		 heat_per_shot="0.1" 
+		 reload_time="2.7" 
+		 reload_size="8" 
+		 clip_size="8" 
+		 ammo_refill_size="1" 
+		 damage="40" 
+		 projectile_speed="1300" 
+		 projectile_speed_random="0.7" 
+		 trail_length="420" 
+		 trail_thickness="0.9" 
+		 trail_alpha="0.8" 
+		 move_speed_modifier="1.0" 
+		 unlimited_ammo="true" 
+		 damage_multiplier="1.0" 
+		 model="models/grenade.xml" 
+		/>
+
+	</array>
+</root>

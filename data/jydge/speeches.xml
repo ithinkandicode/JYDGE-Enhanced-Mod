@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root> 
+
+<!--
+
+NOTES AND DRAFTS:
+
+Synth settings:
+https://acapela-box.com/AcaBox/index.php
+Will(BadGuy)
+Speech Rate +60
+Voice Shaping 0
+
+
+SPEECH SITUATIONS:
+
+-During mission: killing multiple with one explosive etc
+""
+""
+
+
+-Add here more in-mission speeches!
+
+
+
+-Bank mission details on the first look:
+These bank robbers opened the wrong safety deposit box. They need to die.
+
+
+-Entering metagame from main menu.
+
+Let's get to work.
+The scum is tightening their grip.
+The city must be purged of the scum.
+I can hear the scum breeding out there.
+The crime never sleeps.
+The initiative will prevail.
+All hail JUDGE.
+Hmm.. Where next.
+
+-Selecting enhancements
+
+Installation success.
+Intriguing combination.
+That should do it.
+Routine procedure.
+
+-Upgrading weapon
+Locked and loaded.
+Our power increases.
+
+
+-Completing level in map
+
+We're making progress.
+The scum is being driven out.
+Everything progresses as planned.
+The relentles fist of jystice keeps pounding.
+
+
+-Starting new mission
+
+Give them hell.
+Let's do it.
+Alright.
+Move forward.
+Unleash the JUDGE.
+Judgement time.
+Court in session.
+Jystice is Blind. Jydge is not.
+
+Pause.
+Regroup.
+
+-Winning a mission
+
+Astonishing win.
+Another example of our power.
+We will prevail.
+
+-Failing a mission
+
+Regroup and try again.
+Let's retry.
+Minor setback.
+All is lost.
+We're doomed.
+Sometimes I question this initiative.
+No no no! Again!
+I hate doing the paperwork for this.
+Jystice is adjourned
+
+-Multikill
+Jydge'd
+I AM THE LAW!
+Objection Denied.
+Verdict is Guilty. Sentence is death.
+
+If 'sound' is not defined, sound file used is 'sfx/speeches/'+array_id+'-'+node_id
+
+
+-->
+
+
+  	<array id="EnteringMainMenu">
+        <node id="0"    subtitles="JYDGE!" />
+    </array>
+
+  	<array id="_EnteringMetagame">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+        <node id="3"    subtitles="TODO" />
+        <node id="4"    subtitles="TODO" />
+        <node id="5"    subtitles="TODO" />
+        <node id="6"    subtitles="TODO" />
+        <node id="7"    subtitles="TODO" />
+    </array>
+    
+  	<array id="_MissionStart">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+        <node id="3"    subtitles="TODO" />
+        <node id="4"    subtitles="TODO" />
+        <node id="5"    subtitles="TODO" />
+        <node id="6"    subtitles="TODO" />
+    </array>
+
+	<array id="_MissionOverSuccess">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+    </array>
+  
+	<array id="_MissionOverFailed">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+        <node id="3"    subtitles="TODO" />
+        <node id="4"    subtitles="TODO" />
+        <node id="5"    subtitles="TODO" />
+        <node id="6"    subtitles="TODO" />
+        <node id="7"    subtitles="TODO" />
+    </array>
+    
+  
+	<array id="MissionPaused">
+    </array>
+  
+	<array id="MissionResumed">
+    </array>
+  
+	<array id="_MapMedalsAdded">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+        <node id="3"    subtitles="TODO" />
+    </array>    
+  
+	<array id="CollectibleFound">
+    </array>
+    
+   	<array id="_WeaponUpgraded">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+    </array>    
+    
+   	<array id="_InstallCyberware">
+        <node id="0"    subtitles="TODO" />
+        <node id="1"    subtitles="TODO" />
+        <node id="2"    subtitles="TODO" />
+        <node id="3"    subtitles="TODO" />
+    </array>    
+   
+   
+   
+ 
+</root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="CyberDolphin" 
+		 renderer="Drone" 
+		 ai="AttackDrone" 
+		 weapon="weapons/railgun-hovertank.xml" 
+		 friend_group="ENEMIES" 
+		 turn_speed="4.0" 
+		 move_speed="0" 
+		 move_acceleration="1900" 
+		 dampening_factor="8.0" 
+		 restitution_coefficient="0.15" 
+		 scale="1.0" 
+		 aggro_radius="470" 
+		 friend_avoidance_radius="10" 
+		 model_idle="models/dolphin.xml" 
+		 effect_on_death="effects/explosion-blood-small.xml" 
+		 bitmap_shadow="!NONE" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 hit_points="20" 
+		 death_animation="models/animations/dolphin_rig-dolphin_die.xml" 
+		 idle_animation="models/animations/dolphin_rig-dolphin_idle.xml" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 shot_interval_multiplier="1.2" 
+		 wander_radius="180" 
+		 accuracy_spread_multiplier="1.0" 
+		 rebound_speed_multiplier="1.0" 
+		/>
+
+	</array>
+</root>

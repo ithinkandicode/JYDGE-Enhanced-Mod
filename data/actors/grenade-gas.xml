@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="GasGrenade" 
+		 renderer="Grenade" 
+		 ai="GasGrenade" 
+		 turn_speed="4.0" 
+		 move_speed="400" 
+		 move_acceleration="1900" 
+		 dampening_factor="0.0" 
+		 restitution_coefficient="0.5" 
+		 friend_group="GRENADES" 
+		 scale="1" 
+		 model_idle="models/grenade.xml" 
+		 effect_on_death="effects/explosion-grenade.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.24" 
+		 hit_points="3" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 explosion_damage="0" 
+		 explosion_range="100" 
+		/>
+
+	</array>
+</root>

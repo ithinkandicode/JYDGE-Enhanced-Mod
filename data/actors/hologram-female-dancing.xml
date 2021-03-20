@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 renderer="AnimatedObstacle" 
+		 ai="Hologram" 
+		 friend_group="OBSTACLES" 
+		 additional_flags="INDESTRUCTIBLE"
+		 turn_speed="2.5" 
+		 move_speed="10" 
+		 scale="1" 
+		 model_idle="models/hologram-female.xml" 
+		 bitmap_shadow="!NONE" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="1" 
+		 hit_points="1500" 
+		 idle_animation="models/animations/humanoid_rig-humanoid_dance_unisex.xml" 
+		 damage="0.0" 
+		/>
+
+		<node id="COLLIDER" 
+		 collider_generation_method="AUTOMATIC" 
+		 edge_generation_height="8" 
+		/>
+
+	</array>
+</root>

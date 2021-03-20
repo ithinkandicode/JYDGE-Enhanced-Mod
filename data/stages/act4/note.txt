@@ -1,0 +1,1 @@
+Act IV stages are in act3 folder to retain backwards compatibility for save games.

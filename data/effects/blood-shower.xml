@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 is_lit="true" 
+		 number_of_particles="1" 
+		 initial_age="0;0.2" 
+		 age_to_die="4" 
+		 position_offset="0,0,0" 
+		 gravity_multiplier="0" 
+		 rotation_angles="0,0,-180;0,0,180" 
+		 angular_velocity="0,0,-10;0,0,10" 
+		 blend_mode="NORMAL" 
+		 effect_emitted="effects/blood-stream.xml" 
+		 effect_emit_time_interval="0.1" 
+		 bitmaps="effects/empty.png" 
+		 />
+
+	</array>
+</root>

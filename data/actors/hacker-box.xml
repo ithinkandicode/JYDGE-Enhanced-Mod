@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL" 
+		 name="HackerBox" 
+		 renderer="Lootable" 
+		 ai="Lootable" 
+		 friend_group="OBSTACLES" 
+		 scale="1" 
+		 model_idle="models/box-loot-hackable.xml" 
+		 bitmap_shadow="shadows/premium-box-shadow.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.8" 
+		 hit_points="150" 
+		 walk_forward_animation="models/animations/premium_loot_box_rig-premium_loot_box_open.xml"
+		 allow_gpu_skinning="false"
+         has_reflection="false"		 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 hacker_required="true" 
+		 interaction_tip="{k_use}HACK" 
+         interaction_type="misc"    
+		/>
+
+	</array>
+
+	<array id="GIBS_DESTRUCTION">
+		<node id="DESTRUCTION_1" 
+		 model="" 
+		 model_group_1="LIGHTWALL,NONE,12,LIGHTWALL" 
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
+		 model_group_3="METAL_SMALL,NONE,2,NONE" 
+		 model_group_4="OBJECT_LARGE,NONE,2,NONE" 
+		 particle_effect_1="effects/object-small-breaks.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

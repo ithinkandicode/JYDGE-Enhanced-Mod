@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="category" value="TUBE" />
+	</array>
+
+	<array id="WALL_INNER_DOT">
+		<node output="actors/tube-X.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CAP">
+		<node output="actors/tube-cap.xml" />
+	</array>
+	
+	<array id="WALL_INNER_STRAIGHT">
+		<node output="actors/tube-I.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_STRAIGHT">
+		<node output="actors/tube-I.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CORNER">
+		<node output="actors/tube-L.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MINOR">
+		<node output="actors/tube-L.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MAJOR">
+		<node output="actors/tube-L.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_FULL">
+		<node output="actors/tube-X.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_QUARTER_OUTSIDE">
+		<node output="actors/tube-X.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T">
+		<node output="actors/tube-T.xml" />
+	</array>
+
+	<array id="WALL_OUTER_T">
+		<node output="actors/tube-T.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T_QUARTER_OUTSIDE">
+		<node output="actors/tube-T.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_STRAIGHT">
+		<node output="actors/tube-I.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_T">
+		<node output="actors/tube-T.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_CORNER_L">
+		<node output="actors/tube-L.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_CORNER_R">
+		<node output="actors/tube-L.xml" />
+	</array>
+
+</root>

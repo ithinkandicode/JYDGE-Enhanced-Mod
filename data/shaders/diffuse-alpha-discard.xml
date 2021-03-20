@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="color" type="FLOAT4" semantic="COLOR" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="diffuse" type="2D" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.color = input.color;
+					output.texture_coordinate = input.texture_coordinate;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+				void main()
+				{
+					float4 diffuse_sample = sampleTexture(texture.diffuse, input.texture_coordinate);
+					output.color = input.color * diffuse_sample;
+
+					if (output.color.a < 0.4f)
+						discard;
+				}
+			]]>
+		</node>
+	</array>
+</root>

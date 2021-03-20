@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="tags" value="HIDE_IN_EDITOR" />
+		<node id="category" value="THICK_WALL_OFFICE" />
+	</array>
+    
+	<array id="WALL_INNER_CAP">
+		<node output="actors/door-outer-double-frame.xml" />
+	</array> 
+
+</root>

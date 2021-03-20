@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="FLESH" 
+		 renderer="Humanoid" 
+		 ai="Civilian" 
+		 weapon="weapons/melee-dummy.xml" 
+		 friend_group="CIVILIANS" 
+		 turn_speed="4.0" 
+		 move_speed="250" 
+		 move_acceleration="3000" 
+		 dampening_factor="8.0" 
+		 restitution_coefficient="0.15" 
+		 scale="0.95" 
+		 aggro_radius="470" 
+		 friend_avoidance_radius="10" 
+		 model_idle="models/scientist.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 effect_on_death="effects/explosion-blood-small.xml" 
+		 weapon_barrel_offset_x="20" 
+		 weapon_barrel_offset_y="3" 
+		 weapon_shell_eject_offset_x="12" 
+		 weapon_shell_eject_offset_y="6" 
+		 hit_points="2" 
+		 move_animation_playback_speed="1.8" 
+		 death_animation_playback_speed="1" 
+		 walk_forward_animation="models/animations/humanoid_rig-humanoid_walk_forward_nowpn.xml" 
+		 walk_backward_animation="models/animations/humanoid_rig-humanoid_walk_forward_nowpn.xml" 
+		 walk_left_animation="models/animations/humanoid_rig-humanoid_walk_left_nowpn.xml" 
+		 walk_right_animation="models/animations/humanoid_rig-humanoid_walk_right_nowpn.xml" 
+		 rotate_animation="models/animations/humanoid_rig-humanoid_rotate.xml" 
+		 idle_animation="models/animations/humanoid_rig-humanoid_idle_nowpn.xml" 
+		 recoil_animation="models/animations/humanoid_rig-humanoid_recoil.xml" 
+		 stunned_animation="models/animations/humanoid_rig-humanoid_stunned.xml" 
+		 hack_animation="models/animations/humanoid_rig-humanoid_hack.xml" 
+		 reload_animation="models/animations/humanoid_rig-humanoid_reload.xml" 
+		/>
+
+		<node id="COLLIDER" 
+		 cylinder_radius_multiplier="0.5" 
+		 collider_generation_method="AUTOMATIC" 
+		/>
+
+		<node id="CUSTOM_DATA"
+		 sound_collection="civilian_male" 
+		 interaction_type="rescue" 
+		 melee_damage="10" 
+		 has_riot_shield="false" 
+		 max_energy="120" 
+		 melee_animation="models/animations/humanoid_rig-humanoid_melee.xml" 
+		 melee_fist_animation="models/animations/humanoid_rig-humanoid_melee_fist.xml" 
+		 melee_gun_animation="models/animations/humanoid_rig-humanoid_melee_gun.xml" 
+		 raise_gun_animation="models/animations/humanoid_rig-humanoid_raise_gun.xml" 
+		 pickup_animation="models/animations/humanoid_rig-humanoid_pickup.xml" 
+		 hit_animation_1="models/animations/humanoid_rig-humanoid_hit1.xml" 
+		 hit_animation_2="models/animations/humanoid_rig-humanoid_hit2.xml" 
+		 hit_animation_3="models/animations/humanoid_rig-humanoid_hit3.xml" 
+		 hit_animation_4="models/animations/humanoid_rig-humanoid_hit4.xml" 
+		 death_animation_1="models/animations/humanoid_rig-humanoid_die1.xml" 
+		 death_animation_2="models/animations/humanoid_rig-humanoid_die2.xml" 
+		 death_animation_3="models/animations/humanoid_rig-humanoid_die3.xml" 
+		 death_animation_4="models/animations/humanoid_rig-humanoid_die4.xml" 
+		 death_animation_5="models/animations/humanoid_rig-humanoid_die5.xml" 
+		 death_animation_6="models/animations/humanoid_rig-humanoid_die6.xml" 
+		 falling_animation="models/animations/humanoid_rig-humanoid_die_fall.xml"
+		/>
+
+	</array>
+
+	<array id="PROPS">
+		
+		<node id="HAIR_SPIKY" 
+		 group="HAIR"
+		 bone_id="head" 
+		 model="models/hair-spiky.xml" 
+		 mount_scale="1" 
+		 mount_offset_x="0" 
+		 mount_offset_y="0" 
+		 mount_offset_z="0" 
+         color="0.7,1,1,1"
+         glow_color="0.7,1,1,1"
+		/>
+
+	</array>
+
+<array id="GIBS_NONE">
+		<node id="DEATH_1" 
+		 model_group_1="MEAT_SMALL,spine.001,3,BLOOD" 
+		 model_group_2="GUTS,spine.001,2,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-small.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+		<node id="DEATH_2" 
+		 model_group_1="MEAT_LARGE,spine,3,BLOOD" 
+		 model_group_2="GUTS,spine,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-small.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+	</array>
+
+	<array id="GIBS_PARTIAL">
+		<node id="MISSING_LEFT_ARM" 
+		 model="models/civilian-female-missing-left-arm.xml" 
+		 model_group_1="CIVILIAN_FEMALE_ARM,arm.001.L,3,BLOOD" 
+		 model_group_2="MEAT_SMALL,arm.001.L,3,BLOOD" 
+		 model_group_3="MEAT_LARGE,arm.L,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-small.xml,arm.L" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+		<node id="MISSING_TORSO" 
+		 model="models/civilian-female-missing-torso.xml" 
+		 model_group_1="CIVILIAN_FEMALE_TORSO,spine.001,6,BLOOD" 
+		 model_group_2="GUTS,spine.001,3,BLOOD" 
+		 model_group_3="MEAT_LARGE,spine.001,6,BLOOD" 
+		 model_group_4="MEAT_SMALL,spine.001,6,BLOOD" 
+		 model_group_5="BRAIN,head,3,BLOOD" 
+		 model_group_6="CIVILIAN_FEMALE_HEAD,head,3,BLOOD" 
+		 model_group_7="CIVILIAN_FEMALE_ARM,arm.001.L,3,BLOOD" 
+		 model_group_8="CIVILIAN_FEMALE_ARM,arm.001.R,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-large.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		 remove_weapon="true" 
+		/>
+
+		<node id="HOLE_IN_TORSO" 
+		 model="models/civilian-female-hole-in-torso.xml" 
+		 model_group_1="CIVILIAN_FEMALE_TORSO,spine.001,6,BLOOD" 
+		 model_group_2="GUTS,spine.001,3,BLOOD" 
+		 model_group_3="MEAT_LARGE,spine.001,3,BLOOD" 
+		 model_group_4="MEAT_SMALL,spine.001,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-large.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+		<node id="HEADLESS" 
+		 model="models/civilian-female-headless.xml" 
+		 model_group_1="BRAIN,head,3,BLOOD" 
+		 model_group_2="MEAT_SMALL,head,3,BLOOD" 
+		 model_group_3="CIVILIAN_FEMALE_HEAD,head,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-small.xml,head" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+	</array>
+
+	<array id="GIBS_FULL">
+		<node id="EXPLOSION_1" 
+		 model_group_1="CIVILIAN_FEMALE_TORSO,spine.001,4,BLOOD" 
+		 model_group_2="GUTS,spine,3,BLOOD" 
+		 model_group_3="MEAT_LARGE,spine.001,4,BLOOD" 
+		 model_group_4="CIVILIAN_FEMALE_HEAD,head,3,BLOOD" 
+		 model_group_5="BRAIN,head,3,BLOOD" 
+		 model_group_6="CIVILIAN_FEMALE_LEG,leg.L.001,3,BLOOD" 
+		 model_group_7="CIVILIAN_FEMALE_LEG,leg.R.001,3,BLOOD" 
+		 model_group_8="CIVILIAN_FEMALE_ARM,arm.001.L,3,BLOOD" 
+		 model_group_9="CIVILIAN_FEMALE_ARM,arm.001.R,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-large.xml,spine.001" 
+		 death_animations="" 
+		 remove_weapon="true" 
+		/>
+
+		<node id="EXPLOSION_2" 
+		 model_group_1="CIVILIAN_FEMALE_TORSO,spine.001,4,BLOOD" 
+		 model_group_2="GUTS,spine,3,BLOOD" 
+		 model_group_3="MEAT_LARGE,spine,4,BLOOD" 
+		 model_group_4="MEAT_LARGE,spine.001,4,BLOOD" 
+		 model_group_5="CIVILIAN_FEMALE_HEAD,head,4,BLOOD" 
+		 model_group_6="BRAIN,head,3,BLOOD" 
+		 model_group_7="CIVILIAN_FEMALE_LEG,leg.L.001,3,BLOOD" 
+		 model_group_8="CIVILIAN_FEMALE_LEG,leg.R.001,3,BLOOD" 
+		 model_group_9="CIVILIAN_FEMALE_ARM,arm.001.L,3,BLOOD" 
+		 model_group_10="CIVILIAN_FEMALE_ARM,arm.001.R,3,BLOOD" 
+		 particle_effect_1="effects/explosion-blood-large.xml,spine.001" 
+		 death_animations="" 
+		 remove_weapon="true" 
+		/>
+
+	</array>
+</root>

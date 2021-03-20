@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 renderer="NeonChromeModelAlphaDiscard" 
+		 ai="Obstacle" 
+		 friend_group="OBSTACLES" 
+		 turn_speed="2.5" 
+		 move_speed="10" 
+		 scale="1" 
+		 model_idle="models/flowers1.xml" 
+		 bitmap_shadow="!NONE" 
+		 hit_points="20" 
+		 damage="0.0" 
+		/>
+
+		<node id="COLLIDER" 
+		 collider_generation_method="AUTOMATIC" 
+		 generate_convex_hull_for_edges="true" 
+		/>
+
+	</array>
+
+	<array id="GIBS_DESTRUCTION">
+		<node id="DESTRUCTION_1" 
+		 model="models/mud.xml" 
+		 model_group_1="LIGHTWALL,NONE,8,LIGHTWALL" 
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
+		 model_group_3="METAL_SMALL,NONE,2,NONE" 
+		 particle_effect_1="effects/object-small-breaks.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

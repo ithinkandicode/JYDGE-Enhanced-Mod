@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="Fire" 
+		 renderer="FireAndGas" 
+		 ai="FireAndGas" 
+		 friend_group="FIRE" 
+		 turn_speed="6.0" 
+		 move_speed="300" 
+		 move_acceleration="600" 
+		 dampening_factor="2.0" 
+		 restitution_coefficient="0.15" 
+		 scale="1.0" 
+		 aggro_radius="30" 
+		 model_idle="models/explosive.xml" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 max_time_alive="3" 
+		/>
+
+	</array>
+</root>

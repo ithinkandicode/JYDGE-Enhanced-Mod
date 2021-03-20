@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+	<!-- Editor settings -->
+
+	<array id="marker_templates">
+		<node id="entry_point" radius="0" angle="90" key_STRING_name="Shady Back Alley" />
+		<node id="mission_exit" radius="60" />
+		<node id="civ_exit" radius="60" />
+		<node id="mission_start_camera" radius="40" key_FLOAT_pan_duration="2" key_FLOAT_initial_delay="1" />
+        <node id="jump_to_mission" radius="60" key_STRING_target="stages/misc/secret0.xml" key_BOOLEAN_allow_entry="true" />
+        <node id="timeline_action" radius="60" key_STRING_type="START_EVENT" key_STRING_target="Secret0" />
+		<node id="enemy" radius="10" />
+		<node id="push_ui" key_STRING_marker_type="push_ui" key_STRING_ui_to_push="" key_STRING_parm_name=""  key_STRING_parm_value="" radius="40" />
+
+		<node id="door_location" radius="0" key_STRING_type="door" />
+		<node id="trigger" radius="120" />
+		<node id="enemy_exit" radius="60" />
+	</array>
+	
+	<array id="light_templates">
+
+		<node type="POINT" color="1,1,1,1" radius="500" />
+		<node type="POINT" color="0.1,1,1,1" radius="300" />
+		<node type="POINT" color="1,0.8,0.1,1" radius="200" />
+
+		<node type="POINT" color="1,0,0" radius="300" />
+		<node type="POINT" color="0,1,0" radius="300" />
+		<node type="POINT" color="0,0,1" radius="300" />
+
+		<!-- Directions will be normalized after read. -->
+		<node type="DIRECTIONAL" color="1,1,1" direction="1,1,1" />
+		<node type="DIRECTIONAL" color="1,0.8,0" direction="-1,-1,-1" />
+		<node type="DIRECTIONAL" color="1,0,0" direction="-1,-1,-1" />
+
+		<node type="SPOT" color="0,1,0.8" radius="400" direction="1,0,0" cone_angle_spread="180" />
+		<node type="SPOT" color="1,0.2,1" radius="400" direction="0,1,0" cone_angle_spread="90" />
+		<node type="SPOT" color="0.4,1,0" radius="400" direction="1,0,0" cone_angle_spread="270" />
+	</array>
+
+	<array id="light_presets">
+        <node id="Candle" rgb="255,147,41" />
+        <node id="40W Tungsten" rgb="255,197,143" />
+        <node id="100W Tungsten" rgb="255,214,170" />
+        <node id="Halogen" rgb="255,241,224" />
+        <node id="Carbon Arc" rgb="255,250,244" />
+        <node id="High Noon Sun" rgb="255,255,251" />
+        <node id="Direct Sunlight" rgb="255,255,255" />
+        <node id="Overcast Sky" rgb="201,226,255" />
+        <node id="Clear Blue Sky" rgb="64,156,255" />
+        <node id="Warm Fluorescent" rgb="255,244,229" />
+        <node id="Standard Fluorescent" rgb="244,255,250" />
+        <node id="Cool White Fluorescent" rgb="212,235,255" />
+        <node id="Full Spectrum Fluorescent" rgb="255,244,242" />
+        <node id="Grow Light Fluorescent" rgb="255,239,247" />
+        <node id="Black Light Fluorescent" rgb="167,0,255" />
+        <node id="Mercury Vapor" rgb="216,247,255" />
+        <node id="Sodium Vapor" rgb="255,209,178" />
+        <node id="Metal Halide" rgb="242,252,255" />
+        <node id="High Pressure Sodium" rgb="255,183,76" />
+	</array>
+
+
+	<array id="camera_templates">
+		<node field_of_view="90" z_near="10" f_far="140000" />
+	</array>
+	
+	
+	
+	<array id="tab_titles">
+
+		<node id="Stage" title="Stage Properties" />
+		<node id="AddStageObjects" title="Add Objects" />
+		<node id="ObjectList" title="Object List" />
+		<node id="Properties" title="Inspect Object" />
+		<node id="Lights" title="Lighting" palette_name="LightPalette" />
+		<node id="Actors" title="Actor Palette" palette_name="ActorPalette" />
+		<node id="SoundSources" title="Sound Sources" palette_name="SoundSourcePalette" />
+		<node id="Markers" title="Markers" palette_name="MarkerPalette" />
+		<node id="Ground" title="Ground Tiles" palette_name="GroundTilePalette" />
+		<node id="GroundDecals" title="Ground Decals" palette_name="GroundDecalPalette" />
+		<node id="ScriptableSurfaces" title="Scriptable Surfaces" palette_name="ScriptableSurfacePalette" />
+		<node id="ParticleEmitters" title="Particle Emitters" palette_name="ParticleEmitterPalette" />
+		<node id="Walls" title="Wall Tile Brush" palette_name="WallTilePalette" />
+		<node id="Tools" title="Tools" />
+		<node id="Test" title="Test Stage" />
+		<node id="Exit" title="Exit" />
+		
+	</array>
+
+</root>

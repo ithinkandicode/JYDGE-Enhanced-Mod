@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+  <array id="constants">
+
+    <node id="K_USE_TIP" text="|#ffba00|USE|#ffffff|" />
+    
+    <node id="TUTORIAL_ATTACK"  text="Surprise attacks will deal extra damage." />
+    <node id="TUTORIAL_HOSTAGES"  text="Rescue hostages and keep them safe!" />
+
+    <node id="txt_health_full" text= "|#ff4444|Health Full" />
+    <node id="txt_must_be_hacker" text= "|#eb12ff|Hacking Tool Required" />
+
+    <node id="MOD_STATUS" text="%d mods enabled" />
+    
+    <!-- Actor names in stage xml files. -->
+    <node id="Riot Leader" text="Riot Leader" />
+    <node id="Mr. Pink" text="Mr. Pink" />
+    <node id="Mr. Blue" text="Mr. Blue" />
+    <node id="Mr. Black" text="Mr. Black" />
+    <node id="Mr. White" text="Mr. White" />
+    <node id="Mr. Yellow" text="Mr. Yellow" />
+    <node id="Black Jack" text="Black Jack" />
+    <node id="Gang Officer" text="Gang Officer" />
+    <node id="Gang Lord" text="Gang Lord" />
+    <node id="Record Keeper" text="Record Keeper" />
+    <node id="Administrator" text="Administrator" />
+    <node id="IT Guy" text="IT Guy" />
+    <node id="The Recruiter" text="The Recruiter" />
+               
+  </array>
+    
+</root>

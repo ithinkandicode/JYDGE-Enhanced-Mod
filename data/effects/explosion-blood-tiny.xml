@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP"
+		 bitmaps="blood/blood-splatter-01.png;blood/blood-splatter-02.png;blood/blood-splatter-03.png;blood/blood-splatter-04.png"
+		 number_of_particles="15;20"
+		 initial_age="0;0.1"
+		 age_to_die="2;3"
+		 time="0"
+		 blend_mode="NORMAL"
+		 is_lit="true"
+		 collide_to_ground_plane="true"
+		 collide_to_static_actors="true"
+		 die_on_collision="true"
+		 leaves_decal_on_death="true"
+		 position_offset="0,0,-1"
+		 position_spread_box="3,3,3"
+		 move_speed="100;500"
+		 move_direction="1,0,0"
+		 move_angle_spread="10;15"
+		 move_angle_z="0"
+		 move_angle_y="-90"
+		 move_angle_x="0"
+		 dampening_factor="0.4"
+		 restitution_coefficient="0.5"
+		 gravity_multiplier="3"
+		 alpha_curve="0,0;0.2,1;1,0"
+		 scale_curve="0,0.5;0.1,1;1,0.5"
+		 alpha_multiplier="0.7;1"
+		 scale_multiplier="0.8;1"
+		 rotation_angles="0,0,0;0,0,360"
+		 angular_velocity="0,0,0;0,0,200"
+		 sounds="sfx/hit_sounds/flesh_break_01;sfx/hit_sounds/flesh_break_02;sfx/hit_sounds/flesh_break_03"
+		/>
+
+	</array>
+</root>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="UNLOCKABLES">
+
+		<!-- INITIAL SET -->
+		<node id="weapons/smg-conventional.xml" type="weapon" always_unlocked="true" />
+		<node id="weapons/assault_rifle-conventional.xml" type="weapon" always_unlocked="true" />
+		<node id="weapons/assault_rifle-conventional-burst.xml" type="weapon" always_unlocked="true" />
+		<node id="weapons/shotgun-conventional.xml" type="weapon" always_unlocked="true" />
+		<node id="MICRO_MISSILES" type="ability" always_unlocked="true" />
+        <node id="LASER_PULSE" type="ability" always_unlocked="true" />
+		<node id="SKINWEAVE" type="enhancement" always_unlocked="true" />
+		<node id="ELECTROSHOCK" type="enhancement" always_unlocked="true" />
+		<node id="SCYTHE_HANDS" type="enhancement" always_unlocked="true" />
+		<node id="ORDNANCE_1" type="enhancement" always_unlocked="true" />
+		<node id="DEATH_SIGNAL" type="enhancement" always_unlocked="true" />
+		<node id="MEDIC" type="enhancement" always_unlocked="true" />
+		<node id="SUBMUNITIONS" type="enhancement" always_unlocked="true" />
+		<node id="CRISIS_PROTOCOL" type="enhancement" always_unlocked="true" />
+		<node id="MUSCLE_WEAVE" type="enhancement" always_unlocked="true" />
+		<node id="BONE_REINFORCEMENT" type="enhancement" always_unlocked="true" />
+		<node id="INSTANT_CREDITS" type="enhancement" always_unlocked="true" />
+
+		<!-- CHAPTER 1 -->
+		<node id="weapons/shotgun-ion.xml" type="weapon" tip="" />
+		<node id="weapons/smg-laser.xml" type="weapon" tip="" />
+		<node id="weapons/assault_rifle-laser.xml" type="weapon" tip="" />
+		<node id="weapons/assault_rifle-laser-burst.xml" type="weapon" tip="" />
+		<node id="DEFENSIVE_GRENADES" type="ability" tip="" />
+        <node id="NADE_LAUNCHER" type="ability" tip="" />
+		<node id="FLOOR_HEAL" type="enhancement" tip="" />
+		<node id="HEALTH_GAMBLER" type="enhancement" tip="" />
+		<node id="BOSS_KILLER" type="enhancement" tip="" />
+		<node id="SPLINTER_BULLETS" type="enhancement" tip="" />
+		<node id="SLOWDOWN_FIELD" type="enhancement" tip="" />
+		<node id="CARE_PACKAGE" type="enhancement" tip="" />
+		<node id="weapons/nade-launcher.xml" type="weapon" tip="" fixed="true" />
+
+		<!-- CHAPTER 2 -->
+		<node id="weapons/smg-ion.xml" type="weapon" tip=""  />
+		<node id="weapons/shotgun-laser.xml" type="weapon" tip="" />
+		<node id="weapons/shotgun-plasma.xml" type="weapon" tip="" />
+		<node id="OFFENSIVE_GRENADES" type="ability" tip="" />
+		<node id="MINES" type="ability" tip="" />
+		<node id="ATTRACTOR_GRENADES" type="enhancement" tip="" />
+		<node id="MANUAL_RELOAD_BOOSTER" type="enhancement" tip="" />
+		<node id="SKILLWIRES" type="enhancement" tip="" />
+		<node id="FLOOR_BONUS" type="enhancement" tip="" />
+		<node id="MEDICAL_NANOBOTS" type="enhancement" tip="" />
+		<node id="TITANIUM_CRANIUM" type="enhancement" tip="" />
+		<node id="CHAMELEON_SKIN" type="enhancement" tip="" />
+		<node id="FRIEND_OF_MINE" type="enhancement" tip="" />
+		<node id="weapons/railgun.xml" type="weapon" tip="" fixed="true" />
+
+		<!-- CHAPTER 3 -->
+		<node id="weapons/assault_rifle-plasma.xml" type="weapon" tip="" />
+		<node id="weapons/assault_rifle-plasma-burst.xml" type="weapon" tip="" />
+		<node id="weapons/pistol-predator.xml" type="weapon" tip="" />
+		<node id="CLUSTER_GRENADES" type="ability" tip="" />
+		<node id="FLAME_GRENADES" type="ability" tip="" />
+		<node id="ROCKETS" type="ability" tip="" />
+		<node id="TARGETING_COMPUTER_2" type="enhancement" tip="" />
+		<node id="ENERGY_CAPACITOR" type="enhancement" tip="" />
+		<node id="COMBAT_DISRUPTOR" type="enhancement" tip="" />
+		<node id="NANOSYMBIOTES" type="enhancement" tip="" />
+		<node id="GAS_LEAK" type="enhancement" tip="" />
+		<node id="EXPLOSIVE_BULLET" type="enhancement" tip="" />
+        <node id="SONIC_PULSE" type="ability" tip="" />
+		<node id="weapons/rocket-launcher.xml" type="weapon" tip="" fixed="true" />
+
+		<!-- CHAPTER 4 -->
+		<node id="weapons/assault_rifle-ion.xml" type="weapon" tip="" />
+		<node id="weapons/assault_rifle-ion-burst.xml" type="weapon" tip="" />
+		<node id="weapons/smg-plasma.xml" type="weapon" tip="" />
+		<node id="EMP_PULSE" type="ability" tip="" />
+		<node id="GIB_PROFIT" type="enhancement" tip="" />
+		<node id="STUNNER" type="enhancement" tip="" />
+		<node id="NANO_VAMPIRES" type="enhancement" tip="" />
+		<node id="MEDICAL_ENHANCER" type="enhancement" tip="" />
+		<node id="CRIT_FLAMES" type="enhancement" tip="" />
+		<node id="FLOOR_ENERGY_BONUS" type="enhancement" tip="" />
+		<node id="ORDNANCE_2" type="enhancement" tip="" />
+        <node id="ULTRA_GRENADES" type="enhancement" tip="" />
+		<node id="weapons/crossbow-explosive.xml" type="weapon" tip="" fixed="true" />
+
+		<!-- CHAPTER 5 -->
+		<node id="CONVERT_ENEMY" type="ability" tip="" />
+		<node id="PLASMA_BURST" type="ability" tip="" />
+		<node id="DURASKIN_EPIDERMAL_WEAVE" type="enhancement" tip="" />
+		<node id="GRAPHENE_SKIN_WEAVE" type="enhancement" tip="" />
+		<node id="FIRE_STARTER" type="enhancement" tip="" />
+		<node id="STUN_DAMAGE" type="enhancement" tip="" />
+		<node id="CRIT_HEAL" type="enhancement" tip="" />
+		<node id="EXPLOSION_SPECIALIST" type="enhancement" tip="" />
+		<node id="GUN_MECHANIC" type="enhancement" tip="" />
+		<node id="PAIN_TO_ENERGY" type="enhancement" tip="" />
+		<node id="DEFLECTOR_FIELD" type="enhancement" tip="" />
+		<node id="FILL_ENERGY" type="enhancement" tip="" />
+		<node id="weapons/minigun-player.xml" type="weapon" tip="" fixed="true" />
+
+		<!-- RARE ITEMS -->
+		<node id="weapons/soviet-laser-pistol.xml" type="weapon" tip="" special="true" />
+		<node id="weapons/heavy_rifle.xml" type="weapon" tip="" special="true" />
+		<node id="weapons/gauss-gun.xml" type="weapon" tip="" special="true" />
+		<node id="weapons/blowtorch.xml" type="weapon" tip="" special="true" />
+		<node id="WALL_SMASHER" type="enhancement" tip="" special="true" />
+		<node id="ANTIOCH_GRENADES" type="ability" tip="" special="true" />
+		<node id="C4" type="ability" tip="" special="true" />
+        <node id="RAIL_PULSE" type="ability" special="true" />
+		
+	</array>
+
+	<array id="tips">
+		<node id="ability" tip="This ability can now appear on the assets." tip_bitmap="" />
+		<node id="enhancement" tip="Install the upgrade in a CyberHance Express chamber." tip_bitmap="" />
+		<node id="weapon" tip="This weapon can now be found from Armocore weapon crates." tip_bitmap="" />
+	</array>
+</root>

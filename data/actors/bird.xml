@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="FLESH" 
+		 name="Bird" 
+		 renderer="Bird"
+		 ai="Bird" 
+		 _weapon="weapons/companion-drone-machine-gun.xml" 
+		 friend_group="CRITTERS" 
+		 turn_speed="2.0" 
+		 move_speed="320" 
+		 move_acceleration="3000" 
+		 dampening_factor="4.0" 
+		 restitution_coefficient="0.15" 
+		 scale="0.07" 
+		 aggro_radius="360" 
+		 friend_avoidance_radius="30" 
+		 model_idle="models/pigeon.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 hit_points="1" 
+		 walk_forward_animation="models/animations/pigeon_rig-pigeon_flight.xml" 
+		 move_animation_playback_speed="2" 
+		 idle_animation="models/animations/pigeon_rig-pigeon_idle1.xml" 
+		 idle_animations="models/animations/pigeon_rig-pigeon_idle1.xml,models/animations/pigeon_rig-pigeon_idle2.xml" 
+		 idle_animation_playback_speed="1" 
+		/>
+
+		<node id="COLLIDER" 
+		 cylinder_max_z="350" 
+		 cylinder_min_z="-750" 
+		 cylinder_radius="200" 
+		 collider_generation_method="AUTOMATIC" 
+		/>
+
+		<node id="CUSTOM_DATA" 
+		 field_of_vision="360" 
+		 actor_class="robotic" 
+		 _sound_collection="companion_drone" 
+		 wander_radius="180" 
+		 reaction_time="0.1" 
+		 accuracy_spread_multiplier="1.0" 
+		 rebound_speed_multiplier="1.0" 
+		/>
+
+	</array>
+
+	<array id="GIBS_NONE">
+		<node id="SPLAT_SMALL" 
+		 model_group_1="MEAT_SMALL,root,1" 
+		 model_group_2="MEAT_SMALL,root,2" 
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_PARTIAL">
+		<node id="SPLAT_MEDIUM" 
+		 model_group_1="MEAT_SMALL,root,1" 
+		 model_group_2="MEAT_SMALL,root,3" 
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_FULL">
+		<node id="SPLAT_LARGE" 
+		 model_group_1="MEAT_SMALL,root,2" 
+		 model_group_2="MEAT_SMALL,root,3" 
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+    
+    
+</root>

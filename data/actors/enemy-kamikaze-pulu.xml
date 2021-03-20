@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS"
+		 physics_material="FLESH"
+		 name="Kamikaze Bird"
+		 renderer="Kamikaze"
+		 ai="Kamikaze"
+		 friend_group="ENEMIES"
+		 turn_speed="3.0"
+		 move_speed="1200"
+		 move_acceleration="3200"
+		 dampening_factor="0.5"
+		 restitution_coefficient="0.15"
+		 scale="1"
+		 aggro_radius="700"
+		 friend_avoidance_radius="30"
+		 model_idle="models/pigeon.xml"
+		 effect_on_death="effects/explosion-drone.xml"
+		 bitmap_shadow="shadows/shadow-circle.png"
+		 shadow_angle="0"
+		 shadow_alpha="0.75"
+		 shadow_scale="0.5"
+		 hit_points="12"
+		 walk_forward_animation="models/animations/pigeon_rig-pigeon_flight.xml" 
+		 move_animation_playback_speed="2" 
+		 idle_animation="models/animations/pigeon_rig-pigeon_idle1.xml" 
+		 idle_animations="models/animations/pigeon_rig-pigeon_idle1.xml,models/animations/pigeon_rig-pigeon_idle2.xml" 
+		 idle_animation_playback_speed="1" 
+		 mass="999"
+		/>
+
+		<node id="COLLIDER"
+		 collider_generation_method="AUTOMATIC"
+		 type="CYLINDER"
+		 cylinder_max_z="200"
+		 cylinder_min_z="-600"
+		 cylinder_radius="160"
+		/>
+
+		<node id="CUSTOM_DATA"
+		 explosion_damage="45"
+		 explosion_range="70"
+		 rise_time="0.15"
+		 field_of_vision="180"
+		 sound_collection="bird"
+		 actor_class="robotic"
+		 is_lesser_enemy="true"
+		 reaction_time="0.05"
+		/>
+
+	</array>
+	<array id="GIBS_NONE">
+		<node id="SPLAT_SMALL" 
+		 model_group_1="MEAT_SMALL,root,1" 
+		 model_group_2="MEAT_SMALL,root,2" 
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_PARTIAL">
+		<node id="SPLAT_MEDIUM" 
+		 model_group_1="MEAT_SMALL,root,1" 
+		 model_group_2="MEAT_SMALL,root,3" 
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_FULL">
+		<node id="SPLAT_LARGE" 
+		 model_group_1="MEAT_SMALL,root,2" 
+		 model_group_2="MEAT_SMALL,root,3" 
+		 particle_effect_1="effects/explosion-blood-pigeon.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

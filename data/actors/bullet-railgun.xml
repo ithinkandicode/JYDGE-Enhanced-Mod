@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="RAILGUN" 
+		 name="Bullet Railgun" 
+		 renderer="ProjectilePlasmaBolt" 
+		 ai="NCBullet" 
+		 base="bullet" 
+		 friend_group="PROJECTILES" 
+		 turn_speed="0" 
+		 move_speed="800" 
+		 mass="1" 
+		 scale="1" 
+		 damage="39" 
+		 bitmap_move="actors/gfx/bullet-tracer.png" 
+		 bitmap_attack="actors/gfx/bullet-tracer.png" 
+		 bitmap_death="!NONE" 
+		 bitmap_trail="actors/gfx/trail-white.png" 
+		 hit_points="1" 
+		/>
+
+		<node id="COLLIDER" 
+		 collider_generation_method="AUTOMATIC" 
+		 cylinder_radius="0" 
+		/>
+
+		<node id="CUSTOM_DATA" 
+		 bullet_trail_effect="effects/bullet_trail_railgun.xml" 
+		 bullet_trail_interval="17" 
+		 bitmap_trail_color="0000ff" 
+		 bullet_glow_size="1.0" 
+		 bullet_draw_color="0000ff" 
+		 pierce_actors="1" 
+		 pierce_walls="1" 
+		/>
+
+	</array>
+</root>

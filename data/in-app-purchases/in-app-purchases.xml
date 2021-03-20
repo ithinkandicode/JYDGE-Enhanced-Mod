@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+<root>
+	<!-- You can add anything you like to the nodes, but they must contain at least the 
+	following name-value pairs:
+		id					Item id (needs to match the one in the actual store, e.g. iTunesConnect on iOS)
+		type				one of the following:
+		  "NON_CONSUMABLE"		Can be purchased only once, does not expire. For example Premium/Full Version of app, or a Level Pack.
+		  "CONSUMABLE"			Can be purchased many times. For example 100 coins of your virtual currency.
+		  "SUBSCRIPTION"		Auto-renewable subscription.
+		name				display name
+		desc				item description
+		price				price including the currency, e.g. "RMB 0.99". Note that this is just an estimate: real price is set in 
+							the actual store iTunesConnect
+    -->
+    
+
+	<!-- In App Purchasable Products. -->
+	<array id="ITEMS">
+
+	<node id="FULL_VERSION"
+	 type="NON_CONSUMABLE"
+	 name="Unlock Full Game"
+	 desc="Unlock Full Game."
+	 price="USD7.99"
+	/>
+ 
+	
+	</array>
+
+</root>

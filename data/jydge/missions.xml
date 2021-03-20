@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+<!-- 
+NOTES:
+
+ main_objective_name overrides the first medals_x name in UIs.
+ medals_x list first item is always the Main Objective.
+ 
+ Medal ids defined in medals.xml. Examples:
+ 
+ ELIMINATE_TARGETS
+ HACK_TARGETS
+ SAVIOR
+ ALL_ENEMIES
+ UNTOUCHED
+ USE_ABILITY_X=ROCKETS
+ USE_WEAPON_X=weapons/firemode-lead-assault-rifle.xml
+ SWIFT=60
+ NO_PROPERTY_DAMAGE
+ LOOTER
+ NO_KILLS
+ SHARPSHOOTER
+ UNSEEN
+ EFFICIENT=3
+ MELEE_ONLY
+ NO_CIVILIAN_CASUALTIES
+ KILL_X_ENEMIES=50
+ DEFUSE_X_SECONDS=50
+ KILL_ALL_ENEMIES_WITHIN_X_SECONDS=20
+ COLLECT_TARGETS
+ 
+ 
+ You can override any medal name by using medal_name_override_<difficulty_number>_<medal_id> parameter, for example:
+ 
+   medal_name_override_0_UNTOUCHED="You can't touch this!"
+ 
+ would force a new name for normal difficulty UNTOUCHED medal if it is used in the list.
+ 
+ Medal names with '=' character need to substitute the '=', '/', and other illegal characters with '_'
+ 
+   medal_name_override_0_EFFICIENT_1="Shoot only one bullet."
+   medal_name_override_0_USE_WEAPON_X_weapons_firemode-lead-assault-rifle.xml="Shoot only one bullet."
+  
+   
+ The main_objective_name will still override the first medal description in any case if defined.
+ 
+-->
+
+    
+	<array id="MAIN">
+	
+		<!-- ACT I -->
+	
+       <node id="stages/act1/mission-house.xml" map_dot_id="HOUSE"
+         medal_requirement="0"
+         name="House Arrest"
+         desc="A group of thugs has taken a family hostage in the Retro Tower suburbs. |#00ff00|Save them.|#ffffff|"
+         location="Flanders' Residence, Luxor District"
+         main_objective_name="Rescue the hostages."
+         medals_0="SAVIOR,LOOTER,SWIFT=20"
+         medals_1="SAVIOR,UNTOUCHED,ALL_ENEMIES" 
+         medals_2="SAVIOR,SWIFT=15,UNSEEN"
+         medals_3="SAVIOR,NO_PROPERTY_DAMAGE,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=20"
+        />
+        
+		<node id="stages/act1/mission-bank.xml" map_dot_id="BANK"
+         medal_requirement="1"
+         name="Bank Robbery"
+         desc="These bank robbers opened the wrong safety deposit box. |#ff0000|They need to die.|#ffffff|"
+         location="Vault Street 37, C. Mark"
+         main_objective_name="Eliminate the targets."
+         medals_0="ELIMINATE_TARGETS,ALL_ENEMIES,UNTOUCHED"
+         medals_1="ELIMINATE_TARGETS,SWIFT=20,SAVIOR"
+         medals_2="ELIMINATE_TARGETS,SWIFT=15,ALL_ENEMIES"
+         medals_3="ELIMINATE_TARGETS,SAVIOR,UNSEEN"
+        />
+        
+	   <node id="stages/act1/mission-office.xml" map_dot_id="OFFICE"
+         medal_requirement="2"
+         name="Office Retaliation"
+         desc="A few |#00ff00|influential citizens|#ffffff| have been taken hostage at the CyberHance office. |#00ff00|Make sure the hostages make it to the elevator|#ffffff|."
+         location="CyberHance Main Office, Clockwork District"
+         main_objective_name="Rescue the hostages."
+         medals_0="SAVIOR,SWIFT=30,UNTOUCHED"
+         medals_1="SAVIOR,ALL_ENEMIES,UNSEEN"
+         medals_2="SAVIOR,NO_PROPERTY_DAMAGE,ELIMINATE_TARGETS"
+         medals_3="SAVIOR,SWIFT=40,EFFICIENT=3"
+        />
+        
+	   <node id="stages/act1/mission-riot.xml" map_dot_id="RIOT"
+         medal_requirement="5" low_medal_requirement="4"
+         name="Riot on the Streets"
+         desc="A group calling themselves the |#ff0000|Cobra Gang|#ffffff| has started a riot in the shopping district. |#ff0000|Take out the riot leader.|#ffffff|"
+         location="Myrgham Esplanade, Pine Town North"
+         main_objective_name="Eliminate the leader."
+         medals_0="ELIMINATE_TARGETS,LOOTER,SWIFT=25"
+         medals_1="ELIMINATE_TARGETS,UNTOUCHED,ALL_ENEMIES"
+         medals_2="ELIMINATE_TARGETS,MELEE_ONLY,SAVIOR"
+         medals_3="ELIMINATE_TARGETS,ALL_ENEMIES,UNSEEN"
+        />
+		
+	   <node id="stages/act1/mission-hideout.xml" map_dot_id="HIDEOUT"
+	     show_timeline_event_after_completion="JydgeInterval1" end_level_for_act="1"
+         unlock_feature_after_completion="DIFFICULTY_1"
+         medal_requirement="7" low_medal_requirement="6"
+         name="Cobra Gang Hideout"
+         desc="We've located the |#ff0000|Cobra Gang|#ffffff| hideout lab. Destroy their |#ff0000|prototype Death Machine|#ffffff| before they unleash it to the streets."
+         location="Central Los Malos"
+         main_objective_name="Destroy the |#ff0000|Death Machine|#ffffff|."
+         medals_0="ELIMINATE_TARGETS,SWIFT=30,ALL_ENEMIES"
+         medals_1="ELIMINATE_TARGETS,COLLECT_TARGETS,UNSEEN"
+         medals_2="ELIMINATE_TARGETS,LOOTER,UNTOUCHED"
+         medals_3="ELIMINATE_TARGETS,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=40,MELEE_ONLY"
+        />
+        
+		
+   		<!-- ACT II -->
+        
+		<node id="stages/act2/mission-promenade.xml" map_dot_id="PROMENADE"
+         medal_requirement="15" low_medal_requirement="10"
+         name="Shift from Hell"
+         desc="|#00ff00|Survive through the shift|#ffffff| in a very bad neighborhood."
+         location="Los Malos Slum Border"
+         main_objective_name="Survive {PARM0} seconds."
+         medals_0="SURVIVE_X_SECONDS=50,UNTOUCHED,LOOTER"
+         medals_1="SURVIVE_X_SECONDS=60,MELEE_ONLY,COLLECT_TARGETS"
+         medals_2="SURVIVE_X_SECONDS=70,NO_KILLS,UNTOUCHED"
+         medals_3="SURVIVE_X_SECONDS=80,NO_CIVILIAN_CASUALTIES,KILL_X_ENEMIES=80"
+        />      
+         
+		<node id="stages/act2/mission-hospital.xml" map_dot_id="HOSPITAL"
+         medal_requirement="20" low_medal_requirement="12"
+         name="Hostile Hospitality"
+         desc="Some |#00ff00|important citizens|#ffffff| were on a tour to a local hospital until some |#ff0000|Cobra Gang|#ffffff| members crashed the party."
+         location="Wavefront District Downtown"
+         main_objective_name="Save the hostages."
+         medals_0="SAVIOR,SWIFT=15,UNSEEN"
+         medals_1="SAVIOR,NO_KILLS,ELIMINATE_TARGETS" 
+         medals_2="SAVIOR,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=35,UNTOUCHED" 
+         medals_3="SAVIOR,UNSEEN,MELEE_ONLY"
+         />
+		
+        <node id="stages/act2/mission-butcher.xml" map_dot_id="BUTCHER"
+         medal_requirement="25" low_medal_requirement="14"
+         name="Doublemeat Butchery"
+         desc="We've gained some disturbing intel about this butchery. |#ffff00|Gather evidence.|#ffffff|"
+         location="Clockwork District North"
+         main_objective_name="Collect the evidence."
+         medals_0="COLLECT_TARGETS,UNTOUCHED,LOOTER"
+         medals_1="COLLECT_TARGETS,SAVIOR,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=28"
+         medals_2="COLLECT_TARGETS,SWIFT=25,ELIMINATE_TARGETS"
+         medals_3="COLLECT_TARGETS,UNSEEN,ELIMINATE_TARGETS"
+        /> 
+         
+		<node id="stages/act2/mission-alarms.xml" map_dot_id="ALARMS"
+         medal_requirement="30" low_medal_requirement="16"
+         name="Paradise Lane"             
+         desc="|#ff0000|Eliminate|#ffffff| the key gang member known as |#ff0000|Black Jack|#ffffff| and get out. The houses have alarms, there might be a way to disable them."
+         location="Luxor Residence District 46"
+         main_objective_name="Eliminate |#ff0000|Black Jack|#ffffff|."
+         medals_0="ELIMINATE_TARGETS,SWIFT=25,UNSEEN"
+         medals_1="ELIMINATE_TARGETS,SAVIOR,ALL_ENEMIES" 
+         medals_2="ELIMINATE_TARGETS,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=90,UNSEEN" 
+         medals_3="ELIMINATE_TARGETS,SWIFT=20,NO_PROPERTY_DAMAGE"
+         />
+        
+		<node id="stages/act2/mission-nightclub.xml" map_dot_id="NIGHTCLUB"
+ 		 show_timeline_event_after_completion="JydgeInterval2" end_level_for_act="2"
+         medal_requirement="35" low_medal_requirement="18"
+         name="Ash Bay Nightclub"
+         desc="We found another |#ff0000|Cobra Gang|#ffffff| hotspot. |#ff0000|Kill the boss|#ffffff| and destroy their new prototype |#ff0000|Death Machine 2.0|#ffffff|."
+         location="Phoenix Avenue 13, Bayside"
+         main_objective_name="Eliminate the targets."
+         medals_0="ELIMINATE_TARGETS,UNSEEN,SWIFT=30"
+         medals_1="ELIMINATE_TARGETS,UNTOUCHED,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=60"
+         medals_2="ELIMINATE_TARGETS,MELEE_ONLY,UNSEEN"
+         medals_3="ELIMINATE_TARGETS,NO_CIVILIAN_CASUALTIES,ALL_ENEMIES"
+        />        
+		
+        
+		<!-- ACT III -->
+		
+		<node id="stages/act3/mission-suburb.xml" map_dot_id="SUBURB"
+         medal_requirement="45" low_medal_requirement="20"
+         name="Neighborhood Watch"
+         desc="|#00ff00|Save the hostages.|#ffffff| There might be some |#ff0000|bombs|#ffffff|, too, but the hostages are the priority! We can't have any more negative publicity."
+         location="Luxor Residence District 147"
+         main_objective_name="Save the hostages."
+         medals_0="SAVIOR,UNSEEN,ELIMINATE_TARGETS"
+         medals_1="SAVIOR,LOOTER,ELIMINATE_TARGETS"
+         medals_2="SAVIOR,DEFUSE_X_SECONDS=50,UNSEEN"
+         medals_3="SAVIOR,DEFUSE_X_SECONDS=50,ELIMINATE_TARGETS"
+		 medal_name_override_2_DEFUSE_X_SECONDS_50="Defuse the bomb in {PARM0} seconds."
+		 medal_name_override_3_DEFUSE_X_SECONDS_50="Defuse the bombs in {PARM0} seconds."
+        />       
+        
+		<node id="stages/act2/mission-market.xml" map_dot_id="MARKET"
+         medal_requirement="50" low_medal_requirement="22"
+         name="Circuit Market"   
+         desc="Cyber enhanced brothers |#ff0000|Vinz|#ffffff| and |#ff0000|Lanz|#ffffff| have taken over the market district. |#ff0000|Take care of it|#ffffff|." 
+         location="Cape Mold Market District"
+         main_objective_name="Eliminate Vinz and Lanz."
+         medals_0="ELIMINATE_TARGETS,COLLECT_TARGETS,ALL_ENEMIES"
+         medals_1="ELIMINATE_TARGETS,SAVIOR,SWIFT=15"
+         medals_2="ELIMINATE_TARGETS,SAVIOR,UNSEEN"
+         medals_3="ELIMINATE_TARGETS,EFFICIENT=2,NO_PROPERTY_DAMAGE"
+        />
+		
+		<node id="stages/act3/mission-industrial.xml" map_dot_id="INDUSTRIAL"
+         medal_requirement="55" low_medal_requirement="24"
+         name="Industrial Boom"
+         desc="Disarm the |#ff0000|bombs|#ffffff| in the industrial park. We don't know how many there are until you get closer."
+         location="Vault Gardens 55 North"
+         main_objective_name="Defuse the bombs in {PARM0} seconds."
+         medals_0="DEFUSE_X_SECONDS=50,UNSEEN,ELIMINATE_TARGETS"
+         medals_1="DEFUSE_X_SECONDS=50,UNTOUCHED,ELIMINATE_TARGETS"
+         medals_2="DEFUSE_X_SECONDS=45,SAVIOR,ELIMINATE_TARGETS"
+         medals_3="DEFUSE_X_SECONDS=40,UNTOUCHED,ALL_ENEMIES"
+		 medal_name_override_0_DEFUSE_X_SECONDS_50="Defuse the bomb in {PARM0} seconds."
+        />  
+		
+		<node id="stages/act3/mission-park.xml" map_dot_id="PARK"
+ 		 show_timeline_event_after_completion="JydgeInterval3" end_level_for_act="3"
+         unlock_feature_after_completion="DIFFICULTY_2"
+         medal_requirement="60" low_medal_requirement="26"
+         name="Artificial Park Rescue"
+         desc="|#ff0000|Armed criminals|#ffffff| have been sighted in the Seagrave Park. Rescue the |#00ff00|important citizens|#ffffff| marked on the map. Minimize collateral casualties, please..." 
+         location="Seagrave Park South"
+         main_objective_name="Rescue VIP citizens."
+         medals_0="SAVIOR,SWIFT=30,LOOTER"
+         medals_1="SAVIOR,ALL_ENEMIES,UNTOUCHED"
+         medals_2="SAVIOR,UNTOUCHED,NO_CIVILIAN_CASUALTIES"
+         medals_3="SAVIOR,UNSEEN,SWIFT=40"
+        />
+
+        
+		<!-- ACT IV -->
+		 
+		<node id="stages/act3/mission-raid.xml" map_dot_id="RAID"
+         medal_requirement="80" low_medal_requirement="30"
+         name="Raid On Their Parade"
+         desc="|#ff00ff|Download intel|#ffffff| from the organization's archives."
+         location="Clockwork District East"
+         main_objective_name="Access the target terminal."
+         medals_0="HACK_TARGETS,SWIFT=20,ALL_ENEMIES"
+         medals_1="HACK_TARGETS,LOOTER,UNTOUCHED"
+         medals_2="HACK_TARGETS,UNSEEN,UNTOUCHED"
+         medals_3="HACK_TARGETS,SWIFT=20,MELEE_ONLY"
+         />
+		 
+		<node id="stages/act3/mission-open.xml" map_dot_id="OPEN"
+         medal_requirement="90" low_medal_requirement="33"
+         name="Thinning the Horde"
+         desc="The |#ff0000|Cobra Gang|#ffffff| is gathering at this small plaza. |#ff0000|Cut down their numbers|#ffffff| to discourage new recruits."
+         location="Los Malos South"
+         main_objective_name="Kill {PARM0} enemies."
+         medals_0="KILL_X_ENEMIES=40,LOOTER,ELIMINATE_TARGETS"
+         medals_1="KILL_X_ENEMIES=50,COLLECT_TARGETS,ELIMINATE_TARGETS"
+         medals_2="KILL_X_ENEMIES=60,SAVIOR,ELIMINATE_TARGETS"
+         medals_3="KILL_X_ENEMIES=70,MELEE_ONLY,UNTOUCHED"
+        />  		 
+   		
+        <node id="stages/act3/mission-shopping.xml" map_dot_id="SHOPPING"
+         medal_requirement="100" low_medal_requirement="36"
+         name="Corruption for Sale"
+         desc="We need to weed out the corruption in the shopping mall. |#ffff00|Gather evidence.|#ffffff|"
+         location="Shopper's Skyline, Bliss Isle East"
+         main_objective_name="Collect the evidence."
+         medals_0="COLLECT_TARGETS,UNTOUCHED,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=30"
+         medals_1="COLLECT_TARGETS,UNSEEN,ELIMINATE_TARGETS"
+         medals_2="COLLECT_TARGETS,SAVIOR,SWIFT=35"
+         medals_3="COLLECT_TARGETS,DEFUSE_X_SECONDS=20,NO_KILLS"
+		 medal_name_override_3_DEFUSE_X_SECONDS_20="Defuse the bomb in {PARM0} seconds."
+        /> 
+		
+		<node id="stages/act3/mission-mansion.xml" map_dot_id="MANOR"
+		 show_timeline_event_after_completion="JydgeOutro" end_level_for_act="4"
+         unlock_feature_after_completion="DIFFICULTY_3"
+         medal_requirement="110" low_medal_requirement="40"
+         name="Cobra Manor Takedown"
+         desc="This is the last remaining nest of the |#ff0000|Cobra Gang|#ffffff|. Cutting off |#ff0000|the head of the snake|#ffffff| will be the end of it."
+         location="Deep in Los Malos"
+         main_objective_name="Eliminate the Head Cobra and Pets."
+         medals_0="ELIMINATE_TARGETS,SWIFT=40,UNTOUCHED"
+         medals_1="ELIMINATE_TARGETS,LOOTER,UNSEEN"
+         medals_2="ELIMINATE_TARGETS,COLLECT_TARGETS,SAVIOR"
+         medals_3="ELIMINATE_TARGETS,UNSEEN,KILL_ALL_ENEMIES_WITHIN_X_SECONDS=90"
+		 medal_name_override_2_SAVIOR="Rescue the civilian."
+        />   
+		
+ 
+        
+		<!-- Hidden Extra Missions -->
+       
+		<node id="stages/extras/mission-avenue.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Sweeping the Streets"
+         desc="This street is overtaken. |#ff0000|Kill the marked influential gang members.|#ffffff|"
+         location="Sunshine Avenue West"
+         main_objective_name="Eliminate the targets."
+         medals_0="ELIMINATE_TARGETS,UNSEEN,SAVIOR"
+         medals_1="ELIMINATE_TARGETS,UNTOUCHED,SAVIOR"
+         medals_2="ELIMINATE_TARGETS,ALL_ENEMIES,UNTOUCHED"
+         medals_3="ELIMINATE_TARGETS,SWIFT=30,UNSEEN"
+        />   
+        
+		<node id="stages/extras/mission-base.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Guarded Mainframe"
+         desc="We need more intel. |#ffff00|Access the data center's mainframe.|#ffffff| Avoid the alarms or be ready to encounter heavy security forces."
+         location="Something"
+         main_objective_name="Access the mainframe."
+         medals_0="HACK_TARGETS,UNTOUCHED,SWIFT=30"
+         medals_1="HACK_TARGETS,MELEE_ONLY,UNTOUCHED"
+         medals_2="HACK_TARGETS,UNSEEN,SWIFT=20"
+         medals_3="HACK_TARGETS,UNSEEN,ALL_ENEMIES"
+        />   
+        
+        
+		<node id="stages/extras/mission-apartments.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Apartments"
+         desc="Kill."
+         location="Something"
+         main_objective_name="Kill."
+         medals_0="ELIMINATE_TARGETS,UNTOUCHED,LOOTER"
+         medals_1="ELIMINATE_TARGETS,MELEE_ONLY,LOOTER"
+         medals_2="ELIMINATE_TARGETS,NO_CIVILIAN_CASUALTIES,LOOTER"
+         medals_3="ELIMINATE_TARGETS,UNTOUCHED,LOOTER"
+        />   
+        
+		<node id="stages/extras/mission-startup.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Startup"
+         desc="Save."
+         location="Something"
+         main_objective_name="Save."
+         medals_0="SAVIOR,UNTOUCHED,LOOTER"
+         medals_1="SAVIOR,MELEE_ONLY,SWIFT=30"
+         medals_2="SAVIOR,UNSEEN,LOOTER"
+         medals_3="SAVIOR,UNTOUCHED,SWIFT=20"
+        />   
+        
+		<node id="stages/extras/mission-theatre.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Theater"
+         desc="Save."
+         location="Something"
+         main_objective_name="Save."
+         medals_0="SAVIOR,UNTOUCHED,SWIFT=30"
+         medals_1="SAVIOR,MELEE_ONLY,LOOTER"
+         medals_2="SAVIOR,SHARPSHOOTER,LOOTER"
+         medals_3="SAVIOR,UNTOUCHED,SWIFT=20"
+        />   
+        
+		<node id="stages/extras/mission-warehouse.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Warehouse"
+         desc="Kill."
+         location="Something"
+         main_objective_name="Kill."
+         medals_0="ELIMINATE_TARGETS,UNTOUCHED,LOOTER"
+         medals_1="ELIMINATE_TARGETS,MELEE_ONLY,UNSEEN"
+         medals_2="ELIMINATE_TARGETS,NO_CIVILIAN_CASUALTIES,SWIFT=20"
+         medals_3="ELIMINATE_TARGETS,UNTOUCHED,LOOTER"
+        />
+		
+		<node id="stages/extras/mission-loops.xml"
+         tags="HIDDEN"
+         medal_requirement="110"
+         name="Sabotage"
+         desc="This organization has some serious research going on. Shut it down."
+         location="Something"
+         main_objective_name="Access the mainframe."
+         medals_0="HACK_TARGETS,UNSEEN,LOOTER"
+         medals_1="HACK_TARGETS,SWIFT=75,UNTOUCHED"
+         medals_2="HACK_TARGETS,SWIFT=60,UNTOUCHED"
+         medals_3="HACK_TARGETS,USE_ABILITY_X=SHOCK_ORB,LOOTER"
+        /> 
+	</array>
+
+	<array id="TUTORIAL">
+		<node id="stages/mission-tutorial.xml"
+         medal_requirement="0"
+         name="The Dawn of Jydgement"
+         desc="Tabu's General Store"
+         main_objective_name="Rescue the Hostages."
+         location="Something"
+         medals_0="SAVIOR,NONE,NONE,NONE"
+         medals_1="SAVIOR,NONE,NONE,NONE"
+         medals_2="SAVIOR,NONE,NONE,NONE"
+         medals_3="SAVIOR,NONE,NONE,NONE"
+        />
+	</array>   
+
+
+	<array id="TEMP">
+		<node id="stages/collectible-test-stage.xml"
+         tags="HIDDEN"
+         medal_requirement="0"
+         name="Collectible test stage"
+         desc="Test"
+         location="Something"
+         medals_0="SAVIOR,NONE,NONE,NONE"
+         medals_1="SAVIOR,NONE,NONE,NONE"
+         medals_2="SAVIOR,NONE,NONE,NONE"
+         medals_3="SAVIOR,NONE,NONE,NONE"
+        />
+        
+		<node id="stages/drafts/mission-01.xml"
+         tags="HIDDEN"
+         medal_requirement="0"    
+         name="Cyberhance HQ"   
+         desc="Infiltrate into the HQ and eliminate the corrupted accountant." 
+         location="Something"
+         main_objective_name="Eliminate the corrupted accountant."
+         medals_0="ELIMINATE_TARGETS,SWIFT=60,SAVIOR"
+         medals_1="ELIMINATE_TARGETS,UNTOUCHED,SAVIOR"
+         medals_2="ELIMINATE_TARGETS,SWIFT=30,SAVIOR"
+         medals_3="ELIMINATE_TARGETS,SWIFT=20,LOOTER"
+        />
+         
+		<node id="stages/drafts/mission-02.xml"
+         tags="HIDDEN"
+         medal_requirement="1"
+         name="Paradise Lane"             
+         desc="Eliminate the gang leader known as Black Jack and get out. Use what force is deemed necessary."
+         location="Something"
+         main_objective_name="Eliminate Black Jack."
+         medals_0="ELIMINATE_TARGETS,SWIFT=32,ALL_ENEMIES"
+         medals_1="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED" 
+         medals_2="ELIMINATE_TARGETS,SWIFT=32,USE_ABILITY_X=ROCKETS" 
+         medals_3="ELIMINATE_TARGETS,SWIFT=31,USE_WEAPON_X=weapons/firemode-lead-assault-rifle.xml"
+         />
+         
+		<node id="stages/drafts/mission-03.xml"
+         tags="HIDDEN"
+         medal_requirement="6"
+         name="Smuggler's Hideout"
+         desc="Find chairman Weazel and bring him to jystice."
+         location="Something"
+         main_objective_name="Eliminate chairman Weazel."
+         medals_0="ELIMINATE_TARGETS,SWIFT=32,ALL_ENEMIES"
+         medals_1="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         medals_2="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         medals_3="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         />
+        
+		<node id="stages/drafts/mission-04.xml"
+         tags="HIDDEN"
+         medal_requirement="20"
+         name="Overrun Market District"   
+         desc="Cyber enhanced brothers Vinz and Lanz have taken over the market district. Take care of it." 
+         location="Something"
+         main_objective_name="Eliminate Vinz and Lanz."
+         medals_0="ELIMINATE_TARGETS,SWIFT=32,ALL_ENEMIES"
+         medals_1="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         medals_2="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         medals_3="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+        />
+        
+		<node id="stages/drafts/mission-05.xml"
+         tags="HIDDEN"
+         medal_requirement="40"
+         name="Filthy Suburbs"
+         desc="I dunno."
+         location="Something"
+         main_objective_name="Eliminate the targets."
+         medals_0="ELIMINATE_TARGETS,SWIFT=32,ALL_ENEMIES"
+         medals_1="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         medals_2="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+         medals_3="ELIMINATE_TARGETS,SWIFT=32,UNTOUCHED"
+        />
+	</array>    
+
+    <array id="SECRETS">
+		<node id="stages/misc/metro-tunnel.xml"
+         medal_requirement="0"
+         name="Metro"
+         desc="Metro"
+         main_objective_name="Eliminate the target."
+         location="Underground"
+        />
+		<node id="stages/misc/ER.xml"
+         medal_requirement="0"
+         name="Renovation"
+         desc="Wing under renovation."
+         main_objective_name="Get out."
+         location="Hospital"
+        />
+		<node id="stages/misc/lab.xml"
+         medal_requirement="0"
+         name="House"
+         desc="Not what I expected..."
+         main_objective_name="Get out."
+         location="Suburbs"
+        />
+		<node id="stages/misc/mall-downstairs.xml"
+         medal_requirement="0"
+         name="P-Bar"
+         desc="Strangely shaped bar."
+         main_objective_name="Get out."
+         location="Mall"
+        />
+		<node id="stages/misc/serverfarm.xml"
+         medal_requirement="0"
+         name="Server Farm"
+         desc="Server Farm."
+         main_objective_name="Get out."
+         location="Underground"
+        />
+		<node id="stages/misc/vault.xml"
+         medal_requirement="0"
+         name="Vault"
+         desc="Looks like no one has gained entrance in a long time."
+         main_objective_name="Get out."
+         location="Underground"
+        />
+		<node id="stages/misc/wrong-elevator.xml"
+         medal_requirement="0"
+         name="Maintenance"
+         desc="Seems like someone doesn't like strangers."
+         main_objective_name="Get out."
+         location="Office"
+        />
+		<node id="stages/misc/mystery.xml"
+         medal_requirement="0"
+         name="Mystery"
+         desc="???"
+         main_objective_name="Get out."
+         location="???"
+        />
+		<node id="stages/misc/pulu.xml"
+         medal_requirement="0"
+         name="???"
+         desc="???"
+         main_objective_name="Get out."
+         location="???"
+        />
+		<node id="stages/misc/confiscated-manor.xml"
+         role="Adams"
+         medal_requirement="0"
+         name="???"
+         desc="???"
+         main_objective_name="Chilax."
+         location="???"
+        />
+	</array>
+
+    
+	<array id="EDITOR_TEST">
+		<node id="any_unknown_mission_ran_from_editor"
+         tags="HIDDEN"
+         medal_requirement="0"
+         name=""
+         desc=""
+         location=""
+         main_objective_name=""
+         medals_0="NO_KILLS,NONE,NONE,NONE"
+         medals_1="NO_KILLS,NONE,NONE,NONE"
+         medals_2="NO_KILLS,NONE,NONE,NONE"
+         medals_3="NO_KILLS,NONE,NONE,NONE"
+        />
+	</array>
+    
+</root>

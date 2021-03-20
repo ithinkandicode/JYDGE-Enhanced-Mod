@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="WEAPON">
+		<node id="PARAMETERS"
+
+			name="Mega Shotgun"
+			displayable_type="Mega Shotgun"
+			displayable_lore="Lore here"
+			
+            equip_price="440"
+            unlock_price="800"
+			bm_icon="!NONE"
+			snd_fire="sfx/weapons/shotgun_fire"
+			snd_reload="sfx/weapons/shotgun_reload"
+			snd_empty_clip="sfx/weapons/empty_clip"
+
+			effect_muzzle_flash="effects/muzzle-conventional.xml"
+			effect_shell_eject="effects/shotgun_shell_ejected.xml"
+            
+            type="WEAPON_TYPE_PROJECTILE"
+            related_actor = "actors/weapon-shotgun-mega.xml"
+			projectile_actor="actors/projectile-shotgun-conventional.xml"
+            
+            crit_chance="0.05"
+	
+			projectiles_per_shot="59"
+			projectile_range="900"
+			projectile_range_random="0.1"
+			projectile_angle_spread="90"
+
+			min_accuracy_spread="9.2"
+			moving_accuracy_spread="12.2"
+			max_accuracy_spread="65"
+			recoil="17.35"
+			rebound_speed="0.65"
+			
+			shot_interval="0.10"
+			ammo_cost_per_shot="1"
+			heat_per_shot="0.1"
+
+          
+			reload_time="1.8"
+			reload_size="90"
+			clip_size="90"
+            ammo_refill_size="1"
+            
+			damage="400"
+			projectile_speed="2400"
+			projectile_speed_random="0.2"
+
+			trail_length="222"
+			trail_thickness="0.8"
+			trail_alpha="0.8"
+
+			move_speed_modifier="1.0"
+			
+			unlimited_ammo="true"
+			damage_multiplier="1.0"
+
+			model="models/assault-shotgun.xml"
+		/>
+		
+	</array>
+</root>
+

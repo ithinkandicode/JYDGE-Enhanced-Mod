@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL_ENEMY" 
+		 name="Cyborg" 
+		 renderer="Humanoid" 
+		 ai="Humanoid" 
+		 weapon="weapons/minigun.xml" 
+		 friend_group="ENEMIES" 
+		 turn_speed="2.4" 
+		 move_speed="240" 
+		 move_acceleration="1900" 
+		 dampening_factor="8.0" 
+		 restitution_coefficient="0.15" 
+		 mass="300" 
+		 scale="1.3" 
+		 aggro_radius="800" 
+		 friend_avoidance_radius="10" 
+		 model_idle="models/cyborg-destroyer.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 hit_points="5000" 
+		 move_animation_playback_speed="0.8" 
+		 death_animation_playback_speed="1" 
+		 walk_forward_animation="models/animations/humanoid_rig-humanoid_walk_forward.xml" 
+		 walk_backward_animation="models/animations/humanoid_rig-humanoid_walk_backward.xml" 
+		 walk_left_animation="models/animations/humanoid_rig-humanoid_walk_left.xml" 
+		 walk_right_animation="models/animations/humanoid_rig-humanoid_walk_right.xml" 
+		 rotate_animation="models/animations/humanoid_rig-humanoid_rotate.xml" 
+		 idle_animation="models/animations/humanoid_rig-humanoid_idle.xml" 
+		 recoil_animation="models/animations/humanoid_rig-humanoid_recoil.xml" 
+		 stunned_animation="models/animations/humanoid_rig-humanoid_stunned.xml" 
+		 reload_animation="models/animations/humanoid_rig-humanoid_reload.xml" 
+		/>
+
+		<node id="COLLIDER" 
+		 cylinder_radius="15" 
+		 collider_generation_method="AUTOMATIC" 
+		/>
+
+		<node id="CUSTOM_DATA" 
+		 sound_collection="cyborg" 
+		 actor_class="robotic" 
+		 wander_radius="240" 
+		 regeneration_speed="34" 
+		 accuracy_spread_multiplier="1.5" 
+		 rebound_speed_multiplier="1.0" 
+		 hit_animation_1="models/animations/humanoid_rig-humanoid_hit1.xml" 
+		 hit_animation_2="models/animations/humanoid_rig-humanoid_hit2.xml" 
+		 hit_animation_3="models/animations/humanoid_rig-humanoid_hit3.xml" 
+		 hit_animation_4="models/animations/humanoid_rig-humanoid_hit4.xml" 
+		 death_animation_1="models/animations/humanoid_rig-humanoid_die1.xml" 
+		 death_animation_2="models/animations/humanoid_rig-humanoid_die2.xml" 
+		 death_animation_3="models/animations/humanoid_rig-humanoid_die3.xml" 
+		 death_animation_4="models/animations/humanoid_rig-humanoid_die4.xml" 
+		 death_animation_5="models/animations/humanoid_rig-humanoid_die5.xml" 
+		 death_animation_6="models/animations/humanoid_rig-humanoid_die6.xml" 
+		 exit_cryocask_animation="models/animations/humanoid_rig-humanoid_exit_cryocask.xml" 
+		 falling_animation="models/animations/humanoid_rig-humanoid_die_fall.xml"
+		 death_animation_angle_1="3.142"
+		 death_animation_angle_2="5.061"
+		 death_animation_angle_3="0.0"
+		 death_animation_angle_4="1.745"
+		 death_animation_angle_5="3.142"
+		 death_animation_angle_6="0.785"
+		/>
+
+	</array>
+
+	<array id="GIBS_NONE">
+		<node id="DEATH_1" 
+		 model_group_1="METAL_SMALL,spine.001,3,OIL" 
+		 model_group_2="METAL_LARGE,spine.001,3,OIL" 
+		 model_group_3="METAL_MISC,spine.001,2,OIL" 
+		 particle_effect_1="effects/explosion-generic-small.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+		<node id="DEATH_2" 
+		 model_group_1="METAL_LARGE,spine,3,OIL" 
+		 model_group_2="METAL_LARGE,spine,3,OIL" 
+		 model_group_3="METAL_MISC,spine,3,OIL" 
+		 particle_effect_1="effects/explosion-generic-small.xml,spine" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+	</array>
+
+	<array id="GIBS_PARTIAL">
+		<node id="MISSING_LEFT_ARM" 
+		 model="models/cyborg-destroyer-missing-left-arm.xml" 
+		 model_group_1="CYBORG_ARM,arm.001.L,3,OIL" 
+		 model_group_2="METAL_SMALL,arm.001.L,3,OIL" 
+		 model_group_3="METAL_LARGE,arm.L,3,OIL" 
+		 particle_effect_1="effects/explosion-oil-small.xml,arm.L" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+		<node id="MISSING_TORSO" 
+		 model="models/cyborg-destroyer-missing-torso.xml" 
+		 model_group_1="CYBORG_TORSO,spine.001,6,OIL" 
+		 model_group_2="METAL_MISC,spine.001,3,OIL" 
+		 model_group_3="METAL_LARGE,spine.001,6,OIL" 
+		 model_group_4="METAL_SMALL,spine.001,6,OIL" 
+		 model_group_5="BRAIN,head,3,BLOOD" 
+		 model_group_6="CYBORG_HEAD,head,3,OIL" 
+		 model_group_7="CYBORG_ARM,arm.001.L,3,OIL" 
+		 model_group_8="CYBORG_ARM,arm.001.R,3,OIL" 
+		 particle_effect_1="effects/explosion-oil-small.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		 remove_weapon="true" 
+		/>
+
+		<node id="HOLE_IN_TORSO" 
+		 model="models/cyborg-destroyer-hole-in-torso.xml" 
+		 model_group_1="CYBORG_TORSO,spine.001,6,OIL" 
+		 model_group_2="METAL_MISC,spine.001,3,OIL" 
+		 model_group_3="METAL_LARGE,spine.001,3,OIL" 
+		 model_group_4="METAL_SMALL,spine.001,3,OIL" 
+		 particle_effect_1="effects/explosion-oil-small.xml,spine.001" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+		<node id="HEADLESS" 
+		 model="models/cyborg-destroyer-headless.xml" 
+		 model_group_1="BRAIN,head,3,BLOOD" 
+		 model_group_2="METAL_SMALL,head,3,OIL" 
+		 model_group_3="CYBORG_HEAD,head,3,OIL" 
+		 particle_effect_1="effects/explosion-oil-small.xml,head" 
+		 death_animations="death_animation_1,death_animation_2,death_animation_3,death_animation_4,death_animation_5,death_animation_6" 
+		/>
+
+	</array>
+
+	<array id="GIBS_FULL">
+		<node id="EXPLOSION_1" 
+		 model_group_1="CYBORG_TORSO,spine.001,4,OIL" 
+		 model_group_2="METAL_MISC,spine,3,OIL" 
+		 model_group_3="METAL_LARGE,spine.001,4,OIL" 
+		 model_group_4="CYBORG_HEAD,head,3,OIL" 
+		 model_group_5="BRAIN,head,3,BLOOD" 
+		 model_group_6="CYBORG_LEG,leg.L.001,3,OIL" 
+		 model_group_7="CYBORG_LEG,leg.R.001,3,OIL" 
+		 model_group_8="CYBORG_ARM,arm.001.L,3,OIL" 
+		 model_group_9="CYBORG_ARM,arm.001.R,3,OIL" 
+		 particle_effect_1="effects/explosion-oil-small.xml,spine.001" 
+		 death_animations="" 
+		 remove_weapon="true" 
+		/>
+
+		<node id="EXPLOSION_2" 
+		 model_group_1="CYBORG_TORSO,spine.001,4,OIL" 
+		 model_group_2="METAL_MISC,spine,3,OIL" 
+		 model_group_3="METAL_LARGE,spine,4,OIL" 
+		 model_group_4="METAL_LARGE,spine.001,4,OIL" 
+		 model_group_5="CYBORG_HEAD,head,4,OIL" 
+		 model_group_6="BRAIN,head,3,BLOOD" 
+		 model_group_7="CYBORG_LEG,leg.L.001,3,OIL" 
+		 model_group_8="CYBORG_LEG,leg.R.001,3,OIL" 
+		 model_group_9="CYBORG_ARM,arm.001.L,3,OIL" 
+		 model_group_10="CYBORG_ARM,arm.001.R,3,OIL" 
+		 particle_effect_1="effects/explosion-oil-small.xml,spine.001" 
+		 death_animations="" 
+		 remove_weapon="true" 
+		/>
+
+	</array>
+</root>

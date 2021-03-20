@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL_ENEMY" 
+		 name="Maintenance Spider" 
+		 renderer="Spider" 
+		 ai="MiniSpider" 
+		 weapon="weapons/melee-minispider-companion.xml" 
+		 friend_group="PLAYER_FRIENDS" 
+		 turn_speed="4.5" 
+		 move_speed="260" 
+		 move_acceleration="1600" 
+		 dampening_factor="8.0" 
+		 restitution_coefficient="0.7" 
+		 mass="40" 
+		 scale="1.0" 
+		 aggro_radius="470" 
+		 friend_avoidance_radius="10" 
+		 model_idle="models/minispider.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 hit_points="40" 
+		 birth_animation_playback_speed="2" 
+		 move_animation_playback_speed="1.4" 
+		 death_animation_playback_speed="4" 
+		 walk_forward_animation="models/animations/minispider_rig-spiderbot_walk.xml" 
+		 idle_animation="models/animations/minispider_rig-spiderbot_idle.xml" 
+		 melee_animation="models/animations/minispider_rig-spiderbot_melee.xml" 
+		/>
+
+		<node id="COLLIDER" 
+		 cylinder_max_z="0" 
+		 cylinder_min_z="-100" 
+		 collider_generation_method="AUTOMATIC" 
+		/>
+
+		<node id="CUSTOM_DATA" 
+		 field_of_vision="120" 
+		 wander_radius="200" 
+		 sound_collection="minispider" 
+		 actor_class="robotic" 
+		 is_lesser_enemy="true" 
+		/>
+
+	</array>
+
+	<array id="GIBS_NONE">
+		<node id="EXPLOSION_SMALL" 
+		 model_group_1="METAL_LARGE,turret,1" 
+		 model_group_2="METAL_SMALL,turret,1" 
+		 model_group_3="METAL_MISC,turret,1" 
+		 model_group_4="MINISPIDER_BODY,turret,2" 
+		 model_group_5="MINISPIDER_HEAD,turret,2" 
+		 model_group_6="MINISPIDER_LEG,turret,2" 
+		 particle_effect_1="effects/explosion-minispider.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_PARTIAL">
+		<node id="EXPLOSION_MEDIUM" 
+		 model_group_1="METAL_LARGE,turret,2" 
+		 model_group_2="METAL_SMALL,turret,2" 
+		 model_group_3="METAL_MISC,turret,2" 
+		 model_group_4="MINISPIDER_BODY,turret,3" 
+		 model_group_5="MINISPIDER_HEAD,turret,3" 
+		 model_group_6="MINISPIDER_LEG,turret,3" 
+		 particle_effect_1="effects/explosion-minispider.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_FULL">
+		<node id="EXPLOSION_LARGE" 
+		 model_group_1="METAL_LARGE,turret,3" 
+		 model_group_2="METAL_SMALL,turret,3" 
+		 model_group_3="METAL_MISC,turret,3" 
+		 model_group_4="MINISPIDER_BODY,turret,4" 
+		 model_group_5="MINISPIDER_HEAD,turret,4" 
+		 model_group_6="MINISPIDER_LEG,turret,4" 
+		 particle_effect_1="effects/explosion-minispider.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

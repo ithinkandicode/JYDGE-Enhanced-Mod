@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 name="CreditChip" 
+		 renderer="SingleBitmap" 
+		 ai="Collectible" 
+		 friend_group="COLLECTIBLES" 
+		 turn_speed="2.5" 
+		 move_speed="200" 
+		 dampening_factor="0.3" 
+		 friction="0.6" 
+		 scale="0.3" 
+		 bitmap_move="actors/gfx/credit_chip.png" 
+		 effect_on_death="effects/credits-die.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.5" 
+		 shadow_scale="0.2" 
+		 hit_points="1500" 
+		 damage="0.0" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="MANUAL" cylinder_radius="20" type="CYLINDER" />
+		<node id="CUSTOM_DATA" 
+		 collectible_type="credits" 
+		 collectible_value="10" 
+		 loot_value="2" 
+		 collectible_life_time="45" 
+		/>
+
+	</array>
+</root>

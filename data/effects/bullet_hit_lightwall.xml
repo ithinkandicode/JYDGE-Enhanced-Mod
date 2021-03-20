@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 number_of_particles="8" 
+		 initial_age="0;0.1" 
+		 age_to_die="0.2;0.3" 
+		 position_offset="0,0,-1" 
+		 move_speed="500;700" 
+		 move_direction="1,0,0" 
+		 move_angle_spread="10" 
+		 move_angle_y="-90" 
+		 gravity_multiplier="3" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,0.4;0.1,1;1,0.5" 
+		 alpha_multiplier="0.7;1" 
+		 scale_multiplier="1" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 angular_velocity="0,0,0;0,0,200" 
+		 blend_mode="NORMAL" 
+		 bitmaps="fxs/drywall.png" 
+		 />
+
+	</array>
+</root>

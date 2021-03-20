@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 bitmaps="fxs/energy-wave-white.png" 
+		 number_of_particles="1" 
+		 initial_age="0" 
+		 age_to_die="1.4;1.5" 
+		 time="0" 
+		 blend_mode="ADDITIVE" 
+		 position_offset="0,0,-84" 
+		 move_speed="2;2.1" 
+		 move_direction="1,0,0" 
+		 move_angle_spread="0" 
+		 move_angle_z="0" 
+		 move_angle_y="0" 
+		 move_angle_x="0" 
+		 dampening_factor="1" 
+		 restitution_coefficient="0.5" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.1,1;1,0" 
+		 scale_curve="0,0.3;1,1" 
+		 color_curve="0,0,0.8,1" 
+		 alpha_multiplier="0.5;0.7" 
+		 scale_multiplier="0.9;1" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 angular_velocity="0,0,0" 
+		/>
+
+	</array>
+</root>

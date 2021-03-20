@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="user">
+		<node id="priority" value="-10" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="color" type="FLOAT4" semantic="COLOR" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.color = input.color;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+				void main()
+				{
+					output.color = input.color;
+				}
+			]]>
+		</node>
+	</array>
+</root>

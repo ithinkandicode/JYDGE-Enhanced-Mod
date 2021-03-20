@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 number_of_particles="1" 
+		 initial_age="0" 
+		 age_to_die="0.1;0.15" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.1,1;1,0" 
+		 scale_curve="0,0.3;0.5,1;1,1" 
+		 alpha_multiplier="0.7;0.8" 
+		 scale_multiplier="0.5;0.6" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 blend_mode="ADDITIVE" 
+		 bitmaps="fxs/flare.png" 
+		 />
+
+		<node class="BITMAP" 
+		 number_of_particles="1" 
+		 initial_age="0" 
+		 age_to_die="0.1;0.15" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.1,1;1,0" 
+		 scale_curve="0,0.3;1,1" 
+		 alpha_multiplier="0.4;0.5" 
+		 scale_multiplier="0.4;0.5" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 blend_mode="ADDITIVE" 
+		 bitmaps="fxs/plasma-ring-blue.png" 
+		 />
+
+	</array>
+</root>

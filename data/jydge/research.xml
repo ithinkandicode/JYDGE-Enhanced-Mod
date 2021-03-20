@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root> 
+  
+	<array id="RESEARCH">
+    
+        <node 
+         id="CyberwareLab"
+		 tags="HAS_UI_BUTTON"
+         medal_requirement="0"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Cybernetics Lab" 
+         desc="Open up a cybernetics lab where you can install JYDGE cyberware."
+         cost="500"
+         tutorial="Cyberware"
+         open_tab="Cyberware"
+		 show_comp_when_purchased="CyberneticsLab"
+         />
+         
+        <node 
+         id="Weapons"
+         medal_requirement="4"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Gavel Lab" 
+         desc="Open up weapon lab where you can tweak the Gavel fire mode, and later install mods."
+         cost="800"
+         show_cutscene="JydgeGavel"
+         open_tab="Weapons"
+         />       
+         
+        <node 
+         id="Abilities"
+		 tags="HAS_UI_BUTTON"
+         medal_requirement="3"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Special Fire" 
+         desc="Research devastating special weapons. Shoot rockets and more by pressing |ABILITY_BUTTON|."
+         cost="1000"
+         open_tab="Abilities"
+         />      
+         
+        <node 
+         id="WeaponMods"
+		 tags="HAS_UI_BUTTON"
+         medal_requirement="8"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Gavel Mods" 
+         desc="Modify firing and melee behavior with Gavel Mods."
+         cost="2000"
+         show_cutscene="JydgeGavel"
+         open_tab="Weapons"
+         />
+    
+        <node 
+         id="HealthUpgrade1"
+         prerequisite="Cyberware"
+         medal_requirement="15"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Subdermal Armor" 
+         desc="Permanent subdermal armor upgrade gives you +20|health|."
+         parm0="20"
+         cost="2500"
+         open_tab="Cyberware"
+         />
+         
+        <node 
+         id="HealthUpgrade2"
+         prerequisite="HealthUpgrade1"
+         medal_requirement="30"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Titanium Hardening" 
+         desc="Permanent titanium hardening upgrade gives you +30|health|."
+         parm0="30"
+         cost="7000"
+         open_tab="Cyberware"
+         />
+         
+        <node 
+         id="HealthUpgrade3"
+         prerequisite="HealthUpgrade2"
+         medal_requirement="50"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Subdermal Armor" 
+         desc="Permanent titanium hardening upgrade gives you +40|health|."
+         parm0="40"
+         cost="12000"
+         open_tab="Cyberware"
+         />
+         
+        <node 
+         id="MeleeAttack"
+         prerequisite="Cyberware"
+         medal_requirement="2"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Melee Attack" 
+         desc="Research a brutal new move. Powerslam the perps with the Gavel."
+         cost="200"
+         open_tab="Weapons"
+        />         
+         
+        <node 
+         id="MeleeDamage1"
+         prerequisite="MeleeAttack"
+         medal_requirement="11"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Powerslam of Jystice" 
+         desc="Increases the Gavel melee base damage by 30%."
+         parm0="0.30"
+         cost="1500"
+         open_tab="Weapons"
+         popup="Press {MELEE} to slam criminals, walls, and other objects with the Gavel."
+         />         
+         
+        <node 
+         id="MeleeDamage2"
+         prerequisite="MeleeDamage1"
+         medal_requirement="21"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Gavel Mass Increase" 
+         desc="Increases the Gavel melee base damage by 40%."
+         parm0="0.40"
+         cost="5000"
+         open_tab="Weapons"
+         />         
+         
+        <node 
+         id="MeleeDamage3"
+         prerequisite="MeleeDamage2"
+         medal_requirement="40"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Barbwire Gavel" 
+         desc="Increases the Gavel melee base damage by 50%."
+         parm0="0.50"
+         cost="13500"
+         open_tab="Weapons"
+         />
+            
+    
+         <!--
+        <node 
+         id="WeaponModSlot2"
+         prerequisite="WeaponMods"
+         medal_requirement="25"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Gavel Mod Slot #2" 
+         desc="Unlocks second Mod slot for the Gavel."
+         cost="2500"
+         open_tab="Weapons"
+         />
+         
+        <node 
+         id="WeaponModSlot3"
+         prerequisite="WeaponModSlot2"
+         medal_requirement="50"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Gavel Mod Slot #3" 
+         desc="Unlocks third Mod slot for the Gavel."
+         cost="6000"
+         open_tab="Weapons"
+         />
+         -->
+         
+      <!--   
+        <node 
+         id="AbilityMods"
+         prerequisite="Abilities"
+         medal_requirement="40"
+         bm_icon="jydge/research-icons/icon-research.png"
+         name="Special Weapon Mod Slot" 
+         desc="Adds additional special fire mode Mod slot."
+         cost="6000"
+         open_tab="Abilities"
+         />
+         -->
+    </array>
+   
+ 
+</root>

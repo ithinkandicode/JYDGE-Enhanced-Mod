@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root> 
+  
+	<array id="TIPS">
+        <node text="JYDGE's health is shown in a circle indicator around his feet." />
+        <node text="You can rarely achieve all three medals in one run. Which one you want to get next?" />
+        <node text="Try finding alternative routes to your target." />
+        <node text="Laser projectiles are red. They're accurate, fast, and bounce off surfaces." />
+		<node text="Plasma firemode shoots high damage projectiles with medium range. Plasma practically melts organic enemies." />
+		<node text="Lead based fire modes shoot high mass lead. The projectiles can pierce through thin walls." />
+        <node text="Confiscate all the credits you can find. The Department of Jystice needs all the funds it can get." />
+        <node text="Confiscation is not a crime! #credits" />
+        <node text="Sneaking to your target can be very effective. #stabbystabby" />
+        <node text="Ion projectiles electrify nearby enemies. #zzap" />
+        <node text="Thin walls are destructible. Break them and enter." />
+        <node text="If you rescue all citizens, you will get the Savior medal even if you perish afterwards. #posthumousmedals" />
+        <node text="You get the Kill All medal after eliminating all enemies even if you die during your escape. #howdidthathappen #posthumousmedals" />
+        <node text="Upgrade your health enough and you can survive a direct rocket hit. #orgibmuch" />
+        <node text="It is of paramount importance to purchase more slots to install additional cyberware and mods. #expensivebutworthit" />
+        <node text="Configure the JYDGE for maximum performance. #jydgeforyourself" />
+        <node text="Be careful with the C4K. The department can't afford any more fiascos." />
+        <node text="Save all the citizens you can. They are valued tax payers. #deathandtaxes" />
+        <node text="Blatantly failing Main Objective makes JYDGE explode violently. #failnot" />
+        <node text="Androids have no feelings, feel free to eliminate them all. #violentdelights" />
+        <node text="You get to keep the credits you confiscate even if you fail a mission. #magic" />
+        <node text="Citizens may not always choose to run to the direction you would like to. You can gently nudge them to choose a proper route." />
+        <node text="Some of the tougher enemies will stay dead when replaying missions. How can you tell which ones?" />
+        <node text="''Any sufficiently advanced technology is indistinguishable from magic.'' #ACC" />
+        <node text="What is the best approach for this mission? #jydgeforyourself" />
+        <node text="Could the rumors about the Gavel Mk2 (aka. 'Sentence') be true?" />
+        <node text="Most doors open with enough explosives. #key" />
+        <node text="There are ways to get rid of mines. #boom" />
+        <node text="Install all the melee boosting enhancements and have some melee mayhem. #hacknslash" />
+        <node text="Loot boxes can only be opened once per difficulty." />
+        <node text="Is this real or just a simulation? #yesnomaybe" />
+        <node text="Color locked doors need to be unlocked only once per difficulty. #stayopen" />
+        <node text="You would be very surprised if you knew what's behind the JYDGE mask. #keepthemaskon #plz" />
+        <node text="If JYDGE's vehicle is destruction-proof, why not just stay inside? #heroesdonttakecover" />
+        <node text="Heavy turrets will spot you even in stealth. #laserisdanger" />
+        <node text="It's Gavel time." />
+        <node text="Mechanical Pulice Spiders like to play decoys. #sorryspidey" />
+        <node text="Don't look at the meat too closely. #VeganMeatPalace #talktothemeat" />
+        <node text="New line of smart porch terraces available at nearest PCMAS company outlet." />
+        <node text="Trouble defeating a boss? Bosses have less HP each Monday." />
+        <node text="The byrds are not what they seem." />
+        <node text="Hold down |MELEE_BUTTON| to charge the melee strike up to 8x damage." />
+        <node text="You'll get the Unseen medal if enemies don't spot the JYDGE. Make your companions do the dirty work? #bffs" />
+        <node text="Most parents in Edenbyrg prefer to have their children grown in vats until they're 21." />
+        <node text="Crimsonland Institute is interested in the strange phenomenon around the May 18th event." />
+    </array>
+   
+   
+    <!-- Department of Jystice slogans shown in metagame tab system for platforms without ANNOUNCEMENTS feature. The slogans change daily. -->
+	<array id="SLOGANS">
+    
+        <node text="In Gavel we trust." />
+        <node text="The hard fist of the Law is trigger happy." />
+        <node text="The Law requires sacrifices from us all." />
+        <node text="The Sword is mightier than the pen." />
+        <node text="The Eye of Jystice is always open." />
+        <node text="The relentless fist of Jystice keeps on pounding." />
+        <node text="Mostly everyone is equal in the eyes of the Law." />
+        <node text="The city must be purged of the scum." />
+        <node text="JYDGE before you get JYDGED." />
+        <node text="One can hear the scum breathing out there." />
+        <node text="The crime never sleeps." />
+        <node text="Jystice sees You." />
+        <node text="The Jystice never sleeps." />
+        <node text="Citizens We Protect." />
+        <node text="The initiative shall prevail." />
+        <node text="All hail JYDGE." />
+        <node text="We are all vulnerable under the Law." />
+        <node text="And Jystice For All" />
+        <node text="Jystice demands rytribution!" />
+        <node text="May the Scale tilt in your favor." />
+        <node text="Jystice is not blind." />
+        <node text="Jystice begins here." />
+        <node text="The Rain of Jystice shall cleanse the land." />
+        <node text="Welcome to Edenbyrg - Your Urban Paradise" />
+        
+    </array>
+    
+    <!-- Special slogans. duration_radius_days is number of days before and after given date the event is active.-->
+	<array id="SLOGANS_SPECIAL">
+
+        <node text="Never forget the May 18th." month="5" day="18" event="MAY_18TH" />
+        <node text="The Midnight Sun shall enlighten us all." duration_radius_days="2" month="6" day="23" event="JUHANNUS" />
+        <node text="Blow something up!" month="7" day="4" event="JULY_4TH" duration_radius_days="1" />
+        <node text="JYDGE rests not on Hallowyyn." month="10" day="31" duration_radius_days="2" event="HALLOWEEN" />
+        <node text="JYDGE rests not on Hallowyyn." month="11" day="1" duration_radius_days="1" event="HALLOWEEN" />
+        <node text="The jingle bells of Jystice shall soothen thy souls." month="12" day="25" duration_radius_days="3" event="XMAS" />
+        <node text="The new year shall bring Jystice to us all." month="12" day="31" duration_radius_days="2" event="NEW_YEAR" />
+        <node text="The new year shall bring Jystice to us all." month="1" day="1" duration_radius_days="2" event="NEW_YEAR" />
+        
+    </array>
+ 
+</root>

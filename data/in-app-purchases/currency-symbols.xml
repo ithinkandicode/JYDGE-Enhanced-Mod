@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+<root>
+	<!-- 
+		Defines currency symbol mapping from strings to graphics.
+		
+		id				defines the 3 letter currency code.
+		bm 				defines the icon that will replace the currency code
+		bm_offset_y		defines the y offset for drawing
+		text			defines the text that will replace the currency code
+		
+		for example RMB 40 with bm="yuan.png" would replace the price string
+		"RMB 40" to "|img src='in-app-purchases/yuan.png' offset=0 color=#ffffff| 40"
+     
+        set color="ffffff" to force color
+		
+	-->
+
+	<array id="CURRENCY_MAP">
+		<node id="RMB" bm="in-app-purchases/yuan.png" bm_offset_y="1" />
+		<node id="EUR" bm="in-app-purchases/eur.png" bm_offset_y="1" />
+		<node id="GBP" bm="in-app-purchases/pound.png" bm_offset_y="1" />
+		<node id="GIP" bm="in-app-purchases/pound.png" bm_offset_y="1" />
+		<node id="USD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="AUD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="XCD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="USD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="TWD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="TTD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="SRD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="SGD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="SBD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="NZD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="NAD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="LRD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="KYD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="JMD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="HKD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="GYD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="FJD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="CAD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="BZD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="BND" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="BMD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="BBD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+		<node id="AUD" bm="in-app-purchases/dollar.png" bm_offset_y="1" />
+	</array>
+
+</root>

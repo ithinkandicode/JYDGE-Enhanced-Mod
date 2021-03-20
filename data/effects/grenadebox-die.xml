@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 die_on_collision="true" 
+		 number_of_particles="1" 
+		 initial_age="0" 
+		 age_to_die="0.55;0.74" 
+		 position_offset="0,0,-6" 
+		 move_speed="140;190" 
+		 move_direction="0,0,-1" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,1" 
+		 alpha_multiplier="0.4;0.6" 
+		 scale_multiplier="0.75;0.88" 
+		 angular_velocity="0,0,0" 
+		 blend_mode="ADDITIVE" 
+		 sounds="sfx/gun_cock_heavy" 
+		 bitmaps="fxs/grenade.png" 
+		 />
+
+	</array>
+</root>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="ROLES">
+
+		<node id="JYDGE" 
+		 title="Jydge"
+		 description="The Jydge."
+		 icon="!NONE"
+		 actor_1="actors/player-jydge.xml"
+		 actor_2="actors/player-jydge.xml"
+		 actor_3="actors/player-jydge.xml"
+		 actor_4="actors/player-jydge.xml"
+		 max_level="1"
+
+		 level_1_hacking_speed_multiplier="1.0"
+		 level_1_energy_capacity_multiplier="1.0"
+		 level_1_speed_multiplier="1.0"
+		 _level_1_free_enhancements=""
+		/>
+
+		<node id="Adams" 
+		 title="Adams"
+		 description="John Adams"
+		 icon="!NONE"
+		 actor_1="actors/player-adams.xml"
+		 actor_2="actors/player-adams.xml"
+		 actor_3="actors/player-adams.xml"
+		 actor_4="actors/player-adams.xml"
+		 max_level="1"
+         can_have_enhancements="false"
+
+		 level_1_hacking_speed_multiplier="1.0"
+		 level_1_energy_capacity_multiplier="1.0"
+		 level_1_speed_multiplier="1.0"
+		 _level_1_free_enhancements=""
+		/>
+
+	</array>
+</root>

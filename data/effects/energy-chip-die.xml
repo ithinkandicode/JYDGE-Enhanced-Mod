@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 collide_to_ground_plane="true" 
+		 die_on_collision="true" 
+		 number_of_particles="7" 
+		 initial_age="0;0.1" 
+		 age_to_die="2;3" 
+		 position_offset="0,0,-1" 
+		 move_speed="200;400" 
+		 move_direction="1,0,0" 
+		 move_angle_spread="10" 
+		 move_angle_y="-90" 
+		 gravity_multiplier="3" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,0.4;0.1,1;1,0.5" 
+		 alpha_multiplier="0.7;1" 
+		 scale_multiplier="0.2;0.5" 
+		 rotation_angles="0,0,0;0,0,360" 
+		 angular_velocity="0,0,0;0,0,200" 
+		 blend_mode="ADDITIVE" 
+		 bitmaps="fxs/spark-blue.png" 
+		 />
+
+		<node class="BITMAP" 
+		 die_on_collision="true" 
+		 number_of_particles="1" 
+		 initial_age="-0.3;0.3" 
+		 age_to_die="0.55;0.74" 
+		 position_offset="0,0,-6" 
+		 move_speed="140;190" 
+		 move_direction="0,0,-1" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,1" 
+		 alpha_multiplier="0.4;0.6" 
+		 scale_multiplier="0.25;0.38" 
+		 angular_velocity="0,0,0" 
+		 blend_mode="ADDITIVE" 
+		 sounds="sfx/generic_pickup" 
+		 bitmaps="fxs/energy.png" 
+		 />
+
+	</array>
+</root>

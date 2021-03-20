@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP"
+		 bitmaps="ground-decals/dopefish.png"
+		 number_of_particles="1"
+		 initial_age="-0.5;0"
+		 age_to_die="2.5;5.51"
+		 immortal="true"
+		 time="0"
+		 blend_mode="NORMAL"
+		 is_lit="true"
+		 position_offset="0,0,-20"
+		 move_speed="0"
+		 move_direction="0,0,-1"
+		 move_angle_spread="-30;30"
+		 move_angle_z="0"
+		 move_angle_y="0"
+		 move_angle_x="0"
+		 dampening_factor="1"
+		 restitution_coefficient="0.5"
+		 gravity_multiplier="0"
+		 alpha_curve="0,1"
+		 scale_curve="0,1"
+		 alpha_multiplier="0.3"
+		 scale_multiplier="4"
+		 rotation_angles="0,0,100;0,0,180"
+		 angular_velocity="0,0,-20;0,0,20"
+		 randomize_angular_velocity_sign="true"
+		/>
+
+	</array>
+</root>

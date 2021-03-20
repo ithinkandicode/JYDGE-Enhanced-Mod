@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL_ENEMY" 
+		 name="Attack drone" 
+		 renderer="Drone" 
+		 ai="AttackDrone" 
+		 weapon="weapons/attack-drone-plasma.xml" 
+		 friend_group="ENEMIES" 
+		 turn_speed="3.5" 
+		 move_speed="120" 
+		 move_acceleration="3000" 
+		 dampening_factor="8.0" 
+		 restitution_coefficient="0.15" 
+		 scale="1.0" 
+		 aggro_radius="470" 
+		 friend_avoidance_radius="10" 
+		 model_idle="models/attack-drone.xml" 
+		 bitmap_shadow="shadows/shadow-circle.png" 
+		 shadow_angle="0" 
+		 shadow_scale="0.7" 
+		 shadow_alpha="0.75" 
+		 hit_points="110" 
+		/>
+
+		<node id="COLLIDER" 
+		 cylinder_max_z="0" 
+		 cylinder_min_z="-100" 
+		 cylinder_radius="20" 
+		 collider_generation_method="AUTOMATIC" 
+		/>
+
+		<node id="CUSTOM_DATA" 
+		 actor_class="robotic" 
+		 sound_collection="attack_drone" 
+		 accuracy_spread_multiplier="1.0" 
+		 rebound_speed_multiplier="1.0" 
+       
+		/>
+
+	</array>
+
+	<array id="GIBS_NONE">
+		<node id="EXPLOSION_SMALL" 
+		 model_group_1="METAL_SMALL,root,2" 
+		 model_group_2="METAL_LARGE,root,2" 
+		 model_group_3="METAL_MISC,root,2" 
+		 model_group_4="ATTACK_DRONE_BODY,root,2" 
+		 model_group_5="ATTACK_DRONE_WING,root,2" 
+		 model_group_6="ATTACK_DRONE_MISC,root,2" 
+		 model_group_7="ATTACK_DRONE_ENGINE,thruster.L,1" 
+		 model_group_8="ATTACK_DRONE_ENGINE,thruster.R,1" 
+		 model_group_9="ATTACK_DRONE_LARGE,root,1" 
+		 particle_effect_1="effects/explosion-drone.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_PARTIAL">
+		<node id="EXPLOSION_MEDIUM" 
+		 model_group_1="METAL_SMALL,root,3" 
+		 model_group_2="METAL_LARGE,root,3" 
+		 model_group_3="METAL_MISC,root,3" 
+		 model_group_4="ATTACK_DRONE_BODY,root,3" 
+		 model_group_5="ATTACK_DRONE_WING,root,3" 
+		 model_group_6="ATTACK_DRONE_MISC,root,3" 
+		 model_group_7="ATTACK_DRONE_ENGINE,thruster.L,1" 
+		 model_group_8="ATTACK_DRONE_ENGINE,thruster.R,1" 
+		 particle_effect_1="effects/explosion-drone.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+
+	<array id="GIBS_FULL">
+		<node id="EXPLOSION_LARGE" 
+		 model_group_1="METAL_SMALL,root,4" 
+		 model_group_2="METAL_LARGE,root,4" 
+		 model_group_3="METAL_MISC,root,4" 
+		 model_group_4="ATTACK_DRONE_BODY,root,4" 
+		 model_group_5="ATTACK_DRONE_WING,root,4" 
+		 model_group_6="ATTACK_DRONE_MISC,root,4" 
+		 model_group_7="ATTACK_DRONE_ENGINE,thruster.L,1" 
+		 model_group_8="ATTACK_DRONE_ENGINE,thruster.R,1" 
+		 particle_effect_1="effects/explosion-drone.xml,root" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

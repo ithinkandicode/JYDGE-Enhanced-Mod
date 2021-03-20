@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="user">
+		<node id="priority" value="20" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+		<node id="normal" semantic="NORMAL" />
+		<node id="bone_indices" semantic="4_BONE_INDICES" />
+		<node id="bone_weights" semantic="4_BONE_WEIGHTS" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="bone_transforms" type="FLOAT4X4" count="60" />
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+    	<node id="normal" type="FLOAT3" />
+    	<node id="world_position" type="FLOAT3" />
+	</array>
+
+	<array id="pixel_constants">
+		<node id="ambient_light" type="FLOAT4" />
+		<node id="light_color" type="FLOAT4" count="4" />
+		<node id="light_position_radius" type="FLOAT4" count="4" />
+		<node id="glow_color" type="FLOAT4" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="diffuse_map" type="2D" index="0" />
+		<node id="glow_map" type="2D" index="1" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" index="0" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+                    float4x4 blend
+                        = bone_transforms[input.bone_indices[0]] * input.bone_weights[0]
+                        + bone_transforms[input.bone_indices[1]] * input.bone_weights[1]
+                        + bone_transforms[input.bone_indices[2]] * input.bone_weights[2]
+                        + bone_transforms[input.bone_indices[3]] * input.bone_weights[3];
+
+                    float4 position = float4(input.position.xyz, 1.0f) * blend;
+                    float3 normal = (float4(input.normal, 0.0f) * blend).xyz;
+
+					output.position = position * world_view_proj;
+					output.texture_coordinate = input.texture_coordinate;
+					output.normal = normalize(normal);
+					output.world_position = position.xyz;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+				void main()
+				{
+					float4 diffuse_sample = sampleTexture(texture.diffuse_map, input.texture_coordinate);
+					if (diffuse_sample.a < 0.4f)
+						discard;
+
+					float4 total_light_color = ambient_light;
+
+					for (int i = 0; i < 4; ++i)
+					{
+						float distance_to_light = distance(input.world_position, light_position_radius[i].xyz);
+						float attenuation_intensity = saturate(distance_to_light / light_position_radius[i].w);
+						float attenuation = 1.0f - attenuation_intensity * attenuation_intensity;
+
+						float3 light_direction = normalize(light_position_radius[i].xyz - input.world_position);
+
+						float diffuse_component = saturate(dot(light_direction, input.normal));
+						total_light_color += light_color[i] * attenuation * diffuse_component;
+					}
+
+					float4 diffuse_color = float4(saturate(total_light_color.xyz * diffuse_sample.xyz), diffuse_sample.w);
+					float4 glow_sample = sampleTexture(texture.glow_map, input.texture_coordinate);
+					float4 glow_component =	glow_color.w * glow_sample.w * glow_color * float4(glow_sample.xyz, 0.0f);
+
+					output.color = diffuse_color + glow_component;
+				}
+			]]>
+		</node>
+	</array>
+</root>

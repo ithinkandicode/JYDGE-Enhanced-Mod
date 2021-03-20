@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL" 
+		 renderer="Model" 
+		 ai="Obstacle" 
+		 friend_group="OBSTACLES" 
+		 turn_speed="2.5" 
+		 move_speed="10" 
+		 scale="1" 
+		 model_idle="models/placeholder-crate.xml" 
+		 bitmap_shadow="shadows/big-crate-shadow.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.7" 
+		 hit_points="100" 
+		 minimum_damage_threshold="20" 
+		 damage="0.0" 
+		/>
+
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+	</array>
+</root>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+	</array>
+
+	<array id="pixel_constants">
+		<node id="sample_offsets" type="FLOAT4" count="16" />
+		<node id="sample_weights" type="FLOAT4" count="16" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="blur" type="2D" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.texture_coordinate = input.texture_coordinate;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+				void main()
+				{
+					float4 final_color = float4(0.0f, 0.0f, 0.0f, 0.0f);
+
+					for (int i = 0; i < 15; ++i)
+					{
+						float2 texture_coordinate = input.texture_coordinate + sample_offsets[i].xy;
+						float4 blur_sample = sampleTexture(texture.blur, texture_coordinate);
+						final_color += blur_sample * sample_weights[i].x;
+					}
+					
+					output.color = final_color;
+				}
+			]]>
+		</node>
+	</array>
+</root>

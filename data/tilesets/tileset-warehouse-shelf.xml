@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="category" value="WAREHOUSE_SHELF" />
+	</array>
+	
+	<array id="WALL_DESTROYED_CAP">
+	</array>	
+
+	<array id="WALL_INNER_DOT">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CAP">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_DOUBLEFRAME">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_STRAIGHT">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_STRAIGHT">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CORNER">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MINOR">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MAJOR">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_FULL">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_QUARTER_OUTSIDE">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+
+	<array id="WALL_OUTER_T">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T_QUARTER_OUTSIDE">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_STRAIGHT">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_T">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_CORNER_L">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_DOUBLE_CORNER_R">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+	
+	<array id="WALL_MIDDLE">
+		<node output="actors/warehouse-shelf.xml" />
+	</array>
+
+</root>

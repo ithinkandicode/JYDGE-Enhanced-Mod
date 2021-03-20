@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+    	<node id="color" type="FLOAT4" semantic="COLOR" />
+    	<node id="relative_screen_position" type="FLOAT4" semantic="TEXTURE_COORDINATE" />
+	</array>
+
+	<array id="pixel_constants">
+		<node id="time_keys" type="FLOAT4" />
+		<node id="cursor_pos" type="FLOAT4" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="diffuse" type="2D" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.texture_coordinate = input.texture_coordinate;
+                    output.color = input.color;
+                    output.relative_screen_position = output.position;
+				}
+			]]>
+		</node>
+		<node type="pixel">
+			<![CDATA[
+                const float TWO_PI = 6.28318530f;
+
+				void main()
+				{
+					float4 diffuse_sample = sampleTexture(texture.diffuse, input.texture_coordinate);
+					output.color = diffuse_sample * input.color;
+
+                    float boost = 0.075*cos(1.75*(100*input.relative_screen_position.y/cursor_pos.w) + time_keys.x * TWO_PI);
+					float key = 1.75*(50*input.relative_screen_position.y/cursor_pos.w);
+					float distance_to_row = saturate(1-10*abs(input.relative_screen_position.y/cursor_pos.w - (1-time_keys.y)*6 + 3.5));
+					boost += 0.1*distance_to_row*cos(key + time_keys.x * TWO_PI);
+					boost += 0.0075*cos(100*time_keys.y * TWO_PI);
+					boost += 0.0005*cos(5+20*time_keys.y * TWO_PI);
+					if (length(output.color.rgb) > 0.01)
+						output.color.rgb += float3(boost, boost, boost);
+				}
+			]]>
+		</node>
+	</array>
+</root>

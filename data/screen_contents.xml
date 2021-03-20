@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+
+<root>
+ 
+<!-- needs an actor  -->
+
+     <array id="LAB13">
+
+		<node id="1" 
+		 
+		repeats="1" 
+		 
+        send_hack_on_end="1"
+		image_1="overseer/screen-overseer-basic.jpg" 
+		sound_1="sfx/ui_speech/lab13" 
+		text_1="Welcome to Edenbyrg - Your Urban Paradise!" 
+		
+		/>
+ 
+	</array>
+      
+	
+	<array id="ARMOCORE">
+
+		<node id="1" 
+		send_hack_on_start="1"
+		repeats="99999" 
+		 
+		
+		image_1="overseer/screen-overseer-basic.jpg" 
+		sound_1="sfx/ui_speech/armocore" 
+		text_1="ArmoCore - a subsidiary of Neon Corp - is securing the future of everyone in Neon Chrome." 
+		
+		/>
+ 
+	</array>
+    
+<!-- sfx, no voice -->
+      
+	<array id="HEALTH_RING">
+
+		<node id="1" 
+		 
+		repeats="99999" 
+ 
+		image_1="overseer/health.jpg" 
+		sound_1="sfx/info_chime" 
+		text_1="" 
+		
+		/>
+
+	</array>
+	
+	
+</root>

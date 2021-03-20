@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="GIBS">
+		
+		<node id="ATTACK_DRONE_BODY"
+			model_1="models/gib-attack-drone-body1.xml"
+			model_2="models/gib-attack-drone-body2.xml"
+			model_3="models/gib-attack-drone-body3.xml"
+			model_4="models/gib-attack-drone-body4.xml"
+			model_5="models/gib-attack-drone-body5.xml"
+			model_6="models/gib-attack-drone-body6.xml"
+			model_7="models/gib-attack-drone-body7.xml"
+			model_8="models/gib-attack-drone-body8.xml"
+			model_9="models/gib-attack-drone-body9.xml"
+			model_10="models/gib-attack-drone-body10.xml"
+		/>
+		
+		<node id="ATTACK_DRONE_ENGINE"
+			model_1="models/gib-attack-drone-engine1.xml"
+			model_2="models/gib-attack-drone-engine2.xml"
+			model_3="models/gib-attack-drone-engine4.xml"
+			model_4="models/gib-attack-drone-engine5.xml"
+			model_5="models/gib-attack-drone-engine6.xml"
+		/>
+		
+		<node id="ATTACK_DRONE_LARGE"
+			model_1="models/gib-attack-drone-large1.xml"
+			model_2="models/gib-attack-drone-large2.xml"
+			model_3="models/gib-attack-drone-large3.xml"
+			model_4="models/gib-attack-drone-large4.xml"
+		/>
+		
+		<node id="ATTACK_DRONE_MISC"
+			model_1="models/gib-attack-drone-misc1.xml"
+			model_2="models/gib-attack-drone-misc2.xml"
+			model_3="models/gib-attack-drone-misc3.xml"
+		/>
+		
+		<node id="ATTACK_DRONE_WING"
+			model_1="models/gib-attack-drone-wing1.xml"
+			model_2="models/gib-attack-drone-wing2.xml"
+			model_3="models/gib-attack-drone-wing3.xml"
+			model_4="models/gib-attack-drone-wing4.xml"
+			model_5="models/gib-attack-drone-wing5.xml"
+			model_6="models/gib-attack-drone-wing6.xml"
+			model_7="models/gib-attack-drone-wing7.xml"
+			model_8="models/gib-attack-drone-wing8.xml"
+		/>
+		
+		<node id="AUTOTURRET_BODY"
+			model_1="models/gib-autoturret-body1.xml"
+			model_2="models/gib-autoturret-body2.xml"
+			model_3="models/gib-autoturret-body3.xml"
+			model_4="models/gib-autoturret-body4.xml"
+			model_5="models/gib-autoturret-body5.xml"
+			model_6="models/gib-autoturret-body6.xml"
+			model_7="models/gib-autoturret-body7.xml"
+			model_8="models/gib-autoturret-body8.xml"
+			model_9="models/gib-autoturret-body9.xml"
+			model_10="models/gib-autoturret-body10.xml"
+		/>
+		
+		<node id="AUTOTURRET_LEG"
+			model_1="models/gib-autoturret-leg1.xml"
+			model_2="models/gib-autoturret-leg2.xml"
+			model_3="models/gib-autoturret-leg3.xml"
+			model_4="models/gib-autoturret-leg4.xml"
+			model_5="models/gib-autoturret-leg5.xml"
+			model_6="models/gib-autoturret-leg6.xml"
+		/>
+		
+		<node id="AUTOTURRET_SHIELD"
+			model_1="models/gib-autoturret-shield1.xml"
+			model_2="models/gib-autoturret-shield2.xml"
+			model_3="models/gib-autoturret-shield3.xml"
+			model_4="models/gib-autoturret-shield4.xml"
+			model_5="models/gib-autoturret-shield5.xml"
+			model_6="models/gib-autoturret-shield6.xml"
+			model_7="models/gib-autoturret-shield7.xml"
+			model_8="models/gib-autoturret-shield8.xml"
+			model_9="models/gib-autoturret-shield9.xml"
+			model_10="models/gib-autoturret-shield10.xml"
+		/>
+		
+		<node id="BRAIN"
+			model_1="models/gib-brain1.xml"
+			model_2="models/gib-brain2.xml"
+			model_3="models/gib-brain3.xml"
+			model_4="models/gib-brain4.xml"
+		/>
+		
+		<node id="CARETAKER_BODY"
+			model_1="models/gib-caretaker-body1.xml"
+			model_2="models/gib-caretaker-body2.xml"
+			model_3="models/gib-caretaker-body3.xml"
+			model_4="models/gib-caretaker-body4.xml"
+		/>
+		
+		<node id="CARETAKER_LEG"
+			model_1="models/gib-caretaker-leg1.xml"
+			model_2="models/gib-caretaker-leg2.xml"
+			model_3="models/gib-caretaker-leg3.xml"
+			model_4="models/gib-caretaker-leg4.xml"
+			model_5="models/gib-caretaker-leg5.xml"
+			model_6="models/gib-caretaker-leg6.xml"
+			model_7="models/gib-caretaker-leg7.xml"
+			model_8="models/gib-caretaker-leg8.xml"
+			model_9="models/gib-caretaker-leg9.xml"
+			model_10="models/gib-caretaker-leg10.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_ARM"
+			model_1="models/civilian-female-gib-arm-01.xml"
+			model_2="models/civilian-female-gib-arm-02.xml"
+			model_3="models/civilian-female-gib-arm-03.xml"
+			model_4="models/civilian-female-gib-arm-04.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_HEAD"
+			model_1="models/civilian-female-gib-head-01.xml"
+			model_2="models/civilian-female-gib-head-02.xml"
+			model_3="models/civilian-female-gib-head-03.xml"
+			model_4="models/civilian-female-gib-head-04.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_LEG"
+			model_1="models/civilian-female-gib-leg-01.xml"
+			model_2="models/civilian-female-gib-leg-02.xml"
+			model_3="models/civilian-female-gib-leg-03.xml"
+			model_4="models/civilian-female-gib-leg-04.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_TORSO"
+			model_1="models/civilian-female-gib-torso-01.xml"
+			model_2="models/civilian-female-gib-torso-02.xml"
+			model_3="models/civilian-female-gib-torso-03.xml"
+			model_4="models/civilian-female-gib-torso-04.xml"
+		/>
+		
+			<node id="CIVILIAN_FEMALE_RESCUE_ARM"
+			model_1="models/civilian-female-rescue-gib-arm-01.xml"
+			model_2="models/civilian-female-rescue-gib-arm-02.xml"
+			model_3="models/civilian-female-rescue-gib-arm-03.xml"
+			model_4="models/civilian-female-rescue-gib-arm-04.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_RESCUE_HEAD"
+			model_1="models/civilian-female-rescue-gib-head-01.xml"
+			model_2="models/civilian-female-rescue-gib-head-02.xml"
+			model_3="models/civilian-female-rescue-gib-head-03.xml"
+			model_4="models/civilian-female-rescue-gib-head-04.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_RESCUE_LEG"
+			model_1="models/civilian-female-rescue-gib-leg-01.xml"
+			model_2="models/civilian-female-rescue-gib-leg-02.xml"
+			model_3="models/civilian-female-rescue-gib-leg-03.xml"
+			model_4="models/civilian-female-rescue-gib-leg-04.xml"
+		/>
+		
+		<node id="CIVILIAN_FEMALE_RESCUE_TORSO"
+			model_1="models/civilian-female-rescue-gib-torso-01.xml"
+			model_2="models/civilian-female-rescue-gib-torso-02.xml"
+			model_3="models/civilian-female-rescue-gib-torso-03.xml"
+			model_4="models/civilian-female-rescue-gib-torso-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_ARM"
+			model_1="models/civilian-male-gib-arm-01.xml"
+			model_2="models/civilian-male-gib-arm-02.xml"
+			model_3="models/civilian-male-gib-arm-03.xml"
+			model_4="models/civilian-male-gib-arm-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_HEAD"
+			model_1="models/civilian-male-gib-head-01.xml"
+			model_2="models/civilian-male-gib-head-02.xml"
+			model_3="models/civilian-male-gib-head-03.xml"
+			model_4="models/civilian-male-gib-head-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_LEG"
+			model_1="models/civilian-male-gib-leg-01.xml"
+			model_2="models/civilian-male-gib-leg-02.xml"
+			model_3="models/civilian-male-gib-leg-03.xml"
+			model_4="models/civilian-male-gib-leg-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_TORSO"
+			model_1="models/civilian-male-gib-torso-01.xml"
+			model_2="models/civilian-male-gib-torso-02.xml"
+			model_3="models/civilian-male-gib-torso-03.xml"
+			model_4="models/civilian-male-gib-torso-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_HOMELESS_ARM"
+			model_1="models/civilian-male-homeless-gib-arm-01.xml"
+			model_2="models/civilian-male-homeless-gib-arm-02.xml"
+			model_3="models/civilian-male-homeless-gib-arm-03.xml"
+			model_4="models/civilian-male-homeless-gib-arm-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_HOMELESS_HEAD"
+			model_1="models/civilian-male-homeless-gib-head-01.xml"
+			model_2="models/civilian-male-homeless-gib-head-02.xml"
+			model_3="models/civilian-male-homeless-gib-head-03.xml"
+			model_4="models/civilian-male-homeless-gib-head-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_HOMELESS_LEG"
+			model_1="models/civilian-male-homeless-gib-leg-01.xml"
+			model_2="models/civilian-male-homeless-gib-leg-02.xml"
+			model_3="models/civilian-male-homeless-gib-leg-03.xml"
+			model_4="models/civilian-male-homeless-gib-leg-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_HOMELESS_TORSO"
+			model_1="models/civilian-male-homeless-gib-torso-01.xml"
+			model_2="models/civilian-male-homeless-gib-torso-02.xml"
+			model_3="models/civilian-male-homeless-gib-torso-03.xml"
+			model_4="models/civilian-male-homeless-gib-torso-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_RESCUE_ARM"
+			model_1="models/civilian-male-rescue-gib-arm-01.xml"
+			model_2="models/civilian-male-rescue-gib-arm-02.xml"
+			model_3="models/civilian-male-rescue-gib-arm-03.xml"
+			model_4="models/civilian-male-rescue-gib-arm-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_RESCUE_HEAD"
+			model_1="models/civilian-male-rescue-gib-head-01.xml"
+			model_2="models/civilian-male-rescue-gib-head-02.xml"
+			model_3="models/civilian-male-rescue-gib-head-03.xml"
+			model_4="models/civilian-male-rescue-gib-head-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_RESCUE_LEG"
+			model_1="models/civilian-male-rescue-gib-leg-01.xml"
+			model_2="models/civilian-male-rescue-gib-leg-02.xml"
+			model_3="models/civilian-male-rescue-gib-leg-03.xml"
+			model_4="models/civilian-male-rescue-gib-leg-04.xml"
+		/>
+		
+		<node id="CIVILIAN_MALE_RESCUE_TORSO"
+			model_1="models/civilian-male-rescue-gib-torso-01.xml"
+			model_2="models/civilian-male-rescue-gib-torso-02.xml"
+			model_3="models/civilian-male-rescue-gib-torso-03.xml"
+			model_4="models/civilian-male-rescue-gib-torso-04.xml"
+		/>
+		
+		<node id="COMPANION_DRONE_BODY"
+			model_1="models/gib-companion-drone-body1.xml"
+			model_2="models/gib-companion-drone-body2.xml"
+			model_3="models/gib-companion-drone-body3.xml"
+			model_4="models/gib-companion-drone-body4.xml"
+			model_5="models/gib-companion-drone-body5.xml"
+			model_6="models/gib-companion-drone-body6.xml"
+		/>
+		
+		<node id="COMPANION_DRONE_ENGINE"
+			model_1="models/gib-companion-drone-engine1.xml"
+			model_2="models/gib-companion-drone-engine2.xml"
+			model_3="models/gib-companion-drone-engine4.xml"
+			model_4="models/gib-companion-drone-engine5.xml"
+			model_5="models/gib-companion-drone-engine6.xml"
+		/>
+		
+		<node id="COMPANION_DRONE_LARGE"
+			model_1="models/gib-companion-drone-partial1.xml"
+			model_2="models/gib-companion-drone-partial2.xml"
+			model_3="models/gib-companion-drone-partial3.xml"
+			model_4="models/gib-companion-drone-partial4.xml"
+		/>
+		
+		<node id="CYBORG_ARM"
+			model_1="models/gib-cyborg-arm1.xml"
+			model_2="models/gib-cyborg-arm2.xml"
+			model_3="models/gib-cyborg-arm3.xml"
+			model_4="models/gib-cyborg-arm4.xml"
+		/>
+		
+		<node id="CYBORG_HEAD"
+			model_1="models/gib-cyborg-head1.xml"
+			model_2="models/gib-cyborg-head2.xml"
+			model_3="models/gib-cyborg-head3.xml"
+			model_4="models/gib-cyborg-head4.xml"
+		/>
+		
+		<node id="CYBORG_LEG"
+			model_1="models/gib-cyborg-head1.xml"
+			model_2="models/gib-cyborg-head2.xml"
+			model_3="models/gib-cyborg-head3.xml"
+			model_4="models/gib-cyborg-head4.xml"
+		/>
+		
+		<node id="CYBORG_TORSO"
+			model_1="models/gib-cyborg-torso1.xml"
+			model_2="models/gib-cyborg-torso2.xml"
+			model_3="models/gib-cyborg-torso3.xml"
+			model_4="models/gib-cyborg-torso4.xml"
+			model_5="models/gib-cyborg-torso5.xml"
+		/>
+		
+		<node id="ELITE_SOLDIER_ARM"
+			model_1="models/gib-elite-soldier-arm1.xml"
+			model_2="models/gib-elite-soldier-arm2.xml"
+			model_3="models/gib-elite-soldier-arm3.xml"
+			model_4="models/gib-elite-soldier-arm4.xml"
+		/>
+		
+		<node id="ELITE_SOLDIER_HEAD"
+			model_1="models/gib-elite-soldier-head1.xml"
+			model_2="models/gib-elite-soldier-head2.xml"
+			model_3="models/gib-elite-soldier-head3.xml"
+			model_4="models/gib-elite-soldier-head4.xml"
+			model_5="models/gib-elite-soldier-head5.xml"
+			model_6="models/gib-elite-soldier-head6.xml"
+		/>
+		
+		<node id="ELITE_SOLDIER_LEG"
+			model_1="models/gib-elite-soldier-leg1.xml"
+			model_2="models/gib-elite-soldier-leg2.xml"
+			model_3="models/gib-elite-soldier-leg3.xml"
+			model_4="models/gib-elite-soldier-leg4.xml"
+		/>
+		
+		<node id="ELITE_SOLDIER_TORSO"
+			model_1="models/gib-elite-soldier-torso1.xml"
+			model_2="models/gib-elite-soldier-torso2.xml"
+			model_3="models/gib-elite-soldier-torso3.xml"
+			model_4="models/gib-elite-soldier-torso4.xml"
+			model_5="models/gib-elite-soldier-torso5.xml"
+		/>
+		
+		<node id="ENEMY_MUSCULAR_ARM"
+			model_1="models/enemy-muscular-gib-arm-01.xml"
+			model_2="models/enemy-muscular-gib-arm-02.xml"
+			model_3="models/enemy-muscular-gib-arm-03.xml"
+			model_4="models/enemy-muscular-gib-arm-04.xml"
+		/>
+		
+		<node id="ENEMY_MUSCULAR_HEAD"
+			model_1="models/enemy-muscular-gib-head-01.xml"
+			model_2="models/enemy-muscular-gib-head-02.xml"
+			model_3="models/enemy-muscular-gib-head-03.xml"
+			model_4="models/enemy-muscular-gib-head-04.xml"
+		/>
+		
+		<node id="ENEMY_MUSCULAR_LEG"
+			model_1="models/enemy-muscular-gib-leg-01.xml"
+			model_2="models/enemy-muscular-gib-leg-02.xml"
+			model_3="models/enemy-muscular-gib-leg-03.xml"
+			model_4="models/enemy-muscular-gib-leg-04.xml"
+		/>
+		
+		<node id="ENEMY_MUSCULAR_TORSO"
+			model_1="models/enemy-muscular-gib-torso-01.xml"
+			model_2="models/enemy-muscular-gib-torso-02.xml"
+			model_3="models/enemy-muscular-gib-torso-03.xml"
+			model_4="models/enemy-muscular-gib-torso-04.xml"
+		/>
+		
+		<node id="ENEMY_SKINNY_ARM"
+			model_1="models/enemy-skinny-gib-arm-01.xml"
+			model_2="models/enemy-skinny-gib-arm-02.xml"
+			model_3="models/enemy-skinny-gib-arm-03.xml"
+			model_4="models/enemy-skinny-gib-arm-04.xml"
+		/>
+		
+		<node id="ENEMY_SKINNY_HEAD"
+			model_1="models/enemy-skinny-gib-head-01.xml"
+			model_2="models/enemy-skinny-gib-head-02.xml"
+			model_3="models/enemy-skinny-gib-head-03.xml"
+			model_4="models/enemy-skinny-gib-head-04.xml"
+		/>
+		
+		<node id="ENEMY_SKINNY_LEG"
+			model_1="models/enemy-skinny-gib-leg-01.xml"
+			model_2="models/enemy-skinny-gib-leg-02.xml"
+			model_3="models/enemy-skinny-gib-leg-03.xml"
+			model_4="models/enemy-skinny-gib-leg-04.xml"
+		/>
+		
+		<node id="ENEMY_SKINNY_TORSO"
+			model_1="models/enemy-skinny-gib-torso-01.xml"
+			model_2="models/enemy-skinny-gib-torso-02.xml"
+			model_3="models/enemy-skinny-gib-torso-03.xml"
+			model_4="models/enemy-skinny-gib-torso-04.xml"
+		/>
+		
+		<node id="FRUIT_ORANGE"
+			model_1="models/fruit-orange.xml"
+		/>			
+
+		<node id="FRUIT_GREEN"
+			model_1="models/fruit-green.xml"
+		/>
+		
+		<node id="FRUIT_RED"
+			model_1="models/fruit-red.xml"
+		/>
+		
+		<node id="GUTS"
+			model_1="models/gib-guts1.xml"
+			model_2="models/gib-guts2.xml"
+			model_3="models/gib-guts3.xml"
+		/>
+		
+		<node id="GRENADIER_ARM"
+			model_1="models/gib-grenadier-arm1.xml"
+			model_2="models/gib-grenadier-arm2.xml"
+			model_3="models/gib-grenadier-arm3.xml"
+			model_4="models/gib-grenadier-arm4.xml"
+		/>
+		
+		<node id="GRENADIER_HEAD"
+			model_1="models/gib-grenadier-head1.xml"
+			model_2="models/gib-grenadier-head2.xml"
+			model_3="models/gib-grenadier-head3.xml"
+			model_4="models/gib-grenadier-head4.xml"
+			model_5="models/gib-grenadier-head5.xml"
+		/>
+		
+		<node id="GRENADIER_LEG"
+			model_1="models/gib-grenadier-leg1.xml"
+			model_2="models/gib-grenadier-leg2.xml"
+			model_3="models/gib-grenadier-leg3.xml"
+			model_4="models/gib-grenadier-leg4.xml"
+		/>
+		
+		<node id="GRENADIER_TORSO"
+			model_1="models/gib-grenadier-torso1.xml"
+			model_2="models/gib-grenadier-torso2.xml"
+			model_3="models/gib-grenadier-torso3.xml"
+			model_4="models/gib-grenadier-torso4.xml"
+			model_5="models/gib-grenadier-torso5.xml"
+		/>
+		
+		<node id="JYDGE_ARM"
+			model_1="models/jydge-gib-arm-01.xml"
+			model_2="models/jydge-gib-arm-02.xml"
+			model_3="models/jydge-gib-arm-03.xml"
+			model_4="models/jydge-gib-arm-04.xml"
+		/>
+		
+		<node id="JYDGE_HEAD"
+			model_1="models/jydge-gib-head-01.xml"
+			model_2="models/jydge-gib-head-02.xml"
+			model_3="models/jydge-gib-head-03.xml"
+			model_4="models/jydge-gib-head-04.xml"
+		/>
+		
+		<node id="JYDGE_LEG"
+			model_1="models/jydge-gib-leg-01.xml"
+			model_2="models/jydge-gib-leg-02.xml"
+			model_3="models/jydge-gib-leg-03.xml"
+			model_4="models/jydge-gib-leg-04.xml"
+		/>
+		
+		<node id="JYDGE_TORSO"
+			model_1="models/jydge-gib-torso-01.xml"
+			model_2="models/jydge-gib-torso-02.xml"
+			model_3="models/jydge-gib-torso-03.xml"
+			model_4="models/jydge-gib-torso-04.xml"
+		/>
+		
+		<node id="LASERBOT_BODY"
+			model_1="models/gib-laserbot-body1.xml"
+			model_2="models/gib-laserbot-body2.xml"
+			model_3="models/gib-laserbot-body3.xml"
+			model_4="models/gib-laserbot-body4.xml"
+			model_5="models/gib-laserbot-body5.xml"
+			model_6="models/gib-laserbot-body6.xml"
+		/>
+		
+		<node id="LASERBOT_ENGINE"
+			model_1="models/gib-laserbot-engine1.xml"
+			model_2="models/gib-laserbot-engine2.xml"
+			model_3="models/gib-laserbot-engine3.xml"
+			model_4="models/gib-laserbot-engine4.xml"
+			model_5="models/gib-laserbot-engine5.xml"
+			model_6="models/gib-laserbot-engine6.xml"
+		/>
+		
+		<node id="MAD_DRONE_BODY"
+			model_1="models/gib-mad-drone-body1.xml"
+			model_2="models/gib-mad-drone-body2.xml"
+			model_3="models/gib-mad-drone-body3.xml"
+			model_4="models/gib-mad-drone-body4.xml"
+			model_5="models/gib-mad-drone-body5.xml"
+			model_6="models/gib-mad-drone-body6.xml"
+			model_7="models/gib-mad-drone-body7.xml"
+			model_8="models/gib-mad-drone-body8.xml"
+			model_9="models/gib-mad-drone-body9.xml"
+			model_10="models/gib-mad-drone-body10.xml"
+		/>
+		
+		<node id="MAD_DRONE_ENGINE"
+			model_1="models/gib-mad-drone-engine1.xml"
+			model_2="models/gib-mad-drone-engine3.xml"
+			model_3="models/gib-mad-drone-engine4.xml"
+			model_4="models/gib-mad-drone-engine5.xml"
+			model_5="models/gib-mad-drone-engine6.xml"
+		/>
+		
+		<node id="MAD_DRONE_LARGE"
+			model_1="models/gib-mad-drone-large1.xml"
+			model_2="models/gib-mad-drone-large2.xml"
+			model_3="models/gib-mad-drone-large3.xml"
+			model_4="models/gib-mad-drone-large4.xml"
+		/>
+		
+		<node id="MAD_DRONE_FIN"
+			model_1="models/gib-mad-drone-fin1.xml"
+			model_2="models/gib-mad-drone-fin2.xml"
+			model_3="models/gib-mad-drone-fin3.xml"
+			model_4="models/gib-mad-drone-fin4.xml"
+			model_5="models/gib-mad-drone-fin5.xml"
+			model_6="models/gib-mad-drone-fin6.xml"
+			model_7="models/gib-mad-drone-fin7.xml"
+			model_8="models/gib-mad-drone-fin8.xml"
+		/>
+		
+		<node id="MAD_DRONE_WING"
+			model_1="models/gib-mad-drone-wing1.xml"
+			model_2="models/gib-mad-drone-wing2.xml"
+			model_3="models/gib-mad-drone-wing3.xml"
+			model_4="models/gib-mad-drone-wing4.xml"
+			model_5="models/gib-mad-drone-wing5.xml"
+			model_6="models/gib-mad-drone-wing6.xml"
+		/>
+		
+		<node id="MEAT_LARGE"
+			model_1="models/gib-meat-large1.xml"
+			model_2="models/gib-meat-large2.xml"
+			model_3="models/gib-meat-large3.xml"
+			model_4="models/gib-meat-large4.xml"
+		/>
+		
+		<node id="MEAT_SMALL"
+			model_1="models/gib-meat-small1.xml"
+			model_2="models/gib-meat-small2.xml"
+			model_3="models/gib-meat-small3.xml"
+			model_4="models/gib-meat-small4.xml"
+		/>
+		
+		<node id="METAL_LARGE"
+			model_1="models/gib-metal-large1.xml"
+			model_2="models/gib-metal-large2.xml"
+			model_3="models/gib-metal-large3.xml"
+			model_4="models/gib-metal-large4.xml"
+		/>
+		
+		<node id="METAL_SMALL"
+			model_1="models/gib-metal-small1.xml"
+			model_2="models/gib-metal-small2.xml"
+			model_3="models/gib-metal-small3.xml"
+			model_4="models/gib-metal-small4.xml"
+		/>
+		
+		<node id="METAL_MISC"
+			model_1="models/gib-metal-misc1.xml"
+			model_2="models/gib-metal-misc2.xml"
+			model_3="models/gib-metal-misc3.xml"
+			model_4="models/gib-metal-misc4.xml"
+		/>
+		
+		<node id="METAL_PLATE"
+			model_1="models/gib-metal-plate1.xml"
+			model_2="models/gib-metal-plate2.xml"
+			model_3="models/gib-metal-plate3.xml"
+			model_4="models/gib-metal-plate4.xml"
+			model_5="models/gib-metal-plate5.xml"
+			model_6="models/gib-metal-plate6.xml"
+		/>
+		
+		<node id="MINISPIDER_BODY"
+			model_1="models/gib-minispider-body1.xml"
+			model_2="models/gib-minispider-body2.xml"
+			model_3="models/gib-minispider-body3.xml"
+			model_4="models/gib-minispider-body4.xml"
+			model_5="models/gib-minispider-body5.xml"
+			model_6="models/gib-minispider-body6.xml"
+		/>
+		
+		<node id="MINISPIDER_HEAD"
+			model_1="models/gib-minispider-head1.xml"
+			model_2="models/gib-minispider-head2.xml"
+			model_3="models/gib-minispider-head3.xml"
+			model_4="models/gib-minispider-head4.xml"
+			model_5="models/gib-minispider-head5.xml"
+			model_6="models/gib-minispider-head6.xml"
+			model_7="models/gib-minispider-head7.xml"
+			model_8="models/gib-minispider-head8.xml"
+			model_9="models/gib-minispider-head9.xml"
+			model_10="models/gib-minispider-head10.xml"
+		/>
+		
+		<node id="MINISPIDER_LEG"
+			model_1="models/gib-minispider-leg1.xml"
+			model_2="models/gib-minispider-leg2.xml"
+			model_3="models/gib-minispider-leg3.xml"
+			model_4="models/gib-minispider-leg4.xml"
+			model_5="models/gib-minispider-leg5.xml"
+			model_6="models/gib-minispider-leg6.xml"
+			model_7="models/gib-minispider-leg7.xml"
+			model_8="models/gib-minispider-leg8.xml"
+		/>
+		
+		<node id="OBJECT_LARGE"
+			model_1="models/gib-object-large1.xml"
+			model_2="models/gib-object-large2.xml"
+			model_3="models/gib-object-large3.xml"
+			model_4="models/gib-object-large4.xml"
+			model_5="models/gib-object-large5.xml"
+			model_6="models/gib-object-large6.xml"
+			model_7="models/gib-object-large7.xml"
+			model_8="models/gib-object-large8.xml"
+			model_9="models/gib-object-large9.xml"
+			model_10="models/gib-object-large10.xml"
+		/>
+		
+		<node id="OBJECT_SMALL"
+			model_1="models/gib-object-small1.xml"
+			model_2="models/gib-object-small2.xml"
+			model_3="models/gib-object-small3.xml"
+			model_4="models/gib-object-small4.xml"
+			model_5="models/gib-object-small5.xml"
+			model_6="models/gib-object-small6.xml"
+			model_7="models/gib-object-small7.xml"
+			model_8="models/gib-object-small8.xml"
+			model_9="models/gib-object-small9.xml"
+			model_10="models/gib-object-small10.xml"
+		/>
+		
+		<node id="SECURITY_GUARD_ARM"
+			model_1="models/gib-security-guard-arm1.xml"
+			model_2="models/gib-security-guard-arm2.xml"
+			model_3="models/gib-security-guard-arm3.xml"
+			model_4="models/gib-security-guard-arm4.xml"
+		/>
+		
+		<node id="SECURITY_GUARD_HEAD"
+			model_1="models/gib-security-guard-head1.xml"
+			model_2="models/gib-security-guard-head2.xml"
+			model_3="models/gib-security-guard-head3.xml"
+			model_4="models/gib-security-guard-head4.xml"
+			model_5="models/gib-security-guard-head5.xml"
+		/>
+		
+		<node id="SECURITY_GUARD_LEG"
+			model_1="models/gib-security-guard-leg1.xml"
+			model_2="models/gib-security-guard-leg2.xml"
+			model_3="models/gib-security-guard-leg3.xml"
+			model_4="models/gib-security-guard-leg4.xml"
+		/>
+		
+		<node id="SECURITY_GUARD_TORSO"
+			model_1="models/gib-security-guard-torso1.xml"
+			model_2="models/gib-security-guard-torso2.xml"
+			model_3="models/gib-security-guard-torso3.xml"
+			model_4="models/gib-security-guard-torso4.xml"
+			model_5="models/gib-security-guard-torso5.xml"
+		/>
+		
+		<node id="SOLDIER_ARM"
+			model_1="models/gib-soldier-arm1.xml"
+			model_2="models/gib-soldier-arm2.xml"
+			model_3="models/gib-soldier-arm3.xml"
+			model_4="models/gib-soldier-arm4.xml"
+		/>
+		
+		<node id="SOLDIER_HEAD"
+			model_1="models/gib-soldier-head1.xml"
+			model_2="models/gib-soldier-head2.xml"
+			model_3="models/gib-soldier-head3.xml"
+			model_4="models/gib-soldier-head4.xml"
+			model_5="models/gib-soldier-head5.xml"
+		/>
+		
+		<node id="SOLDIER_LEG"
+			model_1="models/gib-soldier-leg1.xml"
+			model_2="models/gib-soldier-leg2.xml"
+			model_3="models/gib-soldier-leg3.xml"
+			model_4="models/gib-soldier-leg4.xml"
+		/>
+		
+		<node id="SOLDIER_TORSO"
+			model_1="models/gib-soldier-torso1.xml"
+			model_2="models/gib-soldier-torso2.xml"
+			model_3="models/gib-soldier-torso3.xml"
+			model_4="models/gib-soldier-torso4.xml"
+		/>
+		
+		<node id="SPIDERBOSS_BODY"
+			model_1="models/spiderboss-gib-body-01.xml"
+			model_2="models/spiderboss-gib-body-02.xml"
+			model_3="models/spiderboss-gib-body-03.xml"
+			model_4="models/spiderboss-gib-body-04.xml"
+			model_5="models/spiderboss-gib-body-05.xml"
+			model_6="models/spiderboss-gib-body-06.xml"
+		/>
+		
+		<node id="SPIDERBOSS_LEG"
+			model_1="models/spiderboss-gib-leg-01.xml"
+			model_2="models/spiderboss-gib-leg-02.xml"
+			model_3="models/spiderboss-gib-leg-03.xml"
+			model_4="models/spiderboss-gib-leg-04.xml"
+			model_5="models/spiderboss-gib-leg-05.xml"
+			model_6="models/spiderboss-gib-leg-06.xml"
+		/>
+		
+		<node id="SPIDERBOSS_TURRET"
+			model_1="models/spiderboss-gib-turret-01.xml"
+			model_2="models/spiderboss-gib-turret-02.xml"
+			model_3="models/spiderboss-gib-turret-03.xml"
+			model_4="models/spiderboss-gib-turret-04.xml"
+			model_5="models/spiderboss-gib-turret-05.xml"
+			model_6="models/spiderboss-gib-turret-06.xml"
+		/>
+		
+		<node id="SPIDERBOT_BODY"
+			model_1="models/gib-spiderbot-body1.xml"
+			model_2="models/gib-spiderbot-body2.xml"
+			model_3="models/gib-spiderbot-body3.xml"
+			model_4="models/gib-spiderbot-body4.xml"
+		/>
+		
+		<node id="SPIDERBOT_LEG"
+			model_1="models/gib-spiderbot-leg1.xml"
+			model_2="models/gib-spiderbot-leg2.xml"
+			model_3="models/gib-spiderbot-leg3.xml"
+			model_4="models/gib-spiderbot-leg4.xml"
+			model_5="models/gib-spiderbot-leg5.xml"
+			model_6="models/gib-spiderbot-leg6.xml"
+			model_7="models/gib-spiderbot-leg7.xml"
+			model_8="models/gib-spiderbot-leg8.xml"
+			model_9="models/gib-spiderbot-leg9.xml"
+			model_10="models/gib-spiderbot-leg10.xml"
+		/>
+		
+		<node id="SPIDERBOT_TURRET"
+			model_1="models/gib-spiderbot-turret1.xml"
+			model_2="models/gib-spiderbot-turret2.xml"
+			model_3="models/gib-spiderbot-turret3.xml"
+			model_4="models/gib-spiderbot-turret4.xml"
+			model_5="models/gib-spiderbot-turret5.xml"
+			model_6="models/gib-spiderbot-turret6.xml"
+			model_7="models/gib-spiderbot-turret7.xml"
+			model_8="models/gib-spiderbot-turret8.xml"
+			model_9="models/gib-spiderbot-turret9.xml"
+			model_10="models/gib-spiderbot-turret10.xml"
+			model_11="models/gib-spiderbot-turret11.xml"
+		/>
+		
+		<node id="TREE_BRANCH"
+			model_1="models/gib-tree-branch1.xml"
+			model_2="models/gib-tree-branch2.xml"
+		/>
+		
+		<node id="WALL_TURRET_FRAME"
+			model_1="models/gib-wall-turret-frame1.xml"
+			model_2="models/gib-wall-turret-frame2.xml"
+			model_3="models/gib-wall-turret-frame3.xml"
+			model_4="models/gib-wall-turret-frame4.xml"
+			model_5="models/gib-wall-turret-frame5.xml"
+			model_6="models/gib-wall-turret-frame6.xml"
+		/>
+		
+		<node id="WALL_TURRET_GUN"
+			model_1="models/gib-wall-turret-gun1.xml"
+			model_2="models/gib-wall-turret-gun2.xml"
+			model_3="models/gib-wall-turret-gun3.xml"
+			model_4="models/gib-wall-turret-gun4.xml"
+			model_5="models/gib-wall-turret-gun5.xml"
+			model_6="models/gib-wall-turret-gun6.xml"
+			model_7="models/gib-wall-turret-gun7.xml"
+			model_8="models/gib-wall-turret-gun8.xml"
+		/>
+
+		<!-- "file,scale,alpha,blend" -->
+		<node id="GLASS"
+			bitmap_1="fxs/glass-shard1.png,0.3,0.75,ADDITIVE"
+			bitmap_2="fxs/glass-shard2.png,0.3,0.75,ADDITIVE"
+			bitmap_3="fxs/glass-shard3.png,0.3,0.75,ADDITIVE"
+		/>
+		
+		<node id="GLASS_GREEN"
+			bitmap_1="fxs/glass-shard-green1.png,0.3,0.75,ADDITIVE"
+			bitmap_2="fxs/glass-shard-green2.png,0.3,0.75,ADDITIVE"
+			bitmap_3="fxs/glass-shard-green3.png,0.3,0.75,ADDITIVE"
+		/>
+		
+		<node id="LIGHTWALL"
+			bitmap_1="fxs/cubicle-piece1.png,0.25,1,NORMAL"
+			bitmap_2="fxs/cubicle-piece2.png,0.25,1,NORMAL"
+			bitmap_3="fxs/cubicle-piece3.png,0.25,1,NORMAL"
+		/>
+
+	</array>
+	
+	<array id="DECALS">
+	
+	<node id="BLOOD"
+	decal_1="blood/blood-splatter-01.png"
+	decal_2="blood/blood-splatter-02.png"
+	decal_3="blood/blood-splatter-03.png"
+	decal_4="blood/blood-splatter-04.png"
+	/>
+	
+	<node id="OIL"
+	decal_1="blood/oil-splatter-01.png"
+	decal_2="blood/oil-splatter-02.png"
+	decal_3="blood/oil-splatter-03.png"
+	decal_4="blood/oil-splatter-04.png"
+	/>
+
+	<node id="GLASS"
+	/>
+
+	<node id="LIGHTWALL"
+	/>
+	
+	</array>
+</root>
+

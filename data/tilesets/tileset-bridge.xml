@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="category" value="BRIDGE" />
+	</array>
+
+	<array id="WALL_INNER_DOT">
+		<node output="actors/bridge-X.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CAP">
+		<node output="actors/bridge-cap.xml" />
+	</array>
+	
+	<array id="WALL_INNER_STRAIGHT">
+		<node output="actors/bridge-I.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_STRAIGHT">
+		<node output="actors/bridge-I.xml" />
+	</array>
+	
+	<array id="WALL_INNER_CORNER">
+		<node output="actors/bridge-L-outer.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MINOR">
+		<node output="actors/bridge-L-outer.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_CORNER_MAJOR">
+		<node output="actors/bridge-L-outer.xml" />
+	</array>
+	
+	<array id="WALL_INNER_BRIDGE_CORNER">
+		<node output="actors/bridge-L-inner.xml" />
+	</array>
+
+	<array id="BRIDGE_FLOOR_CONNECTOR">
+		<node output="actors/wall-outside-railing-connector-I.xml" />
+	</array>
+	
+	<array id="WALL_INNER_*_FULL">
+		<node output="actors/bridge-X.xml" />
+	</array>
+
+	
+	<array id="WALL_INNER_T">
+		<node output="actors/bridge-I.xml" />
+	</array>
+
+	<array id="WALL_OUTER_T">
+		<node output="actors/bridge-I.xml" />
+	</array>
+	
+	<array id="WALL_INNER_T_QUARTER_OUTSIDE">
+		<node output="actors/bridge-I.xml" />
+	</array>
+
+</root>

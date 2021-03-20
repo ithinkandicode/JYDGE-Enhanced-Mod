@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="DEFAULT">
+		<node class="BITMAP" 
+		 die_on_collision="true" 
+		 number_of_particles="2" 
+		 initial_age="-1;0" 
+		 age_to_die="0.8;1.2" 
+		 position_offset="0,0,-5" 
+		 position_spread_box="10,10,10" 
+		 move_speed="30;40" 
+		 move_direction="0,0,-1" 
+		 move_angle_spread="-10;10" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.2,0.8;1,0" 
+		 scale_curve="0,0.3;0.5,1;1,0.4" 
+		 alpha_multiplier="0.1;0.2" 
+		 scale_multiplier="1" 
+		 angular_velocity="0,0,-180;0,0,180" 
+		 blend_mode="ADDITIVE" 
+		 bitmaps="fxs/explosion-additive.png" 
+		 />
+
+		<node class="BITMAP" 
+		 die_on_collision="true" 
+		 number_of_particles="2" 
+		 initial_age="-1;0" 
+		 age_to_die="0.8;1.2" 
+		 position_offset="0,0,-5" 
+		 position_spread_box="10,10,10" 
+		 move_speed="30;40" 
+		 move_direction="0,0,-1" 
+		 move_angle_spread="-10;10" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0.5;0.2,0.8;1,0" 
+		 scale_curve="0,0.5;0.2,1;1,0" 
+		 alpha_multiplier="0.1;0.2" 
+		 scale_multiplier="1" 
+		 angular_velocity="0,0,-180;0,0,180" 
+		 blend_mode="MULTIPLY_ADD" 
+		 bitmaps="fxs/explosion-additive.png" 
+		 />
+
+		<node class="BITMAP" 
+		 die_on_collision="true" 
+		 number_of_particles="3" 
+		 initial_age="-1;0" 
+		 age_to_die="2" 
+		 position_offset="0,0,-60" 
+		 position_spread_box="30,30,30" 
+		 move_speed="40;90" 
+		 move_direction="0,0,-1" 
+		 move_angle_spread="0" 
+		 gravity_multiplier="0" 
+		 alpha_curve="0,0;0.2,1;1,0" 
+		 scale_curve="0,0.5;0.1,2;1,0" 
+		 alpha_multiplier="0.4;0.6" 
+		 scale_multiplier="1" 
+		 angular_velocity="0,0,-100;0,0,100" 
+		 blend_mode="NORMAL" 
+		 bitmaps="fxs/smoke.png" 
+		 />
+
+	</array>
+</root>

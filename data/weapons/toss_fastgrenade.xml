@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="WEAPON">
+		<node id="PARAMETERS"
+
+			name="Rocket Launcher"
+			bm_icon="!NONE"
+			snd_fire="sfx/weapons/throw_grenade"
+			snd_reload="sfx/weapons/autorifle_reload"
+			
+            type="WEAPON_TYPE_GRENADE"
+ 
+			projectile_actor="actors/grenade-fast.xml"
+	
+			projectiles_per_shot="1"
+			projectile_range="1900"
+			projectile_range_random="0.01"
+			projectile_angle_spread="0"
+
+			min_accuracy_spread="0.2"
+			moving_accuracy_spread="0.2"
+			max_accuracy_spread="45"
+			recoil="0.1"
+			rebound_speed="1.0"
+
+            
+            
+			 
+            
+			shot_interval="0.3"
+			ammo_cost_per_shot="1"
+			heat_per_shot="0.1"
+
+			reload_time="1.5"
+			reload_size="3"
+			clip_size="3"
+
+			damage="1"
+			projectile_speed="1500"
+			projectile_speed_random="0.01"
+
+			trail_length="490"
+			trail_thickness="1.55"
+			trail_alpha="1"
+
+			move_speed_modifier="1.0"
+			
+			model="models/grenade.xml"
+            
+            
+			fuse_time = "1.0"
+		/>
+		
+	</array>
+    
+    
+</root>
+

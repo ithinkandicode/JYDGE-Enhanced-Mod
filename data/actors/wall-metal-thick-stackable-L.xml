@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL" 
+		 renderer="Model" 
+		 ai="Wall" 
+		 additional_flags="INDESTRUCTIBLE" 
+		 friend_group="OBSTACLES" 
+		 turn_speed="2.5" 
+		 move_speed="10" 
+		 scale="1" 
+		 model_idle="models/wall-metal-thick-stackable-L.xml" 
+		 bitmap_shadow="!NONE" 
+		 shadow_angle="0" 
+		 shadow_scale="1" 
+		 hit_points="1500" 
+		 damage="0.0" 
+		/>
+
+		<node id="RENDERER_DATA" has_reflection="false" />
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC"
+		edge_generation_height="8" 
+		/>
+	</array>
+</root>

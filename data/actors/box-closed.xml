@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="ACTOR">
+		<node id="PARAMETERS" 
+		 physics_material="STEEL" 
+		 name="Box" 
+		 renderer="Lootable" 
+		 ai="Lootable" 
+		 friend_group="OBSTACLES" 
+		 scale="1" 
+		 model_idle="models/box-loot.xml" 
+		 bitmap_shadow="shadows/display-case-shadow.png" 
+		 shadow_angle="0" 
+		 shadow_alpha="0.75" 
+		 shadow_scale="0.45" 
+		 hit_points="120" 
+		 minimum_damage_threshold="20" 
+		 walk_forward_animation="models/animations/loot_box_rig-loot_box_open.xml" 
+		 allow_gpu_skinning="false"
+         has_reflection="false"
+		/>
+		
+		<node id="COLLIDER" collider_generation_method="AUTOMATIC" />
+		<node id="CUSTOM_DATA" 
+		 interaction_type="box" 
+		 interaction_tip="{k_use}LOOT" 
+		/>
+
+	</array>
+
+	<array id="GIBS_DESTRUCTION">
+		<node id="DESTRUCTION_1" 
+		 model="" 
+		 model_group_1="LIGHTWALL,NONE,8,LIGHTWALL" 
+		 model_group_2="OBJECT_SMALL,NONE,2,NONE" 
+		 model_group_3="METAL_SMALL,NONE,2,NONE" 
+		 model_group_4="OBJECT_LARGE,NONE,1,NONE" 
+		 particle_effect_1="effects/object-small-breaks.xml" 
+		 death_animations="" 
+		/>
+
+	</array>
+</root>

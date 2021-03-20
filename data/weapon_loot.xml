@@ -1,0 +1,11 @@
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+  
+	<array id="WEAPON_LOOT">
+		<node id="actors/weapon-smg-plasma.xml" probability="4" />
+    </array>
+   
+   
+	
+</root>

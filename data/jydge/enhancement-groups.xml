@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<array id="CYBERWARE" categories="ATTRIBUTES,MISC,COMPANION" medal_requirement_start="0" medal_requirement_increase="2" rounding="EVEN" >
+		<node id="SLOT_0" medal_requirement="0" purchase_cost="0" />
+		<node id="SLOT_1" medal_requirement="4" purchase_cost="2500" />
+		<node id="SLOT_2" medal_requirement="10" purchase_cost="15000" />
+		<node id="SLOT_3" medal_requirement="20" purchase_cost="40000" />
+	</array>
+
+	<array id="WEAPON_MODS" categories="WEAPON,MELEE,ABILITY" medal_requirement_start="8" medal_requirement_increase="2" rounding="ODD" >
+		<node id="SLOT_0" medal_requirement="0" purchase_cost="0" />
+		<node id="SLOT_1" medal_requirement="8" purchase_cost="8000" />
+		<node id="SLOT_2" medal_requirement="20" purchase_cost="30000" />
+	</array>
+
+	<array id="ABILITY_MODS" categories="ABILITY_OLD" medal_requirement_start="4" medal_requirement_increase="3" >
+		<node id="SLOT_0" medal_requirement="0" purchase_cost="10000" />
+		<node id="SLOT_1" medal_requirement="4" purchase_cost="20000" />
+	</array>
+
+    
+</root>

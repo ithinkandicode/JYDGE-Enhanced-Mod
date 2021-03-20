@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+	<array id="INFO">
+		<node id="category" value="OUTSIDE_WALL_WALL" />
+	</array>
+
+	
+	<array id="WALL_INNER_STRAIGHT">
+		<node output="actors/wall-outside-wall-tall-window.xml" />
+	</array>
+	
+	<array id="WALL_OUTER_STRAIGHT">
+		<node output="actors/wall-outside-wall-tall-window.xml" />
+	</array>
+
+</root>

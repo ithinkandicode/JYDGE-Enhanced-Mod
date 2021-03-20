@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<array id="info">
+		<node id="version" value="2" />
+		<node id="revision" value="2" />
+	</array>
+
+	<array id="vertex_input">
+		<node id="position" semantic="POSITION" />
+		<node id="color" semantic="COLOR" />
+		<node id="texture_coordinate" semantic="TEXTURE_COORDINATE_0" />
+	</array>
+
+	<array id="vertex_constants">
+		<node id="world_view_proj" type="FLOAT4X4" semantic="WORLD_VIEW_PROJECTION_TRANSFORM" />
+	</array>
+
+	<array id="vertex_output">
+    	<node id="position" type="FLOAT4" semantic="POSITION" />
+    	<node id="texture_coordinate" type="FLOAT2" semantic="TEXTURE_COORDINATE" />
+	</array>
+
+	<array id="pixel_constants">
+    	<node id="screen_dimensions" type="FLOAT4" />
+	</array>
+
+	<array id="pixel_textures">
+		<node id="diffuse" type="2D" />
+	</array>
+
+	<array id="pixel_output">
+		<node id="color" />
+	</array>
+
+	<array id="sources">
+		<node type="vertex">
+			<![CDATA[
+				void main()
+				{
+					output.position = input.position * world_view_proj;
+					output.texture_coordinate = input.texture_coordinate;
+				}
+			]]>
+		</node>
+
+		
+		<node type="pixel">
+			<![CDATA[
+// Define when applying FXAA to an sRGB back buffer
+//#define FXAA_SRGB_ROP
+
+
+// Debugging
+
+// Red for pixels which are filtered by FXAA with a yellow tint on sub-pixel
+// aliasing filtered by FXAA
+#define FXAA_DEBUG_PASSTHROUGH 0
+
+// Blue for horizontal edges, gold for vertical edges
+#define FXAA_DEBUG_HORZVERT 0
+
+// Blue/green for the 2 pixel pair choice
+#define FXAA_DEBUG_PAIR 0
+
+// Red/blue for which side of center of span
+#define FXAA_DEBUG_NEGPOS 0
+
+// Red/blue for -/+ x, gold/skyblue for -/+ y
+#define FXAA_DEBUG_OFFSET 0
+
+#if FXAA_DEBUG_PASSTHROUGH || FXAA_DEBUG_HORZVERT || FXAA_DEBUG_PAIR || FXAA_DEBUG_NEGPOS || FXAA_DEBUG_OFFSET
+	#define FXAA_DEBUG 1
+#else
+	#define FXAA_DEBUG 0
+#endif
+
+
+/* Options
+
+FXAA_PRESET - Choose compile-in knob preset 0-5.
+------------------------------------------------------------------------------
+FXAA_EDGE_THRESHOLD - The minimum amount of local contrast required
+                      to apply algorithm.
+                      1.0/3.0  - too little
+                      1.0/4.0  - good start
+                      1.0/8.0  - applies to more edges
+                      1.0/16.0 - overkill
+------------------------------------------------------------------------------
+FXAA_EDGE_THRESHOLD_MIN - Trims the algorithm from processing darks.
+                          Perf optimization.
+                          1.0/32.0 - visible limit (smaller isn't visible)
+                          1.0/16.0 - good compromise
+                          1.0/12.0 - upper limit (seeing artifacts)
+------------------------------------------------------------------------------
+FXAA_SEARCH_STEPS - Maximum number of search steps for end of span.
+------------------------------------------------------------------------------
+FXAA_SEARCH_ACCELERATION - How much to accelerate search,
+                           1 - no acceleration
+                           2 - skip by 2 pixels
+                           3 - skip by 3 pixels
+                           4 - skip by 4 pixels
+------------------------------------------------------------------------------
+FXAA_SEARCH_THRESHOLD - Controls when to stop searching.
+                        1.0/4.0 - seems to be the best quality wise
+------------------------------------------------------------------------------
+FXAA_SUBPIX_FASTER - Turn on lower quality but faster subpix path.
+                     Not recomended, but used in preset 0.
+------------------------------------------------------------------------------
+FXAA_SUBPIX - Toggle subpix filtering.
+              0 - turn off
+              1 - turn on
+              2 - turn on full (ignores FXAA_SUBPIX_TRIM and CAP)
+------------------------------------------------------------------------------
+FXAA_SUBPIX_TRIM - Controls sub-pixel aliasing removal.
+                   1.0/2.0 - low removal
+                   1.0/3.0 - medium removal
+                   1.0/4.0 - default removal
+                   1.0/8.0 - high removal
+                   0.0 - complete removal
+------------------------------------------------------------------------------
+FXAA_SUBPIX_CAP - Insures fine detail is not completely removed.
+                  This is important for the transition of sub-pixel detail,
+                  like fences and wires.
+                  3.0/4.0 - default (medium amount of filtering)
+                  7.0/8.0 - high amount of filtering
+                  1.0 - no capping of sub-pixel aliasing removal
+*/
+
+#define FXAA_PRESET 2
+
+#if FXAA_PRESET == 0
+	#define FXAA_EDGE_THRESHOLD      (1.0f / 4.0f)
+	#define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 12.0f)
+	#define FXAA_SEARCH_STEPS        2
+	#define FXAA_SEARCH_ACCELERATION 4
+	#define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+	#define FXAA_SUBPIX              1
+	#define FXAA_SUBPIX_FASTER       1
+	#define FXAA_SUBPIX_CAP          (2.0f / 3.0f)
+	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+#elif FXAA_PRESET == 1
+	#define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+	#define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 16.0f)
+	#define FXAA_SEARCH_STEPS        4
+	#define FXAA_SEARCH_ACCELERATION 3
+	#define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+	#define FXAA_SUBPIX              1
+	#define FXAA_SUBPIX_FASTER       0
+	#define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+	#define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+#elif FXAA_PRESET == 2
+    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+    #define FXAA_SEARCH_STEPS        8
+    #define FXAA_SEARCH_ACCELERATION 2
+    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+    #define FXAA_SUBPIX              1
+    #define FXAA_SUBPIX_FASTER       0
+    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+#elif FXAA_PRESET == 3
+    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+    #define FXAA_SEARCH_STEPS        16
+    #define FXAA_SEARCH_ACCELERATION 1
+    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+    #define FXAA_SUBPIX              1
+    #define FXAA_SUBPIX_FASTER       0
+    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+#elif FXAA_PRESET == 4
+    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+    #define FXAA_SEARCH_STEPS        24
+    #define FXAA_SEARCH_ACCELERATION 1
+    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+    #define FXAA_SUBPIX              1
+    #define FXAA_SUBPIX_FASTER       0
+    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+#elif FXAA_PRESET == 5
+    #define FXAA_EDGE_THRESHOLD      (1.0f / 8.0f)
+    #define FXAA_EDGE_THRESHOLD_MIN  (1.0f / 24.0f)
+    #define FXAA_SEARCH_STEPS        32
+    #define FXAA_SEARCH_ACCELERATION 1
+    #define FXAA_SEARCH_THRESHOLD    (1.0f / 4.0f)
+    #define FXAA_SUBPIX              1
+    #define FXAA_SUBPIX_FASTER       0
+    #define FXAA_SUBPIX_CAP          (3.0f / 4.0f)
+    #define FXAA_SUBPIX_TRIM         (1.0f / 4.0f)
+#endif
+
+#define FXAA_SUBPIX_TRIM_SCALE (1.0f / (1.0f - FXAA_SUBPIX_TRIM))
+
+
+float3 FxaaFilterReturn(float3 color);
+float3 FxaaLerp(float3 a, float3 b, float amount_of_a);
+float FxaaLuma(float3 color);
+float3 FxaaPixelShader(float2 position, float2 reciprocal_screen_size);
+
+void main()
+{
+	float2 reciprocal_screen_size = float2(1.0f / screen_dimensions.x, 1.0f / screen_dimensions.y);
+	output.color.rgb = FxaaPixelShader(input.texture_coordinate, reciprocal_screen_size);
+	output.color.a = 1.0f;
+}
+
+float3 FxaaFilterReturn(float3 color)
+{
+#if defined(FXAA_SRGB_ROP)
+
+	return lerp(color * float3(1.0f / 12.92f),
+		pow(color * float3(1.0f / 1.055f) + float3(0.055f / 1.055f), float3(2.4f)),
+		float(color > float3(0.04045f)));
+
+#else
+
+	return color;
+
+#endif
+}
+
+float3 FxaaLerp(float3 a, float3 b, float amount_of_a)
+{
+	return (float3(-amount_of_a) * b) + (a * float3(amount_of_a) + b);
+}
+
+float FxaaLuma(float3 color)
+{
+	return color.g * (0.587f / 0.299f) + color.r;
+}
+
+float3 FxaaPixelShader(float2 position, float2 reciprocal_screen_size)
+{
+	float3 rgbN = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(0, -1)).xyz;
+	float3 rgbW = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(-1, 0)).xyz;
+	float3 rgbM = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(0, 0)).xyz;
+	float3 rgbE = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(1, 0)).xyz;
+	float3 rgbS = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(0, 1)).xyz;
+	float lumaN = FxaaLuma(rgbN);
+	float lumaW = FxaaLuma(rgbW);
+	float lumaM = FxaaLuma(rgbM);
+	float lumaE = FxaaLuma(rgbE);
+	float lumaS = FxaaLuma(rgbS);
+	float rangeMin = min(lumaM, min(min(lumaN, lumaW), min(lumaS, lumaE)));
+	float rangeMax = max(lumaM, max(max(lumaN, lumaW), max(lumaS, lumaE)));
+	float range = rangeMax - rangeMin;
+
+	#if FXAA_DEBUG
+		float lumaO = lumaM / (1.0f + (0.587f / 0.299f));
+	#endif
+
+	if (range < max(FXAA_EDGE_THRESHOLD_MIN, rangeMax * FXAA_EDGE_THRESHOLD))
+	{
+		#if FXAA_DEBUG
+			return FxaaFilterReturn(float3(lumaO));
+		#endif
+
+		return FxaaFilterReturn(rgbM);
+	}
+
+	#if FXAA_SUBPIX > 0
+		#if FXAA_SUBPIX_FASTER
+			float3 rgbL = (rgbN + rgbW + rgbE + rgbS + rgbM) * float3(1.0f / 5.0f);
+		#else
+			float3 rgbL = rgbN + rgbW + rgbM + rgbE + rgbS;
+		#endif
+	#endif
+
+	#if FXAA_SUBPIX != 0
+		float lumaL = (lumaN + lumaW + lumaE + lumaS) * 0.25f;
+		float rangeL = abs(lumaL - lumaM);
+	#endif
+
+	#if FXAA_SUBPIX == 1
+		float blendL = max(0.0f, (rangeL / range) - FXAA_SUBPIX_TRIM) * FXAA_SUBPIX_TRIM_SCALE;
+		blendL = min(FXAA_SUBPIX_CAP, blendL);
+	#endif
+
+	#if FXAA_SUBPIX == 2
+		float blendL = rangeL / range;
+	#endif
+
+	#if FXAA_DEBUG_PASSTHROUGH
+		#if FXAA_SUBPIX == 0
+			float blendL = 0.0f;
+		#endif
+
+		return FxaaFilterReturn(float3(1.0f, blendL / FXAA_SUBPIX_CAP, 0.0f));
+	#endif
+
+	float3 rgbNW = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(-1, -1)).xyz;
+	float3 rgbNE = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(1, -1)).xyz;
+	float3 rgbSW = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(-1, 1)).xyz;
+	float3 rgbSE = sampleTextureLodOffset(texture.diffuse, position, 0.0f, int2(1, 1)).xyz;
+
+	#if !FXAA_SUBPIX_FASTER && FXAA_SUBPIX > 0
+		rgbL += rgbNW + rgbNE + rgbSW + rgbSE;
+		rgbL *= float3(1.0f / 9.0f);
+	#endif
+
+	float lumaNW = FxaaLuma(rgbNW);
+	float lumaNE = FxaaLuma(rgbNE);
+	float lumaSW = FxaaLuma(rgbSW);
+	float lumaSE = FxaaLuma(rgbSE);
+
+	float edgeVert =
+		abs((0.25f * lumaNW) + (-0.5f * lumaN) + (0.25f * lumaNE)) +
+		abs((0.50f * lumaW ) + (-1.0f * lumaM) + (0.50f * lumaE )) +
+		abs((0.25f * lumaSW) + (-0.5f * lumaS) + (0.25f * lumaSE));
+
+	float edgeHorz =
+		abs((0.25f * lumaNW) + (-0.5f * lumaW) + (0.25f * lumaSW)) +
+		abs((0.50f * lumaN ) + (-1.0f * lumaM) + (0.50f * lumaS )) +
+		abs((0.25f * lumaNE) + (-0.5f * lumaE) + (0.25f * lumaSE));
+
+	bool horzSpan = edgeHorz >= edgeVert;
+
+	#if FXAA_DEBUG_HORZVERT
+		return horzSpan ? FxaaFilterReturn(float3(1.0f, 0.75f, 0.0f)) :
+			FxaaFilterReturn(float3(0.0f, 0.50f, 1.0f));
+	#endif
+
+	float lengthSign = horzSpan ? -reciprocal_screen_size.y : -reciprocal_screen_size.x;
+
+	if (!horzSpan)
+	{
+		lumaN = lumaW;
+		lumaS = lumaE;
+	}
+
+	float gradientN = abs(lumaN - lumaM);
+	float gradientS = abs(lumaS - lumaM);
+	lumaN = (lumaN + lumaM) * 0.5f;
+	lumaS = (lumaS + lumaM) * 0.5f;
+
+	bool pairN = gradientN >= gradientS;
+
+	#if FXAA_DEBUG_PAIR
+		return pairN ? FxaaFilterReturn(float3(0.0f, 0.0f, 1.0f)) :
+			FxaaFilterReturn(float3(0.0f, 1.0f, 0.0f));
+	#endif
+
+	if (!pairN)
+	{
+		lumaN = lumaS;
+		gradientN = gradientS;
+		lengthSign *= -1.0f;
+	}
+
+	float2 posN;
+	posN.x = position.x + (horzSpan ? 0.0f : lengthSign * 0.5f);
+	posN.y = position.y + (horzSpan ? lengthSign * 0.5f : 0.0f);
+
+	gradientN *= FXAA_SEARCH_THRESHOLD;
+
+	float2 posP = posN;
+	float2 offNP = horzSpan ? float2(reciprocal_screen_size.x, 0.0f) : float2(0.0f, reciprocal_screen_size.y);
+	float lumaEndN = lumaN;
+	float lumaEndP = lumaN;
+	bool doneN = false;
+	bool doneP = false;
+
+	#if FXAA_SEARCH_ACCELERATION == 1
+		posN += offNP * float2(-1.0f, -1.0f);
+		posP += offNP * float2( 1.0f, 1.0f);
+	#elif FXAA_SEARCH_ACCELERATION == 2
+		posN += offNP * float2(-1.5f, -1.5f);
+		posP += offNP * float2(1.5f, 1.5f);
+		offNP *= float2(2.0f, 2.0f);
+	#elif FXAA_SEARCH_ACCELERATION == 3
+		posN += offNP * float2(-2.0f, -2.0f);
+		posP += offNP * float2(2.0f, 2.0f);
+		offNP *= float2(3.0f, 3.0f);
+	#elif FXAA_SEARCH_ACCELERATION == 4
+		posN += offNP * float2(-2.5f, -2.5f);
+		posP += offNP * float2(2.5f, 2.5f);
+		offNP *= float2(4.0f, 4.0f);
+	#endif
+
+	for (int i = 0; i < FXAA_SEARCH_STEPS; i++)
+	{
+		#if FXAA_SEARCH_ACCELERATION == 1
+			if (!doneN)
+				lumaEndN = FxaaLuma(sampleTextureLod(texture.diffuse, posN, 0.0f).xyz);
+
+			if (!doneP)
+				lumaEndP = FxaaLuma(sampleTextureLod(texture.diffuse, posP, 0.0f).xyz);
+		#else
+			if (!doneN)
+				lumaEndN = FxaaLuma(sampleTextureGrad(texture.diffuse, posN, offNP, offNP).xyz);
+
+			if (!doneP)
+				lumaEndP = FxaaLuma(sampleTextureGrad(texture.diffuse, posP, offNP, offNP).xyz);
+		#endif
+
+		doneN = doneN || (abs(lumaEndN - lumaN) >= gradientN);
+		doneP = doneP || (abs(lumaEndP - lumaN) >= gradientN);
+
+		if (doneN && doneP)
+			break;
+
+		if (!doneN)
+			posN -= offNP;
+
+		if (!doneP)
+			posP += offNP;
+	}
+
+	float dstN = horzSpan ? position.x - posN.x : position.y - posN.y;
+	float dstP = horzSpan ? posP.x - position.x : posP.y - position.y;
+	bool directionN = dstN < dstP;
+
+	#if FXAA_DEBUG_NEGPOS
+		return directionN ? FxaaFilterReturn(float3(1.0f, 0.0f, 0.0f)) :
+			FxaaFilterReturn(float3(0.0f, 0.0f, 1.0f));
+	#endif
+
+	lumaEndN = directionN ? lumaEndN : lumaEndP;
+
+	if (((lumaM - lumaN) < 0.0f) == ((lumaEndN - lumaN) < 0.0f))
+		lengthSign = 0.0f;
+
+	float spanLength = (dstP + dstN);
+	dstN = directionN ? dstN : dstP;
+	float subPixelOffset = (0.5f + (dstN * (-1.0f / spanLength))) * lengthSign;
+
+	#if FXAA_DEBUG_OFFSET
+		float ox = horzSpan ? 0.0f : subPixelOffset * 2.0f / reciprocal_screen_size.x;
+		float oy = horzSpan ? subPixelOffset * 2.0f / reciprocal_screen_size.y : 0.0f;
+
+		if (ox < 0.0f)
+			return FxaaFilterReturn(FxaaLerp(float3(lumaO), float3(1.0f, 0.0f, 0.0f), -ox));
+
+		if (ox > 0.0f)
+			return FxaaFilterReturn(FxaaLerp(float3(lumaO), float3(0.0f, 0.0f, 1.0f), ox));
+
+		if (oy < 0.0f)
+			return FxaaFilterReturn(FxaaLerp(float3(lumaO), float3(1.0f, 0.6f, 0.2f), -oy));
+
+		if (oy > 0.0f)
+			return FxaaFilterReturn(FxaaLerp(float3(lumaO), float3(0.2f, 0.6f, 1.0f), oy));
+
+		return FxaaFilterReturn(float3(lumaO, lumaO, lumaO));
+	#endif
+
+	float2 texture_coordinate =
+		float2(position.x + (horzSpan ? 0.0f : subPixelOffset), position.y +
+			(horzSpan ? subPixelOffset : 0.0f));
+
+	float3 rgbF = sampleTextureLod(texture.diffuse, texture_coordinate, 0.0f).xyz;
+
+	#if FXAA_SUBPIX == 0
+		return FxaaFilterReturn(rgbF);
+	#else
+		return FxaaFilterReturn(FxaaLerp(rgbL, rgbF, blendL));
+	#endif
+}
+			]]>
+		</node>
+
+        <node type="pixel" target="ESSL20">
+			<![CDATA[
+				// ESSL20 doesn't support all the required instructions for this fxaa, so we'll just have a simple 
+				// passthrough pixel shader to avoid getting warnings. We'll never use this shader on GLES in any case.
+				void main()
+				{
+					float4 diffuse_sample = sampleTexture(texture.diffuse, input.texture_coordinate);
+					output.color = diffuse_sample;
+				}
+			]]>
+		</node>
+		
+	</array>
+</root>

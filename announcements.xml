@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root>
+
+	<array id="ANNOUNCEMENTS_FULLSCREEN">
+
+        <node id="2018_03_UNDEAD_HORDE_A_SHEPARD"
+         test_group_id="2018_03_UNDEAD_HORDE"
+         url="steam://store/790850/"
+         button_text="Wishlist!"
+         image="res://announcements/uh-a.png"
+         hide_if_user_owns_game="790850"
+        />
+        
+        <node id="2018_03_UNDEAD_HORDE_B_RAY"
+         test_group_id="2018_03_UNDEAD_HORDE"
+         url="steam://store/790850/"
+         button_text="Wishlist!"
+         image="res://announcements/uh-a.png"
+         hide_if_user_owns_game="790850"
+        />
+
+       <node id="2018_03_UNDEAD_HORDE_C_AXE"
+         test_group_id="2018_03_UNDEAD_HORDE"
+         url="steam://store/790850/"
+         button_text="Wishlist!"
+         image="res://announcements/uh-c.png"
+         hide_if_user_owns_game="790850"
+        />
+		
+        <node id="2018_04_TVSL_FIRST_SALE_A_GUNMAN"
+         test_group_id="2018_04_TVSL_FIRST_SALE"
+         url="steam://store/636100/"
+         button_text="Show me!"
+         image="res://announcements/tvsl-first-sale-a.png"
+         hide_if_user_owns_game="636100"
+        />	
+		
+        <node id="2018_04_TVSL_FIRST_SALE_B_TV"
+         test_group_id="2018_04_TVSL_FIRST_SALE"
+         url="steam://store/636100/"
+         button_text="Show me!"
+         image="res://announcements/tvsl-first-sale-b.png"
+         hide_if_user_owns_game="636100"
+        />			
+	
+    </array>
+	
+	
+</root>
