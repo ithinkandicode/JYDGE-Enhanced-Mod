@@ -54,6 +54,11 @@
 		 angular_velocity="0,0,0"
 		/>
 
+		<!--
+		MOD_EDIT
+		_alpha_multiplier="0.7;0.9"
+		_scale_multiplier="0.08;0.125"
+		-->
 		<node class="BITMAP"
 		 bitmaps="fxs/explosion-additive.png"
 		 number_of_particles="6"
@@ -74,8 +79,10 @@
 		 gravity_multiplier="0"
 		 alpha_curve="0,0;0.1,1;1,0"
 		 scale_curve="0,0.7;0.1,5.6"
-		 alpha_multiplier="0.7;0.9"
-		 scale_multiplier="0.08;0.125"
+
+		alpha_multiplier="0.1;0.2"
+		scale_multiplier="0.1;0.2"
+
 		 rotation_angles="0,0,0"
 		 angular_velocity="0,0,-355;0,0,355"
 		 sounds="sfx/explosion_small"
