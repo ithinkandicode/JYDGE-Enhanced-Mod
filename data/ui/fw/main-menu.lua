@@ -55,7 +55,7 @@ SetProperty ("position", 0, 0.125);
 SetProperty ("button.text", "Save Slots");
 
 CreateComp ("Button", "Editor");
-SetProperty ("required_features", "!DEMO_STATION,STAGE_EDITOR");
+--SetProperty ("required_features", "!DEMO_STATION,STAGE_EDITOR");
 SetProperty ("parent", "ButtonAligner");
 SetProperty ("position", 0, 0.375);
 SetProperty ("button.text", "Editor");
