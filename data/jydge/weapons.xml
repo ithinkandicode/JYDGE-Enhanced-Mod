@@ -17,6 +17,13 @@
 		<node id="weapons/firemode-rocket-launcher.xml"             medal_requirement="120"  upgrade_levels="10"    purchase_cost="10000" upgrade_cost="180" />
 		<node id="weapons/firemode-charged-plasma.xml"              medal_requirement="140"  upgrade_levels="10"    purchase_cost="11000" upgrade_cost="200" />
 
+		<!--
+			UNUSED FIREMODE: LASTER SHOTGUN
+			Unfortunately, a maximum of only 14 weapons are possible.
+			This weapon technically counts as available, but the UI doesn't extend far enough to view it.
+			The high medal requirement prevents an unlock notification from triggering
+		-->
+		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="9999"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" tags="MOD_NEW" />
 	</array>
 
 	<array id="ABILITIES">
