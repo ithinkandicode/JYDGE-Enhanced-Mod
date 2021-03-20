@@ -26,6 +26,10 @@
 		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="9999"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" tags="MOD_NEW" />
 	</array>
 
+	<!--
+		Note:
+		We can only add an extra 3 more items, any more will be ignored
+	-->
 	<array id="ABILITIES">
  		<node id="ROCKETS"              medal_requirement="0"    upgrade_levels="6"     purchase_cost="200"    upgrade_cost="100" />
 		<node id="SHOCK_ORB"            medal_requirement="10"   upgrade_levels="6"     purchase_cost="1500"   upgrade_cost="130" />
@@ -59,6 +63,21 @@
 		<node id="DASH"                 medal_requirement="0"    upgrade_levels="6"     purchase_cost="100"  upgrade_cost="100" />
 		<node id="DEFENSIVE_GRENADES"   medal_requirement="0"    upgrade_levels="6"     purchase_cost="100"  upgrade_cost="100" />
 		<node id="ANTIOCH_GRENADES"     medal_requirement="0"    upgrade_levels="6"     purchase_cost="100"  upgrade_cost="100" /> <!-- used in this mod -->
+
+		<!--
+		NOTES:
+			Customise properties in abilities.xml
+
+			ANTIOCH_GRENADES    - AMAZING! Huge area of effect, high damage. (description translates to: "Merciful Jesus, grant them rest")
+			CLUSTER_GRENADES    - Fires 5 grenades in a line in front of you. They explode and cause fire
+			DASH                - Fun, but very hard to use. You dash forward way too quickly
+			DEFENSIVE_GRENADES  - Functionally identical to shrapnel grenades
+			EMP_PULSE           - Useless, no effect
+			LASER_PULSE         - Fires lots of lasers outward, which bounce off walls. Low damage but has potential if
+			                      buffed, or unlocked early
+			RAIL_PULSE          - aka Piercing Pulse. Fires piercing lead shots outward, like LASER_PULSE. Looks cool but
+			                      needs a big buff,, as it atm it has weak damage with low accuracy.
+		-->
 	</array>
 
 </root>
