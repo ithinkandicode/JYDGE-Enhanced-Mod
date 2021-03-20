@@ -149,6 +149,8 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 
 		 number_of_uses="7"
 
+		 additional_uses_per_upgrade_level="1"
+
 		 level_1_activation_cost="20"
 		 level_1_description=""
 		 level_1_price="200"
