@@ -278,10 +278,11 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 		 color="GREEN"
 		/>
 
-	</array>
+	<!-- </array> -->
 
+<!-- UNUSED =============================================================== -->
 
-	<array id="UNUSED_ABILITIES">
+	<!-- <array id="UNUSED_ABILITIES"> -->
 
 		<node id="DEFENSIVE_GRENADES"
 		 title="Blast Grenades"
