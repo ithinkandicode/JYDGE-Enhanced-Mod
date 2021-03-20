@@ -113,7 +113,7 @@ CreateComp ("Button", "GenerateStatistics");
 SetProperty ("localize", 0);
 SetProperty ("parent", "aligner_4");
 SetProperty ("position", 0, -0.25);
-SetProperty ("button.text", "Generate unlock list");
+SetProperty ("button.text", "Generate unlocks CSV");
 
 CreateComp ("Button", "Enhancements");
 SetProperty ("localize", 0);
