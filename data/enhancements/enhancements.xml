@@ -35,7 +35,7 @@
 
 	<array id="ENHANCEMENTS">
 
-<!-- Category: Cyberware -->
+<!-- CATEGORY: Cyberware -->
 
 		<node id="REDUCE_INCOMING_DAMAGE"
 		 category="ATTRIBUTES_HEALTH"
@@ -377,7 +377,7 @@
 		 tags="MOD_NEW"
 		/>
 
-<!-- Category: Weapons -->
+<!-- CATEGORY: Weapons -->
 
 		<node id="RELOAD_PLASMA"
 		 category="WEAPON_PLASMA"
