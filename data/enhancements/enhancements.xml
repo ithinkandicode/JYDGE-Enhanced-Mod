@@ -569,6 +569,15 @@
 		 medal_requirement="93"
 		/>
 
+		<node id="_SPLINTER_BULLETS"
+		 category="WEAPON"
+		 title="Splinter Bullets"
+		 description="Your projectiles will |color|split in two|colorend| shortly after leaving the barrel."
+		 effect_1="splinter_bullets,2.0"
+		 medal_requirement="104"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
 		 category="DEPRECATED__WEAPON"
 		 title="Murderous Lead"
