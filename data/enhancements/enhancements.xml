@@ -583,6 +583,20 @@
 		 tags="MOD_NEW"
 		/>
 
+		<node id="_NEON_LASERS"
+		 category="WEAPON"
+		 title="Neon Lasers"
+		 description="|color|Fire rate is increased by 10x|colorend|, but |#ff0000|LASER damage is decreased by 75%.|#ffffff| |#ffffff|Non-Laser projectiles do ZERO damage."
+		 effect_1="damage_increase_per_damage_type,-0.75,PROJECTILE_LASER"
+		 effect_2="rate_of_fire_increase,10.0"
+		 effect_3="damage_increase_per_damage_type,-9.0,PROJECTILE_LEAD"
+		 effect_4="damage_increase_per_damage_type,-9.0,PROJECTILE_PLASMA"
+		 effect_5="damage_increase_per_damage_type,-9.0,PROJECTILE_ION"
+		 effect_6="damage_increase_per_damage_type,-9.0,PROJECTILE_ROCKET"
+		 medal_requirement="0"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="_MURDEROUS_LEAD_EDIT"
 		 category="WEAPON"
 		 title="Murderous Lead"
