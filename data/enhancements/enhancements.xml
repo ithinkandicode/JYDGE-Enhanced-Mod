@@ -402,14 +402,6 @@
 		 medal_requirement="37"
 		/>
 
-		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
-		 category="WEAPON"
-		 title="Murderous Lead"
-		 description="|color|Increases LEAD weapon damage 50%.|colorend| Does not apply to ion, laser, or plasma weapons."
-		 effect_1="damage_increase_per_damage_type,0.50,PROJECTILE_LEAD"
-		 medal_requirement="42"
-		/>
-
 		<node id="FAST_RELOAD"
 		 category="WEAPON"
 		 title="Fast Reload"
@@ -507,6 +499,15 @@
 		 description="|color|Your normal projectiles inflict double base damage when your health is under 50%.|colorend|"
 		 effect_1="crisis_protocol,0.5"
 		 medal_requirement="93"
+		/>
+
+		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
+		 category="DEPRECATED__WEAPON"
+		 title="Murderous Lead"
+		 description="|color|Increases LEAD weapon damage 20%.|colorend| Does not apply to ion, laser, or plasma weapons."
+		 effect_1="damage_increase_per_damage_type,0.20,PROJECTILE_LEAD"
+		 medal_requirement="124"
+		 tags="MOD_EDIT"
 		/>
 
 		<node id="HP_DAMAGE"
