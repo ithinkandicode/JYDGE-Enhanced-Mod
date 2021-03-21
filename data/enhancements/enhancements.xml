@@ -593,7 +593,7 @@
 		 effect_4="damage_increase_per_damage_type,-9.0,PROJECTILE_PLASMA"
 		 effect_5="damage_increase_per_damage_type,-9.0,PROJECTILE_ION"
 		 effect_6="damage_increase_per_damage_type,-9.0,PROJECTILE_ROCKET"
-		 medal_requirement="0"
+		 medal_requirement="115"
 		 tags="MOD_NEW"
 		/>
 
