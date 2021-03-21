@@ -330,6 +330,16 @@
 		 medal_requirement="126"
 		/>
 
+		<node id="_HEALTH_REGENERATION"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Immortality"
+		 description="|color|Regenerate 5|health| per second.|colorend| Triggers 2.5 seconds after taking damage."
+		 effect_1="regenerate_hp_per_sec,5"
+		 effect_2="regeneration_down_time,2.5"
+		 medal_requirement="130"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="ENEMIES_START_WITH_LOWER_HEALTH"
 		 category="MISC"
 		 title="Sickness"
