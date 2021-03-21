@@ -363,7 +363,7 @@
 		/>
 
 		<node id="ENEMIES_START_WITH_LOWER_HEALTH"
-		 category="ATTRIBUTES_DAMAGE"
+		 category="__DEPRECATED"
 		 title="Sickness"
 		 description="|color|Enemies within the mission zone start with 50% less |health|.|colorend|"
 		 medal_requirement="132"
