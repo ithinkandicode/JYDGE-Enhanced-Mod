@@ -354,6 +354,16 @@
 		 medal_requirement="138"
 		/>
 
+		<node id="_SLOWDOWN_FIELD"
+		 category="ATTRIBUTES"
+		 title="Slowdown Field"
+		 description="Enemies within the field |color|walk slowly|colorend|. Combos with |color|Friend of Mine.|colorend|"
+		 effect_1="slowdown_field_range,300"
+		 effect_2="slowdown_field_time,0.25"
+		 medal_requirement="142"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="RELOAD_PLASMA"
 		 category="WEAPON"
 		 title="Reload Plasma"
