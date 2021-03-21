@@ -22,6 +22,12 @@
 
 		<node id="TEST_GROUP_CYBERWARE" color="1,1,1" />
 		<node id="TEST_GROUP_WEAPONS" color="0,0,1" />
+
+		<!--
+		Used by items that have been replaced/removed, but which should remain
+		technically available in case they're already in-use in a perk slot
+		-->
+		<node id="__DEPRECATED" color="0,0,0" color_name="white" />
 	</array>
 
 	<array id="ENHANCEMENTS">
@@ -598,11 +604,12 @@
 		 tags="MOD_NEW"
 		/>
 
+<!-- Category: Weapons - Deprecated -->
+
 		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
-		 category="DEPRECATED__WEAPON"
+		 category="__DEPRECATED"
 		 title="Murderous Lead"
-		 description="|color|Increases LEAD weapon damage 20%.|colorend| Does not apply to ion, laser, or plasma weapons."
-		 effect_1="damage_increase_per_damage_type,0.20,PROJECTILE_LEAD"
+		 description="DEPRECATED"
 		 medal_requirement="124"
 		 tags="MOD_EDIT"
 		/>
