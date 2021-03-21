@@ -405,8 +405,8 @@
 		<node id="STUNNER"
 		 category="WEAPON"
 		 title="Sandman"
-		 description="Each shot has a |color|20% chance to stun|colorend| the target it hits."
-		 effect_1="stun_chance_increase,0.20"
+		 description="Each shot has a |color|15% chance to stun|colorend| the target it hits."
+		 effect_1="stun_chance_increase,0.15"
 		 medal_requirement="15"
 		/>
 
