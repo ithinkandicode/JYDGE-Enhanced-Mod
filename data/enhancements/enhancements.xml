@@ -216,6 +216,15 @@
 		 medal_requirement="71"
 		/>
 
+		<node id="_GIB_PROFIT"
+		 category="ATTRIBUTES_CREDITS"
+		 title="Gib Profit"
+		 description="Get |#ffff00|25|#ffffff||img src='ui/gfx/credits.png'| bonus for each |color|body you gib with explosives.|colorend|"
+		 effect_1="gib_profit,25"
+		 medal_requirement="73"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="RUTHLESS"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Rythless"
