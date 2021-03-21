@@ -374,7 +374,6 @@
 		 tags="MOD_NEW"
 		/>
 
-
 <!-- Category: Weapons -->
 
 		<node id="RELOAD_PLASMA"
@@ -440,16 +439,6 @@
 		 effect_1="melee_damage_increase,3.0"
 		 effect_2="melee_speed_increase,0.3"
 		 medal_requirement="23"
-		/>
-
-		<node id="_PIERCING_LEAD_2"
-		 category="WEAPON"
-		 title="Paperthin"
-		 description="|color|Non-shotgun LEAD projectiles pierce enemies,|colorend| but do |#ff0000|20% less damage. |#ffffff|Does not affect laser, plasma, or ion."
-		 effect_1="bullets_pierce_actors"
-		 effect_2="damage_increase_per_damage_type,-0.20,PROJECTILE_LEAD"
-		 medal_requirement="26"
-		 tags="MOD_NEW"
 		/>
 
 		<node id="MELEE_DEFLECTS_PROJECTILES"
@@ -602,6 +591,16 @@
 		 effect_2="damage_increase_per_damage_type,0.30,PROJECTILE_PLASMA"
 		 medal_requirement="110"
 		 tags="MOD_NEW"
+		/>
+
+		<node id="_MURDEROUS_LEAD_EDIT"
+		 category="WEAPON"
+		 title="Murderous Lead"
+		 description="|color|Increases LEAD weapon damage 20%.|colorend| Non-shotgun LEAD projectiles |color|pierce enemies|colorend|."
+		 effect_1="damage_increase_per_damage_type,0.20,PROJECTILE_LEAD"
+		 effect_2="bullets_pierce_actors"
+		 medal_requirement="124"
+		 tags="MOD_EDIT"
 		/>
 
 <!-- Category: Weapons - Deprecated -->
