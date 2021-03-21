@@ -586,7 +586,7 @@
 		<node id="_MURDEROUS_LEAD_EDIT"
 		 category="WEAPON"
 		 title="Murderous Lead"
-		 description="|color|Increases LEAD weapon damage 20%.|colorend| Non-shotgun LEAD projectiles |color|pierce enemies|colorend|."
+		 description="|color|Increases LEAD weapon damage 20%.|colorend| Non-shotgun LEAD projectiles |color|pierce enemies.|colorend|"
 		 effect_1="damage_increase_per_damage_type,0.20,PROJECTILE_LEAD"
 		 effect_2="bullets_pierce_actors"
 		 medal_requirement="124"
