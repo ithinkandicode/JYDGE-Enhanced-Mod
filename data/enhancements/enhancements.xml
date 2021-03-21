@@ -447,10 +447,12 @@
 
 		<node id="MELEE_DEFLECTS_PROJECTILES"
 		 category="MELEE"
-		 title="Melee Deflect"
-		 description="|color|You can deflect projectiles with well timed melee attacks.|colorend|"
+		 title="360 Deflect"
+		 description="You melee attacks hit |color|everyone around you|colorend| and can |color|deflect projectiles|colorend|."
 		 effect_1="melee_attack_deflects_projectiles"
+		 effect_2="melee_360"
 		 medal_requirement="27"
+		 tags="MOD_EDIT"
 		/>
 
 		<node id="WEAPON_RANGE_INCREASE"
