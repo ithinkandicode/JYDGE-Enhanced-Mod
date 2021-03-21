@@ -9,7 +9,7 @@
 		 url="steam://store/790850/"
 		 button_text="Wishlist!"
 		 image="res://announcements/uh-a.png"
-		 hide_if_user_owns_game="790850"
+		 hide_if_user_owns_game="654050"
 		/>
 
 		<node id="2018_03_UNDEAD_HORDE_B_RAY"
@@ -17,7 +17,7 @@
 		 url="steam://store/790850/"
 		 button_text="Wishlist!"
 		 image="res://announcements/uh-a.png"
-		 hide_if_user_owns_game="790850"
+		 hide_if_user_owns_game="654050"
 		/>
 
 	   <node id="2018_03_UNDEAD_HORDE_C_AXE"
@@ -25,7 +25,7 @@
 		 url="steam://store/790850/"
 		 button_text="Wishlist!"
 		 image="res://announcements/uh-c.png"
-		 hide_if_user_owns_game="790850"
+		 hide_if_user_owns_game="654050"
 		/>
 
 		<node id="2018_04_TVSL_FIRST_SALE_A_GUNMAN"
@@ -33,7 +33,7 @@
 		 url="steam://store/636100/"
 		 button_text="Show me!"
 		 image="res://announcements/tvsl-first-sale-a.png"
-		 hide_if_user_owns_game="636100"
+		 hide_if_user_owns_game="654050"
 		/>
 
 		<node id="2018_04_TVSL_FIRST_SALE_B_TV"
@@ -41,7 +41,7 @@
 		 url="steam://store/636100/"
 		 button_text="Show me!"
 		 image="res://announcements/tvsl-first-sale-b.png"
-		 hide_if_user_owns_game="636100"
+		 hide_if_user_owns_game="654050"
 		/>
 
 	</array>
