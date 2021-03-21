@@ -708,7 +708,7 @@
 		/>
 
 		<node id="BOOSTER_RED"
-		 title="Vampiric DeSade"
+		 title="Vampire"
 		 description="Suck life from everything around you."
 		 duration="18.0"
 		 color="1.0,0.2,0.2"
