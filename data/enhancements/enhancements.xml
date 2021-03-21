@@ -583,16 +583,6 @@
 		 tags="MOD_NEW"
 		/>
 
-		<node id="_PLASMA_FLAMES"
-		 category="WEAPON"
-		 title="Flaming Plasma"
-		 description="|color|Increases PLASMA damage by 30%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
-		 effect_1="crit_flames,8.0"
-		 effect_2="damage_increase_per_damage_type,0.30,PROJECTILE_PLASMA"
-		 medal_requirement="110"
-		 tags="MOD_NEW"
-		/>
-
 		<node id="_MURDEROUS_LEAD_EDIT"
 		 category="WEAPON"
 		 title="Murderous Lead"
@@ -601,6 +591,16 @@
 		 effect_2="bullets_pierce_actors"
 		 medal_requirement="124"
 		 tags="MOD_EDIT"
+		/>
+
+		<node id="_PLASMA_FLAMES"
+		 category="WEAPON"
+		 title="Flaming Plasma"
+		 description="|color|Increases PLASMA damage by 30%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
+		 effect_1="crit_flames,8.0"
+		 effect_2="damage_increase_per_damage_type,0.30,PROJECTILE_PLASMA"
+		 medal_requirement="131"
+		 tags="MOD_NEW"
 		/>
 
 <!-- Category: Weapons - Deprecated -->
