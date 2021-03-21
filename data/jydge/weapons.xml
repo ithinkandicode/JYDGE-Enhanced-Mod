@@ -10,7 +10,7 @@
 		<node id="weapons/firemode-plasma-smg.xml"                  medal_requirement="30"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="120" />
 		<node id="weapons/firemode-lead-assault-rifle.xml"          medal_requirement="40"   upgrade_levels="10"    purchase_cost="6000"  upgrade_cost="120" />
 		<node id="weapons/firemode-lead-sniper.xml"                 medal_requirement="50"   upgrade_levels="10"    purchase_cost="7000"  upgrade_cost="130" />
-		<node id="weapons/firemode-plasma-shotgun.xml"              medal_requirement="60"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" />
+		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="60"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" tags="MOD_NEW" />
 		<node id="weapons/firemode-ion-shotgun.xml"                 medal_requirement="70"   upgrade_levels="10"    purchase_cost="9000"  upgrade_cost="150" />
 		<node id="weapons/firemode-lead-serial-shotgun.xml"       	medal_requirement="80"   upgrade_levels="10"    purchase_cost="10000" upgrade_cost="160" />
 		<node id="weapons/firemode-minigun.xml"             		medal_requirement="100"  upgrade_levels="10"    purchase_cost="10000" upgrade_cost="170" />
@@ -18,12 +18,12 @@
 		<node id="weapons/firemode-charged-plasma.xml"              medal_requirement="140"  upgrade_levels="10"    purchase_cost="11000" upgrade_cost="200" />
 
 		<!--
-			UNUSED FIREMODE: LASTER SHOTGUN
-			Unfortunately, a maximum of only 14 weapons are possible.
-			This weapon technically counts as available, but the UI doesn't extend far enough to view it.
-			The high medal requirement prevents an unlock notification from triggering
+			Note:
+			Unfortunately, a maximum of only 14 weapons are possible. So we have to replace a weapon to use the Laser Shotgun.
+			Plasma Shotghn technically counts as available, which stops it softlocking save files, but the UI doesn't extend far enough to view it.
+			The high medal requirement prevents the Plasma Shotgun's unlock notification from triggering, if the player hasn't unlocked it yet
 		-->
-		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="9999"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" tags="MOD_NEW" />
+		<!-- <node id="weapons/firemode-plasma-shotgun.xml"              medal_requirement="9999"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" /> -->
 	</array>
 
 	<!--
