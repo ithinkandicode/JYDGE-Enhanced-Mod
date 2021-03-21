@@ -125,6 +125,16 @@
 		 medal_requirement="32"
 		/>
 
+		<node id="_PYROMANIAC"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Pyromaniac"
+		 description="|color|Immunity to fire damage.|colorend| Fires you start have |color|4x burn time.|colorend|"
+		 effect_1="fire_starter,4.0"
+		 effect_2="fire_resistance_increase,1.0"
+		 medal_requirement="34"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="WALL_SMASHER"
 		 category="ATTRIBUTES"
 		 title="Wall Breaker"
