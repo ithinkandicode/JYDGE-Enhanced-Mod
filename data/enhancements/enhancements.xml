@@ -475,6 +475,14 @@
 		 medal_requirement="37"
 		/>
 
+		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
+		 category="__DEPRECATED"
+		 title="Murderous Lead"
+		 description="DEPRECATED"
+		 medal_requirement="42"
+		 tags="MOD_EDIT"
+		/>
+
 		<node id="FAST_RELOAD"
 		 category="WEAPON"
 		 title="Fast Reload"
@@ -615,16 +623,6 @@
 		 effect_2="damage_increase_per_damage_type,0.30,PROJECTILE_PLASMA"
 		 medal_requirement="131"
 		 tags="MOD_NEW"
-		/>
-
-<!-- Category: Weapons - Deprecated -->
-
-		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
-		 category="__DEPRECATED"
-		 title="Murderous Lead"
-		 description="DEPRECATED"
-		 medal_requirement="124"
-		 tags="MOD_EDIT"
 		/>
 
 <!-- CATEGORY: Unused-1 -->
