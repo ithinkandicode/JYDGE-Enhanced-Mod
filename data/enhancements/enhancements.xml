@@ -108,8 +108,9 @@
 		<node id="SLOWER_ENEMY_PROJECTILES"
 		 category="MISC"
 		 title="Bullet Dodger"
-		 description="|color|Enemy projectiles move 30% slower|colorend| making them easier to dodge."
+		 description="|color|Enemy projectiles move 30% slower|colorend|, and |color|you can change move direction instantly.|colorend|"
 		 medal_requirement="24"
+		 effect_1="dampening_factor_override,40"
 		/>
 
 		<node id="SCALED_DOWN_PLAYER"
