@@ -6,17 +6,20 @@
 		<node id="MISC"       color="1,0.1,1" />       <!-- Cyberware: Pink -->
 		<node id="COMPANION"  color="0.25,1,0.25" />   <!-- Cyberware: Green -->
 
-		<node id="ATTRIBUTES_HEALTH"  color="1,0.25,0" />      <!-- Cyberware: HealthRed -->
-		<node id="ATTRIBUTES_CREDITS" color="1,1,0" />         <!-- Cyberware: Yellow -->
-		<node id="ATTRIBUTES_STEALTH" color="0.25,0.5,0.5" />  <!-- Cyberware: Turqiose -->
+		<node id="ATTRIBUTES_HEALTH"   color="1,0.25,0" />      <!-- Cyberware: HealthRed -->
+		<node id="ATTRIBUTES_CREDITS"  color="1,1,0" />         <!-- Cyberware: Yellow -->
+		<node id="ATTRIBUTES_STEALTH"  color="0.25,0.5,0.5" />  <!-- Cyberware: Turqiose -->
+		<node id="ATTRIBUTES_CIVILIAN" color="1,0.5,0.5" />     <!-- Cyberware: Salmon -->
+		<node id="ATTRIBUTES_DAMAGE"   color="1,0,0.5" />       <!-- Cyberware: Damage -->
 
-		<node id="WEAPON" color="1,0.5,0" />  <!-- Weapon: Orange -->
+		<node id="WEAPON" color="0,0.25,1" />  <!-- Weapon: Light Blue ~~Orange[1,0.5,0]~~ -->
 		<node id="MELEE"  color="1,1,0" />    <!-- Weapon: Yellow -->
 
-		<node id="WEAPON_LEAD"   color="1,1,0"      color_name="grey" />
-		<node id="WEAPON_PLASMA" color="1,0.5,0"    color_name="orange" />
-		<node id="WEAPON_LASER"  color="1,0.1,0.1"  color_name="red" />
-		<node id="WEAPON_ION"    color="0.5,1,1"    color_name="blue_light" />
+		<node id="WEAPON_LEAD"     color="0.5,0.5,0.5" color_name="grey" />
+		<node id="WEAPON_PLASMA"   color="1,0.5,0"     color_name="orange" />
+		<node id="WEAPON_LASER"    color="1,0.1,0.1"   color_name="red" />
+		<node id="WEAPON_ION"      color="0.5,1,1"     color_name="blue_light" />
+		<node id="WEAPON_CIVILIAN" color="1,0.5,0.5"   color_name="salmon" />
 
 		<node id="ABILITY" color="1,0,1" />   <!-- Unused: Pink (again) -->
 
@@ -43,7 +46,7 @@
 		/>
 
 		<node id="TOUGH_CIVILIANS"
-		 category="MISC"
+		 category="ATTRIBUTES_CIVILIAN"
 		 title="Citizen Health Plan"
 		 description="|color|All citizens have 100 times more |health|.|colorend|"
 		 medal_requirement="0"
@@ -177,7 +180,7 @@
 		/>
 
 		<node id="REVENGER"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_DAMAGE"
 		 title="Revenger"
 		 description="|color|All damage to you is dealt back TEN TIMES to the enemy who hurt you.|colorend|"
 		 effect_1="deal_back_damage_to_enemy,10.0"
@@ -236,7 +239,7 @@
 		/>
 
 		<node id="RUTHLESS"
-		 category="ATTRIBUTES_HEALTH"
+		 category="ATTRIBUTES_DAMAGE"
 		 title="Rythless"
 		 description="Everything is |color|fast and rythless|colorend|. You deal |color|double damage,|colorend| but won't |#ff0000|survive a single hit."
 		 effect_1="speed_increase,0.01"
@@ -273,7 +276,7 @@
 		/>
 
 		<node id="FINISHER"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_DAMAGE"
 		 title="Reaper"
 		 description="|color|Damage dealt to enemies with 50% or less |health| left is doubled.|colorend|"
 		 effect_1="increased_damage_to_low_health_foes,2.0"
@@ -351,7 +354,7 @@
 		/>
 
 		<node id="ENEMIES_START_WITH_LOWER_HEALTH"
-		 category="MISC"
+		 category="ATTRIBUTES_DAMAGE"
 		 title="Sickness"
 		 description="|color|Enemies within the mission zone start with 50% less |health|.|colorend|"
 		 medal_requirement="132"
@@ -377,7 +380,7 @@
 <!-- Category: Weapons -->
 
 		<node id="RELOAD_PLASMA"
-		 category="WEAPON"
+		 category="WEAPON_PLASMA"
 		 title="Reload Plasma"
 		 description="|color|Fires 360 degree plasma bolts|colorend| each time you start |color|reloading.|colorend|"
 		 effect_1="reload_shot,weapons/reload-plasma.xml"
@@ -385,7 +388,7 @@
 		/>
 
 		<node id="CIVILIAN_SAFE_AMMO"
-		 category="WEAPON"
+		 category="WEAPON_CIVILIAN"
 		 title="Citizen Safe Ammo"
 		 description="|color|Your projectiles won't harm citizens.|colorend| Your explosions might though."
 		 effect_1="civilian_safe_ammo"
@@ -417,7 +420,7 @@
 		/>
 
 		<node id="PIERCING_LEAD"
-		 category="WEAPON"
+		 category="WEAPON_LEAD"
 		 title="Piercing Lead"
 		 description="|color|Non-shotgun LEAD projectiles pierce walls.|colorend| Does not affect laser, plasma, or ion."
 		 effect_1="bullets_pierce_walls"
@@ -501,7 +504,7 @@
 		/>
 
 		<node id="ION_WEAPON_SPLASH_DAMAGE_BOOST"
-		 category="WEAPON"
+		 category="WEAPON_ION"
 		 title="Overcharge"
 		 description="|color|ION weapon shock range is increased 25%|colorend| and |color|shock damage is doubled.|colorend|"
 		 effect_1="ion_weapon_shock_damage_increase,1.00"
@@ -592,7 +595,7 @@
 		/>
 
 		<node id="_NEON_LASERS"
-		 category="WEAPON"
+		 category="WEAPON_LASER"
 		 title="Neon Lasers"
 		 description="|color|Fire rate is increased by 15x|colorend|, but |#ff0000|LASER damage is decreased by 90%.|#ffffff| |#ffffff|Non-Laser projectiles do ZERO damage."
 		 effect_1="damage_increase_per_damage_type,-0.90,PROJECTILE_LASER"
@@ -606,7 +609,7 @@
 		/>
 
 		<node id="_MURDEROUS_LEAD_EDIT"
-		 category="WEAPON"
+		 category="WEAPON_LEAD"
 		 title="Murderous Lead"
 		 description="|color|Increases LEAD weapon damage 20%.|colorend| Non-shotgun LEAD projectiles |color|pierce enemies.|colorend|"
 		 effect_1="damage_increase_per_damage_type,0.20,PROJECTILE_LEAD"
@@ -616,7 +619,7 @@
 		/>
 
 		<node id="_PLASMA_FLAMES"
-		 category="WEAPON"
+		 category="WEAPON_PLASMA"
 		 title="Flaming Plasma"
 		 description="|color|Increases PLASMA damage by 30%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
 		 effect_1="crit_flames,8.0"

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root>
 
-	<array id="CYBERWARE" categories="ATTRIBUTES,ATTRIBUTES_HEALTH,ATTRIBUTES_CREDITS,ATTRIBUTES_STEALTH,MISC,COMPANION,TEST_GROUP_CYBERWARE" medal_requirement_start="0" medal_requirement_increase="2" rounding="EVEN" >
+	<array id="CYBERWARE" categories="ATTRIBUTES,ATTRIBUTES_HEALTH,ATTRIBUTES_CREDITS,ATTRIBUTES_STEALTH,ATTRIBUTES_CIVILIAN,ATTRIBUTES_DAMAGE,MISC,COMPANION,TEST_GROUP_CYBERWARE" medal_requirement_start="0" medal_requirement_increase="2" rounding="EVEN" >
 		<node id="SLOT_0" medal_requirement="0" purchase_cost="0" />
 		<node id="SLOT_1" medal_requirement="4" purchase_cost="2500" />
 		<node id="SLOT_2" medal_requirement="10" purchase_cost="15000" />
 		<node id="SLOT_3" medal_requirement="20" purchase_cost="30000" />
 	</array>
 
-	<array id="WEAPON_MODS" categories="WEAPON,MELEE,ABILITY,TEST_GROUP_WEAPONS" medal_requirement_start="8" medal_requirement_increase="2" rounding="ODD" >
+	<array id="WEAPON_MODS" categories="WEAPON,MELEE,ABILITY,WEAPON_LEAD,WEAPON_PLASMA,WEAPON_LASER,WEAPON_ION,TEST_GROUP_WEAPONS" medal_requirement_start="8" medal_requirement_increase="2" rounding="ODD" >
 		<node id="SLOT_0" medal_requirement="0" purchase_cost="0" />
 		<node id="SLOT_1" medal_requirement="8" purchase_cost="8000" />
 		<node id="SLOT_2" medal_requirement="20" purchase_cost="20000" />
