@@ -287,8 +287,8 @@
 		<node id="FINISHER"
 		 category="ATTRIBUTES_DAMAGE"
 		 title="Reaper"
-		 description="|color|Damage dealt to enemies with 50% or less |health| left is doubled.|colorend|"
-		 effect_1="increased_damage_to_low_health_foes,2.0"
+		 description="|color|Damage dealt to enemies with 50% or less |health| left is increased by 20%.|colorend|"
+		 effect_1="increased_damage_to_low_health_foes,0.20"
 		 medal_requirement="90"
 		/>
 
