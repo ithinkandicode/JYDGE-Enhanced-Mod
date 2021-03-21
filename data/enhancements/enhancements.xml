@@ -204,6 +204,15 @@
 		 medal_requirement="56"
 		/>
 
+		<node id="_FASTER_FASTER"
+		 category="MISC"
+		 title="Faster Faster"
+		 description="|color|Time runs 2x faster,|colorend| but you |color|deal 1.5x damage.|colorend|"
+		 effect_1="stage_time_multiplier,2.0"
+		 effect_2="damage_increase,1.5"
+		 medal_requirement="58"
+		/>
+
 		<node id="SHIELD"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Shield"
