@@ -233,7 +233,7 @@
 		/>
 
 		<node id="DAMAGE_TO_CREDITS"
-		 category="MISC"
+		 category="ATTRIBUTES_CREDITS"
 		 title="Damage Credits"
 		 description="|color|Credits drop when you deal damage to non-static objects.|color|"
 		 effect_1="damage_to_credits_multiplier,1"
