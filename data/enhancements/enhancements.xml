@@ -25,6 +25,9 @@
 	</array>
 
 	<array id="ENHANCEMENTS">
+
+<!-- Category: Cyberware -->
+
 		<node id="REDUCE_INCOMING_DAMAGE"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Extra Armor"
@@ -364,6 +367,8 @@
 		 tags="MOD_NEW"
 		/>
 
+<!-- Category: Weapons -->
+
 		<node id="RELOAD_PLASMA"
 		 category="WEAPON"
 		 title="Reload Plasma"
@@ -597,6 +602,8 @@
 		 tags="MOD_EDIT"
 		/>
 
+<!-- CATEGORY: Unused-1 -->
+
 		<node id="HP_DAMAGE"
 		 title="HP"
 		 description="Increases health and damage. (For companions)"
@@ -606,6 +613,8 @@
 		 effect_4="rate_of_fire_increase,0.25"
 		 tags="SPECIAL"
 		/>
+
+<!-- CATEGORY: Collectibles -->
 
 		<node id="SHOW_NEAREST_FRIENDS_OR_FOES"
 		 title="Radar"
@@ -641,6 +650,8 @@
 		 effect_1="accuracy_increase,0.25"
 		 tags="SPECIAL"
 		/>
+
+<!-- CATEGORY: Boosters -->
 
 		<node id="BOOSTER_BLUE"
 		 title="Bluebird"
@@ -681,6 +692,8 @@
 		 tags="SPECIAL,BOOSTER"
 		/>
 
+<!-- CATEGORY: Spideroid (???) -->
+
 		<node id="SPIDEROID_DOUBLE"
 		 title="SpideroidDouble"
 		 effect_1="spideroid_clone_amount,4"
@@ -698,6 +711,8 @@
 		 effect_1="spideroid_clone_amount,8"
 		 tags="SPECIAL"
 		/>
+
+<!-- CATEGORY: Enemy -->
 
 		<node id="HEALTH_4X"
 		 title="Health4X"
@@ -870,6 +885,8 @@
 		/>
 
 	</array>
+
+<!-- CATEGORY: Unused-2 -->
 
 	<array id="RESERVE_ENHANCEMENTS" desc="Not used in game, here for safekeeping.">
 		<node category_start="CYBERWARE-------------------------------------------------------------------------------------------------------------------" />
