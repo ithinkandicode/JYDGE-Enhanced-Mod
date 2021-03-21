@@ -1145,6 +1145,7 @@
 		 title="Melee Range Increase"
 		 description="|color|Increases your melee attack range by 20%.|colorend|"
 		 effect_1="melee_attack_range_increase,0.2"
+		 tags="NOT_IMPLEMENTED"
 		 medal_requirement="16"
 		/>
 
