@@ -429,8 +429,9 @@
 		<node id="MELEE_DAMAGE_INCREASE"
 		 category="MELEE"
 		 title="Power Gavel"
-		 description="|color|Increases melee damage by 300%.|colorend|"
+		 description="Increases |color|melee damage by 300%,|colorend| and |color|melee speed by 30%.|colorend|"
 		 effect_1="melee_damage_increase,3.0"
+		 effect_2="melee_speed_increase,0.3"
 		 medal_requirement="23"
 		/>
 
