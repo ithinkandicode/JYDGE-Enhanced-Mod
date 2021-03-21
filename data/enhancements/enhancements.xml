@@ -70,7 +70,7 @@
 		<node id="MORE_HEALTH"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Good Heart"
-		 description="|color|150% more health.|colorend|"
+		 description="|color|150% more |health|.|colorend|"
 		 effect_1="health_increase,1.5"
 		 medal_requirement="8"
 		/>
@@ -277,7 +277,7 @@
 		<node id="DAMAGE_TO_CREDITS"
 		 category="ATTRIBUTES_CREDITS"
 		 title="Damage Credits"
-		 description="|color|Credits drop when you deal damage to non-static objects.|color|"
+		 description="|color|Enemies drop|colorend| |img src='ui/gfx/credits.png'| |color|when you damage them.|color|"
 		 effect_1="damage_to_credits_multiplier,1"
 		 medal_requirement="94"
 		/>
@@ -368,12 +368,13 @@
 		 tags="MOD_NEW"
 		/>
 
+
 <!-- Category: Weapons -->
 
 		<node id="RELOAD_PLASMA"
 		 category="WEAPON"
 		 title="Reload Plasma"
-		 description="|color|Fires 360 degree plasma bolts each time you start reloading.|colorend|"
+		 description="|color|Fires 360 degree plasma bolts|colorend| each time you start |color|reloading.|colorend|"
 		 effect_1="reload_shot,weapons/reload-plasma.xml"
 		 medal_requirement="8"
 		/>
@@ -389,7 +390,7 @@
 		<node id="KILLS_HEAL"
 		 category="WEAPON"
 		 title="Killing Heals"
-		 description="|color|Heals 10|health| each time your projectiles kill a target.|colorend|"
+		 description="|color|Heals 10|health||colorend| each time your projectiles |color|kill a target.|colorend|"
 		 effect_1="nano_vampires,10.0"
 		 medal_requirement="11"
 		/>
@@ -397,7 +398,7 @@
 		<node id="FIRERATE_INCREASE"
 		 category="WEAPON"
 		 title="Rapid Fire"
-		 description="|color|Increases rate of fire by 20%.|colorend|"
+		 description="Increases |color|rate of fire by 20%.|colorend|"
 		 effect_1="rate_of_fire_increase,0.20"
 		 medal_requirement="13"
 		/>
@@ -413,7 +414,7 @@
 		<node id="PIERCING_LEAD"
 		 category="WEAPON"
 		 title="Piercing Lead"
-		 description="|color|Your non-shotgun lead projectiles pierce through walls.|colorend| Does not affect laser, plasma, or ion."
+		 description="|color|Non-shotgun LEAD projectiles pierce walls.|colorend| Does not affect laser, plasma, or ion."
 		 effect_1="bullets_pierce_walls"
 		 medal_requirement="16"
 		/>
@@ -421,7 +422,7 @@
 		<node id="ABILITY_USES_INCREASE_RELATIVE"
 		 category="WEAPON"
 		 title="Extra Specials"
-		 description="|color|You get 50% more special weapon uses per mission.|colorend|"
+		 description="You get |color|50% more special weapon uses|colorend| per mission."
 		 effect_1="ability_use_amount_increase,0.50"
 		 medal_requirement="21"
 		/>
@@ -490,7 +491,7 @@
 		<node id="MELEE_DAMAGE_INCREASE_BUT_LOWER_HEALTH"
 		 category="MELEE"
 		 title="Pain Gavel"
-		 description="|color|Increases melee damage by 1000% but lowers your |health| by 75%.|colorend|"
+		 description="|color|Increases melee damage by 1000%|colorend| but |#ff0000|lowers your |health| by 75%."
 		 effect_1="melee_damage_increase,10.0"
 		 effect_2="health_increase,-0.75"
 		 medal_requirement="49"
@@ -499,7 +500,7 @@
 		<node id="ION_WEAPON_SPLASH_DAMAGE_BOOST"
 		 category="WEAPON"
 		 title="Overcharge"
-		 description="|color|Ion weapon shock range is increased 25% and damage is doubled.|colorend|"
+		 description="|color|ION weapon shock range is increased 25%|colorend| and |color|shock damage is doubled.|colorend|"
 		 effect_1="ion_weapon_shock_damage_increase,1.00"
 		 effect_2="ion_weapon_shock_range_increase,0.25"
 		 medal_requirement="53"
@@ -508,7 +509,7 @@
 		<node id="FIRERATE_INCREASE_BUT_LONGER_RELOAD"
 		 category="WEAPON"
 		 title="Mighty Burst"
-		 description="|color|Increases rate of fire by 50% but slows down reload by 25%.|colorend|"
+		 description="|color|Increases rate of fire by 50%|colorend| but |#ff0000|slows down reload by 25%."
 		 effect_1="rate_of_fire_increase,0.50"
 		 effect_2="reload_speed_increase,-0.25"
 		 medal_requirement="57"
@@ -525,7 +526,7 @@
 		<node id="MELEE_KNOCKBACK"
 		 category="MELEE"
 		 title="Melee Knockback"
-		 description="|color|Your melee attacks knock back enemies.|colorend|"
+		 description="Your melee attacks |color|knock back enemies.|colorend|"
 		 effect_1="melee_push_back_increase,2.5"
 		 medal_requirement="65"
 		/>
@@ -533,7 +534,7 @@
 		<node id="TOUGH_RELOADER"
 		 category="WEAPON"
 		 title="Tough Reloader"
-		 description="|color|You are invulnerable while reloading your weapon.|colorend|"
+		 description="You are |color|invulnerable while reloading|colorend| your weapon."
 		 effect_1="tough_reloader"
 		 medal_requirement="69"
 		/>
@@ -541,7 +542,7 @@
 		<node id="MELEE_PERSUADE"
 		 category="MELEE"
 		 title="Lovestruck"
-		 description="|color|Your melee attacks may persuade the enemy|colorend| to become your ally."
+		 description="Your melee attacks may |color|persuade the enemy to become your ally.|colorend|"
 		 effect_1="melee_persuades"
 		 medal_requirement="75"
 		/>
@@ -549,7 +550,7 @@
 		<node id="MELEE_SPEED_INCREASE"
 		 category="MELEE"
 		 title="Fast Melee"
-		 description="|color|Your melee attacks are 100% faster.|colorend|"
+		 description="Your melee attacks are |color|100% faster,|colorend| and |color|charge twice as fast.|colorend|"
 		 effect_1="melee_speed_increase,2.0"
 		 medal_requirement="79"
 		/>
@@ -557,7 +558,7 @@
 		<node id="EXPLOSIVE_BULLET"
 		 category="WEAPON"
 		 title="Explosive Bullet"
-		 description="|color|The first round in every magazine explodes on impact.|colorend|"
+		 description="The |color|first round|colorend| in every magazine explodes on impact.|colorend|"
 		 effect_1="first_bullet_explosive"
 		 medal_requirement="83"
 		/>
@@ -573,7 +574,7 @@
 		<node id="CRISIS_PROTOCOL"
 		 category="WEAPON"
 		 title="Crisis Protocol"
-		 description="|color|Your normal projectiles inflict double base damage when your health is under 50%.|colorend|"
+		 description="Your normal projectiles |color|inflict double base damage|colorend| when your |health| |color|is under 50%.|colorend|"
 		 effect_1="crisis_protocol,0.5"
 		 medal_requirement="93"
 		/>
@@ -893,7 +894,9 @@
 <!-- CATEGORY: Unused-2 -->
 
 	<array id="RESERVE_ENHANCEMENTS" desc="Not used in game, here for safekeeping.">
+
 		<node category_start="CYBERWARE-------------------------------------------------------------------------------------------------------------------" />
+
 		<node id="REMEDY_HOSTAGE_DEATHS"
 		 category="MISC"
 		 title="Loss Assessment"
@@ -1115,6 +1118,7 @@
 		/>
 
 		<node category_start="WEAPON MODS-------------------------------------------------------------------------------------------------------------------" />
+
 		<node id="MELEE_ATTACK_RANGE_INCREASE"
 		 category="MELEE"
 		 title="Melee Range Increase"
@@ -1224,6 +1228,7 @@
 		/>
 
 		<node category_start="ABILITY MODS-------------------------------------------------------------------------------------------------------------------" />
+
 		<node id="ABILITY_USES_TO_HEALTH"
 		 category="ABILITY"
 		 title="Secondary Uses Give Health"
