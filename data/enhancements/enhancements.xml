@@ -12,7 +12,7 @@
 
 	<array id="ENHANCEMENTS">
 		<node id="REDUCE_INCOMING_DAMAGE"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Extra Armor"
 		 description="|color|Reduces incoming damage by 50%.|colorend|"
 		 effect_1="damage_resistance_increase,0.5"
@@ -51,7 +51,7 @@
 		/>
 
 		<node id="MORE_HEALTH"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Good Heart"
 		 description="|color|150% more health.|colorend|"
 		 effect_1="health_increase,1.5"
@@ -73,7 +73,7 @@
 		/>
 
 		<node id="RIOT_SHIELD"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Riot Shield"
 		 description="A riot shield that |color|blocks all frontal damage up to 200|health| before breaking.|colorend|"
 		 effect_1="riot_shield"
@@ -158,7 +158,7 @@
 		/>
 
 		<node id="SHIELD"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Shield"
 		 description="A regenerating force field |color|blocks 30 points of damage|colorend|."
 		 effect_1="shield_damage_blocked,30"
@@ -183,7 +183,7 @@
 		/>
 
 		<node id="RUTHLESS"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Rythless"
 		 description="Everything is |color|fast and rythless|colorend|. You deal massive damage, but won't survive a single hit.|colorend|"
 		 effect_1="speed_increase,0.01"
@@ -194,7 +194,7 @@
 		/>
 
 		<node id="EXPLOSION_RESISTANCE"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Explosion Immunity"
 		 description="|color|Immunity to explosions.|colorend| A direct rocket hit will still hurt you. They're sharp."
 		 effect_1="explosion_resistance_increase,1.0"
@@ -262,7 +262,7 @@
 		/>
 
 		<node id="INVULNERABILITY_START"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="Superhero"
 		 description="|color|You are invulnerable for the first 15 seconds of the mission.|colorend|"
 		 effect_1="invulnerability_seconds_at_start,16"
