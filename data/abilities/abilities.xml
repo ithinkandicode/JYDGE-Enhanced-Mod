@@ -157,7 +157,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 		 stop_time="true"
 		 max_level="1"
 
-		 number_of_uses="7"
+		 number_of_uses="6"
 
 		 additional_uses_per_upgrade_level="1"
 
