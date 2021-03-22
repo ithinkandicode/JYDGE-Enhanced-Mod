@@ -23,7 +23,7 @@
 			Plasma Shotghn technically counts as available, which stops it softlocking save files, but the UI doesn't extend far enough to view it.
 			The high medal requirement prevents the Plasma Shotgun's unlock notification from triggering, if the player hasn't unlocked it yet
 		-->
-		<!-- <node id="weapons/firemode-plasma-shotgun.xml"              medal_requirement="9999"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" /> -->
+		<node id="weapons/firemode-plasma-shotgun.xml"              medal_requirement="9999"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" />
 	</array>
 
 	<!--
