@@ -36,6 +36,7 @@
 		<node id="STUN_GRENADES"        medal_requirement="15"   upgrade_levels="6"     purchase_cost="2000"   upgrade_cost="150" />
 
 		<node id="MECHANICAL_SPIDER"    medal_requirement="19"   upgrade_levels="6"     purchase_cost="3000"   upgrade_cost="180" />
+		<node id="CLUSTER_GRENADES"     medal_requirement="23"   upgrade_levels="6"     purchase_cost="3500"   upgrade_cost="190" tags="MOD_NEW"/>
 		<node id="C4"                   medal_requirement="25"   upgrade_levels="6"     purchase_cost="4000"   upgrade_cost="190" />
 		<node id="FLAME_GRENADES"       medal_requirement="31"   upgrade_levels="6"     purchase_cost="5000"   upgrade_cost="200" />
 
@@ -48,6 +49,7 @@
 		<node id="EXPLOSIVE_BOLT"       medal_requirement="82"   upgrade_levels="6"     purchase_cost="11000"  upgrade_cost="200" />
 
 		<node id="STUN_PULSE"           medal_requirement="98"  upgrade_levels="6"      purchase_cost="12000"  upgrade_cost="200" />
+		<node id="ANTIOCH_GRENADES"     medal_requirement="113"  upgrade_levels="6"     purchase_cost="12500"  upgrade_cost="200" tags="MOD_NEW"/>
 		<node id="NADE_LAUNCHER"        medal_requirement="125"  upgrade_levels="6"     purchase_cost="13000"  upgrade_cost="200" />
 		<node id="TURRET_MACHINE_GUN"   medal_requirement="138"  upgrade_levels="4"     purchase_cost="14000"  upgrade_cost="200" />
 	</array>
