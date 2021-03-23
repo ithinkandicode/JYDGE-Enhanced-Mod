@@ -309,7 +309,7 @@
 		/>
 
 		<node id="GIANT"
-		 category="ATTRIBUTES"
+		 category="ATTRIBUTES_HEALTH"
 		 title="GIANT!"
 		 description="You are |color|giant sized! Gain 300% more |health| and melee damage, and |color|2.5x melee knockback|colorend|. You may not fit through doors though."
 		 effect_1="scale_increase,0.5"
