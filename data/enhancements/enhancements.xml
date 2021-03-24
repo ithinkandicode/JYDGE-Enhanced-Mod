@@ -73,10 +73,6 @@
 		 medal_requirement="0"
 		/>
 
-		<!--
-		explosion_resistance_increase,1.0
-		-->
-
 		<!-- END TESTS -->
 
 
@@ -676,6 +672,16 @@
 		 description="Your normal projectiles |color|inflict double base damage|colorend| when your |health| |color|is under 50%.|colorend|"
 		 effect_1="crisis_protocol,0.5"
 		 medal_requirement="93"
+		/>
+
+		<node id="_NO_FUSE"
+		 category="WEAPON"
+		 title="No Fuse"
+		 description="|color|Grenades explode instantly.|colorend|"
+		 effect_1="grenade_fuse_time_multiplier,-1.0"
+		 effect_2="grenade_explosive_radius_increase,-0.20"
+		 medal_requirement="99"
+		 tags="MOD_NEW"
 		/>
 
 		<node id="_SPLINTER_BULLETS"
