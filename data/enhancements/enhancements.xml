@@ -14,6 +14,7 @@
 
 		<node id="WEAPON" color="0,0.25,1" />  <!-- Weapon: Light Blue ~~Orange[1,0.5,0]~~ -->
 		<node id="MELEE"  color="1,1,0" />    <!-- Weapon: Yellow -->
+		<node id="MELEE_WEAK"  color="1,1,0.5" />    <!-- Weapon: Yellow -->
 
 		<node id="WEAPON_LEAD"     color="0.5,0.5,0.5" color_name="grey" />
 		<node id="WEAPON_PLASMA"   color="1,0.5,0"     color_name="orange" />
@@ -436,6 +437,26 @@
 		 medal_requirement="16"
 		/>
 
+		<node id="_ACCURATE"
+		 category="WEAPON"
+		 title="Accurate"
+		 description="|color|Perfect accuracy|colorend| with most non-shotgun weapons."
+		 effect_1="accuracy_increase,999.0"
+		 medal_requirement="18"
+		 tags="MOD_NEW"
+		/>
+
+		<node id="_RUBBER_MALLET"
+		 category="MELEE_WEAK"
+		 title="Rubber Mallet"
+		 description="Melee attacks gain |color|massive knockback|colorend|, but |#ff0000|do no damage.|#ffffff|"
+		 effect_1="melee_damage_increase,-49.95"
+		 effect_2="melee_push_back_increase,10"
+		 effect_3="melee_speed_increase,0.2"
+		 medal_requirement="20"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="ABILITY_USES_INCREASE_RELATIVE"
 		 category="WEAPON"
 		 title="Extra Specials"
@@ -510,6 +531,16 @@
 		 effect_1="melee_damage_increase,10.0"
 		 effect_2="health_increase,-0.75"
 		 medal_requirement="49"
+		/>
+
+		<node id="_ARMORY"
+		 category="WEAPON"
+		 title="Armory"
+		 description="|color|Clip size is increased x8|colorend|, but the extra weight slows you down to |#ff0000|half speed.|#ffffff|"
+		 effect_1="speed_increase,-0.50"
+		 effect_2="clip_size_increase,8.0"
+		 medal_requirement="51"
+		 tags="MOD_NEW"
 		/>
 
 		<node id="ION_WEAPON_SPLASH_DAMAGE_BOOST"
