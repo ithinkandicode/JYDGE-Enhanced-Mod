@@ -475,6 +475,15 @@
 		 medal_requirement="23"
 		/>
 
+		<node id="_ACTIVE_RELOAD"
+		 category="WEAPON"
+		 title="Active Reload"
+		 description="|color|Increases manual reload speed by 50%.|colorend|"
+		 effect_1="manual_reload_speed_increase,0.5"
+		 medal_requirement="26"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="MELEE_DEFLECTS_PROJECTILES"
 		 category="MELEE"
 		 title="360 Deflect"
