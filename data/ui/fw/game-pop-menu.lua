@@ -112,6 +112,13 @@ SetProperty ("parent", "aligner_buttons");
 SetProperty ("position", -0.125, 0);
 SetProperty ("button.text", "Restart");
 
+CreateComp ("Textbox", "RestartInfo");
+SetProperty ("inherit", "SmallTextbox");
+SetProperty ("parent", "aligner_buttons");
+SetProperty ("position", -10.0, 20);
+SetProperty ("scale", 0.55);
+SetProperty ("textbox.text", "Hold to change loadout");
+
 CreateComp ("Button", "Options");
 SetProperty ("parent", "aligner_buttons");
 SetProperty ("position", 0.125, 0);
