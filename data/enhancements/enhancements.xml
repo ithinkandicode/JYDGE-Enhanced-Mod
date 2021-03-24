@@ -448,7 +448,7 @@
 		/>
 
 		<node id="_RUBBER_MALLET"
-		 category="MELEE_WEAK"
+		 category="MELEE"
 		 title="Rubber Mallet"
 		 description="Melee attacks gain |color|massive knockback|colorend|, but |#ff0000|do no damage.|#ffffff|"
 		 effect_1="melee_damage_increase,-49.95"
