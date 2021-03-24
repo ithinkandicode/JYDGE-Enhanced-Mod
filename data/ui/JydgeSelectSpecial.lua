@@ -435,7 +435,7 @@ SetProperty ("parent", "marker_not_enough_medals");
 SetProperty ("position", 0.00348896, 0.338096);
 SetProperty ("position.z", -0.0219435);
 SetProperty ("align", "CENTER");
-SetProperty ("image.bitmap", "ui/gfx/lock.png");
+SetProperty ("image.bitmap", "ui/gfx/lock_pale.png");
 
 CreateComp ("Textbox", "WeaponDescEarnMoreMedals");
 SetProperty ("inherit", "SmallTextbox");
