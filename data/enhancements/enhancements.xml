@@ -259,15 +259,6 @@
 		 medal_requirement="74"
 		/>
 
-		<node id="_HEALTH_FROM_DAMAGE"
-		 category="ATTRIBUTES_HEALTH"
-		 title="DeSade"
-		 description="|color|Gain |health| equal to 20% of damage done.|colorend|"
-		 effect_1="caused_damage_to_health,0.20"
-		 medal_requirement="78"
-		 tags="MOD_NEW"
-		/>
-
 		<node id="EXPLOSION_RESISTANCE"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Explosion Immunity"
@@ -291,6 +282,15 @@
 		 description="|color|Damage dealt to enemies with 50% or less |health| left is increased by 20%.|colorend|"
 		 effect_1="increased_damage_to_low_health_foes,0.20"
 		 medal_requirement="90"
+		/>
+
+		<node id="_HEALTH_FROM_DAMAGE"
+		 category="ATTRIBUTES_HEALTH"
+		 title="DeSade"
+		 description="|color|Gain |health| equal to 20% of damage done.|colorend|"
+		 effect_1="caused_damage_to_health,0.20"
+		 medal_requirement="91"
+		 tags="MOD_NEW"
 		/>
 
 		<node id="DAMAGE_TO_CREDITS"
