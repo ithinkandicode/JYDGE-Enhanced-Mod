@@ -318,6 +318,7 @@
 		 effect_3="melee_damage_increase,3.0"
 		 effect_4="melee_push_back_increase,3"
 		 medal_requirement="106"
+		 tags="MOD_EDIT"
 		/>
 
 		<node id="REFLEX_BOOSTER"
