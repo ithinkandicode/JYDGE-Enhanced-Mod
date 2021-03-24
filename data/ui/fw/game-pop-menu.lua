@@ -112,11 +112,11 @@ SetProperty ("parent", "aligner_buttons");
 SetProperty ("position", -0.125, 0);
 SetProperty ("button.text", "Restart");
 
-CreateComp ("Textbox", "RestartInfo");
+CreateComp ("Textbox", "RestartInfo_1");
 SetProperty ("inherit", "SmallTextbox");
-SetProperty ("parent", "aligner_buttons");
-SetProperty ("position", -10.0, 20);
-SetProperty ("scale", 0.55);
+SetProperty ("parent", "ninepatch_1");
+SetProperty ("position", 1.27, 3.25);
+SetProperty ("scale", 0.5);
 SetProperty ("textbox.text", "Hold to change loadout");
 
 CreateComp ("Button", "Options");
