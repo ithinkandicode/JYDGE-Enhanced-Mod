@@ -312,11 +312,11 @@
 		<node id="GIANT"
 		 category="ATTRIBUTES_HEALTH"
 		 title="GIANT!"
-		 description="You are |color|giant sized! Gain 300% more |health| and melee damage, and |color|2.5x melee knockback|colorend|. You may not fit through doors though."
+		 description="You are |color|giant sized! Gain 300% |health|, melee damage, and melee knockback|colorend|. You may not fit through doors though."
 		 effect_1="scale_increase,0.5"
 		 effect_2="health_increase,3.0"
 		 effect_3="melee_damage_increase,3.0"
-		 effect_4="melee_push_back_increase,2.5"
+		 effect_4="melee_push_back_increase,3"
 		 medal_requirement="106"
 		/>
 
