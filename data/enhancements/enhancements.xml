@@ -223,6 +223,15 @@
 		 medal_requirement="59"
 		/>
 
+		<node id="_BOSS_KILLER"
+		 category="MISC"
+		 title="Boss Killer"
+		 description="Gain |color|20% increased damage to bosses.|colorend|"
+		 effect_1="boss_killer,0.2"
+		 medal_requirement="62"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="STUN_DAMAGE"
 		 category="MISC"
 		 title="Stunning Pain"
