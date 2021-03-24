@@ -38,6 +38,49 @@
 
 <!-- CATEGORY: Cyberware -->
 
+		<!-- (TEST_1) -->
+
+		<node id="TEST_1"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Boss Killer"
+		 description="Gain |color|20% increased damage to bosses.|colorend|"
+		 effect_1="boss_killer,0.2"
+		 medal_requirement="0"
+		/>
+
+		<node id="TEST_2"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Explosive Finish"
+		 description="Enemies have a |color|100% chance to drop a live grenade|color| when they die."
+		 effect_1="enemy_drops_grenades_chance,1.0"
+		 medal_requirement="0"
+		/>
+
+		<node id="TEST_3"
+		 category="ATTRIBUTES_HEALTH"
+		 title="title_goes_here"
+		 description="|color|Explosives you deploy have a |color|100% to spawn three small submunitions|colorend|"
+		 effect_1="explosive_submunitions_chance,1.0"
+		 medal_requirement="0"
+		/>
+
+		<node id="TEST_4"
+		 category="ATTRIBUTES_HEALTH"
+		 title="grenade_explosive_radius_increase"
+		 description="|color|Grenades fuse times are halved|colorend|, and their |color|explosive radius is increased by 20%.|colorend|"
+		 effect_1="grenade_fuse_time_multiplier,0.50"
+		 effect_2="grenade_explosive_radius_increase,0.20"
+		 medal_requirement="0"
+		/>
+
+		<!--
+		explosion_resistance_increase,1.0
+		-->
+
+		<!-- END TESTS -->
+
+
+
 		<node id="REDUCE_INCOMING_DAMAGE"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Extra Armor"
