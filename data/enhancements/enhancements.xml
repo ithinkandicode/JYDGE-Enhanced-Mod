@@ -339,7 +339,7 @@
 		/>
 
 		<node id="_CLUMSY"
-		 category="ATTRIBUTES_HEALTH"
+		 category="MISC"
 		 title="Clumsy"
 		 description="Enemies have a |color|10% chance to drop a live grenade|color| when they die."
 		 effect_1="enemy_drops_grenades_chance,0.1"
