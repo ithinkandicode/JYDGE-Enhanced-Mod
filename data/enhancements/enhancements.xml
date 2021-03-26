@@ -397,6 +397,7 @@
 		 medal_requirement="126"
 		/>
 
+		<!---
 		<node id="_HEALTH_REGENERATION"
 		 category="ATTRIBUTES_HEALTH"
 		 title="Immortality"
@@ -406,6 +407,7 @@
 		 medal_requirement="130"
 		 tags="MOD_NEW"
 		/>
+		-->
 
 		<node id="ENEMIES_START_WITH_LOWER_HEALTH"
 		 category="__DEPRECATED"
