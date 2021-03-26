@@ -467,17 +467,6 @@
 		 tags="MOD_NEW"
 		/>
 
-		<node id="_RUBBER_MALLET"
-		 category="MELEE"
-		 title="Rubber Mallet"
-		 description="Melee attacks gain |color|massive knockback|colorend|, but |#ff0000|do no damage.|#ffffff|"
-		 effect_1="melee_damage_increase,-49.95"
-		 effect_2="melee_push_back_increase,10"
-		 effect_3="melee_speed_increase,0.2"
-		 medal_requirement="20"
-		 tags="MOD_NEW"
-		/>
-
 		<node id="ABILITY_USES_INCREASE_RELATIVE"
 		 category="WEAPON"
 		 title="Extra Specials"
