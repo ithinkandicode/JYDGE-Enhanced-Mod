@@ -710,7 +710,7 @@
 		<node id="_TRIPLE_BANGERS"
 		 category="WEAPON"
 		 title="Triple Bangers"
-		 description="|color|Grenades you deploy spawn three small submunitions|colorend|"
+		 description="|color|Grenades you deploy spawn three small submunitions.|colorend|"
 		 effect_1="explosive_submunitions_chance,1.0"
 		 medal_requirement="150"
 		 tags="MOD_NEW"
