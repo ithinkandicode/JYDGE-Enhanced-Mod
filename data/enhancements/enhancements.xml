@@ -363,7 +363,7 @@
 
 		<node id="_CLUMSY"
 		 category="ATTRIBUTES_HEALTH"
-		 title="Explosive Finish"
+		 title="Clumsy"
 		 description="Enemies have a |color|10% chance to drop a live grenade|color| when they die."
 		 effect_1="enemy_drops_grenades_chance,0.1"
 		 medal_requirement="111"
@@ -648,7 +648,7 @@
 
 		<node id="_BIG_BOOMER"
 		 category="WEAPON"
-		 title="grenade_explosive_radius_increase"
+		 title="Big Boomer"
 		 description="|color|Grenades fuse times are halved|colorend|, and their |color|explosive radius is increased by 50%.|colorend|"
 		 effect_1="grenade_fuse_time_multiplier,0.50"
 		 effect_2="grenade_explosive_radius_increase,0.5"
