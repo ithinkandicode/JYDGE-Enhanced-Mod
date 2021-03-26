@@ -190,7 +190,7 @@
 
 		<node id="_HEALTH_VAMPIRE"
 		 category="ATTRIBUTES_HEALTH"
-		 title="Vampiric DeSade"
+		 title="Vampire"
 		 description="|color|Drain |health| from everything around you.|colorend|"
 		 effect_1="vampiric_ring_range,150"
 		 effect_2="vampiric_ring_power,30"
