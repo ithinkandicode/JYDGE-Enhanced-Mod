@@ -28,7 +28,7 @@
 
 		<node id="CUSTOM_DATA"
 		tesla_attack_radius="130"
-		max_tesla_attack_targets="2"
+		max_tesla_attack_targets="4"
 		bullet_scale="2"
 		bitmap_lightning="actors/gfx/bullet-ion-bolt-lighting-tiny.png"
 		bitmap_lightning_alpha="0.03" />
