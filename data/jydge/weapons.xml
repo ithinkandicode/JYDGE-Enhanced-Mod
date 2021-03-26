@@ -7,13 +7,13 @@
 		<node id="weapons/firemode-plasma-assault-rifle.xml"        medal_requirement="5"    upgrade_levels="10"    purchase_cost="2000"  upgrade_cost="80" />
 		<node id="weapons/firemode-laser-assault-rifle.xml"         medal_requirement="10"   upgrade_levels="10"    purchase_cost="3000"  upgrade_cost="90" />
 		<node id="weapons/firemode-ion-assault-rifle.xml"           medal_requirement="20"   upgrade_levels="10"    purchase_cost="4000"  upgrade_cost="100" />
-		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="60"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" tags="MOD_NEW" />
+		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="30"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="140" tags="MOD_NEW" />
 		<node id="weapons/firemode-lead-assault-rifle.xml"          medal_requirement="40"   upgrade_levels="10"    purchase_cost="6000"  upgrade_cost="120" />
 		<node id="weapons/firemode-lead-sniper.xml"                 medal_requirement="50"   upgrade_levels="10"    purchase_cost="7000"  upgrade_cost="130" />
-		<node id="weapons/firemode-plasma-smg.xml"                  medal_requirement="30"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="120" tags="MOD_EDIT" />
+		<node id="weapons/firemode-plasma-smg.xml"                  medal_requirement="60"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="120" tags="MOD_EDIT" />
 		<node id="weapons/firemode-lead-serial-shotgun.xml"       	medal_requirement="80"   upgrade_levels="10"    purchase_cost="10000" upgrade_cost="160" />
-		<node id="weapons/firemode-minigun.xml"             		medal_requirement="100"  upgrade_levels="10"    purchase_cost="10000" upgrade_cost="170" />
-		<node id="weapons/firemode-ion-shotgun.xml"                 medal_requirement="70"   upgrade_levels="10"    purchase_cost="9000"  upgrade_cost="150" tags="MOD_EDIT" />
+		<node id="weapons/firemode-minigun.xml"             		medal_requirement="90"   upgrade_levels="10"    purchase_cost="10000" upgrade_cost="170" />
+		<node id="weapons/firemode-ion-shotgun.xml"                 medal_requirement="100"  upgrade_levels="10"    purchase_cost="9000"  upgrade_cost="150" tags="MOD_EDIT" />
 		<node id="weapons/firemode-rocket-launcher.xml"             medal_requirement="120"  upgrade_levels="10"    purchase_cost="10000" upgrade_cost="180" />
 		<node id="weapons/firemode-charged-plasma.xml"              medal_requirement="140"  upgrade_levels="10"    purchase_cost="11000" upgrade_cost="200" />
 
