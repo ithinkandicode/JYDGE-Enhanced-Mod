@@ -59,17 +59,6 @@
 		 tags="MOD_NEW"
 		/>
 
-		<node id="TEST_4"
-		 category="ATTRIBUTES_HEALTH"
-		 title="grenade_explosive_radius_increase"
-		 description="|color|Grenades fuse times are halved|colorend|, and their |color|explosive radius is increased by 20%.|colorend|"
-		 effect_1="grenade_fuse_time_multiplier,0.50"
-		 effect_2="grenade_explosive_radius_increase,0.20"
-		 medal_requirement="0"
-		 tags="MOD_NEW"
-		/>
-		-->
-
 		<!-- END TESTS -->
 
 		<node id="REDUCE_INCOMING_DAMAGE"
@@ -370,6 +359,15 @@
 		 description="|color|Time doesn't move unless you do.|colorend| The booster unit has no cooling so it may get super hot."
 		 effect_1="stop_time_when_inactive"
 		 medal_requirement="110"
+		/>
+
+		<node id="_CLUMSY"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Explosive Finish"
+		 description="Enemies have a |color|10% chance to drop a live grenade|color| when they die."
+		 effect_1="enemy_drops_grenades_chance,0.1"
+		 medal_requirement="111"
+		 tags="MOD_NEW"
 		/>
 
 		<node id="COMPANION_BOOST"
