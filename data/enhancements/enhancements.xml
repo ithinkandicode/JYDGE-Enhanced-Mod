@@ -296,8 +296,8 @@
 		<node id="_HEALTH_FROM_DAMAGE"
 		 category="ATTRIBUTES_HEALTH"
 		 title="DeSade"
-		 description="|color|Gain |health| equal to 20% of damage done.|colorend|"
-		 effect_1="caused_damage_to_health,0.20"
+		 description="|color|Gain |health| equal to 5% of damage done.|colorend|"
+		 effect_1="caused_damage_to_health,0.05"
 		 medal_requirement="91"
 		 tags="MOD_NEW"
 		/>
