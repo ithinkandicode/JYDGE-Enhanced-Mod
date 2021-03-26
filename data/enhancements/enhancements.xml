@@ -648,6 +648,16 @@
 		 medal_requirement="75"
 		/>
 
+		<node id="_BIG_BOOMER"
+		 category="WEAPON"
+		 title="grenade_explosive_radius_increase"
+		 description="|color|Grenades fuse times are halved|colorend|, and their |color|explosive radius is increased by 50%.|colorend|"
+		 effect_1="grenade_fuse_time_multiplier,0.50"
+		 effect_2="grenade_explosive_radius_increase,0.5"
+		 medal_requirement="76"
+		 tags="MOD_NEW"
+		/>
+
 		<node id="MELEE_SPEED_INCREASE"
 		 category="MELEE"
 		 title="Fast Melee"
@@ -721,16 +731,6 @@
 		 effect_2="bullets_pierce_actors"
 		 medal_requirement="124"
 		 tags="MOD_EDIT"
-		/>
-
-		<node id="_BIG_BOOMER"
-		 category="WEAPON"
-		 title="grenade_explosive_radius_increase"
-		 description="|color|Grenades fuse times are halved|colorend|, and their |color|explosive radius is increased by 50%.|colorend|"
-		 effect_1="grenade_fuse_time_multiplier,0.50"
-		 effect_2="grenade_explosive_radius_increase,0.5"
-		 medal_requirement="131"
-		 tags="MOD_NEW"
 		/>
 
 		<node id="_PLASMA_FLAMES"
