@@ -736,10 +736,10 @@
 		<node id="_PLASMA_FLAMES"
 		 category="WEAPON_PLASMA"
 		 title="Flaming Plasma"
-		 description="|color|Increases PLASMA damage by 30%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
+		 description="|color|Increases PLASMA damage by 40%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
 		 effect_1="crit_flames,8.0"
-		 effect_2="damage_increase_per_damage_type,0.30,PROJECTILE_PLASMA"
-		 medal_requirement="131"
+		 effect_2="damage_increase_per_damage_type,0.40,PROJECTILE_PLASMA"
+		 medal_requirement="145"
 		 tags="MOD_NEW"
 		/>
 
