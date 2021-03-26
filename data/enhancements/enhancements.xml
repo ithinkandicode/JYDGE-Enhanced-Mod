@@ -700,7 +700,7 @@
 		<node id="_PLASMA_FLAMES"
 		 category="WEAPON_PLASMA"
 		 title="Flaming Plasma"
-		 description="|color|Increases PLASMA damage by 40%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
+		 description="|color|Increases PLASMA damage by 40%.|colorend| Plasma shots set |color|enemies on fire,|colorend| which may cause them to flee."
 		 effect_1="crit_flames,8.0"
 		 effect_2="damage_increase_per_damage_type,0.40,PROJECTILE_PLASMA"
 		 medal_requirement="145"
