@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <root>
 
+	<!-- Note: color_name is only for reference & doesn't appear in the original files -->
+
 	<array id="CATEGORIES">
-		<node id="ATTRIBUTES" color="0.55,0.5,0.85" />       <!-- Cyberware: Violet[0.55,0.5,0.85] ~~BrightGreen[0,1,0.5]~~ -->
+		<node id="ATTRIBUTES" color="0.1,0.5,1" />     <!-- Cyberware: Blue -->
 		<node id="MISC"       color="1,0.1,1" />       <!-- Cyberware: Pink -->
 		<node id="COMPANION"  color="0.25,1,0.25" />   <!-- Cyberware: Green -->
 
@@ -10,22 +12,21 @@
 		<node id="ATTRIBUTES_CREDITS"  color="1,1,0" />         <!-- Cyberware: Yellow -->
 		<node id="ATTRIBUTES_STEALTH"  color="0.25,0.5,0.5" />  <!-- Cyberware: Turqiose -->
 		<node id="ATTRIBUTES_CIVILIAN" color="1,0.5,0.5" />     <!-- Cyberware: Salmon -->
-		<node id="ATTRIBUTES_DAMAGE"   color="1,0,0.5" />       <!-- Cyberware: Damage -->
+		<node id="ATTRIBUTES_DAMAGE"   color="1,0,0.5" />       <!-- Cyberware: HotPink -->
 
-		<node id="WEAPON" color="0.1,0.5,1" />        <!-- Weapon: CyberwareBlue ~~LightBlue[0,0.25,1]~~ ~~Orange[1,0.5,0]~~ -->
-		<node id="MELEE"  color="1,1,0" />           <!-- Weapon: Yellow -->
-		<node id="MELEE_WEAK"  color="1,1,0.5" />    <!-- Weapon: PaleYellow (unused) -->
+		<node id="WEAPON" color="1,0.5,0" />     <!-- Weapon: Orange -->
+		<node id="MELEE"  color="1,0,0" />       <!-- Weapon: Red -->
 
-		<node id="WEAPON_LEAD"     color="0.5,0.5,0.5" color_name="grey" />
-		<node id="WEAPON_PLASMA"   color="1,0.5,0"     color_name="orange" />
-		<node id="WEAPON_LASER"    color="1,0.1,0.1"   color_name="red" />
-		<node id="WEAPON_ION"      color="0.5,1,1"     color_name="blue_light" />
-		<node id="WEAPON_CIVILIAN" color="1,0.5,0.5"   color_name="salmon" />
+		<node id="WEAPON_LEAD"     color="0.5,0.5,0.5" /> <!-- Weapon: Lead Grey -->
+		<node id="WEAPON_PLASMA"   color="1,0.85,0" />    <!-- Weapon: Plasma Gold -->
+		<node id="WEAPON_LASER"    color="1,0.1,0.1" />   <!-- Weapon: Laser Red -->
+		<node id="WEAPON_ION"      color="0.5,1,1" />     <!-- Weapon: Ion Cyan -->
+		<node id="WEAPON_CIVILIAN" color="1,0.5,0.5" />   <!-- Weapon: Civilian PalePink -->
 
 		<node id="ABILITY" color="1,0,1" />   <!-- Unused: Pink (again) -->
 
 		<node id="TEST_GROUP_CYBERWARE" color="1,1,1" />
-		<node id="TEST_GROUP_WEAPONS" color="0,0,1" />
+		<node id="TEST_GROUP_WEAPONS"   color="0,0,1" />
 
 		<!--
 		Used by items that have been replaced/removed, but which should remain
