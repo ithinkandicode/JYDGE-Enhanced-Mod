@@ -2,7 +2,7 @@
 <root>
 
 	<array id="CATEGORIES">
-		<node id="ATTRIBUTES" color="0.1,0.5,1" />     <!-- Cyberware: Blue -->
+		<node id="ATTRIBUTES" color="0.55,0.5,0.85" />       <!-- Cyberware: Violet[0.55,0.5,0.85] ~~BrightGreen[0,1,0.5]~~ -->
 		<node id="MISC"       color="1,0.1,1" />       <!-- Cyberware: Pink -->
 		<node id="COMPANION"  color="0.25,1,0.25" />   <!-- Cyberware: Green -->
 
@@ -12,9 +12,9 @@
 		<node id="ATTRIBUTES_CIVILIAN" color="1,0.5,0.5" />     <!-- Cyberware: Salmon -->
 		<node id="ATTRIBUTES_DAMAGE"   color="1,0,0.5" />       <!-- Cyberware: Damage -->
 
-		<node id="WEAPON" color="0,0.25,1" />  <!-- Weapon: Light Blue ~~Orange[1,0.5,0]~~ -->
-		<node id="MELEE"  color="1,1,0" />    <!-- Weapon: Yellow -->
-		<node id="MELEE_WEAK"  color="1,1,0.5" />    <!-- Weapon: Yellow -->
+		<node id="WEAPON" color="0.1,0.5,1" />        <!-- Weapon: CyberwareBlue ~~LightBlue[0,0.25,1]~~ ~~Orange[1,0.5,0]~~ -->
+		<node id="MELEE"  color="1,1,0" />           <!-- Weapon: Yellow -->
+		<node id="MELEE_WEAK"  color="1,1,0.5" />    <!-- Weapon: PaleYellow (unused) -->
 
 		<node id="WEAPON_LEAD"     color="0.5,0.5,0.5" color_name="grey" />
 		<node id="WEAPON_PLASMA"   color="1,0.5,0"     color_name="orange" />
