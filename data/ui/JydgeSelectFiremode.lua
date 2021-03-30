@@ -454,7 +454,7 @@ SetProperty ("parent", "marker_not_enough_medals");
 SetProperty ("position", 0.00348896, 0.371011);
 SetProperty ("position.z", -0.0154341);
 SetProperty ("align", "CENTER");
-SetProperty ("image.bitmap", "ui/gfx/lock_pale.png");
+SetProperty ("image.bitmap", "ui/gfx/lock.png");
 
 CreateComp ("Button", "Close");
 SetProperty ("inherit", "SmallSquareXButton");
