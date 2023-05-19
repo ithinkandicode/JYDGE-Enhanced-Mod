@@ -2,52 +2,70 @@
 
 A huge mod for the game JYDGE, by 10tons.
 
-@todo: Check the Recalibrated mod, and remove any duplicate entries from the notes below
-
-@todo: Fast Reload: I've removed it, but maybe it could work with a smaller buff plus a big debuff? ("light ammo"?)
+Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/mods/2), by Illamasqua. Be sure to read that mod's description to see what else has changed.
 
 
-## What's New
+## Overview
 
-Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/mods/2) (by Illamasqua). Be sure to read that mod's description to see what else has changed.
-
-**New Stuff**
+### New Stuff
 
 - New Weapon (1)
 - New Cyberware (8)
 - New Gavel Mods (9)
 - New Specials (2)
 
-**New Features**
+### New Features
 
 - The level editor is now available from the main menu! ✨
-- The Jydge has a new custom color scheme, inspired by Judge Dredd! (note: this might be moved to a standalone mod later)
+- The Jydge has a new custom color scheme, inspired by Judge Dredd!
+  - *Note: This might be moved to a standalone mod later.*
+
+### Balancing
+
+- Loads of weapons and perks have been altered to be more powerful or more interesting, creating new synergies and builds, and making everything you unlock worth trying.
+- The order of some weapon unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
+- Extra love given to grenades and melee, with new and edited perks that make them more powerful.
+- Removed some OP vanilla perks (*Sickness, Fast Reload, Extended Magazine*).
+  - These were so OP that they fit into any build, and not using them feels like playing with a major handicap.
+  - Instead, this mods aims for balance across all items, so that nearly everything feels like a viable choice.
+
+### Misc Tweaks
+
+- Weapons and perks are now grouped into colours, making it easier to equip gear that matches your build.
+- Rocket and ion FX are toned down. It's now much easier to see where to aim and dodge.
+- Loads of QoL text changes.
+
+### Extensively Tested
+
+- I've played a full game with this mod, all the way up to Grim difficulty, and only upgrading weapons up to about half-way to ensure that you rarely need to grind.
 
 
-### Costs
 
-- Reduced costs of the last enhancement 2 slots:
-  - Cyberware: 40k > 30k
-  - Gavel: 30k > 20k
-- Reduced costs of secondary weapons. Cost reductions are more drastic for early game unlocks, when players are likely to be saving for enhancement slots.
-- Costs should now be low enough to buy a few new unlocks impacting your savings as much.
+## Costs
+
+- Reduced costs of the last enhancement 2 slots.
+  - Cyberware: 40k > 30k (Slot 4)
+  - Gavel: 30k > 20k (Slot 3)
+- Reduced costs of secondary weapons.
+  - Cost reductions are more drastic for early game unlocks, when players are likely to be saving for enhancement slots.
+- *Costs should now be low enough to buy a few new unlocks without impacting your savings as much.*
 
 
-### Weapons
+## Weapons
 
-**New Weapon**
+### New Weapon
 
 - Laser Shotgun!
-  - This is the single cut weapon from the vanilla game files, now restored.
+  - This is a cut weapon from the vanilla game files, now restored.
   - The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. So I removed the Plasma Shotgun, as Plasma Burst does something similar already.
   - The unused vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. It keeps its very long range.
   - Unlocks after 30 medals.
 
-**Balance & Tweaks**
+### Balance & Tweaks
 
 - Lead Byllets + Shotgyn:
   - Now have 5 upgrade levels instead of 10.
-  - *Aims to discourage wasting points with those weaker weapons.*
+  - *Aims to discourage wasting points with these weaker starter weapons.*
 - Ion Rifle:
   - Raised medal requirement slightly (18 > 20).
   - *This makes it consistent with other requirements, as most weapons unlock after every 10 medals.*
@@ -56,13 +74,13 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - Base damage has been doubled (7 > 14).
   - Max targets: 2 > 4
   - *Ion weapons feel pretty weak in vanilla, especially with so few perks. But this massive buff should let the Ion Shotgun contend with other late-game weapons.*
-- Plasma SMG (Rypid Plasma):
+- Rypid Plasma (Plasma SMG):
   - Increased damage: 12 > 16
   - Faster reload: 1.75 > 1.25
   - *Makes this flamethrower feel a lot more powerful.*
 - Lead Sniper:
   - Increase damage: 100 > 140
-  - *Lets you score one-shots more reliably, and makes this thing even more powerful with uprgades.*
+  - *Lets you score one-shots more reliably, and makes upgrades even more powerful.*
 - Tiny Ryckets (Rocket Launcher):
   - Increased damage: 20 > 25
   - *Rockets now deal slightly more damage on impact.*
@@ -71,14 +89,14 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Recalibrated already buffed this weapon, but charging still felt too slow fot the last weapon unlock. Now it's even more deserving of that final slot.*
 
 
-### Specials (Abilities)
+## Specials (Abilities)
 
-**New Abilities**
+### New Abilities
 
 - Cluster Grenades - unlocks at 23 medals
 - Antioch Grenades - unlocks at 113 medals
 
-**Balance & Tweaks**
+### Balance & Tweaks
 
 - Slots:
   - Unlock cost for slot 3: 40,000 > 30,000
@@ -88,12 +106,15 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Explosive Bolts do roughly the same thing as the Grenade Launcher. This tweak makes them more unique, and gives you plenty of chances to miss your shots.*
 - Overall Costs:
   - The cost to unlock every ability has been drastically reduced.
-  - *This should make it easier and faster to try out unlocks as you acquire them.*
+  - *Makes it easier and faster to try new unlocks as you acquire them.*
 
 
-### Cyberware (Enhancements 1)
+## Cyberware (Enhancements 1)
 
-**New Cyberware**
+### New Cyberware
+
+<details>
+  <summary style="color: #E06C75">SPOILER. Click to view all the new Cyberware.</summary>
 
 | Name             | Effect |
 | ---------------- | ------ |
@@ -105,28 +126,34 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 | DeSade           | Gain HP equal to 5% of damage done. |
 | Clumsy           | Enemies have a 10% chance to drop a live grenade when they die. |
 | Slowdown Field   | Enemies within the field walk slowly. Combos with Friend of Mine. |
+</details>
 
-**Balance & Tweaks**
+### Balance & Tweaks
 
 - Bullet Dodger:
   - Now also makes you turn instantly (in addition to slowing enemy projectiles).
-  - *This tweak gives you more dodge control.*
+  - *More control for a better chance to dodge those bullets.*
 - Reaper:
   - Damage dealt to enemies with less than 50% HP is now increased by +20%, instead of being doubled.
-  - *The vanilla version is just OP, effectively granting a global damage buff.*
+  - *The vanilla version is just OP, effectively reducing all enemy HP to 75%. This tweak is still powerful, but no longer feels like cheating.*
 - GIANT!:
   - Increased melee knockback: 250% > 300%.
-  - *The text now shows the stats, which are now all +300%.*
+  - Updated text to show the full stats.
+  - *Now all the stats are +300% (OCD satiated!). Also makes melee builds slightly more powerful.*
 - Rita the Rocket Drone (Companion):
   - Shot interval 1 > 0.3, but clip size 1 > 3
   - *Can she now shoot a volley of 3 rockets at once! And the reduced fire rate means she's less likely to kill you.*
 - Sickness:
-  - Removed completely (too OP).
+  - Removed completely.
+  - *Reducing enemy HP to half was just too OP.*
 
 
-### Gavel Mods (Ehnancements 2)
+## Gavel Mods (Ehnancements 2)
 
-**New Gavel Mods**
+### New Gavel Mods
+
+<details>
+  <summary style="color: #E06C75">SPOILER. Click to view all the Gavel Mods.</summary>
 
 | Name             | Effect |
 | ---------------- | ------ |
@@ -139,22 +166,32 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 | Neon Lasers      | Fire rate is increased by 10x, but LASER damage is decreased by 60%. Non-Laser projectiles do ZERO damage. |
 | Flaming Plasma   | Increases PLASMA damage by 40%. Plasma shots set enemies on fire, which may cause them to flee. |
 | Triple Bangers   | Grenades you deploy spawn three small submunitions. |
+</details>
 
-**Balance & Tweaks**
+### Balance & Tweaks
 
 - Murderous Lead:
-  - Now a late-game unlock, and only gives a +20% damage increase with lead shots.
+  - Now a late-game unlock, and only gives a +20% damage increase with lead shots (instead of +50%).
+  - *Lead bullets have plenty of perks, which just made every other gun feel weak by comparison. This evens things out a bit, especially before the late game.*
 - Power Gavel:
-  - Now also gives +30% increase to melee speed.
+  - Added extra effect: Now also gives +30% increase to melee speed.
+  - *The vanilla version triples melee damage, but felt like it needed "Fast Melee" to be useful.*
 - Melee Deflect:
-  - Added 360 ability, and renamed to "360 Deflect".
+  - Added extra effect: You melee attacks hit everyone around you.
+  - Renamed to "360 Deflect".
+  - *Makes it much easier to deflect bullets.*
 - Fast Reload:
-  - Removed completely (too OP).
+  - Removed completely.
+  - *Another perk that was just OP.*
+- Extended Magazine:
+  - Removed completely. The new perk "Armory" fills its place.
+  - *Again, too OP.*
 
+## Misc
 
 ### Text Changes
 
-**Misc**
+**General**
 
 - Mission End: Changed "Weapon Mods" to "Gavel Mods", to match the phrase used elsewhere.
 - Pause Screen: Added a reminder/tip below the Restart button telling you to hold it to change your loadout on restart.
@@ -228,6 +265,7 @@ Also search for thse string: `MOD_EDIT` and `MOD_NEW`.
 
 ### Resources
 
+- There's notes and stuff in the [notes](https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/tree/main/notes) folder.
 - Most edited files have comments with more info.
 - [Spreadsheet](https://docs.google.com/spreadsheets/d/1EuM4p1FeFmHOt5FGKta02L1flK76pjaa2m91cLrdKTM/edit#gid=258290661) - Lists all the perks that have been added, plus a bunch of extra data I used and noted down when making this mod.
 
@@ -235,10 +273,20 @@ Also search for thse string: `MOD_EDIT` and `MOD_NEW`.
 
 To see the full code changes:
 
-- https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/compare/1.0.1...main
+- https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/compare/1.0.1...main (since vanilla)
+- https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/compare/1.0.2...main (since Recalibrated)
 
 To do a local diff:
 
 - Download the current code from the `main` branch
 - Download the code from the release "[Vanilla - No Music](https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/releases/tag/1.0.1)" (tag: 1.0.1)
 - Diff them, eg with [WinMerge](https://winmerge.org/)
+
+
+## @todo
+
+- Reconsider the removed perks (Fast Reload, Sickness, Extended Magazine). Perhaps they could be retained with a smaller effect, plus a disadvantage?
+  - Fast Reload: Change to "Light Clips", which increase reload speed but reduce clip size.
+  - Extended Magazine: Chance +300% to +20%, and add a small debuff.
+  - Sickness: ??
+- With Fast Reload & Extended Magazine removed, do weapons need to have their reload speeds and clip sizes buffed slightly to compensate?
