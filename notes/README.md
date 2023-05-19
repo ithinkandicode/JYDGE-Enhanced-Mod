@@ -40,9 +40,9 @@
 
 ### NEW: Laser Shotgun
 
-+ This is the one cut weapon from the vanilla game files.
-+ The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. I went with the Plasma Shotgun, as Plasma Burst does something similar already.
-+ The vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. IT keeps its very long range.
+- This is the one cut weapon from the vanilla game files.
+- The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. I went with the Plasma Shotgun, as Plasma Burst does something similar already.
+- The vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. IT keeps its very long range.
 
 	weapons\firemode-laser-shotgun.xml
 	jydge\weapons.xml
@@ -119,90 +119,10 @@ friend_group="PLAYER_FRIENDS"
 
 ## Secondary Weapons
 
-Added 2 cut secondary weapons:
-
-Cluster Grenade
-Antioch Grenade
-?Piercing Pule (RAIL_PULSE)
-
-
-## MISC
-
-- The level editor is now available from the main menu!
-
-### Text Changes
-
-**Misc**
-
-- Mission End: Changed "Weapon Mods" to "Gavel Mods", to match the phrase used elsewhere
-
-**Collectibles**
-
-- Hints Now specify the required difficulty
-- Sin Eraser: Changed "Reset Sins" button text to say "View Reset Options"
-- Sin Eraser: Expanded description to say "and optionally reset your mission progress (NG+)"
-- C.A.T.S.: Hint expanded to say "who holds the key?"
-- Time Recoil Comic: Added "by 25%" (note: this collectiable also increases move speed by 20%)
-
-**Enhancement Descriptions**
-
-- Health is now shown with a heart icon (in vanilla this is inconsistent)
-- Credits are now shown with an icon
-- Green text highlights altered slightly to better show effects
-- Red text highlights have been added to show negative effects
-- Fast Melee: Expanded description to mention melee attack charge speed
-- GIANT!: Expanded description to specify stat change, and added hidden melee knockback stat
-- Damage Credits: Revised description to be clearer
-
-### Colour Changes
-
-- Changed the colours for enhancements:
-  - Gavel Mods for melee are now purple
-  - Cyberware that affects health are now red
-  - Cyberware that affects credits are now yellow
-
-### Buffs
-
-- ?Power Gavel: Added 50% increase to melee speed [edit: maybe remove, or make 25%? needs testing]
-- Melee Deflect: Added 360 ability, and renamed to "360 Deflect"
-- Bullet Dodger: Added instant turn ability
-
-### Info
-
-- New powerful late-game unlocks
-- New health abilities
-
-### Bugs
-
-- Mention circle bug wi. slow field + vamp ring
-- There's an issue with the AoE rings for both Vampire & Slowdown field. Explosions & fire that overlap the rings will affect the player, even though they're outside of the player's hitbox. However, there's an unexpected bonus to this: You can combo Friend of Mine with Slowdown field to convert mines from a long distance.
-- @todo: Test vamp ring with Friend of Mine
-- @todo: Check if rings also set off mines
-
-### GFX (Graphics)
-
-- Projectile size halved, for ion & enemy bullets. Their vanilla size makes their hitboxes look larger than they really are.
-- Rocket trails have much less smoke. Tiny Ryckets have less sparks too. It's now easier to see where rockets are, as the screen is less obscured by smoke.
-
-### Audio
-
-- Added custom hurt sounds for the player character (pitch-shifted human male wi. some EQ)
-- Reduced the volume of the Shadow Cloak sound, down to 25%
+- ?Piercing Pule (RAIL_PULSE)
 
 
 
-## Important Changes
-
-## Costs
-
-- Reduced costs of the last enhancement 2 slots:
-  - Cyberware: 40k > 30k
-  - Gavel: 30k > 20k
-- Reduced costs of secondary weapons. Cost reductions are more drastic for early game unlocks, when players are likely to be saving for enhancement slots.
-- Costs should now be low enough to buy a few new unlocks impacting your savings as much.
-- Murderous Lead is now a late-game unlock.
-
-## New Gavel Mods
+## Gavel Mods
 
 - ?Rapid Fire - edit: maybe make another balanced one? RoF++, DMG--?
-
