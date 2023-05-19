@@ -38,7 +38,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 ### Extensively Tested
 
-- I've played a full game with this mod, all the way up to Grim difficulty, and only upgrading weapons up to about half-way to ensure that you rarely need to grind.
+- I've played a full game with this mod, all the way up to Nightmare difficulty, and only upgrading weapons up to about half-way to ensure that you rarely need to grind.
 
 
 
