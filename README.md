@@ -22,8 +22,8 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 ### Balancing
 
-- Loads of weapons and perks have been altered to be more powerful or more interesting, creating new synergies and builds, and making everything you unlock worth trying.
-- The order of some weapon unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
+- Loads of weapons and perks have been altered to be more powerful or more interesting, create new synergies and builds, and make everything you unlock worth trying.
+- The order of some Firemode unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
 - Extra love given to grenades and melee, with new and edited perks that make them more powerful.
 - New HP-related perks grant chances to regain lost health, for players who find the game a little too punishing.
 - Removed some OP vanilla perks (*Sickness, Fast Reload, Extended Magazine*).
@@ -47,20 +47,20 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Reduced costs of the last enhancement 2 slots.
   - Cyberware: 40k > 30k (Slot 4)
   - Gavel: 30k > 20k (Slot 3)
-- Reduced costs of secondary weapons.
+- Reduced costs of Specials.
   - Cost reductions are more drastic for early game unlocks, when players are likely to be saving for enhancement slots.
-- *Costs should now be low enough to buy a few new unlocks without impacting your savings as much.*
+  - *Makes it easier and faster to try new Specials as you acquire them, without impacting your savings as much.*
 
 
-## Weapons
+## Firemodes
 
-### New Weapon
+### New Firemode
 
 - Laser Shotgun!
   - This is a cut weapon from the vanilla game files, now restored.
-  - The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. So I removed the Plasma Shotgun, as Plasma Burst does something similar already.
+  - The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. So I removed Plysma Spread (Plasma Shotgun), as Plasma Burst does something similar already.
   - The unused vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. It keeps its very long range.
-  - Unlocks after 30 medals.
+  - Unlocks after 30 medals, instead of Rypid Plasma (Plasma SMG), which unlocks at 60 instead and is more powerful.
 
 ### Balance & Tweaks
 
@@ -69,19 +69,20 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Aims to discourage wasting points with these weaker starter weapons.*
 - Ion Rifle:
   - Raised medal requirement slightly (18 > 20).
-  - *This makes it consistent with other requirements, as most weapons unlock after every 10 medals.*
-- Ion Shotgun:
-  - Now unlocked after 100 medals, instead of 70.
-  - Base damage has been doubled (7 > 14).
-  - Max targets: 2 > 4
-  - *Ion weapons feel pretty weak in vanilla, especially with so few perks. This massive buff lets the Ion Shotgun contend with other late-game weapons.*
+  - *Makes it consistent with other weapons, as most of them unlock every 10 medals.*
 - Rypid Plasma (Plasma SMG):
   - Increased damage: 12 > 16
   - Faster reload: 1.75 > 1.25
+  - Now unlocks at 60 medals, instead of 30.
   - *Makes this flamethrower feel a lot more powerful.*
-- Lead Sniper:
+- Snyper:
   - Increase damage: 100 > 140
   - *Lets you score one-shots more reliably, and makes upgrades even more powerful.*
+- Ion Spread (Ion Shotgun):
+  - Base damage has been doubled (7 > 14).
+  - Max targets: 2 > 4
+  - Now unlocked after 100 medals, instead of 70.
+  - *Ion weapons feel pretty weak in vanilla, especially with so few perks. This massive buff lets the Ion Shotgun contend with other late-game weapons.*
 - Tiny Ryckets (Rocket Launcher):
   - Increased damage: 20 > 25
   - *Rockets now deal slightly more damage on impact.*
@@ -89,44 +90,53 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - Faster max charge time: 2 > 1.5
   - *Recalibrated already buffed this weapon, but charging still felt too slow fot the last weapon unlock. Now it's even more deserving of that final slot.*
 
+### Unlocks
 
-## Specials (Abilities)
+- Ion Rifle: Medals requirement: 18 > 20.
+- Laser Shotgun: Unlocked at 30 medals.
+- Rypid Plasma (Plasma SMG): Medals requirement: 30 > 60.
+- Ion Spread (Ion Shotgun): Medals requirement: 70 100.
+- Plysma Spread (Plasma Shotgun) has been removed, to make room for Laser Shotgun. It used to unlock at 60 medals.
+
+
+## Specials
 
 ### New Abilities
 
-- Cluster Grenades - unlocks at 23 medals
-- Antioch Grenades - unlocks at 113 medals
+<details>
+  <summary><b><i>SPOILERS. Click to view the new Specials.</i></b></summary>
+
+| Name | Effect | Medals |
+| ---- | ------ | ------ |
+| Cluster Grenades | A mix of fire & regular grenades. | 23 |
+| Antioch Grenades | Huge area of effect, high damage. Limited to only 2. | 113 |
+</details>
 
 ### Balance & Tweaks
 
-- Slots:
-  - Unlock cost for slot 3: 40,000 > 30,000
 - Explosive Bolt:
   - Number of uses: 7 > 6.
   - Upgrading now increases the number of uses, insead of the damage.
   - *Explosive Bolts do roughly the same thing as the Grenade Launcher. This tweak makes them more unique, and gives you plenty of chances to miss your shots.*
-- Overall Costs:
-  - The cost to unlock every ability has been drastically reduced.
-  - *Makes it easier and faster to try new unlocks as you acquire them.*
 
 
-## Cyberware (Enhancements 1)
+## Cyberware
 
 ### New Cyberware
 
 <details>
-  <summary style="color: #E06C75">SPOILER. Click to view all the new Cyberware.</summary>
+  <summary><b><i>SPOILERS. Click to view the new Cyberware.</i></b></summary>
 
-| Name             | Effect |
-| ---------------- | ------ |
-| Pyromaniac       | Immunity to fire damage. Fires you start have 4x burn time. |
-| Vampire          | Drain HP from everything around you. |
-| Faster Faster    | Time runs 2x faster, but you deal 1.5x damage. |
-| Boss Killer      | Gain 20% increased damage to bosses. |
-| Gib Profit       | Get 25 credits bonus for each body you gib with explosives. |
-| DeSade           | Gain HP equal to 5% of damage done. |
-| Clumsy           | Enemies have a 10% chance to drop a live grenade when they die. |
-| Slowdown Field   | Enemies within the field walk slowly. Combos with Friend of Mine. |
+| Name             | Effect | Medals |
+| ---------------- | ------ | ------ |
+| Pyromaniac       | Immunity to fire damage. Fires you start have 4x burn time. | 34 |
+| Vampire          | Drain HP from everything around you. | 54 |
+| Faster Faster    | Time runs 2x faster, but you deal 1.5x damage. | 58 |
+| Boss Killer      | Gain 20% increased damage to bosses. | 62 |
+| Gib Profit       | Get 25 credits bonus for each body you gib with explosives. | 73 |
+| DeSade           | Gain HP equal to 5% of damage done. | 91 |
+| Clumsy           | Enemies have a 10% chance to drop a live grenade when they die. | 111 |
+| Slowdown Field   | Enemies within the field walk slowly. Combos with Friend of Mine. | 142 |
 </details>
 
 ### Balance & Tweaks
@@ -136,7 +146,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *More control for a better chance to dodge those bullets.*
 - Reaper:
   - Damage dealt to enemies with less than 50% HP is now increased by +20%, instead of being doubled.
-  - *The vanilla version is just OP, effectively reducing all enemy HP to 75%. This tweak is still powerful, but no longer feels like cheating.*
+  - *The vanilla version is just OP, effectively reducing all enemy HP to 75%. Now it's still powerful, but no longer feels like cheating.*
 - GIANT!:
   - Increased melee knockback: 250% > 300%.
   - Updated text to show the full stats.
@@ -144,49 +154,51 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Rita the Rocket Drone (Companion):
   - Shot interval 1 > 0.3, but clip size 1 > 3
   - *Can she now shoot a volley of 3 rockets at once! And the reduced fire rate means she's less likely to kill you.*
-- Sickness:
-  - Removed completely.
+- (REMOVED) Sickness:
   - *Reducing enemy HP to half was just too OP.*
 
 
-## Gavel Mods (Ehnancements 2)
+## Gavel Mods
 
 ### New Gavel Mods
 
 <details>
-  <summary style="color: #E06C75">SPOILER. Click to view all the Gavel Mods.</summary>
+  <summary><b><i>SPOILERS. Click to view the new Gavel Mods.</i></b></summary>
 
-| Name             | Effect |
-| ---------------- | ------ |
-| Accurate         | You gain Perfect accuracy with most non-shotgun weapons. |
-| Active Reload    | Increases manual reload speed by 25%. |
-| Armory           | Clip size is increased x8, but the extra weight slows you down to half speed. |
-| Big Boomer       | Grenades fuse times are halved, and their explosive radius is increased by 50%. |
-| No Fuse          | Grenades explode instantly. |
-| Splinter Bullets | Your projectiles will split in two shortly after leaving the barrel. |
-| Neon Lasers      | Fire rate is increased by 10x, but LASER damage is decreased by 60%. Non-Laser projectiles do ZERO damage. |
-| Flaming Plasma   | Increases PLASMA damage by 40%. Plasma shots set enemies on fire, which may cause them to flee. |
-| Triple Bangers   | Grenades you deploy spawn three small submunitions. |
+| Name             | Effect | Medals |
+| ---------------- | ------ | ------ |
+| Accurate         | You gain Perfect accuracy with most non-shotgun weapons. | 18 |
+| Active Reload    | Increases manual reload speed by 25%. | 26 |
+| Armory           | Clip size is increased x8, but the extra weight slows you down to half speed. | 51 |
+| Big Boomer       | Grenades fuse times are halved, and their explosive radius is increased by 50%. | 76 |
+| No Fuse          | Grenades explode instantly. | 99 |
+| Splinter Bullets | Your projectiles will split in two shortly after leaving the barrel. | 104 |
+| Neon Lasers      | Fire rate is increased by 10x, but LASER damage is decreased by 60%. Non-Laser projectiles do ZERO damage. | 115 |
+| Flaming Plasma   | Increases PLASMA damage by 40%. Plasma shots set enemies on fire, which may cause them to flee. | 145 |
+| Triple Bangers   | Grenades you deploy spawn three small submunitions. | 150 |
 </details>
 
 ### Balance & Tweaks
 
-- Murderous Lead:
-  - Now a late-game unlock, and only gives a +20% damage increase with lead shots (instead of +50%).
-  - *Lead bullets have plenty of perks, which just made every other gun feel weak by comparison. This evens things out a bit, especially before the late game.*
+- Reload Plasma:
+  - Increased the number of projectiles: 12 > 20
+  - *It's too hard to hit anything with the vanilla version.*
 - Power Gavel:
-  - Added extra effect: Now also gives +30% increase to melee speed.
+  - Extra effect: Now also gives +30% increase to melee speed.
   - *The vanilla version triples melee damage, but felt like it needed "Fast Melee" to be useful.*
 - Melee Deflect:
-  - Added extra effect: You melee attacks hit everyone around you.
+  - Extra effect: You melee attacks hit everyone around you.
   - Renamed to "360 Deflect".
   - *Makes it much easier to deflect bullets.*
-- Fast Reload:
-  - Removed completely.
+- Murderous Lead:
+  - Reduced damage increase: +50% > +20%
+  - Increased medals unlock cost: 42 > 124
+  - Extra effect: Lead bullets now also pierce enemies.
+  - *Lead bullets have plenty of perks, which just made every other gun feel weak by comparison, especially with how early this perk could be unlocked. This evens things out a bit. The new bonus effect makes is still worthwhile, trading the old higher damage for more utility.*
+- (REMOVED) Fast Reload:
   - *Another perk that was just OP.*
-- Extended Magazine:
-  - Removed completely. The new perk "Armory" fills its place.
-  - *Again, too OP.*
+- (REMOVED) Extended Magazine:
+  - *Again, too OP. The new perk "Armory" fills its place.*
 
 ## Misc
 
@@ -293,6 +305,6 @@ To do a local diff:
 
 - Reconsider the removed perks (Fast Reload, Sickness, Extended Magazine). Perhaps they could be retained with a smaller effect, plus a disadvantage?
   - Fast Reload: Change to "Light Clips", which increase reload speed but reduce clip size.
-  - Extended Magazine: Chance +300% to +20%, and add a small debuff.
-  - Sickness: ??
-- With Fast Reload & Extended Magazine removed, do weapons need to have their reload speeds and clip sizes buffed slightly to compensate?
+  - Extended Magazine: Chance +300% to +20%, and add a small debuff. (still needed if we have Armory?)
+  - Sickness: Also reduce player health to half? Tricky to mod because it doesn't have an editable parameter, it's either ON or OFF.
+- With Fast Reload & Extended Magazine removed, should weapons have their reload speeds and clip sizes buffed slightly to compensate?
