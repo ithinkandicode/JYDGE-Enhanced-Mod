@@ -583,7 +583,7 @@
 		/>
 
 		<node id="CLIP_SIZE_INCREASE"
-		 category="WEAPON"
+		 category="__DEPRECATED"
 		 title="Extended Magazine"
 		 description="|color|Weapon magazine size is TRIPLED.|colorend|"
 		 effect_1="clip_size_increase,2.0"
