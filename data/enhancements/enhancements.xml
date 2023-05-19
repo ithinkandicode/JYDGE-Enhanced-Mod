@@ -634,7 +634,7 @@
 		<node id="EXPLOSIVE_BULLET"
 		 category="WEAPON"
 		 title="Explosive Bullet"
-		 description="The |color|first round|colorend| in every magazine explodes on impact.|colorend|"
+		 description="The |color|first round|colorend| in every magazine |color|explodes on impact.|colorend|"
 		 effect_1="first_bullet_explosive"
 		 medal_requirement="83"
 		/>
@@ -677,7 +677,7 @@
 		<node id="_NEON_LASERS"
 		 category="WEAPON_LASER"
 		 title="Neon Lasers"
-		 description="|color|Fire rate is increased by 15x|colorend|, but |#ff0000|LASER damage is decreased by 60%.|#ffffff| |#ffffff|Non-Laser projectiles do ZERO damage."
+		 description="|color|Fire rate is increased by 10x|colorend|, but |#ff0000|LASER damage is decreased by 60%.|#ffffff| |#ffffff|Non-Laser projectiles do |#ff0000|ZERO|colorend| damage."
 		 effect_1="damage_increase_per_damage_type,-0.60,PROJECTILE_LASER"
 		 effect_2="rate_of_fire_increase,10.0"
 		 effect_3="damage_increase_per_damage_type,-9.0,PROJECTILE_LEAD"
