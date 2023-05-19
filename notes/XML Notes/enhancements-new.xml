@@ -1,0 +1,277 @@
+<!--
+New medal requirements above vanilla max (138)
+
+	  7 = LASER_PULSE
+	 25 = PIERCING_LEAD_2
+	 40 = CLUSTER_GRENADES
+	 72 = PLASMA_FLAMES
+	140 = SLOWDOWN_FIELD
+	145 = ANTIOCH_GRENADES (weapons.xml + abilities.xml)
+
+Slots left:
+Cyberware  - 4
+Gavel Mods - 3 (edit: infinite?)
+Firemodes  - 0
+Special    - 0
+-->
+
+
+<!--
+All abilities unused in vanilla:
+	ability_use_amount_fixed_increase
+	ability_use_gives_health
+	ability_use_invulnerability
+	autodoc_health_increase
+	boss_explosives_damage_multi
+	boss_explosives_radius_multi
+	bullets_pierce_actors
+	credits_immortality_duration
+	credits_to_ability_uses
+	crit_flames
+	dampening_factor_override
+	fire_resistance_increase
+	fire_starter
+	gib_profit
+	health_drain_power
+	health_drain_range
+	melee_360
+	melee_attack_range_increase
+	regenerate_hp_per_sec
+	regeneration_down_time
+	reload_dash
+	slowdown_field_range
+	slowdown_field_time
+	vampiric_ring_power
+	vampiric_ring_range
+
+USE_THESE-Cyberware
+	- [x] dampening_factor_override (combined with bullets move more slowly)
+	- [x] fire_resistance_increase  (combined with explosions resistance)
+	- [x] slowdown_field_range,100	slowdown_field_time,0.5
+
+	- [-] gib_profit,150
+	- [-] health_drain_range,200	health_drain_power,40
+	- [-] vampiric_ring_power,150	vampiric_ring_range,150
+	- [-] regenerate_hp_per_sec,10	regeneration_down_time,2.5
+
+USE_THESE-Gavel
+	- [x] crit_flames,8.0
+	- [x] bullets_pierce_actors
+	- [-] splinter_bullets,2.0
+	- [-] melee_360
+	- [-] caused_damage_to_health,0.1
+
+via Neon Chrome
+	laser_gun_damage_multiplier_increase - NOPE, invalid
+	gun_damage_multiplier_increase       - NOPE, invalid
+	splinter_bullets        - WORKS!!
+	caused_damage_to_health - WORKS!!
+
+Laser weapon damage is increased by 17%, but weapons in general lose 10%
+	effect_2="gun_damage_multiplier_increase,-0.1"
+Your bullets will split in two shortly after leaving the barrel, and with a 30% damage increase
+	"splinter_bullets,2.0"
+Gain health equal to 10% of damage done.
+	"caused_damage_to_health,0.1"
+
+NEW via Neon Chrome:
+	accuracy_increase,0.50              - really helps the lead SMG
+	autodoc_health_increase,1.0         - (untested)
+	boss_killer,0.3                     - (untested)
+	stage_time_multiplier,1.2           - AWESOME!
+
+	attractor_grenades                  - <NO EFFECT>
+	enemy_drops_grenades_chance,0.2     - amazing!
+	explosive_submunitions_chance,0.30  - amazing!
+
+	grenade_explosive_radius_increase,0.25 - FX & fire don't scale, but actors within initial blast radius still take damage
+	grenade_explosive_radius_increase,0.40 - ALSO: Note that this makes Antioch Grenades absurdly OP
+	grenade_fuse_time_multiplier,0.50
+
+Neon Chrome, but probably not good for JYDGE:
+	autodoc_health_gambler
+	autodoc_health_increase
+-->
+
+
+<!-- CYBERWARE ====================================================================== -->
+
+		<node id="_PYROMANIAC"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Pyromaniac"
+		 description="|color|Immunity to fire damage.|colorend| Fires you start have |color|4x burn time.|colorend|"
+		 effect_1="fire_starter,4.0"
+		 effect_2="fire_resistance_increase,1.0"
+		 medal_requirement="34"
+		 tags="MOD_NEW"
+		/>
+
+		<node id="_HEALTH_VAMPIRE"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Vampiric DeSade"
+		 description="|color|Drain |health| from everything around you.|colorend|"
+		 effect_1="vampiric_ring_range,150"
+		 effect_2="vampiric_ring_power,40"
+		 medal_requirement="54"
+		 tags="MOD_NEW"
+		/>
+
+		<node id="_HEALTH_FROM_DAMAGE"
+		 category="ATTRIBUTES_HEALTH"
+		 title="DeSade"
+		 description="|color|Gain |health| equal to 20% of damage done.|colorend|"
+		 effect_1="caused_damage_to_health,0.20"
+		 medal_requirement="78"
+		 tags="MOD_NEW"
+		/>
+
+		<node id="_GIB_PROFIT"
+		 category="ATTRIBUTES_CREDITS"
+		 title="Gib Profit"
+		 description="Get |#ffff00|25|#ffffff||img src='ui/gfx/credits.png'| bonus for each |color|body you gib with explosives.|colorend|"
+		 effect_1="gib_profit,25"
+		 medal_requirement="73"
+		 tags="MOD_NEW"
+		/>
+
+		<node id="_HEALTH_REGENERATION"
+		 category="ATTRIBUTES_HEALTH"
+		 title="Immortality"
+		 description="|color|Regenerate 5|health| per second.|colorend| Triggers 2.5 seconds after taking damage."
+		 effect_1="regenerate_hp_per_sec,5"
+		 effect_2="regeneration_down_time,2.5"
+		 medal_requirement="130"
+		 tags="MOD_NEW"
+		/>
+
+		<node id="_SLOWDOWN_FIELD"
+		 category="ATTRIBUTES"
+		 title="Slowdown Field"
+		 description="Enemies within the field |color|walk slowly|colorend|. Combos with |color|Friend of Mine.|colorend|"
+		 effect_1="slowdown_field_range,300"
+		 effect_2="slowdown_field_time,0.25"
+		 medal_requirement="142"
+		 tags="MOD_NEW"
+		/>
+
+<!-- WEAPONS ====================================================================== -->
+
+		<!--
+			MOD_EDIT - New: Paperthin (Piercing Lead 2)
+				Added damage buff
+				Increased fire duration: 3.0 > 8.0
+				Set medal requirement to: 70
+		-->
+		<node id="_PIERCING_LEAD_2"
+		 category="WEAPON"
+		 title="Paperthin"
+		 description="|color|Non-shotgun LEAD projectiles pierce enemies,|colorend| but do |#ff0000|20% less damage. |#ffffff|Does not affect laser, plasma, or ion."
+		 effect_1="bullets_pierce_actors"
+		 effect_2="damage_increase_per_damage_type,-0.20,PROJECTILE_LEAD"
+		 medal_requirement="26"
+		 tags="MOD_NEW"
+		/>
+
+		<!--
+			Combine:
+		<node id="MELEE_DEFLECTS_PROJECTILES"
+		 category="MELEE"
+		 title="Melee Deflect"
+		 description="You can |color|deflect projectiles|colorend| with well timed melee attacks."
+		 effect_1="melee_attack_deflects_projectiles"
+		 medal_requirement="27"
+		/>
+		+
+		<node id="_MELEE_360"
+		 category="MELEE"
+		 title="Melee 360"
+		 description="|color|Your melee attacks hit everyone around you|colorend|, not just the direction you're attacking."
+		 effect_1="melee_360"
+		 medal_requirement="18"
+		 tags="MOD_NEW"
+		/>
+		-->
+		<node id="MELEE_DEFLECTS_PROJECTILES"
+		 category="MELEE"
+		 title="360 Deflect"
+		 description="You melee attacks hit |color|everyone around you|colorend| and can |color|deflect projectiles|colorend|."
+		 effect_1="melee_attack_deflects_projectiles"
+		 effect_2="melee_360"
+		 medal_requirement="27"
+		 tags="MOD_EDIT"
+		/>
+
+		<node id="_SPLINTER_BULLETS"
+		 category="WEAPON"
+		 title="Splinter Bullets"
+		 description="Your projectiles will |color|split in two|colorend| shortly after leaving the barrel."
+		 effect_1="splinter_bullets,2.0"
+		 medal_requirement="104"
+		 tags="MOD_NEW"
+		/>
+
+		<!--
+			MOD_EDIT - New: Flaming Plasma
+				Added damage buff
+				Increased fire duration: 3.0 > 8.0
+				Set medal requirement to: 70
+		-->
+		<node id="_PLASMA_FLAMES"
+		 category="WEAPON"
+		 title="Flaming Plasma"
+		 description="|color|Increases PLASMA damage by 30%.|colorend| Plasma shots set |color|enemies on fire.|colorend|"
+		 effect_1="crit_flames,8.0"
+		 effect_2="damage_increase_per_damage_type,0.30,PROJECTILE_PLASMA"
+		 medal_requirement="110"
+		 tags="MOD_NEW"
+		/>
+
+
+<!-- NOPE ====================================================================== -->
+
+		<!--
+			MOD_EDIT: New: Flaming Death
+			EDIT: Nope, just sets you on fire when you die, useless
+		-->
+		<node id="_FLAMING_DEATH"
+		 category="ATTRIBUTES"
+		 title="Flaming Death"
+		 description="???"
+		 title="Flame Death"
+		 effect_1="flaming_death_radius,100"
+		 medal_requirement="0"
+		 tags="MOD_NEW"
+		/>
+
+		<!-- UNUSED, went with vampire ability instead -->
+		<node id="_HEALTH_DRAIN"
+		 category="WEAPON"
+		 title="HealthDrain"
+		 description="|color|HealthDrain|colorend|"
+		 effect_1="health_drain_range,150"
+		 effect_2="health_drain_power,30"
+		 medal_requirement="8"
+		 tags="MOD_NEW"
+		/>
+
+
+
+<!--
+	VANILLA EDITS
+-->
+
+		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
+		 category="WEAPON"
+		 title="Murderous Lead"
+		 description="|color|Increases LEAD weapon damage 50%.|colorend| Does not apply to ion, laser, or plasma weapons."
+		 effect_1="damage_increase_per_damage_type,0.50,PROJECTILE_LEAD"
+		 medal_requirement="42"
+		/>
+		<!--new:-->
+		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
+		 category="WEAPON"
+		 title="Murderous Lead"
+		 description="|color|Increases LEAD weapon damage 20%.|colorend| Does not apply to ion, laser, or plasma weapons."
+		 effect_1="damage_increase_per_damage_type,0.20,PROJECTILE_LEAD"
+		 medal_requirement="42"
+		/>

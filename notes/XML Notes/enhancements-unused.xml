@@ -1,0 +1,196 @@
+ <?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+	<!--
+		Note: Display the heart icon with: |health|
+		regex= \|[^c][A-z]+\|
+	-->
+
+	<!--
+		Note: Custom colours can be used, but new nodes can't be added.
+		Items MUST use the first 5 existing nodes (ie. all but "ABILITY")
+
+		1,1,1 = white (could be cmyk?)
+	-->
+	<array id="CATEGORIES">
+		<node id="ATTRIBUTES" color="0.1,0.5,1" />	<!-- Cyberware: blue -->
+		<node id="MISC" color="1,0.1,1" />			<!-- Cyberware: pink -->
+		<node id="COMPANION" color="0.25,1,0.25" />	<!-- Cyberware: green -->
+
+		<node id="WEAPON" color="1,0.5,0.05" />		<!-- Weapon: orange -->
+		<node id="MELEE" color="1,0.1,0.1" />		<!-- Weapon: red -->
+
+		<node id="ABILITY" color="1,0,1" />			<!-- Unused: pink 2 -->
+
+		<!--
+		ATTRIBUTES  # 0.1,  / 0.5,   \ 1       @ blue
+		MISC        # 1,    / 0.1,   \ 1       @ pink
+		COMPANION   # 0.25, / 1,     \ 0.25    @ green
+		WEAPON      # 1,    / 0.5,   \ 0.05    @ orange
+		MELEE       # 1,    / 0.1,   \ 0.1     @ red
+		ABILITY     # 1,    / 0,     \ 1       @ pink 2 (unused)
+		-->
+	</array>
+
+	<array id="RESERVE_ENHANCEMENTS" desc="Not used in game, here for safekeeping.">
+
+		<node category_start="CYBERWARE-------------------------------------------------------------------------------------------------------------------" />
+
+		<node id="INSTANT_MOVE_DIRECTION_CHANGE"
+		 category="MISC"
+		 title="Instant Move Direction Change"
+		 description="|color|You can change move direction instantly.|colorend| This allows you to dodge projectiles better."
+		 effect_1="dampening_factor_override,40"
+		 energy_cost="2"
+		/>
+
+		<node id="CREDITS_TO_HEALTH"
+		 category="MISC"
+		 title="Credits to Health"
+		 description="|color|You get 10|health| every time you collect single large |credits| chip worth 100|credits| or more.|colorend|"
+		 effect_1="credits_to_health,100,10"
+		 energy_cost="4"
+		/>
+
+		<node id="CREDITS_IMMORTALITY"
+		 category="MISC"
+		 title="Credits Immortality"
+		 description="|color|You are invulnerable 2 seconds each time you collect credits.|color|"
+		 effect_1="credits_immortality_duration,2"
+		 medal_requirement="62"
+		/>
+
+		<!--
+			NOTE:
+			Pretty sure this already happens
+		-->
+		<node id="HEROIC_DEATH"
+		 category="MISC"
+		 title="Heroic Death"
+		 description="|color|Dying counts as successful escape for other than main objectives. You get the medals even if you die.|colorend|"
+		 tags="REQUIRES_TESTING"
+		 medal_requirement="92"
+		/>
+
+		<node id="FASTER_FASTER"
+		 category="MISC"
+		 title="Faster Faster"
+		 description="|color|Time runs faster, but you do 50% more damage all around.|colorend|"
+		 effect_1="stage_time_multiplier,1.2"
+		 effect_2="damage_increase,0.5"
+		 medal_requirement="58"
+		/>
+
+		<node id="FIRE_RESISTANCE"
+		 category="ATTRIBUTES"
+		 title="Fire Protection"
+		 description="|color|Total protection from fire damage|colorend|."
+		 effect_1="fire_resistance_increase,1.0"
+		 medal_requirement="30"
+		/>
+
+		<node id="MEDICAL_ENHANCER"
+		 category="MISC"
+		 title="Medical Enhancer"
+		 description="|color|You get 150% more health from autodocs and medikits.|colorend|"
+		 effect_1="autodoc_health_increase,1.5"
+		 medal_requirement="38"
+		/>
+
+		<node id="GIB_PROFIT"
+		 category="MISC"
+		 title="Gib Money"
+		 description="|color|Get 150 credit bonus for each body you'll gib with explosives.|colorend| Streams your POV to media corps distributing Real Hurt(TM) programs."
+		 effect_1="gib_profit,150"
+		 medal_requirement="38"
+		/>
+
+		<node category_start="WEAPON MODS-------------------------------------------------------------------------------------------------------------------" />
+
+		<node id="RELOAD_DASH"
+		 category="WEAPON"
+		 title="Reload Sprinting"
+		 description="|color|You sprint while reloading a weapon.|colorend|"
+		 effect_1="reload_dash"
+		 medal_requirement="29"
+		/>
+
+		<node id="FIRE_STARTER"
+		 category="MISC"
+		 title="Firestarter"
+		 description="|color|Fires you start have 4X burn time.|colorend|"
+		 effect_1="fire_starter,4.0"
+		 medal_requirement="46"
+		/>
+
+		<node id="WEAPON_SPREAD_DECREASE"
+		 category="WEAPON"
+		 title="Decrease Weapon Spread"
+		 description="|color|Your weapons are more accurate producing less spread. Shotgun weapon cones are also tighter.|colorend|"
+		 medal_requirement="54"
+		/>
+
+		<node id="MELEE_360"
+		 category="MELEE"
+		 title="Melee 360"
+		 description="|color|Your melee attacks hit everyone around you, not just the direction you're attacking.|colorend|"
+		 effect_1="melee_360"
+		 medal_requirement="18"
+		/>
+
+		<!--
+			NOTE:
+			Both 2 below have the effect of "crit_flames".
+			CRIT_FLAMES is incorrect. PLASMA_FLAMES is the working version
+		-->
+		<node id="CRIT_FLAMES"
+		 category="WEAPON"
+		 title="Incendiary Bullets"
+		 description="|color|Critical hits set enemies on fire for 3 secs.|colorend|"
+		 effect_1="crit_flames,3.0"
+		 medal_requirement="58"
+		/>
+		<node id="PLASMA_FLAMES"
+		 category="WEAPON"
+		 title="Flaming Plasma"
+		 description="Your |color|plasma based weapons set enemies on fire|colorend| on hit."
+		 effect_1="crit_flames,3.0"
+		 medal_requirement="45"
+		/>
+
+		<node category_start="ABILITY MODS-------------------------------------------------------------------------------------------------------------------" />
+
+		<node id="CREDITS_TO_USES"
+		 category="ABILITY"
+		 title="Credits to Uses"
+		 description="|color|You get one secondary weapon use each time you collect large |credits| chip worth 100|credits| or more.|colorend|"
+		 effect_1="credits_to_ability_uses,100"
+		 medal_requirement="7"
+		/>
+
+		<node id="ABILITY_USES_INCREASE_FIXED"
+		 category="ABILITY"
+		 title="More Secondary Uses"
+		 description="|color|You get 3 extra secondary weapon uses per mission.|colorend|"
+		 effect_1="ability_use_amount_fixed_increase,3"
+		 medal_requirement="13"
+		/>
+
+		<node id="ABILITY_USE_INVISIBILITY"
+		 category="ABILITY"
+		 title="Secondary Use Invisiblity"
+		 description="|color|You are totally invisible for 4 seconds each time you use secondary weapon. No enemy is able to track you even if you shoot or melee them.|colorend|"
+		 effect_1="ability_use_gives_health,10"
+		 medal_requirement="28"
+		/>
+
+		<node id="ABILITY_USE_INVULNERABILITY"
+		 category="ABILITY"
+		 title="Secondary Uses Invulnerability"
+		 description="|color|You are invulnerable 2 seconds after each secondary weapon use.|colorend|"
+		 effect_1="ability_use_invulnerability,2"
+		 medal_requirement="31"
+		/>
+
+	</array>
+</root>
