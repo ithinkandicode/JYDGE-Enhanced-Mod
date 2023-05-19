@@ -529,6 +529,7 @@
 		 medal_requirement="37"
 		/>
 
+		<!-- See new version further below (_MURDEROUS_LEAD_EDIT) -->
 		<node id="LEAD_WEAPON_DAMAGE_INCREASE"
 		 category="__DEPRECATED"
 		 title="Murderous Lead"
