@@ -10,12 +10,33 @@
 		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="30"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="110" tags="MOD_NEW" />
 		<node id="weapons/firemode-lead-assault-rifle.xml"          medal_requirement="40"   upgrade_levels="10"    purchase_cost="6000"  upgrade_cost="120" />
 		<node id="weapons/firemode-lead-sniper.xml"                 medal_requirement="50"   upgrade_levels="10"    purchase_cost="7000"  upgrade_cost="130" />
-		<node id="weapons/firemode-plasma-smg.xml"                  medal_requirement="60"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="150" tags="MOD_EDIT" />
+		<node id="weapons/firemode-plasma-smg.xml"                  medal_requirement="60"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="150" tags="MOD_EDIT" />
 		<node id="weapons/firemode-lead-serial-shotgun.xml"       	medal_requirement="80"   upgrade_levels="10"    purchase_cost="10000" upgrade_cost="160" />
 		<node id="weapons/firemode-minigun.xml"             		medal_requirement="90"   upgrade_levels="10"    purchase_cost="10000" upgrade_cost="170" />
 		<node id="weapons/firemode-ion-shotgun.xml"                 medal_requirement="100"  upgrade_levels="10"    purchase_cost="10000" upgrade_cost="180" tags="MOD_EDIT" />
 		<node id="weapons/firemode-rocket-launcher.xml"             medal_requirement="120"  upgrade_levels="10"    purchase_cost="10000" upgrade_cost="190" />
 		<node id="weapons/firemode-charged-plasma.xml"              medal_requirement="140"  upgrade_levels="10"    purchase_cost="11000" upgrade_cost="200" />
+
+		<!--
+		Order & Notes:
+			  0 Lead SMG        = Lead Byllets   -
+			  1 Lead Shotgun    = Shotgyn        -
+			  5 Plasma AR       = Plasma Rifle   -
+			 10 Laser AR        = Heavy Lasyr    -
+			 20 Ion AR          = Ion            -
+			 30 Laser Shotgun   = Laser Shotgun  - Replaces Rypid Plasma (Plasma SMG) in the vanilla order. Replaces Plysma Spread (Plasma Shotgun) as a weapon.
+			 40 Lead AR         = Heavy Byllets  -
+			 50 Lead Sniper     = Snyper         -
+			 60 Plasma SMG      = Rypid Plasma   - Unlocks in vanilla at 30 medals.
+			 80 Lead S.Shotgun  = Serial Shotgun -
+			 90 Minigun         = Minigyn        -
+			100 Ion Shotgun     = Ion Spread     - Used to unlock at 70 medals.
+			120 Rocket Launcher = Tiny Ryckets   -
+			140 Charged Plasma  = Charged Shot   -
+
+		Removed:
+			Plasma Shotgun (firemode-plasma-shotgun.xml). Used to unlock at 60 medals.
+		-->
 
 		<!--
 			Note:
