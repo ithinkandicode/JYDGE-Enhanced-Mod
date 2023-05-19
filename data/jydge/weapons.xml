@@ -7,7 +7,7 @@
 		<node id="weapons/firemode-plasma-assault-rifle.xml"        medal_requirement="5"    upgrade_levels="10"    purchase_cost="2000"  upgrade_cost="80" />
 		<node id="weapons/firemode-laser-assault-rifle.xml"         medal_requirement="10"   upgrade_levels="10"    purchase_cost="3000"  upgrade_cost="90" />
 		<node id="weapons/firemode-ion-assault-rifle.xml"           medal_requirement="20"   upgrade_levels="10"    purchase_cost="4000"  upgrade_cost="100" />
-		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="30"   upgrade_levels="10"    purchase_cost="8000"  upgrade_cost="110" tags="MOD_NEW" />
+		<node id="weapons/firemode-laser-shotgun.xml"               medal_requirement="30"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="110" tags="MOD_NEW" />
 		<node id="weapons/firemode-lead-assault-rifle.xml"          medal_requirement="40"   upgrade_levels="10"    purchase_cost="6000"  upgrade_cost="120" />
 		<node id="weapons/firemode-lead-sniper.xml"                 medal_requirement="50"   upgrade_levels="10"    purchase_cost="7000"  upgrade_cost="130" />
 		<node id="weapons/firemode-plasma-smg.xml"                  medal_requirement="60"   upgrade_levels="10"    purchase_cost="5000"  upgrade_cost="150" tags="MOD_EDIT" />
