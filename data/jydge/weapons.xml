@@ -51,7 +51,7 @@
 		<node id="STUN_PULSE"           medal_requirement="98"  upgrade_levels="6"      purchase_cost="8000"    upgrade_cost="200" />
 		<node id="ANTIOCH_GRENADES"     medal_requirement="113"  upgrade_levels="6"     purchase_cost="9500"    upgrade_cost="200" tags="MOD_NEW"/>
 		<node id="NADE_LAUNCHER"        medal_requirement="125"  upgrade_levels="6"     purchase_cost="12000"   upgrade_cost="200" />
-		<node id="TURRET_MACHINE_GUN"   medal_requirement="138"  upgrade_levels="4"     purchase_cost="14000"   upgrade_cost="200" />
+		<node id="TURRET_MACHINE_GUN"   medal_requirement="138"  upgrade_levels="4"     purchase_cost="13000"   upgrade_cost="200" />
 	</array>
 
 	<array id="UNUSED_ABILITIES">
