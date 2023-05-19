@@ -25,6 +25,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Loads of weapons and perks have been altered to be more powerful or more interesting, creating new synergies and builds, and making everything you unlock worth trying.
 - The order of some weapon unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
 - Extra love given to grenades and melee, with new and edited perks that make them more powerful.
+- New HP-related perks grant chances to regain lost health, for players who find the game a little too punishing.
 - Removed some OP vanilla perks (*Sickness, Fast Reload, Extended Magazine*).
   - These were so OP that they fit into any build, and not using them feels like playing with a major handicap.
   - Instead, this mods aims for balance across all items, so that nearly everything feels like a viable choice.
@@ -73,7 +74,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - Now unlocked after 100 medals, instead of 70.
   - Base damage has been doubled (7 > 14).
   - Max targets: 2 > 4
-  - *Ion weapons feel pretty weak in vanilla, especially with so few perks. But this massive buff should let the Ion Shotgun contend with other late-game weapons.*
+  - *Ion weapons feel pretty weak in vanilla, especially with so few perks. This massive buff lets the Ion Shotgun contend with other late-game weapons.*
 - Rypid Plasma (Plasma SMG):
   - Increased damage: 12 > 16
   - Faster reload: 1.75 > 1.25
@@ -226,17 +227,22 @@ Most icons have new colours, and are grouped by theme/build. This should make it
 
 It's now easier to see where you're shooting, and what you're dodging.
 
-- Projectile size halved, for ion & enemy bullets. Their vanilla size makes their hitboxes look larger than they really are.
-- Rocket trails have much less smoke. Tiny Ryckets have less sparks too. It's now easier to see where rockets are, as the screen is less obscured by smoke.
+- Projectile size halved, for ion & enemy bullets.
+  - *Their vanilla size makes their hitboxes look larger than they really are.*
+- Rocket trails have much less smoke. Tiny Ryckets have less sparks too.
+  - *It's now easier to see where rockets are, as the screen is less obscured by smoke.*
 
 ### Audio
 
-- Added custom hurt sounds for the player character (pitch-shifted human male wi. some EQ). Now you can tell when you're being hit!
+- Added custom hurt sounds for the player character.
+  - *Now you can tell when you're being hit!*
+  - *(note: pitch-shifted human male wi. some EQ)*
 - Reduced the volume of the Shadow Cloak sound, down to 25%.
 
 ### Misc
 
-- Added missing monospace font needed for the editor. This is taken from Dysmantle, so it's not perfect.
+- Added missing monospace font needed for the editor.
+  - This font is taken from Dysmantle, so it's not perfect.
 
 ### Bugs
 
@@ -244,7 +250,7 @@ It's now easier to see where you're shooting, and what you're dodging.
   - There's an issue with the AoE rings for both Vampire & Slowdown field.
   - Explosions & fire that overlap the rings will affect the player, even though they're outside of the player's hitbox.
   - However, there's an unexpected bonus to this: You can combo Friend of Mine with Slowdown field to convert mines from a long distance.
-
+- There's no `damage_increase_per_damage_type` for explosions, creating a potential exploit with "Neon Lasers".
 
 
 ## Code Notes
