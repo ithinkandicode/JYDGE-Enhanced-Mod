@@ -537,7 +537,7 @@
 		/>
 
 		<node id="FAST_RELOAD"
-		 category="WEAPON"
+		 category="__DEPRECATED"
 		 title="Fast Reload"
 		 description="|color|Weapon reload speed is increased 300%.|colorend|"
 		 effect_1="reload_speed_increase,3.0"
