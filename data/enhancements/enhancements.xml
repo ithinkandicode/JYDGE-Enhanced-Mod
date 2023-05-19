@@ -462,7 +462,7 @@
 		<node id="_ACCURATE"
 		 category="WEAPON"
 		 title="Accurate"
-		 description="|color|Perfect accuracy|colorend| with most non-shotgun weapons."
+		 description="You gain |color|Perfect accuracy|colorend| with most non-shotgun weapons."
 		 effect_1="accuracy_increase,999.0"
 		 medal_requirement="18"
 		 tags="MOD_NEW"
