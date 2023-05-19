@@ -674,6 +674,10 @@
 		 tags="MOD_NEW"
 		/>
 
+		<!--
+		Note: Unfortunately you can't reduce damage for explosions, so this
+		can be exploited with any rocket projectile
+		-->
 		<node id="_NEON_LASERS"
 		 category="WEAPON_LASER"
 		 title="Neon Lasers"
