@@ -231,9 +231,28 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 Most icons have new colours, and are grouped by theme/build. This should make it easier to set up a loadout with items that synergise well with each other.
 
-- Gavel Mods for melee are now purple.
-- Cyberware that affects health are now red.
-- Cyberware that affects credits are now yellow.
+**General**:
+
+- $\color{rgb(25,125,255)}{\textsf{Attributes - Blue}}$
+- $\color{rgb(255,125,125)}{\textsf{Civilians - Salmon}}$
+- $\color{rgb(64,255,64)}{\textsf{Companions - Green}}$
+- $\color{rgb(255,255,0)}{\textsf{Credits - Yellow}}$
+- $\color{rgb(255,0,125)}{\textsf{Damage - Hot Pink}}$
+- $\color{rgb(255,64,0)}{\textsf{Survival - Light Red}}$
+- $\color{rgb(64,125,125)}{\textsf{Stealth - Dull Turqiose}}$
+- $\color{rgb(255,25,255)}{\textsf{Misc - Pink}}$
+
+**Weapons**:
+
+- $\color{rgb(125,125,125)}{\textsf{Lead - Grey}}$
+- $\color{rgb(255,215,0)}{\textsf{Plasma - Gold}}$
+- $\color{rgb(255,25,25)}{\textsf{Laser - Red}}$
+- $\color{rgb(125,255,255)}{\textsf{Ion - Cyan}}$
+
+**Gavel Mods**:
+
+- $\color{rgb(255,125,0)}{\textsf{General - Orange}}$
+- $\color{rgb(255,0,0)}{\textsf{Melee - Red}}$
 
 ### GFX (Graphics)
 
