@@ -558,9 +558,9 @@
 		<node id="_ARMORY"
 		 category="WEAPON"
 		 title="Armory"
-		 description="|color|Clip size is increased x8|colorend|, but the extra weight slows you down to |#ff0000|half speed.|#ffffff|"
+		 description="|color|Clip size is increased x4|colorend|, but the extra weight slows you down to |#ff0000|half speed.|#ffffff|"
 		 effect_1="speed_increase,-0.50"
-		 effect_2="clip_size_increase,8.0"
+		 effect_2="clip_size_increase,4.0"
 		 medal_requirement="51"
 		 tags="MOD_NEW"
 		/>
