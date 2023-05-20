@@ -200,9 +200,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - (REMOVED) Extended Magazine:
   - *Again, too OP. The new perk "Armory" fills its place.*
 
-## Misc
-
-### Text Changes
+## Text Changes
 
 **General**
 
@@ -227,7 +225,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - GIANT!: Expanded description to specify stat change, and added hidden melee knockback stat.
 - Damage Credits: Revised description to be clearer.
 
-### Colour Changes
+## Icon Colors
 
 Most icons have new colours, and are grouped by theme/build. This should make it easier to set up a loadout with items that synergise well with each other.
 
@@ -254,23 +252,25 @@ Most icons have new colours, and are grouped by theme/build. This should make it
 - $\color{rgb(255,125,0)}{\textsf{General - Orange}}$
 - $\color{rgb(255,0,0)}{\textsf{Melee - Red}}$
 
-### GFX (Graphics)
+## Graphics (FX)
 
 It's now easier to see where you're shooting, and what you're dodging.
 
-- Projectile size halved, for ion & enemy bullets.
+- Projectile size halved for ion & enemy bullets.
   - *Their vanilla size makes their hitboxes look larger than they really are.*
 - Rocket trails have much less smoke. Tiny Ryckets have less sparks too.
   - *It's now easier to see where rockets are, as the screen is less obscured by smoke.*
 
-### Audio
+![Comparison of vanilla vs. modded rocket effects](notes/readme-images/rockets-comparison.png)
+
+## Audio
 
 - Added custom hurt sounds for the player character.
-  - *Now you can tell when you're being hit!*
+  - *Now you can tell when you're being hit vs. when an NPC is hit.*
   - *(note: pitch-shifted human male wi. some EQ)*
 - Reduced the volume of the Shadow Cloak sound, down to 25%.
 
-### Misc
+## Misc
 
 - Added missing monospace font needed for the editor.
   - This font is taken from Dysmantle, so it's not perfect.
