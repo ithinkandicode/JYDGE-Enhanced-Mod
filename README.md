@@ -252,6 +252,11 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Specials with upgrades that increase their number of uses now specify this in their descriptions.
   - Text for some Specials has been shortened to better accommodate this tweak (Psycho Darts, Stun Pulse).
 
+**Firemodes**
+
+- Renamed "Plasma" to "Plasma Ryfle".
+- Renamed "Ion" to "Ion Ryfle".
+
 
 ## Icon Colors
 
