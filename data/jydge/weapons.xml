@@ -2,8 +2,8 @@
 <root>
 
 	<array id="WEAPONS">
-		<node id="weapons/firemode-lead-smg.xml"                    medal_requirement="0"    upgrade_levels="5"     purchase_cost="1000"  upgrade_cost="40" />
-		<node id="weapons/firemode-lead-shotgun.xml"                medal_requirement="1"    upgrade_levels="5"     purchase_cost="1500"  upgrade_cost="70" />
+		<node id="weapons/firemode-lead-smg.xml"                    medal_requirement="0"    upgrade_levels="10"    purchase_cost="1000"  upgrade_cost="40" />
+		<node id="weapons/firemode-lead-shotgun.xml"                medal_requirement="1"    upgrade_levels="10"    purchase_cost="1500"  upgrade_cost="70" />
 		<node id="weapons/firemode-plasma-assault-rifle.xml"        medal_requirement="5"    upgrade_levels="10"    purchase_cost="2000"  upgrade_cost="80" />
 		<node id="weapons/firemode-laser-assault-rifle.xml"         medal_requirement="10"   upgrade_levels="10"    purchase_cost="3000"  upgrade_cost="90" />
 		<node id="weapons/firemode-ion-assault-rifle.xml"           medal_requirement="20"   upgrade_levels="10"    purchase_cost="4000"  upgrade_cost="100" />
