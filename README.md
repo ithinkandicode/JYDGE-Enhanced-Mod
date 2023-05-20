@@ -9,7 +9,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 ### New Stuff
 
-- New Weapon (1)
+- New Firemode (1)
 - New Cyberware (8)
 - New Gavel Mods (9)
 - New Specials (2)
@@ -60,7 +60,8 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - This is a cut weapon from the vanilla game files, now restored.
   - The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. So I removed Plysma Spread (Plasma Shotgun), as Plasma Burst does something similar already.
   - The unused vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. It keeps its very long range.
-  - Unlocks after 30 medals, instead of Rypid Plasma (Plasma SMG), which unlocks at 60 instead and is more powerful.
+  - Unlocks after 30 medals, instead of Rypid Plasma (Plasma SMG, which now unlocks at 60 instead and is more powerful).
+  - *Great for crowd control. Excess in tight spaces.*
 
 ### Balance & Tweaks
 
@@ -68,8 +69,10 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - Now have 5 upgrade levels instead of 10.
   - *Aims to discourage wasting points with these weaker starter weapons.*
 - Ion Rifle:
+  - Increased damage: 8 > 16 *(doubled)*
+  - Increased fire rate: 0.2 > 0.17 *(15% faster)*
   - Raised medal requirement slightly (18 > 20).
-  - *Makes it consistent with other weapons, as most of them unlock every 10 medals.*
+  - *Major buffs for one of the weakest weapons in the game. Its power still comes from its crowd control utility, but now it won't take a half a clip to kill someone.*
 - Rypid Plasma (Plasma SMG):
   - Increased damage: 12 > 16
   - Faster reload: 1.75 > 1.25
@@ -272,6 +275,7 @@ It's now easier to see where you're shooting, and what you're dodging.
 
 ## Misc
 
+- Streetlights now have 1/4 health (100 > 25).
 - Added missing monospace font needed for the editor.
   - This font is taken from Dysmantle, so it's not perfect.
 
@@ -327,3 +331,5 @@ To do a local diff:
   - Extended Magazine: Chance +300% to +20%, and add a small debuff. (still needed if we have Armory?)
   - Sickness: Also reduce player health to half? Tricky to mod because it doesn't have an editable parameter, it's either ON or OFF.
 - With Fast Reload & Extended Magazine removed, should weapons have their reload speeds and clip sizes buffed slightly to compensate?
+- ?Buff **Ion Shotgun**
+- ?Remove **Rapid Fire**
