@@ -21,13 +21,14 @@
 		Order & Notes:
 			  0 Lead SMG        = Lead Byllets   -
 			  1 Lead Shotgun    = Shotgyn        -
-			  5 Plasma AR       = Plasma Rifle   -
+			  5 Plasma AR       = Plasma         -
 			 10 Laser AR        = Heavy Lasyr    -
 			 20 Ion AR          = Ion            -
 			 30 Laser Shotgun   = Laser Shotgun  - Replaces Rypid Plasma (Plasma SMG) in the vanilla order. Replaces Plysma Spread (Plasma Shotgun) as a weapon.
 			 40 Lead AR         = Heavy Byllets  -
 			 50 Lead Sniper     = Snyper         -
 			 60 Plasma SMG      = Rypid Plasma   - Unlocks in vanilla at 30 medals.
+			 70 NONE
 			 80 Lead S.Shotgun  = Serial Shotgun -
 			 90 Minigun         = Minigyn        -
 			100 Ion Shotgun     = Ion Spread     - Used to unlock at 70 medals.
