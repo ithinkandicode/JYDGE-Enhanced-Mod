@@ -31,7 +31,7 @@
 		 shot_interval="1.21"
 		 ammo_cost_per_shot="1"
 		 heat_per_shot="0.1"
-		 reload_time="3.5"
+		 reload_time="3"
 		 reload_size="3"
 		 clip_size="3"
 		 ammo_refill_size="1"
