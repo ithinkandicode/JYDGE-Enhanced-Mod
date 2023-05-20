@@ -439,8 +439,8 @@
 		<node id="FIRERATE_INCREASE"
 		 category="WEAPON"
 		 title="Rapid Fire"
-		 description="Increases |color|rate of fire by 20%.|colorend|"
-		 effect_1="rate_of_fire_increase,0.20"
+		 description="Increases |color|rate of fire by 10%.|colorend|"
+		 effect_1="rate_of_fire_increase,0.10"
 		 medal_requirement="13"
 		/>
 
