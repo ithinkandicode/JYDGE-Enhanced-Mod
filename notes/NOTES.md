@@ -1,86 +1,54 @@
 # Modding
 
-## Search
+## Searching Files
 
-SEARCH:
+In *enhancements.xml*, the items have been split into categories, which are marked with an HTML comment that starts like this:
 
-  Category:
+	<!-- CATEGORY:
 
-EXCLUDE:
+It's a good idea to exclude certain folders when searching for things:
 
-  stages\*,ui\editor
+	stages\*,ui\editor
 
-INCLUDE-FIREMODE:
+To hide all the code notes from this mod:
 
-  firemode-*.xml
+	notes/*
 
+Firemode XMLs all use this pattern:
+
+	firemode-*.xml
 
 ## Tags
 
-  tags="MOD_NEW"
+Several tags have been added to XML nodes, to help find things:
 
-  tags="DEPRECATED_MAYBE"
-
-  category="DEPRECATED__WEAPON"
+	tags="MOD_NEW"
+	tags="MOD_EDIT"
+	category="__DEPRECATED"
 
 
 ## Misc
 
 Developer Mode: Comment out these lines: (--)
 
-  SHOW_DEVELOPER_UI
+	SHOW_DEVELOPER_UI
 
-Melee damage:
+Zero melee damage:
 
-  -  `-99.0` = game UI says `-1980` (20 * 99, 20 is base melee damage)
-  - For -999, use `49.95`
-
-
-## developer.xml
-
-developer.xml
-
-https://discord.com/channels/359262019045687298/524685280444153867/801376199565246504
-
-> Forgot to add info that you toggle the stage editor by pressing alt-e and stage pause edit with alt-y
-
-Note: Provided version doe not enable developer menu option, you need to add `SHOW_DEVELOPER_UI` for that.
-
-Could make a mod that's just tyhis file, stripped down to only include `STAGE_EDITOR`
-
-> How to enable developer mode
-> ============================
->
-> Copy the file developer.xml to the same folder where the game prog.xml file is to unlock developer mode. Restart the game.
-> You may notice more buttons appearing in the UI.
->
-> BACK UP YOUR SAVES BEFORE USING THESE TOOLS IF YOU WISH TO CONTINUE "NORMAL" GAMEPLAY.
-> It's very easy to mess up saves by accident when working in developer mode. For example when pressing CONTROL+a, autotesting mode is enabled and the AI player starts playing the game. When the mode is enabled, your game state is altered permanently and marked as test save which affects all sorts of things.
-
-**Controls**
-
-- ALT + E  - toggle the stage editor
-- ALT + Y  - stage pause edit
-- CTRL + A - Autotesting mode (AI player)
-- CTRL + E - Edit UI?
-- CTRL + Q - Very high speed (toggle)
-- ALT + A - Very high speed (hold)
-- CTRL + R - Resize text shows, not sure
-
-- F1 - Help (with Ctrl+E), or model textures + stats
-- F2 - Stats
-- F3 - Stats
-- F4 - Focial point? (after pressing ctrl+E)
-- F6 - System info
-
-Note that to see help text, you need to add a custom font to where it sayds the font filer is missing, I used Dysmantle's monospace font file
+- If you want to set melee damage to nothing, you could set melee damage to `-99.0`.
+- However, game UI shows this as `-1980` (20 * 99, 20 is base melee damage)
+- So for -999, use `-49.95`.
 
 
 ## Enemies + Levels
 
 Melee minibosses: Reduce health buff, eg "Ray Ram", who has HEALTH_2X
 
-  stages\act1\mission-riot.xml
+	stages\act1\mission-riot.xml
+
+Butcher Level: "Ray Rex": `HEALTH_8X`
+
+	stages\act2\mission-butcher.xml
 
 
 ## Explosions
@@ -89,21 +57,23 @@ Melee minibosses: Reduce health buff, eg "Ray Ram", who has HEALTH_2X
 
 Explosives:
 
-actors/ability-c4.xml
-actors/ability-mine.xml
-actors/explosive-bolt-ability.xml
-actors/grenade-launched-ability.xml
-weapons/micromissile-ability.xml
+	actors/ability-c4.xml
+	actors/ability-mine.xml
+	actors/explosive-bolt-ability.xml
+	actors/grenade-launched-ability.xml
+	weapons/micromissile-ability.xml
 
-actors/bullet-abilitymissile.xml
-actors/bullet-missile-mini.xml
-actors/enemy-mine.xml
+	actors/bullet-abilitymissile.xml
+	actors/bullet-missile-mini.xml
+	actors/enemy-mine.xml
 
 Firemode
-weapons/firemode-rocket-launcher.xml
+
+	weapons/firemode-rocket-launcher.xml
 
 nope?
-weapons/ability-rocket-launcher.xml
+
+	weapons/ability-rocket-launcher.xml
 
 ## Missiles
 

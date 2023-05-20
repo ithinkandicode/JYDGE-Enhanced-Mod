@@ -1,15 +1,4 @@
 
-## Cyberware
-
-
-## Gavel Mods
-
-Huge clip size, but the weight makes you very slow
-
-    speed_increase,-0.50
-    clip_size_increase,5.0
-
-
 ## Notes
 
     effect_1="speed_increase,-0.25"
