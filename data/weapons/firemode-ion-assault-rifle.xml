@@ -3,7 +3,7 @@
 
 	<array id="WEAPON">
 		<node id="PARAMETERS"
-		 name="Ion"
+		 name="Ion Ryfle"
 		 displayable_type="Ion Rifle"
 		 displayable_lore="Fires ion bolts that deal damage to all enemies near the projectile."
 		 damage_type="PROJECTILE_ION"
