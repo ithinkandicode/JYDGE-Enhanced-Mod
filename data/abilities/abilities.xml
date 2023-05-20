@@ -54,7 +54,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 		<!-- actors\grenade-stun.xml -->
 		<node id="STUN_GRENADES"
 		 title="Stun Grenades"
-		 description="A grenade which stuns enemies for a short period."
+		 description="A grenade which stuns enemies for a short period. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/stun_grenades.png"
 		 target_type="direction_distance"
 		 max_level="3"
@@ -93,7 +93,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 		<!-- actors\bullet-convert-enemy.xml -->
 		<node id="CONVERT_ENEMY"
 		 title="Psycho Darts"
-		 description="The contained psychoactive compound turns an organic enemy against his own and explodes violently within a few seconds."
+		 description="Turns organic enemies against their own. They explode violently after a few seconds. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/convert_enemy.png"
 		 big_icon="abilities/icons/120px/convert_enemy_120px.png"
 		 target_type="direction"
@@ -149,7 +149,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 		<!-- actors\explosive-bolt-ability.xml -->
 		<node id="EXPLOSIVE_BOLT"
 		 title="Explosive Bolt"
-		 description="An explosive bolt that sticks to walls and enemies. Explodes after a short delay."
+		 description="An explosive bolt that sticks to walls and enemies. Explodes after a short delay. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/explosive_bolt.png"
 		 big_icon="abilities/icons/120px/explosive_bolt_120px.png"
 		 target_type="direction"
@@ -189,7 +189,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 	   <!-- effects\stun-pulse.xml -->
 	   <node id="STUN_PULSE"
 		 title="Stun Pulse"
-		 description="A generator that emits a pulse stunning nearby enemies."
+		 description="Emits a pulse stunning nearby enemies. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/stun_pulse.png"
 		 target_type="direction"
 		 cooldown="0.3"
@@ -227,7 +227,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 		<!-- weapons\plasma-burst-ability.xml -->
 		<node id="PLASMA_BURST"
 		 title="Plasma Burst"
-		 description="Shoots a burning stream of plasma in a narrow cone."
+		 description="Shoots a burning stream of plasma in a narrow cone. |#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/plasma_burst.png"
 		 big_icon="abilities/icons/120px/plasma_burst_120px.png"
 		 target_type="direction"
@@ -265,7 +265,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 	   	<!-- actors\companion-spider.xml -->
 		   <node id="MECHANICAL_SPIDER"
 		 title="Mechanical Spider"
-		 description="Spawns a mechanical spider to aid you."
+		 description="Spawns a mechanical spider to aid you. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/spider.png"
 		 target_type="nothing"
 		 max_level="1"
@@ -282,7 +282,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 	   	<!-- actors\companion-turret.xml -->
 		   <node id="TURRET_MACHINE_GUN"
 		 title="Machine Gun Turret"
-		 description="Place a turret with a machine gun."
+		 description="Place a turret with a machine gun. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/turret.png"
 		 target_type="nothing"
 		 max_level="1"
@@ -402,7 +402,7 @@ Ideas: stop time for 3-5 seconds, you can move freely.
 	   <!-- ?? -->
 	   <node id="SONIC_PULSE"
 		 title="Sonic Pulse"
-		 description="A sonic wave generator that emits a pulse stunning all nearby organic enemies."
+		 description="A sonic wave generator that emits a pulse stunning all nearby organic enemies. \n|#777777|Upgrades increase number of uses.|#ffffff|"
 		 icon="abilities/icons/stun_pulse.png"
 		 big_icon="abilities/icons/120px/stun_pulse_120px.png"
 		 target_type="nothing"
