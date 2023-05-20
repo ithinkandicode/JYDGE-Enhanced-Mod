@@ -22,11 +22,13 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 ### Balancing
 
-- Loads of weapons and perks have been altered to be more powerful or more interesting, create new synergies and builds, and make everything you unlock worth trying.
+- Loads of weapons and perks have been altered to be more powerful or more interesting, to create new synergies and builds, and to make everything you unlock worth trying.
 - The order of some Firemode unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
-- Extra love given to grenades and melee, with new and edited perks that make them more powerful.
-- New HP-related perks grant chances to regain lost health, for players who find the game a little too punishing.
-- Removed some OP vanilla perks (*Sickness, Fast Reload, Extended Magazine*).
+- Extra love given to grenades and melee. New and edited perks make them more powerful and versatile.
+- New HP-related perks grant more chances to regain lost health, for players who find the game a little too punishing.
+- No more OP perks!
+  - Removed the most OP perks: *Sickness, Fast Reload, Extended Magazine*.
+  - Reduced the effectivesness of other perks: *Rapid Fire, Murderous Lead*.
   - These were so OP that they fit into any build, and not using them feels like playing with a major handicap.
   - Instead, this mods aims for balance across all items, so that nearly everything feels like a viable choice.
 
@@ -38,8 +40,8 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 ### Extensively Tested
 
-- I've played a full game with this mod, all the way up to Nightmare difficulty, and only upgrading weapons up to about half-way to ensure that you rarely need to grind.
-
+- The mod has been tested across a full playthrough, collecting nearly every metal all the way up to Nightmare.
+- The progression of unlocks especially has been tailored to give a more varied experience over your full playthrough. New items start appearing around Act 2, and there's always something new to discover, all the way up to your final unlocks.
 
 
 ## Costs
@@ -47,9 +49,11 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Reduced costs of the last enhancement 2 slots.
   - Cyberware: 40k > 30k (Slot 4)
   - Gavel: 30k > 20k (Slot 3)
+  - *Lets you use your money on unlocks sooner, instead of spending a lot of the early game saving up and ignoring new unlocks.*
 - Reduced costs of Specials.
   - Cost reductions are more drastic for early game unlocks, when players are likely to be saving for enhancement slots.
   - *Makes it easier and faster to try new Specials as you acquire them, without impacting your savings as much.*
+  - *Also leaves a good amount of spare credits, either for upgrades, or for saving towards using Sin Eater's civillian death resets.*
 
 
 ## Firemodes
@@ -61,26 +65,31 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. So I removed Plysma Spread (Plasma Shotgun), as Plasma Burst does something similar already.
   - The unused vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. It keeps its very long range.
   - Unlocks after 30 medals, instead of Rypid Plasma (Plasma SMG, which now unlocks at 60 instead and is more powerful).
-  - *Great for crowd control. Excess in tight spaces.*
+  - *Great for crowd control. Excels in tight spaces.*
 
 ### Balance & Tweaks
 
-- Lead Byllets + Shotgyn:
-  - Now have 5 upgrade levels instead of 10.
-  - *Aims to discourage wasting points with these weaker starter weapons.*
+- Plasma Rifle:
+  - Increased damage: 20 > 30 (26.0 > 45.5)
+  - Reduced fire rate: 0.23 > 0.28 (2300ms > 2800ms)
+  - Increased clip size: 20 > 25
+  - Renamed from just "Plasma" to "Plasma Ryfle".
+  - *Changed stats so that the Lead AR (Heavy Byllets) isn't a direct upgrade. Now the Plasma Rifle sits roughly between Heavy Byllets and Heavy Lasyr.*
 - Ion Rifle:
-  - Increased damage: 8 > 16 *(doubled)*
-  - Increased fire rate: 0.2 > 0.17 *(15% faster)*
-  - Raised medal requirement slightly (18 > 20).
+  - Increased damage: 8 > 16 (?? > 20.8) *(doubled)*
+  - Increased fire rate: 0.2 > 0.17 (200ms > 170ms)
+  - Raised medal requirement slightly: 18 > 20.
+  - Renamed from just "Ion" to "Ion Ryfle".
   - *Major buffs for one of the weakest weapons in the game. Its power still comes from its crowd control utility, but now it won't take a half a clip to kill someone.*
-- Rypid Plasma (Plasma SMG):
-  - Increased damage: 12 > 16
-  - Faster reload: 1.75 > 1.25
-  - Now unlocks at 60 medals, instead of 30.
-  - *Makes this flamethrower feel a lot more powerful.*
 - Snyper:
   - Increase damage: 100 > 140
+  - Increased reload speed: 0.35 > 0.3 (3500ms > 3000ms)
   - *Lets you score one-shots more reliably, and makes upgrades even more powerful.*
+- Rypid Plasma (Plasma SMG):
+  - Increased damage: 12 > 16
+  - Increased reload speed: 1.75 > 1.25
+  - Now unlocks at 60 medals, instead of 30.
+  - *Makes this flamethrower feel a lot more powerful.*
 - Ion Spread (Ion Shotgun):
   - Base damage has been doubled (7 > 14).
   - Max targets: 2 > 4
@@ -88,10 +97,9 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Ion weapons feel pretty weak in vanilla, especially with so few perks. This massive buff lets the Ion Shotgun contend with other late-game weapons.*
 - Tiny Ryckets (Rocket Launcher):
   - Increased damage: 20 > 25
-  - *Rockets now deal slightly more damage on impact.*
 - Charged Shot:
   - Faster max charge time: 2 > 1.5
-  - *Recalibrated already buffed this weapon, but charging still felt too slow fot the last weapon unlock. Now it's even more deserving of that final slot.*
+  - *[Recalibrated](https://www.nexusmods.com/jydge/mods/2) already buffed this weapon, but charging still felt too slow fot the last weapon unlock. Now it's even more deserving of that final slot.*
 
 ### Unlocks
 
@@ -100,6 +108,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Rypid Plasma (Plasma SMG): Medals requirement: 30 > 60.
 - Ion Spread (Ion Shotgun): Medals requirement: 70 100.
 - Plysma Spread (Plasma Shotgun) has been removed, to make room for Laser Shotgun. It used to unlock at 60 medals.
+- There's a space for a weapon unlock at 70 medals, but unfortunately the game can only show up to 14 weapons, and we've already reached this limit.
 
 
 ## Specials
@@ -156,7 +165,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Now all the stats are +300% (OCD satiated!). Also makes melee builds slightly more powerful.*
 - Rita the Rocket Drone (Companion):
   - Shot interval 1 > 0.3, but clip size 1 > 3
-  - *Can she now shoot a volley of 3 rockets at once! And the reduced fire rate means she's less likely to kill you.*
+  - *Can now shoot 3 rockets at once. This also makes the "Companion Boost" perk (which boost fire rate) more useful for Rita.*
 - (REMOVED) Sickness:
   - *Reducing enemy HP to half was just too OP.*
 
@@ -172,7 +181,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 | ---------------- | ------ | ------ |
 | Accurate         | You gain Perfect accuracy with most non-shotgun weapons. | 18 |
 | Active Reload    | Increases manual reload speed by 25%. | 26 |
-| Armory           | Clip size is increased x8, but the extra weight slows you down to half speed. | 51 |
+| Armory           | Clip size is increased x4, but the extra weight slows you down to half speed. | 51 |
 | Big Boomer       | Grenades fuse times are halved, and their explosive radius is increased by 50%. | 76 |
 | No Fuse          | Grenades explode instantly. | 99 |
 | Splinter Bullets | Your projectiles will split in two shortly after leaving the barrel. | 104 |
@@ -186,6 +195,9 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Reload Plasma:
   - Increased the number of projectiles: 12 > 20
   - *It's too hard to hit anything with the vanilla version.*
+- Rapid Fire:
+  - Decreased fire rate bonus from: +20% > +10%.
+  - *This perk was pretty much an "always take". Now the buff it offers feels more even in power to other perks, while still being useful.*
 - Power Gavel:
   - Extra effect: Now also gives +30% increase to melee speed.
   - *The vanilla version triples melee damage, but felt like it needed "Fast Melee" to be useful.*
@@ -202,6 +214,13 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Another perk that was just OP.*
 - (REMOVED) Extended Magazine:
   - *Again, too OP. The new perk "Armory" fills its place.*
+
+
+## Stages
+
+- Act 2, Mission 08 (Doublemeat Buthery): Reduced HP of "Ray Rex" (`HEALTH_8X` > `HEALTH_4X`)
+  - *This guy can easily handled with knockback/stun, but it's kinda boring while you wait for him to die.*
+
 
 ## Text Changes
 
@@ -227,6 +246,12 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Fast Melee: Expanded description to mention melee attack charge speed.
 - GIANT!: Expanded description to specify stat change, and added hidden melee knockback stat.
 - Damage Credits: Revised description to be clearer.
+
+**Specials**
+
+- Specials with upgrades that increase their number of uses now specify this in their descriptions.
+  - Text for some Specials has been shortened to better accommodate this tweak (Psycho Darts, Stun Pulse).
+
 
 ## Icon Colors
 
@@ -255,6 +280,7 @@ Most icons have new colours, and are grouped by theme/build. This should make it
 - $\color{rgb(255,125,0)}{\textsf{General - Orange}}$
 - $\color{rgb(255,0,0)}{\textsf{Melee - Red}}$
 
+
 ## Graphics (FX)
 
 It's now easier to see where you're shooting, and what you're dodging.
@@ -266,18 +292,22 @@ It's now easier to see where you're shooting, and what you're dodging.
 
 ![Comparison of vanilla vs. modded rocket effects](notes/readme-images/rockets-comparison.png)
 
+
 ## Audio
 
 - Added custom hurt sounds for the player character.
   - *Now you can tell when you're being hit vs. when an NPC is hit.*
   - *(note: pitch-shifted human male wi. some EQ)*
-- Reduced the volume of the Shadow Cloak sound, down to 25%.
+- Removed the SFX for Shadow Cloak.
+
 
 ## Misc
 
-- Streetlights now have 1/4 health (100 > 25).
+- Streetlights now have 1/5 health (100 > 20).
+  - *This lets you destroy them with a single melee swipe, perfect for stealth runs.*
 - Added missing monospace font needed for the editor.
   - This font is taken from Dysmantle, so it's not perfect.
+
 
 ### Bugs
 
@@ -285,7 +315,7 @@ It's now easier to see where you're shooting, and what you're dodging.
   - There's an issue with the AoE rings for both Vampire & Slowdown field.
   - Explosions & fire that overlap the rings will affect the player, even though they're outside of the player's hitbox.
   - However, there's an unexpected bonus to this: You can combo Friend of Mine with Slowdown field to convert mines from a long distance.
-- There's no `damage_increase_per_damage_type` for explosions, creating a potential exploit with "Neon Lasers".
+- There's no `damage_increase_per_damage_type` for explosions, creating a potential exploit with a mechanic.
 
 
 ## Code Notes
@@ -315,7 +345,7 @@ Also search for thse string: `MOD_EDIT` and `MOD_NEW`.
 To see the full code changes:
 
 - https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/compare/1.0.1...main (since vanilla)
-- https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/compare/1.0.2...main (since Recalibrated)
+- https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/compare/1.0.2...main (since [Recalibrated](https://www.nexusmods.com/jydge/mods/2))
 
 To do a local diff:
 
@@ -327,9 +357,10 @@ To do a local diff:
 ## @todo
 
 - Reconsider the removed perks (Fast Reload, Sickness, Extended Magazine). Perhaps they could be retained with a smaller effect, plus a disadvantage?
-  - Fast Reload: Change to "Light Clips", which increase reload speed but reduce clip size.
-  - Extended Magazine: Chance +300% to +20%, and add a small debuff. (still needed if we have Armory?)
-  - Sickness: Also reduce player health to half? Tricky to mod because it doesn't have an editable parameter, it's either ON or OFF.
+  - **Fast Reload**: Change to "Light Clips", which increase reload speed but reduce clip size (or reduce damage?).
+  - **Extended Magazine**: Chance +300% to +20%, and add a small debuff. (is it still needed if we have Armory?)
+  - **Sickness**: Also reduce player health to half? Tricky to mod because it doesn't have an editable parameter, it's either ON or OFF.
 - With Fast Reload & Extended Magazine removed, should weapons have their reload speeds and clip sizes buffed slightly to compensate?
 - ?Buff **Ion Shotgun**
 - ?Remove **Rapid Fire**
+- ?Rebalance: **Mighty Burst**
