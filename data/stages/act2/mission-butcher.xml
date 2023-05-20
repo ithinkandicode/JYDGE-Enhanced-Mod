@@ -4198,7 +4198,7 @@
  <node ref_number="1397" type="actors/forklift.xml" x="2651" y="2226" angle_z="90" scale="1.973824"  />
  <node ref_number="1398" type="actors/enemy-jydge-melee-tough.xml" x="2687" y="1983" angle_z="179" scale="1.000000" key_STRING_name="Ray Rex"
  key_STRING_spawn_id="RAY_REX"
- key_STRING_enhancements="HEALTH_8X,SPEED_2X"
+ key_STRING_enhancements="HEALTH_4X,SPEED_2X"
  key_STRING_animation="models/animations/humanoid_rig-humanoid_drive.xml"
   />
  <node ref_number="1399" type="actors/enemy-spiderbot-grenade.xml" x="325" y="519" angle_z="343" scale="0.900000" key_STRING_spawn_id="TARENTELLA_JR" key_STRING_name="Tarantella Jr."  />
