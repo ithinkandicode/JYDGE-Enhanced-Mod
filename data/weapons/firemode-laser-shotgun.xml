@@ -5,7 +5,7 @@
 		<node id="PARAMETERS"
 		 name="Laser Shotgyn"
 		 displayable_type="Laser Shotgyn"
-		 displayable_lore="Fires multiple smaller beams that bounce off of walls."
+		 displayable_lore="Fires multiple smaller beams that bounce off of walls. Excels in tight spaces."
 		 damage_type="PROJECTILE_LASER"
 		 equip_price="440"
 		 unlock_price="800"
