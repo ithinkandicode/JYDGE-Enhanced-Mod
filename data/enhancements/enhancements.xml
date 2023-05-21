@@ -579,9 +579,9 @@
 		<node id="FIRERATE_INCREASE_BUT_LONGER_RELOAD"
 		 category="WEAPON"
 		 title="Mighty Burst"
-		 description="|color|Increases rate of fire by 50%|colorend| but |#ff0000|slows down reload by 25%."
-		 effect_1="rate_of_fire_increase,0.50"
-		 effect_2="reload_speed_increase,-0.25"
+		 description="|color|Increases rate of fire by 20%|colorend| but |#ff0000|slows down reload by 15%."
+		 effect_1="rate_of_fire_increase,0.20"
+		 effect_2="reload_speed_increase,-0.15"
 		 medal_requirement="57"
 		/>
 
