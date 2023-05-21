@@ -27,9 +27,9 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Extra love given to grenades and melee. New and edited perks make them more powerful and versatile.
 - New HP-related perks grant more chances to regain lost health, for players who find the game a little too punishing.
 - No more OP perks!
-  - Removed the most OP perks: *Sickness, Fast Reload, Extended Magazine*.
-  - Reduced the effectivesness of other perks: *Rapid Fire, Murderous Lead*.
-  - These were so OP that they fit into any build, and not using them feels like playing with a major handicap.
+  - Removed the most OP perks: *Sickness, Extended Magazine*.
+  - Reduced the effectivesness of other perks: *Rapid Fire, Fast Reload, Mighty Burst, Murderous Lead*.
+  - These perks were so OP that they fit into any build, and there was never any reason not to take them.
   - Instead, this mods aims for balance across all items, so that nearly everything feels like a viable choice.
 
 ### Misc Tweaks
@@ -70,28 +70,30 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 ### Balance & Tweaks
 
 - Plasma Rifle:
-  - Increased damage: 20 > 30 (26.0 > 45.5)
-  - Reduced fire rate: 0.23 > 0.28 (2300ms > 2800ms)
+  - Increased damage: 20 > 30
+  - Reduced fire rate: 0.23 > 0.28 (230ms > 280ms)
   - Increased clip size: 20 > 25
   - Renamed from just "Plasma" to "Plasma Ryfle".
   - *Changed stats so that the Lead AR (Heavy Byllets) isn't a direct upgrade. Now the Plasma Rifle sits roughly between Heavy Byllets and Heavy Lasyr.*
 - Ion Rifle:
-  - Increased damage: 8 > 16 (?? > 20.8) *(doubled)*
+  - Increased damage: 8 > 16 *(doubled)*.
   - Increased fire rate: 0.2 > 0.17 (200ms > 170ms)
   - Raised medal requirement slightly: 18 > 20.
   - Renamed from just "Ion" to "Ion Ryfle".
   - *Major buffs for one of the weakest weapons in the game. Its power still comes from its crowd control utility, but now it won't take a half a clip to kill someone.*
 - Snyper:
   - Increase damage: 100 > 140
+  - Increased clip size: 3 > 4
   - Increased reload speed: 0.35 > 0.3 (3500ms > 3000ms)
-  - *Lets you score one-shots more reliably, and makes upgrades even more powerful.*
+  - Increased projectile speed: 2600 > 3000
+  - *The higher damage lets you score one-shots more reliably and makes upgrades even more powerful. The slightly larger clip and faster reload makes those tense moments of reloading a little easier.*
 - Rypid Plasma (Plasma SMG):
   - Increased damage: 12 > 16
   - Increased reload speed: 1.75 > 1.25
   - Now unlocks at 60 medals, instead of 30.
   - *Makes this flamethrower feel a lot more powerful.*
 - Ion Spread (Ion Shotgun):
-  - Base damage has been doubled (7 > 14).
+  - Increased damage: 7 > 14 *(doubled)*.
   - Max targets: 2 > 4
   - Now unlocked after 100 medals, instead of 70.
   - *Ion weapons feel pretty weak in vanilla, especially with so few perks. This massive buff lets the Ion Shotgun contend with other late-game weapons.*
@@ -194,26 +196,34 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 
 - Reload Plasma:
   - Increased the number of projectiles: 12 > 20
-  - *It's too hard to hit anything with the vanilla version.*
+  - *It's too hard to hit anything with the vanilla version, and the big buff helps it stay useful for longer.*
 - Rapid Fire:
   - Decreased fire rate bonus from: +20% > +10%.
-  - *This perk was pretty much an "always take". Now the buff it offers feels more even in power to other perks, while still being useful.*
+  - *This perk was pretty much an "always take". Now the buff it offers feels more inline with other perks, while still being useful.*
 - Power Gavel:
   - Extra effect: Now also gives +30% increase to melee speed.
-  - *The vanilla version triples melee damage, but felt like it needed "Fast Melee" to be useful.*
+  - *Gives only x3 melee damage in vanilla, but melee attacks are still too slow on their own. This buff lets you use this perk without needing to take the one that also increases melee speed.*
 - Melee Deflect:
   - Extra effect: You melee attacks hit everyone around you.
   - Renamed to "360 Deflect".
   - *Makes it much easier to deflect bullets.*
+- Mighty Burst:
+  - Reduced fire rate: +50% > +20%.
+  - Reduced relaod speed debuff: -25% > -15%.
+  - *Stil useful, but no longer OP.*
 - Murderous Lead:
-  - Reduced damage increase: +50% > +20%
+  - Reduced damage increase: +50% > +15%
   - Increased medals unlock cost: 42 > 124
   - Extra effect: Lead bullets now also pierce enemies.
-  - *Lead bullets have plenty of perks, which just made every other gun feel weak by comparison, especially with how early this perk could be unlocked. This evens things out a bit. The new bonus effect makes is still worthwhile, trading the old higher damage for more utility.*
-- (REMOVED) Fast Reload:
-  - *Another perk that was just OP.*
+  - *Lead bullets have plenty of perks, which just made every other gun feel weak by comparison, especially with how early this perk could be unlocked.*
+  - *This evens things out a bit, and the new bonus effect makes it more worthwhile, trading the old huge damage buff for new utility.*
+- Fast Reload:
+  - Reduced reload speed: +300% > +30%
+  - Extra effect: All of your damage is reduced by -20%.
+  - Renamed to "Light Ammo".
+  - *OP in vanilla. This nerf stops it being a neceesary pick for every build, while still supporting certain synergies (eg. with Sniper, whose huge base damage offsets the damage reduction).*
 - (REMOVED) Extended Magazine:
-  - *Again, too OP. The new perk "Armory" fills its place.*
+  - *OP in vanilla (x3 clip size with no downsides). The new perk "Armory" fills its place while remaining balanced (x4 clip but -50% move speed).*
 
 
 ## Stages
@@ -252,10 +262,12 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Specials with upgrades that increase their number of uses now specify this in their descriptions.
   - Text for some Specials has been shortened to better accommodate this tweak (Psycho Darts, Stun Pulse).
 
-**Firemodes**
+**Renames**
 
-- Renamed "Plasma" to "Plasma Ryfle".
-- Renamed "Ion" to "Ion Ryfle".
+- Renamed Firemode: "Plasma" > "Plasma Ryfle".
+- Renamed Firemode: "Ion" > "Ion Ryfle".
+- Renamed Gavel Mod: "Fast Reload" > "Light Ammo".
+- Renamed Gavel Mod: "Melee Deflect" > "360 Deflect".
 
 
 ## Icon Colors
