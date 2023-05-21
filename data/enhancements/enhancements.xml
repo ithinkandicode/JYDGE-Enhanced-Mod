@@ -439,8 +439,8 @@
 		<node id="FIRERATE_INCREASE"
 		 category="WEAPON"
 		 title="Rapid Fire"
-		 description="Increases |color|rate of fire by 10%.|colorend|"
-		 effect_1="rate_of_fire_increase,0.10"
+		 description="Increases |color|rate of fire by 5%.|colorend|"
+		 effect_1="rate_of_fire_increase,0.5"
 		 medal_requirement="13"
 		/>
 
@@ -542,9 +542,9 @@
 		<node id="FAST_RELOAD"
 		 category="WEAPON"
 		 title="Light Ammo"
-		 description="|color|Weapon reload speed is increased by 30%, but all damage is reduced by -20%.|colorend|"
-		 effect_1="reload_speed_increase,0.3"
-		 effect_2="damage_increase,-0.2"
+		 description="|color|Increases reload speed by 20%|colorend|, but |#ff0000|all damage is reduced by -15%.|#ffffff|"
+		 effect_1="reload_speed_increase,0.2"
+		 effect_2="damage_increase,-0.15"
 		 medal_requirement="46"
 		/>
 
@@ -579,8 +579,8 @@
 		<node id="FIRERATE_INCREASE_BUT_LONGER_RELOAD"
 		 category="WEAPON"
 		 title="Mighty Burst"
-		 description="|color|Increases rate of fire by 20%|colorend| but |#ff0000|slows down reload by 15%."
-		 effect_1="rate_of_fire_increase,0.20"
+		 description="|color|Increases rate of fire by 10%|colorend| but |#ff0000|reduces reload speed by -15%."
+		 effect_1="rate_of_fire_increase,0.10"
 		 effect_2="reload_speed_increase,-0.15"
 		 medal_requirement="57"
 		/>
