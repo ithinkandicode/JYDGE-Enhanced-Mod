@@ -538,11 +538,13 @@
 		 tags="MOD_EDIT"
 		/>
 
+		<!-- Renamed from "Fast Reload" -->
 		<node id="FAST_RELOAD"
-		 category="__DEPRECATED"
-		 title="Fast Reload"
-		 description="|color|Weapon reload speed is increased 300%.|colorend|"
-		 effect_1="reload_speed_increase,3.0"
+		 category="WEAPON"
+		 title="Light Ammo"
+		 description="|color|Weapon reload speed is increased by 30%, but all damage is reduced by -20%.|colorend|"
+		 effect_1="reload_speed_increase,0.3"
+		 effect_2="damage_increase,-0.2"
 		 medal_requirement="46"
 		/>
 
