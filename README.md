@@ -1,6 +1,6 @@
-# JYDGE Enhanced (Mod)
+# JYDGE Enhanced Mod
 
-A huge mod for the game JYDGE, by 10tons.
+A huge mod for the game JYDGE, by 10tons. Includes 20 new items and a ton of tweaks.
 
 Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/mods/2), by Illamasqua. Be sure to read that mod's description to see what else has changed.
 
@@ -23,37 +23,39 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 ### Balancing
 
 - Loads of weapons and perks have been altered to be more powerful or more interesting, to create new synergies and builds, and to make everything you unlock worth trying.
-- The order of some Firemode unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
+- The order of some Firemode unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough (eg. in vanilla you unlock 3 shotguns in succession, for Plasma/Ion/Serial Shotgun).
 - Extra love given to grenades and melee. New and edited perks make them more powerful and versatile.
 - New HP-related perks grant more chances to regain lost health, for players who find the game a little too punishing.
 - No more OP perks!
   - Removed the most OP perks: *Sickness, Extended Magazine*.
-  - Reduced the effectivesness of other perks: *Rapid Fire, Fast Reload, Mighty Burst, Murderous Lead*.
+  - Reduced the effectivesness of other perks: *Rapid Fire, Fast Reload, Mighty Burst, Murderous Lead, Reaper*.
   - These perks were so OP that they fit into any build, and there was never any reason not to take them.
   - Instead, this mods aims for balance across all items, so that nearly everything feels like a viable choice.
 
 ### Misc Tweaks
 
+- Base movement speed has been increased slightly (+5%).
 - Weapons and perks are now grouped into colours, making it easier to equip gear that matches your build.
 - Rocket and ion FX are toned down. It's now much easier to see where to aim and dodge.
 - Loads of QoL text changes.
 
 ### Extensively Tested
 
-- The mod has been tested across a full playthrough, collecting nearly every metal all the way up to Nightmare.
-- The progression of unlocks especially has been tailored to give a more varied experience over your full playthrough. New items start appearing around Act 2, and there's always something new to discover, all the way up to your final unlocks.
+- **Enhanced** has been tested across a full playthrough, collecting nearly every medal all the way up to Nightmare.
+- The progression of unlocks especially has been tailored to give a more varied experience over your full playthrough. New items start appearing around Act 2, and there's always something new to discover, all the way up to your final unlocks. The early game has fewer new items, but the cheaper costs of Specials/equip slots lets you try more things more often.
 
 
 ## Costs
 
+Some costs have been reduced. They're intended to let you get early game unlocks faster, be able to afford all the new items, and have enough spare credits to upgrade your weapons (which you'll need to do more often, as there's no OP perks to rely on any more).
+
 - Reduced costs of the last enhancement 2 slots.
   - Cyberware: 40k > 30k (Slot 4)
   - Gavel: 30k > 20k (Slot 3)
-  - *Lets you use your money on unlocks sooner, instead of spending a lot of the early game saving up and ignoring new unlocks.*
-- Reduced costs of Specials.
-  - Cost reductions are more drastic for early game unlocks, when players are likely to be saving for enhancement slots.
+  - *Lets you use your money on unlocks sooner, instead of ignoring them while you save up.*
+- Reduced costs of most Specials.
+  - Cost reductions are more drastic for early game unlocks.
   - *Makes it easier and faster to try new Specials as you acquire them, without impacting your savings as much.*
-  - *Also leaves a good amount of spare credits, either for upgrades, or for saving towards using Sin Eater's civillian death resets.*
 
 
 ## Firemodes
@@ -63,8 +65,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 - Laser Shotgun!
   - This is a cut weapon from the vanilla game files, now restored.
   - The game has a limit of 14 weapons, so 1 weapon had to be sacrificed. So I removed Plysma Spread (Plasma Shotgun), as Plasma Burst does something similar already.
-  - The unused vanilla version is pretty weak. This new version has an improved fire rate, damage, and projectile count. It keeps its very long range.
-  - Unlocks after 30 medals, instead of Rypid Plasma (Plasma SMG, which now unlocks at 60 instead and is more powerful).
+  - Unlocks after 30 medals, instead of Rypid Plasma (which is buffed and now unlocks at 60).
   - *Great for crowd control. Excels in tight spaces.*
 
 ### Balance & Tweaks
@@ -105,6 +106,8 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *[Recalibrated](https://www.nexusmods.com/jydge/mods/2) already buffed this weapon, but charging still felt too slow fot the last weapon unlock. Now it's even more deserving of that final slot.*
 
 ### Unlocks
+
+*Things have been moved around to keep the experience fresh.*
 
 - Ion Rifle: Medals requirement: 18 > 20.
 - Laser Shotgun: Unlocked at 30 medals.
@@ -227,13 +230,17 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *OP in vanilla (x3 clip size with no downsides). The new perk "Armory" fills its place while remaining balanced (x4 clip but -50% move speed).*
 
 
-## Stages
+## Player & World
 
-- Act 2, Mission 08 (Doublemeat Buthery): Reduced HP of "Ray Rex" (`HEALTH_8X` > `HEALTH_4X`)
+- Increased player's base movement speed slightly by +5%: 290 > 305.
+  - *Makes the action feel a little faster. Also makes dodging a bit easier, as tne nerfs to the OP perks mean enemies will stay alive for longer.*
+- Streetlights now have 1/5 health (100 > 20).
+  - *This lets you destroy them with melee faster, perfect for stealth runs.*
+- Reduced HP of "Ray Rex" in mission 8 (Doublemeat Buthery, Act 2): `HEALTH_8X` > `HEALTH_4X`
   - *This guy can easily handled with knockback/stun, but it's kinda boring while you wait for him to die.*
 
 
-## Text Changes
+## Text
 
 **General**
 
@@ -321,14 +328,11 @@ It's now easier to see where you're shooting, and what you're dodging.
 
 ## Misc
 
-- Increased player speed slightly by +5%: 290 > 305
-- Streetlights now have 1/5 health (100 > 20).
-  - *This lets you destroy them with melee faster, perfect for stealth runs.*
 - Added missing monospace font needed for the editor.
   - This font is taken from Dysmantle, so it's not perfect.
 
 
-### Bugs
+## Bugs
 
 - Circle bug wi. slow field + vamp ring:
   - There's an issue with the AoE rings for both Vampire & Slowdown field.
@@ -372,11 +376,21 @@ To do a local diff:
 - Download the code from the release "[Vanilla - No Music](https://github.com/ithinkandicode/JYDGE-Enhanced-Mod/releases/tag/1.0.1)" (tag: 1.0.1)
 - Diff them, eg with [WinMerge](https://winmerge.org/)
 
+### Numbers
+
+Just some numbers for my own personal reference.
+
+    New Firemode (1)   -- new total: 14 + 1
+    New Cyberware (8)  -- new total: 35 + 8
+    New Gavel Mods (9) -- new total: 25 + 9
+    New Specials (2)   -- new total: 15 + 2
+
+    Vanilla items count: 89
+    Enhanced items count: 20 (+22%)
 
 ## @todo
 
 - Reconsider the removed perks (Fast Reload, Sickness, Extended Magazine). Perhaps they could be retained with a smaller effect, plus a disadvantage?
-  - **Fast Reload**: Change to "Light Clips", which increase reload speed but reduce clip size (or reduce damage?).
   - **Extended Magazine**: Chance +300% to +20%, and add a small debuff. (is it still needed if we have Armory?)
   - **Sickness**: Also reduce player health to half? Tricky to mod because it doesn't have an editable parameter, it's either ON or OFF.
 - With Fast Reload & Extended Magazine removed, should weapons have their reload speeds and clip sizes buffed slightly to compensate?
