@@ -9,7 +9,7 @@
 		 ai="Player"
 		 friend_group="PLAYERS"
 		 turn_speed="8.0"
-		 move_speed="290"
+		 move_speed="305"
 		 move_acceleration="2300"
 		 dampening_factor="13.0"
 		 restitution_coefficient="0.15"
