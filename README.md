@@ -99,6 +99,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Ion weapons feel pretty weak in vanilla, especially with so few perks. This massive buff lets the Ion Shotgun contend with other late-game weapons.*
 - Tiny Ryckets (Rocket Launcher):
   - Increased damage: 20 > 25
+  - *Surprisingly, a mini rocket launcher was pretty underwhelming in vanilla. This lets it better match the other late-game weapons.*
 - Charged Shot:
   - Faster max charge time: 2 > 1.5
   - *[Recalibrated](https://www.nexusmods.com/jydge/mods/2) already buffed this weapon, but charging still felt too slow fot the last weapon unlock. Now it's even more deserving of that final slot.*
@@ -198,7 +199,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - Increased the number of projectiles: 12 > 20
   - *It's too hard to hit anything with the vanilla version, and the big buff helps it stay useful for longer.*
 - Rapid Fire:
-  - Decreased fire rate bonus from: +20% > +10%.
+  - Decreased fire rate bonus from: +20% > +5%.
   - *This perk was pretty much an "always take". Now the buff it offers feels more inline with other perks, while still being useful.*
 - Power Gavel:
   - Extra effect: Now also gives +30% increase to melee speed.
@@ -208,8 +209,8 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - Renamed to "360 Deflect".
   - *Makes it much easier to deflect bullets.*
 - Mighty Burst:
-  - Reduced fire rate: +50% > +20%.
-  - Reduced relaod speed debuff: -25% > -15%.
+  - Reduced fire rate: +50% > +10%
+  - Increased reload speed: -25% > -15%
   - *Stil useful, but no longer OP.*
 - Murderous Lead:
   - Reduced damage increase: +50% > +15%
@@ -218,8 +219,8 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
   - *Lead bullets have plenty of perks, which just made every other gun feel weak by comparison, especially with how early this perk could be unlocked.*
   - *This evens things out a bit, and the new bonus effect makes it more worthwhile, trading the old huge damage buff for new utility.*
 - Fast Reload:
-  - Reduced reload speed: +300% > +30%
-  - Extra effect: All of your damage is reduced by -20%.
+  - Reduced reload speed: +300% > +20%
+  - Extra effect: All of your damage is reduced by -15%.
   - Renamed to "Light Ammo".
   - *OP in vanilla. This nerf stops it being a neceesary pick for every build, while still supporting certain synergies (eg. with Sniper, whose huge base damage offsets the damage reduction).*
 - (REMOVED) Extended Magazine:
@@ -320,8 +321,9 @@ It's now easier to see where you're shooting, and what you're dodging.
 
 ## Misc
 
+- Increased player speed slightly by +5%: 290 > 305
 - Streetlights now have 1/5 health (100 > 20).
-  - *This lets you destroy them with a single melee swipe, perfect for stealth runs.*
+  - *This lets you destroy them with melee faster, perfect for stealth runs.*
 - Added missing monospace font needed for the editor.
   - This font is taken from Dysmantle, so it's not perfect.
 
