@@ -1169,6 +1169,7 @@
 		 medal_requirement="114"
 		/>
 
+		<!-- This is not the mod's version, see: _FASTER_FASTER -->
 		<node id="FASTER_FASTER"
 		 category="MISC"
 		 title="Faster Faster"
