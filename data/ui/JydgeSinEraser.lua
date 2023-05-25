@@ -59,7 +59,7 @@ SetProperty ("position.z", -0.0338983);
 SetProperty ("align", "CENTER");
 SetProperty ("textbox.textbox_width", "426");
 SetProperty ("textbox.textbox_align", "CENTER");
-SetProperty ("textbox.text", "Erase |#ff0000|ALL|#ffffff| your Sins");
+SetProperty ("textbox.text", "Erase |#ff0000|ALL|#ffffff| your Sins (NG+)");
 
 CreateComp ("Textbox", "Desc5");
 SetProperty ("inherit", "SmallTextbox");
@@ -165,6 +165,6 @@ CreateComp ("Button", "YesAll");
 SetProperty ("inherit", "SmallButton");
 SetProperty ("parent", "aligner_1");
 SetProperty ("position", 0.333333, 0);
-SetProperty ("button.text", "Erase all. Do it.");
+SetProperty ("button.text", "Erase all (NG+)");
 SetProperty ("button.ninepatch_width", 195);
 
