@@ -84,7 +84,8 @@ SetProperty ("position.z", -0.0454545);
 SetProperty ("scale", 0.644544);
 SetProperty ("align", "CENTER");
 SetProperty ("textbox.textbox_width", "950");
-SetProperty ("textbox.text", "|#00ff00|Changes in 1.2.2:|#ffffff|\n -Added distance field font rendering for smoother font rendering results.\n -(Windows) Fixed resolution issues in D3D11 renderer.");
+-- SetProperty ("textbox.text", "|#00ff00|Changes in 1.2.2:|#ffffff|\n -Added distance field font rendering for smoother font rendering results.\n -(Windows) Fixed resolution issues in D3D11 renderer.");
+SetProperty ("textbox.text", "|#FFFF00|Enhanced Mod 1.0.0:|#ffffff| \n- Initial release. \n- Bugs or feedback? Please |#FF7D00|@Darkly77|#FFFFFF| on the 10tons Discord. \n\n\n\n|#00ff00|Changes in 1.2.2:|#ffffff|\n -Added distance field font rendering for smoother font rendering results.\n -(Windows) Fixed resolution issues in D3D11 renderer.");
 
 CreateComp ("Textbox", "Text24");
 SetProperty ("inherit", "MediumTextbox");
