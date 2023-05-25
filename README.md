@@ -397,3 +397,4 @@ Just some numbers for my own personal reference.
 - ?Buff **Ion Shotgun**
 - ?Remove **Rapid Fire**
 - ?Rebalance: **Mighty Burst**
+- Check the balance of two late-game enhancements: `_SPLINTER_BULLETS`, `_NEON_LASERS`
