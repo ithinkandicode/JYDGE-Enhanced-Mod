@@ -23,7 +23,7 @@ Includes all changes from [JYDGE Recalibrated](https://www.nexusmods.com/jydge/m
 ### Balancing
 
 - Loads of weapons and perks have been altered to be more powerful or more interesting, to create new synergies and builds, and to make everything you unlock worth trying.
-- The order of some Firemode unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough (eg. in vanilla you unlock 3 shotguns in succession, for Plasma/Ion/Serial Shotgun).
+- The order of some Firemode unlocks has been changed, to make your Enhanced experience feel fresh, balance out some of the bigger weapon buffs, and give you a broader range of weapon types across a full playthrough.
 - Extra love given to grenades and melee. New and edited perks make them more powerful and versatile.
 - New HP-related perks grant more chances to regain lost health, for players who find the game a little too punishing.
 - No more OP perks!
