@@ -152,7 +152,7 @@ Some costs have been reduced. They're intended to let you get early game unlocks
 | Faster Faster    | Time runs 2x faster, but you deal 1.5x damage. | 58 |
 | Boss Killer      | Gain 20% increased damage to bosses. | 62 |
 | Gib Profit       | Get 25 credits bonus for each body you gib with explosives. | 73 |
-| DeSade           | Gain HP equal to 5% of damage done. | 91 |
+| Sadist           | Gain HP equal to 5% of damage done. | 91 |
 | Clumsy           | Enemies have a 10% chance to drop a live grenade when they die. | 111 |
 | Slowdown Field   | Enemies within the field walk slowly. Combos with Friend of Mine. | 142 |
 </details>
